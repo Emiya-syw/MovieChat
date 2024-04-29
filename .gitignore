@@ -28,7 +28,6 @@ MANIFEST
 
 data/
 ckpt/
-*.sh
 output/
 scripts/
 dataset/
