@@ -42,3 +42,8 @@ eval_code/
 data_process/
 baseline_results_moviechat1K/
 baseline_results_short/
+Outputs/
+ckpt/
+*.mp3
+*.mp4
+MovieChat-1K-test

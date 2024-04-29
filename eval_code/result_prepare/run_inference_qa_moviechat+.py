@@ -17,7 +17,7 @@ import time
 from tqdm import tqdm
 import subprocess
 from moviepy.editor import VideoFileClip
-from moviepy.editor import*
+from moviepy.editor import *
 from decord import VideoReader
 decord.bridge.set_bridge('torch')
 
@@ -25,6 +25,8 @@ import torch
 import torch.backends.cudnn as cudnn
 
 # imports modules for registration
+import sys
+sys.path.append("/home/sunyw/MovieChat")
 
 from MovieChat.datasets.builders import *
 from MovieChat.models import *
@@ -38,8 +40,8 @@ from MovieChat.conversation.conversation_video import Chat, Conversation, defaul
 
 
 MAX_INT = 8
-N_SAMPLES = 128
-SHORT_MEMORY_Length = 18
+N_SAMPLES = 128                # 片段数目
+SHORT_MEMORY_Length = 18       # 短程记忆容量
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Demo")
@@ -87,7 +89,7 @@ class StoppingCriteriaSub(StoppingCriteria):
 
         return False
 
-
+# 返回视频时长, 以秒为单位
 def video_duration(filename):
     result = subprocess.run(["ffprobe", "-v", "error", "-show_entries",
                              "format=duration", "-of",
@@ -97,8 +99,9 @@ def video_duration(filename):
     return float(result.stdout)
  
 def capture_video(video_path, fragment_video_path, per_video_length, n_stage):
-    start_time = n_stage * per_video_length
-    end_time = (n_stage+1) * per_video_length
+    start_time = n_stage * per_video_length     # 开始时间
+    end_time = (n_stage+1) * per_video_length   # 结束时间
+    # Moviepy中的类
     video =CompositeVideoClip([VideoFileClip(video_path).subclip(start_time,end_time)])
 
     video.write_videofile(fragment_video_path)
@@ -139,7 +142,8 @@ def load_video(video_path, n_frms=MAX_INT, height=-1, width=-1, sampling="unifor
 
 def parse_video_fragment(video_path, video_length, n_stage = 0, n_samples = N_SAMPLES):
     decord.bridge.set_bridge("torch")
-    per_video_length = video_length / n_samples
+    per_video_length = video_length / n_samples     # 每个片段的时长
+    # print(video_length) 450.04
     # cut video from per_video_length(n_stage-1, n_stage)
     capture_video(video_path, fragment_video_path, per_video_length, n_stage)
     return fragment_video_path
@@ -214,15 +218,15 @@ class Chat:
         return output_text, output_token.cpu().numpy()
     
     def cal_frame(self, video_length):
-        per_frag_second = video_length / N_SAMPLES
+        per_frag_second = video_length / N_SAMPLES          # 每个片段的时长
         cur_frame = 0
-        num_frames = int(video_length / per_frag_second)
+        num_frames = int(video_length / per_frag_second)    # 片段数
         return num_frames, cur_frame
     
     def cal_frame_middle(self, total_frame, cur_frame):
-        per_frag_frame = total_frame / N_SAMPLES
-        num_frames = int(cur_frame / per_frag_frame)
-        cur_frame = int(total_frame-per_frag_frame*num_frames)
+        per_frag_frame = total_frame / N_SAMPLES                # 每个片段的帧数        11250 / 128 = 87.89
+        num_frames = int(cur_frame / per_frag_frame)            # 当前帧所在片段的序号   750 / 87 = 8.62
+        cur_frame = int(total_frame-per_frag_frame*num_frames)  # 11250 - 87 * 8 = 10546
         return num_frames, cur_frame
 
 
@@ -233,9 +237,10 @@ class Chat:
             print(video_path)
             video_length = video_duration(video_path) 
             if middle_video:
-                num_frames, cur_frame = self.cal_frame_middle(total_frame, cur_frame)
+                num_frames, cur_frame = self.cal_frame_middle(total_frame, cur_frame)   # 8 10546
             else:
-                num_frames, cur_frame = self.cal_frame(video_length)
+                num_frames, cur_frame = self.cal_frame(video_length)                    # 128 0
+            # print(num_frames, cur_frame)
             if num_frames == 0:
                 video_fragment = parse_video_fragment(video_path=video_path, video_length=video_length, n_stage=0, n_samples= N_SAMPLES)
                 video_fragment, msg = load_video(
@@ -251,6 +256,7 @@ class Chat:
             else:
                 for i in range(num_frames): # 28
                     print(i)
+                    # 把每一个片段单独取出(MP4文件)并返回路径
                     video_fragment = parse_video_fragment(video_path=video_path, video_length=video_length, n_stage=i, n_samples= N_SAMPLES)
                     video_fragment, msg = load_video(
                         video_path=fragment_video_path,

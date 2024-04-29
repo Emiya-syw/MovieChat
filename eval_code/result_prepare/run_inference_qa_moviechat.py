@@ -20,13 +20,13 @@ from moviepy.editor import VideoFileClip
 from moviepy.editor import*
 from decord import VideoReader
 decord.bridge.set_bridge('torch')
-
+import math
 import torch
 import torch.backends.cudnn as cudnn
 
 # imports modules for registration
 import sys
-sys.path.append("/home/wenhao/projects/MovieChat")
+sys.path.append("/home/sunyw/MovieChat")
 from MovieChat.datasets.builders import *
 from MovieChat.models import *
 from MovieChat.processors import *
@@ -40,7 +40,7 @@ from MovieChat.conversation.conversation_video import Chat, Conversation, defaul
 
 MAX_INT = 8
 N_SAMPLES = 128
-SHORT_MEMORY_Length = 18
+SHORT_MEMORY_Length = 18    # 短程记忆的容量
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Demo")
@@ -55,6 +55,8 @@ def parse_args():
     parser.add_argument("--middle-video", required=True, type= int, help="choose global mode or breakpoint mode")
     parser.add_argument("--cur-sec", type=int, default=2, help="current minute")
     parser.add_argument("--cur-min", type=int, default=15, help="current second")
+    parser.add_argument("--num-chunks", type=int, default=1)
+    parser.add_argument("--chunk-idx", type=int, default=0)
     parser.add_argument(
         "--options",
         nargs="+",
@@ -65,6 +67,14 @@ def parse_args():
     args = parser.parse_args()
     return args
 
+def split_list(lst, n):
+    """Split a list into n (roughly) equal-sized chunks"""
+    chunk_size = math.ceil(len(lst) / n)  # integer division
+    return [lst[i:i+chunk_size] for i in range(0, len(lst), chunk_size)]
+
+def get_chunk(lst, n, k):
+    chunks = split_list(lst, n)
+    return chunks[k]
 
 def setup_seeds(config_seed):
     seed = config_seed + get_rank()
@@ -100,7 +110,7 @@ def video_duration(filename):
 def capture_video(video_path, fragment_video_path, per_video_length, n_stage):
     start_time = n_stage * per_video_length
     end_time = (n_stage+1) * per_video_length
-    video =CompositeVideoClip([VideoFileClip(video_path).subclip(start_time,end_time)])
+    video = CompositeVideoClip([VideoFileClip(video_path).subclip(start_time,end_time)])
 
     video.write_videofile(fragment_video_path)
 
@@ -111,10 +121,11 @@ def load_video(video_path, n_frms=MAX_INT, height=-1, width=-1, sampling="unifor
 
     vlen = len(vr)
     start, end = 0, vlen
-
+    # 在预定义的最大帧数和片段帧数之间取最小值
     n_frms = min(n_frms, vlen)
 
     if sampling == "uniform":
+        # 从视频中均匀采样n_frms帧
         indices = np.arange(start, end, vlen / n_frms).astype(int).tolist()
     elif sampling == "headtail":
         indices_h = sorted(rnd.sample(range(vlen // 2), n_frms // 2))
@@ -213,17 +224,17 @@ class Chat:
         output_text = output_text.split('###')[0]  # remove the stop sign '###'
         output_text = output_text.split('Assistant:')[-1].strip()
         return output_text, output_token.cpu().numpy()
-    
+    # 全局模式
     def cal_frame(self, video_length):
         per_frag_second = video_length / N_SAMPLES
         cur_frame = 0
         num_frames = int(video_length / per_frag_second)
         return num_frames, cur_frame
-    
+    # 断点模式
     def cal_frame_middle(self, total_frame, cur_frame):
-        per_frag_frame = total_frame / N_SAMPLES
-        num_frames = int(cur_frame / per_frag_frame)
-        cur_frame = int(total_frame-per_frag_frame*num_frames)
+        per_frag_frame = total_frame / N_SAMPLES                # 总帧数/片段数量 = 窗口大小 11250 / 128 = 87.89
+        num_frames = int(cur_frame / per_frag_frame)            # 当前帧所在片段的序号   750 / 87 = 8.62
+        cur_frame = int(total_frame-per_frag_frame*num_frames)  # 11250 - 87 * 8 = 10546
         return num_frames, cur_frame
 
 
@@ -247,8 +258,8 @@ class Chat:
                     sampling ="uniform", return_msg = True
                 ) 
                 video_fragment = self.vis_processor.transform(video_fragment)
-                video_fragment = video_fragment.unsqueeze(0).to(self.device)
-
+                video_fragment = video_fragment.unsqueeze(0).to(self.device)    # B C T H W
+                
                 self.model.encode_short_memory_frame(video_fragment, cur_frame)
             else:
                 for i in range(num_frames): # 28
@@ -266,7 +277,7 @@ class Chat:
                     video_fragment = self.vis_processor.transform(video_fragment) 
                     video_fragment = video_fragment.unsqueeze(0).to(self.device)
 
-                    if middle_video and (i+1)==num_frames:
+                    if middle_video and (i+1)==num_frames:  # 断点模式, 且最后一个片段
                         self.model.encode_short_memory_frame(video_fragment, cur_frame)
                     else:
                         self.model.encode_short_memory_frame(video_fragment)
@@ -289,10 +300,14 @@ if __name__ =='__main__':
     cfg = Config(args)
     model_config = cfg.model_cfg
     model_config.device_8bit = args.gpu_id
+    # 获取模型
     model_cls = registry.get_model_class(model_config.arch)
+    # 配置模型的参数
     model = model_cls.from_config(model_config).to('cuda:{}'.format(args.gpu_id))
     vis_processor_cfg = cfg.datasets_cfg.webvid.vis_processor.train
+    # 获取视觉编码器并配置其参数
     vis_processor = registry.get_processor_class(vis_processor_cfg.name).from_config(vis_processor_cfg)
+    # 构建MovieChat的系统
     chat = Chat(model, vis_processor, device='cuda:{}'.format(args.gpu_id))
     print('Initialization Finished')
 
@@ -306,11 +321,12 @@ if __name__ =='__main__':
 
     middle_video = middle_video == 1
     experiment_name = 'initial_uniform'
-    output_file = output_dir + '/' + experiment_name + '_output.json'
+    output_file = output_dir + '/' + experiment_name + '_' + str(args.chunk_idx) + '_of_'+ str(args.num_chunks) + '_output.json'
 
     file_list = os.listdir(qa_folder)
 
     json_files = [filename for filename in file_list if filename.endswith('.json')]
+    json_files = get_chunk(json_files, args.num_chunks, args.chunk_idx)
     count = 0
     if middle_video:
         for file in json_files:
@@ -319,20 +335,19 @@ if __name__ =='__main__':
                 with open(file_path, 'r') as json_file:
                     count += 1
                     if count > 0:
+                        # 样本文件
                         movie_data = json.load(json_file)
+                        # 视频信息
                         global_key = movie_data["info"]["video_path"]
                         fps = movie_data["info"]["fps"]
                         num_frame = movie_data["info"]["num_frame"]
-
                         video_path = video_folder + '/' + movie_data["info"]["video_path"]
-                        cap = cv2.VideoCapture(video_path)
-
+                        # 读取一帧 -> 存储为图像 -> 编码图像
                         cap = cv2.VideoCapture(video_path)
                         cap.set(cv2.CAP_PROP_POS_FRAMES, fps)
                         ret, frame = cap.read()
                         temp_frame_path = 'src/output_frame/'+experiment_name+'_snapshot.jpg'
-
-                        cv2.imwrite(temp_frame_path, frame) 
+                        cv2.imwrite(temp_frame_path, frame)
                         raw_image = Image.open(temp_frame_path).convert('RGB') 
                         image = chat.image_vis_processor(raw_image).unsqueeze(0).unsqueeze(2).to(chat.device) # [1,3,1,224,224]
                         cur_image = chat.model.encode_image(image)
@@ -340,25 +355,29 @@ if __name__ =='__main__':
                         
                         global_value = []
                         print(video_path)
+                        # 断点数据
                         for qa_key in movie_data["breakpoint"]:
+
                             cur_frame = qa_key['time']
-                            total_sec = cur_frame/fps
-                            cur_min = int(total_sec/60)
-                            cur_sec = int(total_sec-cur_min*60)
+                            total_sec = cur_frame/fps           # 当前帧对应的总时间(s)
+                            # 秒数转换为"xx min xx sec"
+                            cur_min = int(total_sec/60)         
+                            cur_sec = int(total_sec-cur_min*60)  
+
                             img_list = []
                             chat.model.long_memory_buffer = []
                             chat.model.temp_short_memory = []
                             chat.model.short_memory_buffer = []
                             msg = chat.upload_video_without_audio(
-                                video_path=video_path, 
-                                fragment_video_path=fragment_video_path,
-                                cur_min=cur_min, 
-                                cur_sec=cur_sec, 
-                                cur_image=cur_image, 
-                                img_list=img_list, 
-                                middle_video=middle_video,
-                                total_frame=num_frame,
-                                cur_frame=cur_frame
+                                video_path=video_path,                      # 视频路径
+                                fragment_video_path=fragment_video_path,    # 中间视频文件
+                                cur_min=cur_min,                            # 分钟
+                                cur_sec=cur_sec,                            # 秒
+                                cur_image=cur_image,                        # 当前帧的图像编码
+                                img_list=img_list,                          # 
+                                middle_video=middle_video,                  # 0表示全局模式, 1表示断点模式
+                                total_frame=num_frame,                      # 总帧数
+                                cur_frame=cur_frame                         # 当前帧的序号
                             )
                             question = qa_key['question']
                             print(question)

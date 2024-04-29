@@ -35,7 +35,7 @@ class MovieChat(Blip2Base):
 
     @classmethod
     def init_video_Qformer(cls, num_query_token, vision_width,num_hidden_layers =2):
-        encoder_config = BertConfig.from_pretrained("bert-base-uncased")
+        encoder_config = BertConfig.from_pretrained("./ckpt/bert-base-uncased")
         encoder_config.num_hidden_layers = num_hidden_layers
         encoder_config.encoder_width = vision_width
         # insert cross-attention layer every other block
@@ -89,6 +89,7 @@ class MovieChat(Blip2Base):
         self.visual_encoder, self.ln_vision = self.init_vision_encoder(
             vit_model, img_size, drop_path_rate, use_grad_checkpoint, vit_precision
         )
+        # visual_encoder 是 eva-vit-g ; ln_vision 是 LayerNorm
         if freeze_vit:
             for name, param in self.visual_encoder.named_parameters():
                 param.requires_grad = False
@@ -102,6 +103,7 @@ class MovieChat(Blip2Base):
         print('Loading VIT Done')
 
         print('Loading Q-Former')
+        # Qformer是BertLMHeadModel, query_tokens是1 N D的
         self.Qformer, self.query_tokens = self.init_Qformer(
             num_query_token, self.visual_encoder.num_features
         )
@@ -264,15 +266,24 @@ class MovieChat(Blip2Base):
         self.visual_encoder.float()
 
     def encode_short_memory_frame(self, videofragment, n_frame:int = 16):
+        '''
+            超参数:
+                队列长度 : n_frame
+                短程记忆容量 l_short : self.short_memory_length
+                合并记忆限制 l_merge : self.short_memory_merge
+            
+            编码 -> 合并 -> 转移 -> 清空
+        '''
         device = videofragment.device
         # input shape b,c,t,h,w
-        batch_size,_,time_length,_,_ = videofragment.size() # batch_size:1 time_length:8
+        batch_size, _, time_length, _, _ = videofragment.size() # batch_size:1 time_length:8
         videofragment = einops.rearrange(videofragment, 'b c t h w -> (b t) c h w') 
         with self.maybe_autocast():
             # embed image features with blip2, out: (b t) q h
+            # 编码视觉特征
             image_embeds = self.ln_vision(self.visual_encoder(videofragment)).to(device) 
             image_atts = torch.ones(image_embeds.size()[:-1], dtype=torch.long).to(device)
-
+            # 将其扩展成 b*t, N, D大小
             query_tokens = self.query_tokens.expand(image_embeds.shape[0], -1, -1)
             query_output = self.Qformer.bert(
                 query_embeds=query_tokens,
@@ -285,36 +296,41 @@ class MovieChat(Blip2Base):
             cur_frame = 0
             q_hidden_state = query_output.last_hidden_state 
             for frame in q_hidden_state:
+                # 对于每一个片段, 只存储前n_frame帧, 因为预定义每一个片段均匀采样8帧, 所以是满足这个条件的
                 if cur_frame < n_frame:
                     if len(self.short_memory_buffer) == self.short_memory_length:
                         self.short_memory_buffer.pop(0)
                     self.short_memory_buffer.append(frame)
                 cur_frame += 1
 
+            # 临时的短程记忆
             self.temp_short_memory = []
             for i in self.short_memory_buffer:
                 self.temp_short_memory.append(i)
             
-            #merge short_memory_frames
+            # merge short_memory_frames
             similar_list = []
             for frame_i in range(len(self.short_memory_buffer) -1):
                 scores = self.short_memory_buffer[frame_i] @ self.short_memory_buffer[frame_i+1].transpose(-1, -2)
                 frame_silimar = torch.mean(scores)
                 similar_list.append(frame_silimar)
             
-
+            # 只要短程记忆的长度大于2就进行合并, 合并到只剩2个
             while len(self.short_memory_buffer) > self.short_memory_merge:
                 max_value = max(similar_list)
                 max_index = similar_list.index(max_value)
+                # 取平均
                 new_frame_feature = (self.short_memory_buffer[max_index].cpu()+self.short_memory_buffer[max_index+1].cpu())/2
                 self.short_memory_buffer[max_index] = new_frame_feature.cuda()
                 del(self.short_memory_buffer[max_index+1])
                 similar_list = []
+                # 重新算一遍相似度
                 for frame_i in range(len(self.short_memory_buffer)-1):
                     scores = self.short_memory_buffer[frame_i] @ self.short_memory_buffer[frame_i+1].transpose(-1, -2)
                     frame_silimar = torch.mean(scores)
                     similar_list.append(frame_silimar)
-
+            
+            # 转移短程记忆后重置
             for frame in self.short_memory_buffer:
                 self.long_memory_buffer.append(frame)
             
@@ -344,13 +360,16 @@ class MovieChat(Blip2Base):
                 self.temp_short_memory = [i.unsqueeze(0) for i in self.temp_short_memory]
                 if len(self.temp_short_memory) != 0:
                     cur_short = torch.cat(self.temp_short_memory, dim = 0)
+                    # 长程记忆和短程记忆连接
                     video_features = torch.cat([cur_video,cur_short], dim = 0)
                 else:
                     video_features = torch.cat([cur_video], dim = 0)
+                # 记忆单元和当前帧连接
                 video_features = torch.cat([video_features, cur_image], dim = 0)
             
             cur_video = []
             cur_pos = []
+            # 位置机制
             for i in range(len(video_features)):
                     cur_pos.append(self.frame_position_embeddings[i])
                     cur_video.append(video_features[i])
@@ -363,7 +382,7 @@ class MovieChat(Blip2Base):
             frame_hidden_state = torch.cat(cur_video, dim=0)
             frame_hidden_state = einops.rearrange(frame_hidden_state, '(b t) q h -> b t q h', b=batch_size, t=len(video_features))
                 
-            frame_hidden_state = cur_position_embeddings + frame_hidden_state 
+            frame_hidden_state = cur_position_embeddings.to(device) + frame_hidden_state.to(device) 
                 
             # frame attention
             frame_hidden_state =  einops.rearrange(frame_hidden_state, 'b t q h -> b (t q) h',b=batch_size,t=len(video_features)) 

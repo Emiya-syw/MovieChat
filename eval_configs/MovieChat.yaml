@@ -10,7 +10,7 @@ model:
   frozen_llama_proj: False
 
   # llama_model: "ckpt/llama2/llama-2-7b-chat-hf" 
-  llama_model: "ckpt/moviechat_llama7b"
+  llama_model: "ckpt/moviechat-vicuna"
   
   llama_proj_model: 'ckpt/minigpt4/pretrained_minigpt4.pth'
 
