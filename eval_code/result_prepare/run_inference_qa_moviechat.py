@@ -244,10 +244,10 @@ class Chat:
             ext = os.path.splitext(video_path)[-1].lower()
             print(video_path)
             video_length = video_duration(video_path) 
-            if middle_video:
-                num_frames, cur_frame = self.cal_frame_middle(total_frame, cur_frame)
-            else:
-                num_frames, cur_frame = self.cal_frame(video_length)
+            # if middle_video:
+            #     num_frames, cur_frame = self.cal_frame_middle(total_frame, cur_frame)
+            # else:
+            #     num_frames, cur_frame = self.cal_frame(video_length)
             if num_frames == 0:
                 video_fragment = parse_video_fragment(video_path=video_path, video_length=video_length, n_stage=0, n_samples= N_SAMPLES)
                 video_fragment, msg = load_video(
@@ -344,26 +344,28 @@ if __name__ =='__main__':
                         video_path = video_folder + '/' + movie_data["info"]["video_path"]
                         # 读取一帧 -> 存储为图像 -> 编码图像
                         cap = cv2.VideoCapture(video_path)
-                        cap.set(cv2.CAP_PROP_POS_FRAMES, fps)
-                        ret, frame = cap.read()
-                        temp_frame_path = 'src/output_frame/'+experiment_name+'_snapshot.jpg'
-                        cv2.imwrite(temp_frame_path, frame)
-                        raw_image = Image.open(temp_frame_path).convert('RGB') 
-                        image = chat.image_vis_processor(raw_image).unsqueeze(0).unsqueeze(2).to(chat.device) # [1,3,1,224,224]
-                        cur_image = chat.model.encode_image(image)
-
-                        
+                        fps_video = cap.get(cv2.CAP_PROP_FPS)
+                        num_frame = cap.get(cv2.CAP_PROP_FRAME_COUNT)
                         global_value = []
                         print(video_path)
                         # 断点数据
                         for qa_key in movie_data["breakpoint"]:
-
                             cur_frame = qa_key['time']
                             total_sec = cur_frame/fps           # 当前帧对应的总时间(s)
                             # 秒数转换为"xx min xx sec"
                             cur_min = int(total_sec/60)         
                             cur_sec = int(total_sec-cur_min*60)  
+                            cur_frame = total_sec * fps_video
 
+                            ###
+                            cap.set(cv2.CAP_PROP_POS_FRAMES, cur_frame)
+                            ret, frame = cap.read()
+                            temp_frame_path = 'src/output_frame/'+experiment_name+'_snapshot.jpg'
+                            cv2.imwrite(temp_frame_path, frame)
+                            raw_image = Image.open(temp_frame_path).convert('RGB') 
+                            image = chat.image_vis_processor(raw_image).unsqueeze(0).unsqueeze(2).to(chat.device) # [1,3,1,224,224]
+                            cur_image = chat.model.encode_image(image)
+                            
                             img_list = []
                             chat.model.long_memory_buffer = []
                             chat.model.temp_short_memory = []
@@ -408,11 +410,9 @@ if __name__ =='__main__':
 
                         video_path = video_folder + '/' + movie_data["info"]["video_path"]
                         cap = cv2.VideoCapture(video_path)
-                        fps_video = cap.get(cv2.CAP_PROP_FPS)
-                        cur_fps = fps_video
 
                         cap = cv2.VideoCapture(video_path)
-                        cap.set(cv2.CAP_PROP_POS_FRAMES, cur_fps)
+                        cap.set(cv2.CAP_PROP_POS_FRAMES, 0)
                         ret, frame = cap.read()
                         temp_frame_path = 'src/output_frame/snapshot.jpg'
 

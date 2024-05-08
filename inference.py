@@ -353,8 +353,9 @@ if __name__ =='__main__':
 
     cap = cv2.VideoCapture(video_path)
     fps_video = cap.get(cv2.CAP_PROP_FPS)
+    print(fps_video)
     cur_fps = fps_video * (60*cur_min + cur_sec)
-
+    
     cap = cv2.VideoCapture(video_path)
     cap.set(cv2.CAP_PROP_POS_FRAMES, cur_fps)
     ret, frame = cap.read()

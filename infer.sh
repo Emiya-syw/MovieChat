@@ -4,9 +4,9 @@ python inference.py \
     --gpu-id 0 \
     --num-beams 1 \
     --temperature 1.0 \
-    --text-query "Where is the guy?" \
-    --video-path src/examples/1.mp4 \
+    --text-query "what happens?" \
+    --video-path MovieChat-1K-test/videos/AWD-2.mp4 \
     --fragment-video-path src/video_fragment/output.mp4 \
-    --cur-min 1 \
-    --cur-sec 1 \
-    --middle-video 0
+    --cur-min 7 \
+    --cur-sec 18 \
+    --middle-video 1

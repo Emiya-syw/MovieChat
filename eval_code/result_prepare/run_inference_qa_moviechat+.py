@@ -329,8 +329,6 @@ if __name__ =='__main__':
 
                         video_path = video_folder + '/' + movie_data["info"]["video_path"]
                         cap = cv2.VideoCapture(video_path)
-
-                        cap = cv2.VideoCapture(video_path)
                         cap.set(cv2.CAP_PROP_POS_FRAMES, fps)
                         ret, frame = cap.read()
                         temp_frame_path = 'src/output_frame/'+experiment_name+'_snapshot.jpg'
