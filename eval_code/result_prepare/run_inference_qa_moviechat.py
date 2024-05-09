@@ -40,6 +40,7 @@ from MovieChat.conversation.conversation_video import Chat, Conversation, defaul
 
 MAX_INT = 8
 N_SAMPLES = 128
+WINDOW_SIZE = 200
 SHORT_MEMORY_Length = 18    # 短程记忆的容量
 
 def parse_args():
@@ -165,6 +166,7 @@ class Chat:
         stop_words_ids = [torch.tensor([835]).to(self.device),
                           torch.tensor([2277, 29937]).to(self.device)]  # '###' can be encoded in two different ways.
         self.stopping_criteria = StoppingCriteriaList([StoppingCriteriaSub(stops=stop_words_ids)])
+        self.video_path_buffer = None
 
     def get_context_emb(self, input_text, msg, img_list):
         
@@ -224,68 +226,70 @@ class Chat:
         output_text = output_text.split('###')[0]  # remove the stop sign '###'
         output_text = output_text.split('Assistant:')[-1].strip()
         return output_text, output_token.cpu().numpy()
-    # 全局模式
-    def cal_frame(self, video_length):
-        per_frag_second = video_length / N_SAMPLES
-        cur_frame = 0
-        num_frames = int(video_length / per_frag_second)
-        return num_frames, cur_frame
-    # 断点模式
-    def cal_frame_middle(self, total_frame, cur_frame):
-        per_frag_frame = total_frame / N_SAMPLES                # 总帧数/片段数量 = 窗口大小 11250 / 128 = 87.89
-        num_frames = int(cur_frame / per_frag_frame)            # 当前帧所在片段的序号   750 / 87 = 8.62
-        cur_frame = int(total_frame-per_frag_frame*num_frames)  # 11250 - 87 * 8 = 10546
-        return num_frames, cur_frame
 
+    # 计算帧所在片段的序号
+    def cal_fragment_id(self, total_frame, cur_frame):
+        per_frag_frame = total_frame / N_SAMPLES
+        fragment_id = int(cur_frame / per_frag_frame)
+        return fragment_id
 
     def upload_video_without_audio(self, video_path, fragment_video_path, cur_min, cur_sec, cur_image, img_list, middle_video, total_frame=1, cur_frame=1):
         msg = ""
         if isinstance(video_path, str):  # is a video path
             ext = os.path.splitext(video_path)[-1].lower()
-            print(video_path)
+            # print(video_path)
             video_length = video_duration(video_path) 
-            # if middle_video:
-            #     num_frames, cur_frame = self.cal_frame_middle(total_frame, cur_frame)
-            # else:
-            #     num_frames, cur_frame = self.cal_frame(video_length)
-            if num_frames == 0:
-                video_fragment = parse_video_fragment(video_path=video_path, video_length=video_length, n_stage=0, n_samples= N_SAMPLES)
-                video_fragment, msg = load_video(
-                    video_path=fragment_video_path,
-                    n_frms=MAX_INT, 
-                    height=224,
-                    width=224,
-                    sampling ="uniform", return_msg = True
-                ) 
-                video_fragment = self.vis_processor.transform(video_fragment)
-                video_fragment = video_fragment.unsqueeze(0).to(self.device)    # B C T H W
-                
-                self.model.encode_short_memory_frame(video_fragment, cur_frame)
-            else:
-                for i in range(num_frames): # 28
+            # 计算断点模式中, 帧所在的片段的序号
+            if middle_video:
+                fragment_id = self.cal_fragment_id(total_frame, cur_frame)
+            # 判断该视频是否是第一次分析, 避免重复计算
+            if self.video_path_buffer != video_path:
+                print("Enter at the first time!")
+                self.video_path_buffer = video_path
+                for i in range(N_SAMPLES):
                     print(i)
-                    # if i == 26:
-                    #     import pdb; pdb.set_trace()
                     video_fragment = parse_video_fragment(video_path=video_path, video_length=video_length, n_stage=i, n_samples= N_SAMPLES)
                     video_fragment, msg = load_video(
                         video_path=fragment_video_path,
                         n_frms=MAX_INT, 
                         height=224,
                         width=224,
-                        sampling ="uniform", return_msg = True
+                        sampling ="uniform", 
+                        return_msg = True
                     )
                     video_fragment = self.vis_processor.transform(video_fragment) 
                     video_fragment = video_fragment.unsqueeze(0).to(self.device)
-
-                    if middle_video and (i+1)==num_frames:  # 断点模式, 且最后一个片段
-                        self.model.encode_short_memory_frame(video_fragment, cur_frame)
+                    # 断点模式且正在分析特定片段
+                    if middle_video and i == fragment_id:
+                        print(f"Be analysing the special fragment {i}")
+                        self.model.encode_short_memory_frame(video_fragment, cur_fragment=fragment_id)
                     else:
                         self.model.encode_short_memory_frame(video_fragment)
+            # 对于断点模式, 只分析特定片段; 对于全局模式, 根本不会进到这个分支
+            else:
+                print(f"Again and {fragment_id}")
+                video_fragment = parse_video_fragment(video_path=video_path, video_length=video_length, n_stage=fragment_id, n_samples= N_SAMPLES)
+                video_fragment, msg = load_video(
+                    video_path=fragment_video_path,
+                    n_frms=MAX_INT, 
+                    height=224,
+                    width=224,
+                    sampling ="uniform", 
+                    return_msg = True
+                )
+                video_fragment = self.vis_processor.transform(video_fragment) 
+                video_fragment = video_fragment.unsqueeze(0).to(self.device)
+                self.model.encode_short_memory_frame(video_fragment, cur_fragment=fragment_id, is_again=True)
 
-                
         else:
             raise NotImplementedError
-        video_emb, _ = self.model.encode_long_video(cur_image, middle_video)
+        if middle_video:
+            frag_range = 2
+            start_id = fragment_id - frag_range if fragment_id - frag_range >= 0 else 0
+            end_id = fragment_id + frag_range + 1 if fragment_id + frag_range + 1 <= N_SAMPLES else N_SAMPLES
+            video_emb, _ = self.model.encode_long_video(cur_image, middle_video, start_id, end_id)
+        else: 
+            video_emb, _ = self.model.encode_long_video(cur_image, middle_video)
         img_list.append(video_emb) 
         return msg  
 
@@ -348,6 +352,7 @@ if __name__ =='__main__':
                         num_frame = cap.get(cv2.CAP_PROP_FRAME_COUNT)
                         global_value = []
                         print(video_path)
+                        chat.model.long_memory_buffer = []
                         # 断点数据
                         for qa_key in movie_data["breakpoint"]:
                             cur_frame = qa_key['time']
@@ -364,10 +369,8 @@ if __name__ =='__main__':
                             cv2.imwrite(temp_frame_path, frame)
                             raw_image = Image.open(temp_frame_path).convert('RGB') 
                             image = chat.image_vis_processor(raw_image).unsqueeze(0).unsqueeze(2).to(chat.device) # [1,3,1,224,224]
-                            cur_image = chat.model.encode_image(image)
-                            
+                            cur_image = chat.model.encode_image(image)  
                             img_list = []
-                            chat.model.long_memory_buffer = []
                             chat.model.temp_short_memory = []
                             chat.model.short_memory_buffer = []
                             msg = chat.upload_video_without_audio(
