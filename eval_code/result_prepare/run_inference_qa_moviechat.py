@@ -158,15 +158,45 @@ def parse_video_fragment(video_path, video_length, n_stage = 0, n_samples = N_SA
     return fragment_video_path
 
 class Chat:
-    def __init__(self, model, vis_processor, device='cuda:0'):
+    def __init__(self, model, vis_processor, device='cuda:0', llm="llama2"):
         self.device = device
         self.model = model
         self.vis_processor = vis_processor
         self.image_vis_processor = Blip2ImageEvalProcessor()
-        stop_words_ids = [torch.tensor([835]).to(self.device),
-                          torch.tensor([2277, 29937]).to(self.device)]  # '###' can be encoded in two different ways.
+        self.llm = llm
+        if llm == "llama":
+            stop_words_ids = [torch.tensor([835]).to(self.device),
+                            torch.tensor([2277, 29937]).to(self.device)]  # '###' can be encoded in two different ways.
+        else:
+            stop_words_ids = [torch.tensor([2]).to(self.device)]
         self.stopping_criteria = StoppingCriteriaList([StoppingCriteriaSub(stops=stop_words_ids)])
-        self.video_path_buffer = None
+
+    def get_context_emb_llama2(self, input_text, _, img_list):
+        wrap_sys = lambda msg: f"<<SYS>>\n{msg}\n<</SYS>>\n\n"
+        wrap_inst = lambda msg: f"[INST] {msg} [/INST]"
+        ret = ""
+
+        # system = "You are a helpful language and vision assistant. You are able to understand the visual content that the user provides, and assist the user with a variety of tasks using natural language."
+        system = "You are able to understand the visual content that the user provides. Please follow the instructions carefully and explain your answers. Please be critical. Please be brief."
+        prompt = f" <Video><ImageHere></Video> {input_text}"
+        prompt = wrap_sys(system) + prompt
+        prompt = wrap_inst(prompt)
+
+        prompt_segs = prompt.split('<ImageHere>')
+        assert len(prompt_segs) == len(img_list) + 1, "Unmatched numbers of image placeholders and images."
+        seg_tokens = [
+            self.model.llama_tokenizer(
+                seg, return_tensors="pt", add_special_tokens=i == 0).to(self.device).input_ids
+            # only add bos to the first seg
+            for i, seg in enumerate(prompt_segs)
+        ]
+        seg_embs = [self.model.llama_model.model.embed_tokens(seg_t) for seg_t in seg_tokens]
+
+        mixed_embs = [emb for pair in zip(seg_embs[:-1], img_list) for emb in pair] + [seg_embs[-1]]
+        mixed_embs = torch.cat(mixed_embs, dim=1)
+        return mixed_embs
+
+        return message
 
     def get_context_emb(self, input_text, msg, img_list):
         
@@ -194,7 +224,12 @@ class Chat:
     
     def answer(self, img_list, input_text, msg, max_new_tokens=300, num_beams=1, min_length=1, top_p=0.9,
             repetition_penalty=1.0, length_penalty=1, temperature=1.0, max_length=2000):
-        embs = self.get_context_emb(input_text, msg, img_list) 
+        
+        if self.llm == "llama":
+            embs = self.get_context_emb(input_text, msg, img_list) 
+        else:
+            embs = self.get_context_emb_llama2(input_text, msg, img_list) 
+
 
         current_max_len = embs.shape[1] + max_new_tokens
         if current_max_len - max_length > 0:
@@ -223,8 +258,12 @@ class Chat:
         if output_token[0] == 1:  # some users find that there is a start token <s> at the beginning. remove it
             output_token = output_token[1:]
         output_text = self.model.llama_tokenizer.decode(output_token, add_special_tokens=False)
-        output_text = output_text.split('###')[0]  # remove the stop sign '###'
-        output_text = output_text.split('Assistant:')[-1].strip()
+        if self.llm == "llama":
+            output_text = output_text.split('###')[0]  # remove the stop sign '###'
+            output_text = output_text.split('Assistant:')[-1].strip()
+        else:
+            output_text = output_text.split("</s>")[0]
+            output_text = output_text.split("ASSISTANT"+':')[-1].strip()
         return output_text, output_token.cpu().numpy()
 
     # 计算帧所在片段的序号
@@ -239,36 +278,19 @@ class Chat:
             ext = os.path.splitext(video_path)[-1].lower()
             # print(video_path)
             video_length = video_duration(video_path) 
-            # 计算断点模式中, 帧所在的片段的序号
             if middle_video:
+                # 计算断点模式中, 帧所在的片段的序号
                 fragment_id = self.cal_fragment_id(total_frame, cur_frame)
-            # 判断该视频是否是第一次分析, 避免重复计算
-            if self.video_path_buffer != video_path:
-                print("Enter at the first time!")
-                self.video_path_buffer = video_path
-                for i in range(N_SAMPLES):
-                    print(i)
-                    video_fragment = parse_video_fragment(video_path=video_path, video_length=video_length, n_stage=i, n_samples= N_SAMPLES)
-                    video_fragment, msg = load_video(
-                        video_path=fragment_video_path,
-                        n_frms=MAX_INT, 
-                        height=224,
-                        width=224,
-                        sampling ="uniform", 
-                        return_msg = True
-                    )
-                    video_fragment = self.vis_processor.transform(video_fragment) 
-                    video_fragment = video_fragment.unsqueeze(0).to(self.device)
-                    # 断点模式且正在分析特定片段
-                    if middle_video and i == fragment_id:
-                        print(f"Be analysing the special fragment {i}")
-                        self.model.encode_short_memory_frame(video_fragment, cur_fragment=fragment_id)
-                    else:
-                        self.model.encode_short_memory_frame(video_fragment)
-            # 对于断点模式, 只分析特定片段; 对于全局模式, 根本不会进到这个分支
+                frag_range = 1
+                start_id = fragment_id - frag_range if fragment_id - frag_range >= 0 else 0
+                end_id = fragment_id + frag_range + 1 if fragment_id + frag_range + 1 <= N_SAMPLES else N_SAMPLES
             else:
-                print(f"Again and {fragment_id}")
-                video_fragment = parse_video_fragment(video_path=video_path, video_length=video_length, n_stage=fragment_id, n_samples= N_SAMPLES)
+                start_id = 0
+                end_id = N_SAMPLES
+                
+            for i in range(start_id, end_id):
+                print(i)
+                video_fragment = parse_video_fragment(video_path=video_path, video_length=video_length, n_stage=i, n_samples= N_SAMPLES)
                 video_fragment, msg = load_video(
                     video_path=fragment_video_path,
                     n_frms=MAX_INT, 
@@ -279,17 +301,17 @@ class Chat:
                 )
                 video_fragment = self.vis_processor.transform(video_fragment) 
                 video_fragment = video_fragment.unsqueeze(0).to(self.device)
-                self.model.encode_short_memory_frame(video_fragment, cur_fragment=fragment_id, is_again=True)
+                # 断点模式且正在分析特定片段
+                if middle_video and i == fragment_id:
+                    print(f"Be analysing the special fragment {i}")
+                    self.model.encode_short_memory_frame(video_fragment, cur_fragment=fragment_id)
+                else:
+                    self.model.encode_short_memory_frame(video_fragment)
 
         else:
             raise NotImplementedError
-        if middle_video:
-            frag_range = 2
-            start_id = fragment_id - frag_range if fragment_id - frag_range >= 0 else 0
-            end_id = fragment_id + frag_range + 1 if fragment_id + frag_range + 1 <= N_SAMPLES else N_SAMPLES
-            video_emb, _ = self.model.encode_long_video(cur_image, middle_video, start_id, end_id)
-        else: 
-            video_emb, _ = self.model.encode_long_video(cur_image, middle_video)
+
+        video_emb, _ = self.model.encode_long_video(cur_image, middle_video)
         img_list.append(video_emb) 
         return msg  
 
@@ -324,7 +346,11 @@ if __name__ =='__main__':
     middle_video = args.middle_video
 
     middle_video = middle_video == 1
-    experiment_name = 'initial_uniform'
+    if middle_video:
+        experiment_name = 'breakpoint'
+    else:
+        experiment_name = 'global'
+
     output_file = output_dir + '/' + experiment_name + '_' + str(args.chunk_idx) + '_of_'+ str(args.num_chunks) + '_output.json'
 
     file_list = os.listdir(qa_folder)
@@ -352,7 +378,6 @@ if __name__ =='__main__':
                         num_frame = cap.get(cv2.CAP_PROP_FRAME_COUNT)
                         global_value = []
                         print(video_path)
-                        chat.model.long_memory_buffer = []
                         # 断点数据
                         for qa_key in movie_data["breakpoint"]:
                             cur_frame = qa_key['time']
@@ -362,15 +387,25 @@ if __name__ =='__main__':
                             cur_sec = int(total_sec-cur_min*60)  
                             cur_frame = total_sec * fps_video
 
-                            ###
-                            cap.set(cv2.CAP_PROP_POS_FRAMES, cur_frame)
-                            ret, frame = cap.read()
-                            temp_frame_path = 'src/output_frame/'+experiment_name+'_snapshot.jpg'
-                            cv2.imwrite(temp_frame_path, frame)
+                            ### AWH-7
+                            try:
+                                cap.set(cv2.CAP_PROP_POS_FRAMES, cur_frame)
+                                ret, frame = cap.read()
+                                # print(frame)
+                                temp_frame_path = 'src/output_frame/'+experiment_name+'_snapshot.jpg'
+                                cv2.imwrite(temp_frame_path, frame)
+                            except:
+                                cap.set(cv2.CAP_PROP_POS_FRAMES, cur_frame-1)
+                                ret, frame = cap.read()
+                                # print(frame)
+                                temp_frame_path = 'src/output_frame/'+experiment_name+'_snapshot.jpg'
+                                cv2.imwrite(temp_frame_path, frame)
+
                             raw_image = Image.open(temp_frame_path).convert('RGB') 
                             image = chat.image_vis_processor(raw_image).unsqueeze(0).unsqueeze(2).to(chat.device) # [1,3,1,224,224]
                             cur_image = chat.model.encode_image(image)  
                             img_list = []
+                            chat.model.long_memory_buffer = []
                             chat.model.temp_short_memory = []
                             chat.model.short_memory_buffer = []
                             msg = chat.upload_video_without_audio(
@@ -400,6 +435,8 @@ if __name__ =='__main__':
                         with open(output_file, 'a') as output_json_file:
                             output_json_file.write(json.dumps(result_data))
                             output_json_file.write("\n")
+            import sys
+            sys.exit(0)
     else:
         for file in json_files:
             if file.endswith('.json'):

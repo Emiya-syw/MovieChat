@@ -266,7 +266,7 @@ class MovieChat(Blip2Base):
         self.visual_encoder.to("cpu")
         self.visual_encoder.float()
 
-    def encode_short_memory_frame(self, videofragment, n_frame:int = 16, cur_fragment = -1, is_again = False):
+    def encode_short_memory_frame(self, videofragment, n_frame:int = 16, cur_fragment = -1):
         '''
             超参数:
                 队列长度 : n_frame
@@ -310,42 +310,42 @@ class MovieChat(Blip2Base):
                 for i in self.short_memory_buffer:
                     self.temp_short_memory.append(i)
             
-            if not is_again:
-                # merge short_memory_frames
+            
+            # merge short_memory_frames
+            similar_list = []
+            for frame_i in range(len(self.short_memory_buffer) -1):
+                scores = self.short_memory_buffer[frame_i] @ self.short_memory_buffer[frame_i+1].transpose(-1, -2)
+                frame_silimar = torch.mean(scores)
+                similar_list.append(frame_silimar)
+            
+            # 只要短程记忆的长度大于2就进行合并, 合并到只剩2个
+            while len(self.short_memory_buffer) > self.short_memory_merge:
+                max_value = max(similar_list)
+                max_index = similar_list.index(max_value)
+                # 取平均
+                new_frame_feature = (self.short_memory_buffer[max_index].cpu()+self.short_memory_buffer[max_index+1].cpu())/2
+                self.short_memory_buffer[max_index] = new_frame_feature.cuda()
+                del(self.short_memory_buffer[max_index+1])
                 similar_list = []
-                for frame_i in range(len(self.short_memory_buffer) -1):
+                # 重新算一遍相似度
+                for frame_i in range(len(self.short_memory_buffer)-1):
                     scores = self.short_memory_buffer[frame_i] @ self.short_memory_buffer[frame_i+1].transpose(-1, -2)
                     frame_silimar = torch.mean(scores)
                     similar_list.append(frame_silimar)
-                
-                # 只要短程记忆的长度大于2就进行合并, 合并到只剩2个
-                while len(self.short_memory_buffer) > self.short_memory_merge:
-                    max_value = max(similar_list)
-                    max_index = similar_list.index(max_value)
-                    # 取平均
-                    new_frame_feature = (self.short_memory_buffer[max_index].cpu()+self.short_memory_buffer[max_index+1].cpu())/2
-                    self.short_memory_buffer[max_index] = new_frame_feature.cuda()
-                    del(self.short_memory_buffer[max_index+1])
-                    similar_list = []
-                    # 重新算一遍相似度
-                    for frame_i in range(len(self.short_memory_buffer)-1):
-                        scores = self.short_memory_buffer[frame_i] @ self.short_memory_buffer[frame_i+1].transpose(-1, -2)
-                        frame_silimar = torch.mean(scores)
-                        similar_list.append(frame_silimar)
-                
-                # 转移短程记忆后重置
-                for frame in self.short_memory_buffer:
-                    self.long_memory_buffer.append(frame)
-                # print(len(self.long_memory_buffer))
+            
+            # 转移短程记忆后重置
+            for frame in self.short_memory_buffer:
+                self.long_memory_buffer.append(frame)
+            # print(len(self.long_memory_buffer))
+
             self.short_memory_buffer = []
 
-    def encode_long_video(self, cur_image, middle_video:False, start_id = -1, end_id = -1):
+    def encode_long_video(self, cur_image, middle_video:False):
         
         device = 'cuda:0'
         # input shape b,c,t,h,w
         batch_size = 1 # batch_size:1 
-        if len(self.long_memory_buffer[0].shape) == 2:
-            self.long_memory_buffer = [i.unsqueeze(0) for i in self.long_memory_buffer]
+        self.long_memory_buffer = [i.unsqueeze(0) for i in self.long_memory_buffer]
 
         
         if middle_video:
@@ -356,18 +356,12 @@ class MovieChat(Blip2Base):
             #     else:
             #         self.long_memory_buffer.pop(0)
             
-            if len(self.long_memory_buffer) == 0 or (start_id >=0 and end_id == start_id):
+            if len(self.long_memory_buffer) == 0:
                 self.temp_short_memory = [i.unsqueeze(0) for i in self.temp_short_memory]
                 cur_short = torch.cat(self.temp_short_memory, dim = 0)
                 video_features = torch.cat([cur_short], dim = 0)
             else:
-                if start_id>=0 and end_id > start_id:
-                    start_id *= self.short_memory_merge
-                    end_id *= self.short_memory_merge
-                    # print(len(self.long_memory_buffer),self.long_memory_buffer[0].shape) 1 32 768
-                    cur_video = torch.cat(self.long_memory_buffer[start_id:end_id],dim = 0) # 10 32 768
-                else: 
-                    cur_video = torch.cat(self.long_memory_buffer,dim = 0)
+                cur_video = torch.cat(self.long_memory_buffer,dim = 0)
                 self.temp_short_memory = [i.unsqueeze(0) for i in self.temp_short_memory]
                 if len(self.temp_short_memory) != 0:
                     cur_short = torch.cat(self.temp_short_memory, dim = 0)
@@ -377,7 +371,10 @@ class MovieChat(Blip2Base):
                     video_features = torch.cat([cur_video], dim = 0)
                 # 记忆单元和当前帧连接
             video_features = torch.cat([video_features, cur_image], dim = 0)    # T 32 768
-            print(video_features.shape)
+            # video_features = torch.cat([cur_image], dim = 0)    # T 32 768
+
+
+            # print(video_features.shape)
             cur_video = []
             cur_pos = []
             # 位置机制
@@ -663,10 +660,13 @@ class MovieChat(Blip2Base):
 
     @classmethod
     def from_config(cls, cfg):
+        # vit
         vit_model = cfg.get("vit_model", "eva_clip_g")
+        # image q former
         q_former_model = cfg.get("q_former_model", "https://storage.googleapis.com/sfr-vision-language-research/LAVIS/models/BLIP2/blip2_pretrained_flant5xxl.pth")
         img_size = cfg.get("image_size")
         num_query_token = cfg.get("num_query_token")
+        # language model
         llama_model = cfg.get("llama_model")
 
         drop_path_rate = cfg.get("drop_path_rate", 0)
@@ -715,7 +715,6 @@ class MovieChat(Blip2Base):
             frozen_video_Qformer=frozen_video_Qformer,
             num_video_query_token=num_video_query_token,
         )
-
         ckpt_path = cfg.get("ckpt", "")  # load weights of MiniGPT-4
         if ckpt_path:
             print("Load first Checkpoint: {}".format(ckpt_path))

@@ -9,8 +9,8 @@ model:
 
   frozen_llama_proj: False
 
-  # llama_model: "ckpt/llama2/llama-2-7b-chat-hf" 
-  llama_model: "ckpt/moviechat-vicuna"
+  llama_model: "ckpt/Video-LLaMA-2-7B-Finetuned/llama-2-7b-chat-hf" 
+  # llama_model: "ckpt/moviechat-vicuna"
   
   llama_proj_model: 'ckpt/minigpt4/pretrained_minigpt4.pth'
 
@@ -18,8 +18,8 @@ model:
   max_frame_pos: 32
   fusion_header_type: "seqTransf"
 
-  # ckpt: "ckpt/VL_LLaMA_2_7B_Finetuned.pth" 
-  ckpt: "ckpt/finetune-vicuna7b-v2.pth"
+  ckpt: "ckpt/Video-LLaMA-2-7B-Finetuned/VL_LLaMA_2_7B_Finetuned.pth" 
+  # ckpt: "ckpt/finetune-vicuna7b-v2.pth"
 
 datasets:
   webvid:
