@@ -25,8 +25,9 @@ for IDX in $(seq 0 $((CHUNKS-1))); do
         --num-chunks $CHUNKS \
         --chunk-idx $IDX \
         --fragment-video-path ./Outputs/interoutput_${IDX}.mp4 \
-        --middle-video 1&
+        --middle-video 0&
 done
 
 wait
+
 echo "All tasks are completed."

@@ -272,7 +272,7 @@ class Chat:
         fragment_id = int(cur_frame / per_frag_frame)
         return fragment_id
 
-    def upload_video_without_audio(self, video_path, fragment_video_path, cur_min, cur_sec, cur_image, img_list, middle_video, total_frame=1, cur_frame=1):
+    def upload_video_without_audio(self, video_path, fragment_video_path, cur_min, cur_sec, cur_image, img_list, middle_video, question, total_frame=1, cur_frame=1):
         msg = ""
         if isinstance(video_path, str):  # is a video path
             ext = os.path.splitext(video_path)[-1].lower()
@@ -281,7 +281,7 @@ class Chat:
             if middle_video:
                 # 计算断点模式中, 帧所在的片段的序号
                 fragment_id = self.cal_fragment_id(total_frame, cur_frame)
-                frag_range = 1
+                frag_range = 0
                 start_id = fragment_id - frag_range if fragment_id - frag_range >= 0 else 0
                 end_id = fragment_id + frag_range + 1 if fragment_id + frag_range + 1 <= N_SAMPLES else N_SAMPLES
             else:
@@ -306,7 +306,7 @@ class Chat:
                     print(f"Be analysing the special fragment {i}")
                     self.model.encode_short_memory_frame(video_fragment, cur_fragment=fragment_id)
                 else:
-                    self.model.encode_short_memory_frame(video_fragment)
+                    self.model.encode_short_memory_frame(video_fragment, question, middle_video=middle_video)
 
         else:
             raise NotImplementedError
@@ -404,6 +404,10 @@ if __name__ =='__main__':
                             raw_image = Image.open(temp_frame_path).convert('RGB') 
                             image = chat.image_vis_processor(raw_image).unsqueeze(0).unsqueeze(2).to(chat.device) # [1,3,1,224,224]
                             cur_image = chat.model.encode_image(image)  
+
+                            question = qa_key['question']
+                            print(question)
+
                             img_list = []
                             chat.model.long_memory_buffer = []
                             chat.model.temp_short_memory = []
@@ -416,11 +420,11 @@ if __name__ =='__main__':
                                 cur_image=cur_image,                        # 当前帧的图像编码
                                 img_list=img_list,                          # 
                                 middle_video=middle_video,                  # 0表示全局模式, 1表示断点模式
+                                question = question,
                                 total_frame=num_frame,                      # 总帧数
                                 cur_frame=cur_frame                         # 当前帧的序号
                             )
-                            question = qa_key['question']
-                            print(question)
+                            
                             llm_message = chat.answer(img_list=img_list,
                                 input_text=question,
                                 msg = msg,
@@ -435,8 +439,6 @@ if __name__ =='__main__':
                         with open(output_file, 'a') as output_json_file:
                             output_json_file.write(json.dumps(result_data))
                             output_json_file.write("\n")
-            import sys
-            sys.exit(0)
     else:
         for file in json_files:
             if file.endswith('.json'):
@@ -463,23 +465,26 @@ if __name__ =='__main__':
 
                         img_list = []
 
-                        chat.model.long_memory_buffer = []
-                        chat.model.temp_short_memory = []
-                        chat.model.short_memory_buffer = []
-                        msg = chat.upload_video_without_audio(
-                            video_path=video_path, 
-                            fragment_video_path=fragment_video_path,
-                            cur_min=1, 
-                            cur_sec=1, 
-                            cur_image = cur_image, 
-                            img_list=img_list, 
-                            middle_video = middle_video,
-                            )
+                        
                         global_value = []
                         print(video_path)
                         for qa_key in movie_data["global"]:
                             question = qa_key['question']
                             print(question)
+                            img_list = []
+                            chat.model.long_memory_buffer = []
+                            chat.model.temp_short_memory = []
+                            chat.model.short_memory_buffer = []
+                            msg = chat.upload_video_without_audio(
+                                video_path=video_path, 
+                                fragment_video_path=fragment_video_path,
+                                cur_min=1, 
+                                cur_sec=1, 
+                                cur_image = cur_image, 
+                                img_list=img_list, 
+                                middle_video = middle_video,
+                                question = question
+                                )
                             llm_message = chat.answer(img_list=img_list,
                                 input_text=question,
                                 msg = msg,
@@ -494,6 +499,8 @@ if __name__ =='__main__':
                         with open(output_file, 'a') as output_json_file:
                             output_json_file.write(json.dumps(result_data))
                             output_json_file.write("\n")
+            import sys
+            sys.exit(0)
 
 
 

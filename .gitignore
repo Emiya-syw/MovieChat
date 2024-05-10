@@ -45,4 +45,5 @@ Outputs/
 ckpt/
 *.mp3
 *.mp4
-MovieChat-1K-test
+MovieChat-1K-test/
+CLIP/

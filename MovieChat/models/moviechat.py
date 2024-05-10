@@ -20,6 +20,7 @@ from scipy.spatial.distance import cosine
 
 from skimage import transform
 import cv2
+import clip
 
 from PIL import Image
 
@@ -101,6 +102,11 @@ class MovieChat(Blip2Base):
             self.ln_vision.train = disabled_train
             logging.info("freeze vision encoder")
         print('Loading VIT Done')
+
+        print('Loading Frame Filter')
+        device = 'cuda:0'
+        self.filter_model, self.filter_preprocess = clip.load("./ckpt/ViT-B-32.pt", device=device)
+        print('Loading Frame Filter Done')
 
         print('Loading Q-Former')
         # Qformer是BertLMHeadModel, query_tokens是1 N D的
@@ -266,7 +272,7 @@ class MovieChat(Blip2Base):
         self.visual_encoder.to("cpu")
         self.visual_encoder.float()
 
-    def encode_short_memory_frame(self, videofragment, n_frame:int = 16, cur_fragment = -1):
+    def encode_short_memory_frame(self, videofragment, question, n_frame:int = 16, cur_fragment = -1, middle_video=1):
         '''
             超参数:
                 队列长度 : n_frame
@@ -292,6 +298,18 @@ class MovieChat(Blip2Base):
                 encoder_attention_mask=image_atts,
                 return_dict=True,
             )
+
+            if not middle_video:
+                tokenize_text = clip.tokenize(question).to(device)
+                with torch.no_grad():
+                    logits_per_image, logits_per_text = self.filter_model(videofragment, tokenize_text)
+                    probs = logits_per_text.softmax(dim=-1).cpu().numpy()
+                max_sim = np.mean(probs)
+
+                if max_sim < 0.25:
+                    self.short_memory_merge = 1
+                else:
+                    self.short_memory_merge = 3
 
             # load short_memory_buffer
             cur_frame = 0
