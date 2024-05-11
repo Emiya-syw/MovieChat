@@ -23,10 +23,6 @@ decord.bridge.set_bridge('torch')
 import math
 import torch
 import torch.backends.cudnn as cudnn
-import logging
-
-logger = logging.getLogger('moviepy')
-logger.setLevel(logging.CRITICAL)
 
 # imports modules for registration
 import sys
@@ -468,29 +464,29 @@ if __name__ =='__main__':
                         raw_image = Image.open(temp_frame_path).convert('RGB') 
                         image = chat.image_vis_processor(raw_image).unsqueeze(0).unsqueeze(2).to(chat.device) # [1,3,1,224,224]
                         cur_image = chat.model.encode_image(image)
-
+                        question = ""
+                        # 不用moviechat+就把他拿上来
                         img_list = []
-
+                        chat.model.long_memory_buffer = []
+                        chat.model.temp_short_memory = []
+                        chat.model.short_memory_buffer = []
+                        msg = chat.upload_video_without_audio(
+                            video_path=video_path, 
+                            fragment_video_path=fragment_video_path,
+                            cur_min=1, 
+                            cur_sec=1, 
+                            cur_image = cur_image, 
+                            img_list=img_list, 
+                            middle_video = middle_video,
+                            question = question
+                            )
                         
                         global_value = []
                         print(video_path)
                         for qa_key in movie_data["global"]:
                             question = qa_key['question']
                             print(question)
-                            img_list = []
-                            chat.model.long_memory_buffer = []
-                            chat.model.temp_short_memory = []
-                            chat.model.short_memory_buffer = []
-                            msg = chat.upload_video_without_audio(
-                                video_path=video_path, 
-                                fragment_video_path=fragment_video_path,
-                                cur_min=1, 
-                                cur_sec=1, 
-                                cur_image = cur_image, 
-                                img_list=img_list, 
-                                middle_video = middle_video,
-                                question = question
-                                )
+                            
                             llm_message = chat.answer(img_list=img_list,
                                 input_text=question,
                                 msg = msg,
