@@ -321,8 +321,8 @@ class MovieChat(Blip2Base):
                         self.short_memory_buffer.pop(0)
                     self.short_memory_buffer.append(frame)
                 cur_frame += 1
-
             # 临时的短程记忆
+            # print(cur_fragment)
             if cur_fragment>=0:
                 self.temp_short_memory = []
                 for i in self.short_memory_buffer:
@@ -367,7 +367,7 @@ class MovieChat(Blip2Base):
 
         
         if middle_video:
-            # 对超出位置编码长度的部分进行删除, 从临时短程记忆开始删除
+            # # 对超出位置编码长度的部分进行删除, 从临时短程记忆开始删除
             # while (len(self.long_memory_buffer)+len(self.temp_short_memory)+1) > self.frame_position_embeddings.shape[0]:
             #     if len(self.temp_short_memory) != 0:
             #         self.temp_short_memory.pop(0)

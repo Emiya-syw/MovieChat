@@ -23,6 +23,10 @@ decord.bridge.set_bridge('torch')
 import math
 import torch
 import torch.backends.cudnn as cudnn
+import logging
+
+logger = logging.getLogger('moviepy')
+logger.setLevel(logging.CRITICAL)
 
 # imports modules for registration
 import sys
@@ -301,10 +305,11 @@ class Chat:
                 )
                 video_fragment = self.vis_processor.transform(video_fragment) 
                 video_fragment = video_fragment.unsqueeze(0).to(self.device)
+                
                 # 断点模式且正在分析特定片段
                 if middle_video and i == fragment_id:
                     print(f"Be analysing the special fragment {i}")
-                    self.model.encode_short_memory_frame(video_fragment, cur_fragment=fragment_id)
+                    self.model.encode_short_memory_frame(video_fragment, question, cur_fragment=fragment_id)
                 else:
                     self.model.encode_short_memory_frame(video_fragment, question, middle_video=middle_video)
 
@@ -347,11 +352,11 @@ if __name__ =='__main__':
 
     middle_video = middle_video == 1
     if middle_video:
-        experiment_name = 'breakpoint'
+        experiment_name = 'breakpoint' + '_' + str(args.chunk_idx)
     else:
-        experiment_name = 'global'
+        experiment_name = 'global' + '_' + str(args.chunk_idx)
 
-    output_file = output_dir + '/' + experiment_name + '_' + str(args.chunk_idx) + '_of_'+ str(args.num_chunks) + '_output.json'
+    output_file = output_dir + '/' + experiment_name  + '_of_'+ str(args.num_chunks) + '_output.json'
 
     file_list = os.listdir(qa_folder)
 
@@ -395,7 +400,8 @@ if __name__ =='__main__':
                                 temp_frame_path = 'src/output_frame/'+experiment_name+'_snapshot.jpg'
                                 cv2.imwrite(temp_frame_path, frame)
                             except:
-                                cap.set(cv2.CAP_PROP_POS_FRAMES, cur_frame-1)
+                                cur_frame -= 1
+                                cap.set(cv2.CAP_PROP_POS_FRAMES, cur_frame)
                                 ret, frame = cap.read()
                                 # print(frame)
                                 temp_frame_path = 'src/output_frame/'+experiment_name+'_snapshot.jpg'
@@ -456,7 +462,7 @@ if __name__ =='__main__':
                         cap = cv2.VideoCapture(video_path)
                         cap.set(cv2.CAP_PROP_POS_FRAMES, 0)
                         ret, frame = cap.read()
-                        temp_frame_path = 'src/output_frame/snapshot.jpg'
+                        temp_frame_path = f'src/output_frame/{experiment_name}_snapshot.jpg'
 
                         cv2.imwrite(temp_frame_path, frame) 
                         raw_image = Image.open(temp_frame_path).convert('RGB') 
@@ -499,9 +505,8 @@ if __name__ =='__main__':
                         with open(output_file, 'a') as output_json_file:
                             output_json_file.write(json.dumps(result_data))
                             output_json_file.write("\n")
-            import sys
-            sys.exit(0)
-
+            # import sys
+            # sys.exit(0)
 
 
 

@@ -6,9 +6,8 @@ model:
   max_txt_len: 160
   end_sym: "###"
   low_resource: False
-
   frozen_llama_proj: False
-
+  q_former_model: ckpt/blip2_pretrained_flant5xxl.pth
   llama_model: "ckpt/Video-LLaMA-2-7B-Finetuned/llama-2-7b-chat-hf" 
   # llama_model: "ckpt/moviechat-vicuna"
   

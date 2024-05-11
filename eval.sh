@@ -14,6 +14,18 @@ for IDX in $(seq 0 $((CHUNKS-1))); do
     # if [ $IDX -eq 2 ]; then
     #     continue
     # fi  
+    # if [ $IDX -eq 3 ]; then
+    #     continue
+    # fi
+    # if [ $IDX -eq 5 ]; then
+    #     continue
+    # fi
+    # if [ $IDX -eq 6 ]; then
+    #     continue
+    # fi  
+    # if [ $IDX -eq 7 ]; then
+    #     continue
+    # fi  
     CUDA_VISIBLE_DEVICES=${GPULIST[$IDX]} python eval_code/result_prepare/run_inference_qa_moviechat.py \
         --cfg-path ./eval_configs/MovieChat.yaml \
         --gpu-id 0 \
