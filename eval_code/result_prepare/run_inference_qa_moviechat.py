@@ -498,7 +498,9 @@ if __name__ =='__main__':
                             middle_video = middle_video,
                             question = question
                             )
-                        prompt = " <Video><ImageHere></Video> First, please give the number of fragments in the video. Second, please describe each fragment in less than 10 words. Answer in less than 200 words."
+                        # prompt = " <Video><ImageHere></Video> First, please count the number of fragments in the video. Second, please describe these fragments sequentially in less than 150 words."
+                        prompt = " <Video><ImageHere></Video> First, please count the number of fragments in the video. Second, please conclude the fragments in less than 150 words."
+                        
                         chain_1_msg = chat.answer(img_list=img_list,
                             input_text=prompt,
                             msg = msg,
@@ -529,8 +531,7 @@ if __name__ =='__main__':
                         with open(output_file, 'a') as output_json_file:
                             output_json_file.write(json.dumps(result_data))
                             output_json_file.write("\n")
-            # import sys
-            # sys.exit(0)
+
 
 
 
