@@ -179,6 +179,7 @@ class Chat:
 
         # system = "You are a helpful language and vision assistant. You are able to understand the visual content that the user provides, and assist the user with a variety of tasks using natural language."
         system = "You are able to understand the visual content that the user provides. Please follow the instructions carefully. Please be critical. Please be brief."
+        ### 
         prompt = input_text
         # prompt = f" <Video><ImageHere></Video> Please describe the video in less than 20 words."
         prompt = wrap_sys(system) + prompt
@@ -497,15 +498,25 @@ if __name__ =='__main__':
                             middle_video = middle_video,
                             question = question
                             )
+                        prompt = " <Video><ImageHere></Video> First, please give the number of fragments in the video. Second, please describe each fragment in less than 10 words. Answer in less than 200 words."
+                        chain_1_msg = chat.answer(img_list=img_list,
+                            input_text=prompt,
+                            msg = msg,
+                            num_beams=num_beams,
+                            temperature=temperature,
+                            max_new_tokens=300,
+                            max_length=2000)[0]
+                        print("\n CHAIN_1: ",chain_1_msg)
+                        
                         
                         global_value = []
                         print(video_path)
                         for qa_key in movie_data["global"]:
                             question = qa_key['question']
                             print(question)
-                            
+                            prompt = " <Video><ImageHere></Video> Here is the caption: " + chain_1_msg + " Here is the question: " + question
                             llm_message = chat.answer(img_list=img_list,
-                                input_text=question,
+                                input_text=prompt,
                                 msg = msg,
                                 num_beams=num_beams,
                                 temperature=temperature,
@@ -518,8 +529,8 @@ if __name__ =='__main__':
                         with open(output_file, 'a') as output_json_file:
                             output_json_file.write(json.dumps(result_data))
                             output_json_file.write("\n")
-            import sys
-            sys.exit(0)
+            # import sys
+            # sys.exit(0)
 
 
 

@@ -103,10 +103,10 @@ class MovieChat(Blip2Base):
             logging.info("freeze vision encoder")
         print('Loading VIT Done')
 
-        print('Loading Frame Filter')
-        device = 'cuda:0'
-        self.filter_model, self.filter_preprocess = clip.load("./ckpt/ViT-B-32.pt", device=device)
-        print('Loading Frame Filter Done')
+        # print('Loading Frame Filter')
+        # device = 'cuda:0'
+        # self.filter_model, self.filter_preprocess = clip.load("./ckpt/ViT-B-32.pt", device=device)
+        # print('Loading Frame Filter Done')
 
         print('Loading Q-Former')
         # Qformer是BertLMHeadModel, query_tokens是1 N D的
