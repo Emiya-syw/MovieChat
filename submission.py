@@ -1,9 +1,9 @@
 import os
 import json
 
-bkpt_path = './Outputs/breakpoint/llama2+mcplus+range'
-glb_path = './Outputs/global/llama2+mcplus+range'
-output_path = "./Outputs/sub0511.json"
+bkpt_path = './Outputs/breakpoint/llama2+cur_image'
+glb_path = './Outputs/global/llama2'
+output_path = "./Outputs/sub0512.json"
 submit_dict = {}
 
 # breakpoint

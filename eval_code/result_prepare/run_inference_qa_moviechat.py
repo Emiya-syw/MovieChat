@@ -58,6 +58,7 @@ def parse_args():
     parser.add_argument("--cur-min", type=int, default=15, help="current second")
     parser.add_argument("--num-chunks", type=int, default=1)
     parser.add_argument("--chunk-idx", type=int, default=0)
+    parser.add_argument("--llm", type=str, default="llama2")
     parser.add_argument(
         "--options",
         nargs="+",
@@ -177,13 +178,18 @@ class Chat:
         ret = ""
 
         # system = "You are a helpful language and vision assistant. You are able to understand the visual content that the user provides, and assist the user with a variety of tasks using natural language."
-        system = "You are able to understand the visual content that the user provides. Please follow the instructions carefully and explain your answers. Please be critical. Please be brief."
-        prompt = f" <Video><ImageHere></Video> {input_text}"
+        system = "You are able to understand the visual content that the user provides. Please follow the instructions carefully. Please be critical. Please be brief."
+        prompt = input_text
+        # prompt = f" <Video><ImageHere></Video> Please describe the video in less than 20 words."
         prompt = wrap_sys(system) + prompt
         prompt = wrap_inst(prompt)
-
-        prompt_segs = prompt.split('<ImageHere>')
-        assert len(prompt_segs) == len(img_list) + 1, "Unmatched numbers of image placeholders and images."
+        
+        if '<ImageHere>' in prompt:
+            prompt_segs = prompt.split('<ImageHere>')
+            assert len(prompt_segs) == len(img_list) + 1, "Unmatched numbers of image placeholders and images."
+        else:
+            prompt_segs = [prompt]
+            
         seg_tokens = [
             self.model.llama_tokenizer(
                 seg, return_tensors="pt", add_special_tokens=i == 0).to(self.device).input_ids
@@ -192,11 +198,13 @@ class Chat:
         ]
         seg_embs = [self.model.llama_model.model.embed_tokens(seg_t) for seg_t in seg_tokens]
 
-        mixed_embs = [emb for pair in zip(seg_embs[:-1], img_list) for emb in pair] + [seg_embs[-1]]
+        if '<ImageHere>' in prompt:
+            mixed_embs = [emb for pair in zip(seg_embs[:-1], img_list) for emb in pair] + [seg_embs[-1]]
+        else:
+            mixed_embs = seg_embs
         mixed_embs = torch.cat(mixed_embs, dim=1)
         return mixed_embs
 
-        return message
 
     def get_context_emb(self, input_text, msg, img_list):
         
@@ -335,7 +343,7 @@ if __name__ =='__main__':
     # 获取视觉编码器并配置其参数
     vis_processor = registry.get_processor_class(vis_processor_cfg.name).from_config(vis_processor_cfg)
     # 构建MovieChat的系统
-    chat = Chat(model, vis_processor, device='cuda:{}'.format(args.gpu_id))
+    chat = Chat(model, vis_processor, device='cuda:{}'.format(args.gpu_id), llm=args.llm)
     print('Initialization Finished')
 
     num_beams = args.num_beams
@@ -427,8 +435,17 @@ if __name__ =='__main__':
                                 cur_frame=cur_frame                         # 当前帧的序号
                             )
                             
+                            prompt = " <Video><ImageHere></Video> Please describe the video in less than 20 words."
+                            chain_1_msg = chat.answer(img_list=img_list,
+                                input_text=prompt,
+                                msg = msg,
+                                num_beams=num_beams,
+                                temperature=temperature,
+                                max_new_tokens=300,
+                                max_length=2000)[0]
+                            prompt = " <Video><ImageHere></Video> Here is the caption: " + chain_1_msg + " Here is the question: " + question
                             llm_message = chat.answer(img_list=img_list,
-                                input_text=question,
+                                input_text=prompt,
                                 msg = msg,
                                 num_beams=num_beams,
                                 temperature=temperature,
@@ -501,8 +518,8 @@ if __name__ =='__main__':
                         with open(output_file, 'a') as output_json_file:
                             output_json_file.write(json.dumps(result_data))
                             output_json_file.write("\n")
-            # import sys
-            # sys.exit(0)
+            import sys
+            sys.exit(0)
 
 
 

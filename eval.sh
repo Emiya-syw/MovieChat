@@ -36,6 +36,7 @@ for IDX in $(seq 0 $((CHUNKS-1))); do
         --output-dir ./Outputs \
         --num-chunks $CHUNKS \
         --chunk-idx $IDX \
+        --llm llama2 \
         --fragment-video-path ./Outputs/interoutput_${IDX}.mp4 \
         --middle-video 0&
 done
