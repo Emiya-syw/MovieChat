@@ -23,7 +23,7 @@ decord.bridge.set_bridge('torch')
 import math
 import torch
 import torch.backends.cudnn as cudnn
-
+import clip
 # imports modules for registration
 import sys
 sys.path.append("/home/sunyw/MovieChat")
@@ -116,41 +116,6 @@ def capture_video(video_path, fragment_video_path, per_video_length, n_stage):
 
     video.write_videofile(fragment_video_path)
 
-    
-def load_video(video_path, n_frms=MAX_INT, height=-1, width=-1, sampling="uniform", return_msg = False):
-    decord.bridge.set_bridge("torch")
-    vr = VideoReader(uri=video_path, height=height, width=width)
-
-    vlen = len(vr)
-    start, end = 0, vlen
-    # 在预定义的最大帧数和片段帧数之间取最小值
-    n_frms = min(n_frms, vlen)
-
-    if sampling == "uniform":
-        # 从视频中均匀采样n_frms帧
-        indices = np.arange(start, end, vlen / n_frms).astype(int).tolist()
-    elif sampling == "headtail":
-        indices_h = sorted(rnd.sample(range(vlen // 2), n_frms // 2))
-        indices_t = sorted(rnd.sample(range(vlen // 2, vlen), n_frms // 2))
-        indices = indices_h + indices_t
-    else:
-        raise NotImplementedError
-
-    # get_batch -> T, H, W, C
-    temp_frms = vr.get_batch(indices)
-    tensor_frms = torch.from_numpy(temp_frms) if type(temp_frms) is not torch.Tensor else temp_frms
-    frms = tensor_frms.permute(3, 0, 1, 2).float()  # (C, T, H, W)
-
-    if not return_msg:
-        return frms
-
-    fps = float(vr.get_avg_fps())
-    sec = ", ".join([str(round(f / fps, 1)) for f in indices])
-    # " " should be added in the start and end
-    msg = f"The video contains {len(indices)} frames sampled at {sec} seconds. "
-    return frms, msg
-
-
 def parse_video_fragment(video_path, video_length, n_stage = 0, n_samples = N_SAMPLES):
     decord.bridge.set_bridge("torch")
     per_video_length = video_length / n_samples
@@ -171,6 +136,11 @@ class Chat:
         else:
             stop_words_ids = [torch.tensor([2]).to(self.device)]
         self.stopping_criteria = StoppingCriteriaList([StoppingCriteriaSub(stops=stop_words_ids)])
+        
+        
+        print('Loading Frame Filter')
+        self.filter_model, self.filter_preprocess = clip.load("./ckpt/ViT-B-32.pt", device=device)
+        print('Loading Frame Filter Done')
 
     def get_context_emb_llama2(self, input_text, _, img_list):
         wrap_sys = lambda msg: f"<<SYS>>\n{msg}\n<</SYS>>\n\n"
@@ -231,6 +201,58 @@ class Chat:
         mixed_embs = torch.cat(mixed_embs, dim=1)
         return mixed_embs
     
+    def load_video(self, video_path, n_frms=MAX_INT, height=-1, width=-1, sampling="uniform", return_msg = False):
+        decord.bridge.set_bridge("torch")
+        vr = VideoReader(uri=video_path, height=height, width=width)
+
+        vlen = len(vr)
+        start, end = 0, vlen
+        # 在预定义的最大帧数和片段帧数之间取最小值
+        n_frms = min(n_frms, vlen)
+
+        if sampling == "uniform":
+            # 从视频中均匀采样n_frms帧
+            indices = np.arange(start, end, vlen / n_frms).astype(int).tolist()
+        elif sampling == "headtail":
+            indices_h = sorted(rnd.sample(range(vlen // 2), n_frms // 2))
+            indices_t = sorted(rnd.sample(range(vlen // 2, vlen), n_frms // 2))
+            indices = indices_h + indices_t
+        if sampling == "clip":
+            intervel = 1
+            indices = np.arange(start, end, vlen / (n_frms/2)).astype(int).tolist() 
+            indices_finegrained = np.arange(start, end, intervel).astype(int).tolist() 
+            temp_frms = vr.get_batch(indices_finegrained)
+            tensor_frms = torch.from_numpy(temp_frms) if type(temp_frms) is not torch.Tensor else temp_frms
+            print(tensor_frms.shape)
+            frms = tensor_frms.permute(3, 0, 1, 2).float()  # (C, T, H, W)
+            video_fragment = self.vis_processor.transform(frms).to(self.device).permute(1,0,2,3)
+            
+            tokenize_text = clip.tokenize(question).to(self.device)
+            with torch.no_grad():
+                logits_per_image, logits_per_text = self.filter_model(video_fragment, tokenize_text)
+                probs = logits_per_text.softmax(dim=-1).cpu().numpy().reshape(-1)
+            indices_finegrained = np.argsort(probs)[::-1].tolist()[:int(n_frms)]
+            indices_finegrained = [i*intervel for i in indices_finegrained]
+            # indices.extend(indices_finegrained)
+            indices = indices_finegrained
+            indices.sort()
+            indices = list(dict.fromkeys(indices))
+        else:
+            raise NotImplementedError
+
+        # get_batch -> T, H, W, C
+        temp_frms = vr.get_batch(indices)
+        tensor_frms = torch.from_numpy(temp_frms) if type(temp_frms) is not torch.Tensor else temp_frms
+        frms = tensor_frms.permute(3, 0, 1, 2).float()  # (C, T, H, W)
+
+        if not return_msg:
+            return frms
+
+        fps = float(vr.get_avg_fps())
+        sec = ", ".join([str(round(f / fps, 1)) for f in indices])
+        # " " should be added in the start and end
+        msg = f"The video contains {len(indices)} frames sampled at {sec} seconds. "
+        return frms, msg
     def answer(self, img_list, input_text, msg, max_new_tokens=300, num_beams=1, min_length=1, top_p=0.9,
             repetition_penalty=1.0, length_penalty=1, temperature=1.0, max_length=2000):
         
@@ -243,7 +265,7 @@ class Chat:
         current_max_len = embs.shape[1] + max_new_tokens
         if current_max_len - max_length > 0:
             print('Warning: The number of tokens in current conversation exceeds the max length. '
-                  'The model will not see the contexts outside the range.')
+                'The model will not see the contexts outside the range.')
         begin_idx = max(0, current_max_len - max_length)
 
         embs = embs[:, begin_idx:]
@@ -296,16 +318,17 @@ class Chat:
             else:
                 start_id = 0
                 end_id = N_SAMPLES
-                
+
+    
             for i in range(start_id, end_id):
                 print(i)
                 video_fragment = parse_video_fragment(video_path=video_path, video_length=video_length, n_stage=i, n_samples= N_SAMPLES)
-                video_fragment, msg = load_video(
+                video_fragment, msg = self.load_video(
                     video_path=fragment_video_path,
                     n_frms=MAX_INT, 
                     height=224,
                     width=224,
-                    sampling ="uniform", 
+                    sampling ="clip", 
                     return_msg = True
                 )
                 video_fragment = self.vis_processor.transform(video_fragment) 
@@ -459,6 +482,8 @@ if __name__ =='__main__':
                         with open(output_file, 'a') as output_json_file:
                             output_json_file.write(json.dumps(result_data))
                             output_json_file.write("\n")
+            import sys
+            sys.exit(0)
     else:
         for file in json_files:
             if file.endswith('.json'):
