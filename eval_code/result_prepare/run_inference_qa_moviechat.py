@@ -201,7 +201,7 @@ class Chat:
         mixed_embs = torch.cat(mixed_embs, dim=1)
         return mixed_embs
     
-    def load_video(self, video_path, n_frms=MAX_INT, height=-1, width=-1, sampling="uniform", return_msg = False):
+    def load_video(self, video_path, n_frms=MAX_INT, height=-1, width=-1, sampling="uniform", return_msg = False, cur_fram_in_frag = None):
         decord.bridge.set_bridge("torch")
         vr = VideoReader(uri=video_path, height=height, width=width)
 
@@ -218,25 +218,52 @@ class Chat:
             indices_t = sorted(rnd.sample(range(vlen // 2, vlen), n_frms // 2))
             indices = indices_h + indices_t
         if sampling == "clip":
-            intervel = 1
+            interval = 2
+            
             indices = np.arange(start, end, vlen / (n_frms/2)).astype(int).tolist() 
-            indices_finegrained = np.arange(start, end, intervel).astype(int).tolist() 
+            indices_finegrained = np.arange(start, end, interval).astype(int).tolist() 
+            
             temp_frms = vr.get_batch(indices_finegrained)
             tensor_frms = torch.from_numpy(temp_frms) if type(temp_frms) is not torch.Tensor else temp_frms
-            print(tensor_frms.shape)
+            # print(tensor_frms.shape)
             frms = tensor_frms.permute(3, 0, 1, 2).float()  # (C, T, H, W)
             video_fragment = self.vis_processor.transform(frms).to(self.device).permute(1,0,2,3)
-            
             tokenize_text = clip.tokenize(question).to(self.device)
             with torch.no_grad():
                 logits_per_image, logits_per_text = self.filter_model(video_fragment, tokenize_text)
                 probs = logits_per_text.softmax(dim=-1).cpu().numpy().reshape(-1)
-            indices_finegrained = np.argsort(probs)[::-1].tolist()[:int(n_frms)]
-            indices_finegrained = [i*intervel for i in indices_finegrained]
-            # indices.extend(indices_finegrained)
-            indices = indices_finegrained
+                if cur_fram_in_frag is not None: 
+                    image_features = self.filter_model.encode_image(video_fragment)
+                    probs_image = (image_features @ image_features.T)[round(cur_fram_in_frag/interval),:].softmax(dim=-1).cpu().numpy().reshape(-1)
+                    # # 与问题相关的索引
+                    # indices_question = np.argsort(probs)[::-1][:int(n_frms*2)]
+                    # # 与问题相关的索引中 与帧相关的索引
+                    # probs_image = probs_image[indices_question]
+                    # indices_image = np.argsort(probs_image)[::-1][:int(n_frms)]
+                    # indices_finegrained = (indices_question[indices_image]*interval).tolist()
+                    
+                    # 与帧相关的索引
+                    indices_image = np.argsort(probs_image)[::-1][:int(n_frms*2)]
+                    # 与问题相关的索引
+                    probs = probs[indices_image]
+                    indices_question = np.argsort(probs)[::-1][:int(n_frms)]
+                    indices_finegrained = (indices_image[indices_question]*interval).tolist()
+                    
+                    indices_finegrained.append(cur_fram_in_frag)
+
+                    # indices.extend(indices_finegrained)
+                    indices = indices_finegrained
+                else: 
+                    indices_question = np.argsort(probs)[::-1][:int(n_frms/2)]
+                    indices_finegrained = indices_question * interval
+                    indices.extend(indices_finegrained)
+                    indices = list(dict.fromkeys(indices))
+                    
             indices.sort()
-            indices = list(dict.fromkeys(indices))
+            
+            print(indices, cur_fram_in_frag)
+            # import sys
+            # sys.exit(0)
         else:
             raise NotImplementedError
 
@@ -301,7 +328,8 @@ class Chat:
     def cal_fragment_id(self, total_frame, cur_frame):
         per_frag_frame = total_frame / N_SAMPLES
         fragment_id = int(cur_frame / per_frag_frame)
-        return fragment_id
+        cur_fram_in_frag = int(cur_frame % per_frag_frame)
+        return fragment_id, cur_fram_in_frag
 
     def upload_video_without_audio(self, video_path, fragment_video_path, cur_min, cur_sec, cur_image, img_list, middle_video, question, total_frame=1, cur_frame=1):
         msg = ""
@@ -311,13 +339,14 @@ class Chat:
             video_length = video_duration(video_path) 
             if middle_video:
                 # 计算断点模式中, 帧所在的片段的序号
-                fragment_id = self.cal_fragment_id(total_frame, cur_frame)
+                fragment_id, cur_fram_in_frag = self.cal_fragment_id(total_frame, cur_frame)
                 frag_range = 0
                 start_id = fragment_id - frag_range if fragment_id - frag_range >= 0 else 0
                 end_id = fragment_id + frag_range + 1 if fragment_id + frag_range + 1 <= N_SAMPLES else N_SAMPLES
             else:
                 start_id = 0
                 end_id = N_SAMPLES
+                cur_fram_in_frag = None
 
     
             for i in range(start_id, end_id):
@@ -329,7 +358,8 @@ class Chat:
                     height=224,
                     width=224,
                     sampling ="clip", 
-                    return_msg = True
+                    return_msg = True,
+                    cur_fram_in_frag=cur_fram_in_frag
                 )
                 video_fragment = self.vis_processor.transform(video_fragment) 
                 video_fragment = video_fragment.unsqueeze(0).to(self.device)
@@ -425,14 +455,14 @@ if __name__ =='__main__':
                                 cap.set(cv2.CAP_PROP_POS_FRAMES, cur_frame)
                                 ret, frame = cap.read()
                                 # print(frame)
-                                temp_frame_path = 'src/output_frame/'+experiment_name+'_snapshot.jpg'
+                                temp_frame_path = 'src/output_frame/'+experiment_name+ str(cur_frame) +'_snapshot.jpg'
                                 cv2.imwrite(temp_frame_path, frame)
                             except:
                                 cur_frame -= 1
                                 cap.set(cv2.CAP_PROP_POS_FRAMES, cur_frame)
                                 ret, frame = cap.read()
                                 # print(frame)
-                                temp_frame_path = 'src/output_frame/'+experiment_name+'_snapshot.jpg'
+                                temp_frame_path = 'src/output_frame/'+experiment_name+ str(cur_frame) +'_snapshot.jpg'
                                 cv2.imwrite(temp_frame_path, frame)
 
                             raw_image = Image.open(temp_frame_path).convert('RGB') 
@@ -440,6 +470,8 @@ if __name__ =='__main__':
                             cur_image = chat.model.encode_image(image)  
 
                             question = qa_key['question']
+                            if "(any type)" in question:
+                                question = question.replace("(any type)", "")
                             print(question)
 
                             img_list = []

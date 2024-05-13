@@ -388,10 +388,12 @@ class MovieChat(Blip2Base):
                 else:
                     video_features = torch.cat([cur_video], dim = 0)
                 # 记忆单元和当前帧连接
-            video_features = torch.cat([video_features, cur_image], dim = 0)    # T 32 768
+            # video_features = torch.cat([video_features, cur_image], dim = 0)    # T 32 768
             # video_features = torch.cat([cur_image], dim = 0)    # T 32 768
-
-
+            video_features = torch.cat([cur_short], dim = 0)    # T 32 768
+            # video_features = torch.cat([cur_short, cur_image], dim = 0)    # T 32 768
+            
+            
             # print(video_features.shape)
             cur_video = []
             cur_pos = []
