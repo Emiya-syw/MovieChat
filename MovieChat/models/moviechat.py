@@ -328,33 +328,33 @@ class MovieChat(Blip2Base):
                 for i in self.short_memory_buffer:
                     self.temp_short_memory.append(i)
             
-            
-            # merge short_memory_frames
-            similar_list = []
-            for frame_i in range(len(self.short_memory_buffer) -1):
-                scores = self.short_memory_buffer[frame_i] @ self.short_memory_buffer[frame_i+1].transpose(-1, -2)
-                frame_silimar = torch.mean(scores)
-                similar_list.append(frame_silimar)
-            
-            # 只要短程记忆的长度大于2就进行合并, 合并到只剩2个
-            while len(self.short_memory_buffer) > self.short_memory_merge:
-                max_value = max(similar_list)
-                max_index = similar_list.index(max_value)
-                # 取平均
-                new_frame_feature = (self.short_memory_buffer[max_index].cpu()+self.short_memory_buffer[max_index+1].cpu())/2
-                self.short_memory_buffer[max_index] = new_frame_feature.cuda()
-                del(self.short_memory_buffer[max_index+1])
+            else: 
+                # merge short_memory_frames
                 similar_list = []
-                # 重新算一遍相似度
-                for frame_i in range(len(self.short_memory_buffer)-1):
+                for frame_i in range(len(self.short_memory_buffer) -1):
                     scores = self.short_memory_buffer[frame_i] @ self.short_memory_buffer[frame_i+1].transpose(-1, -2)
                     frame_silimar = torch.mean(scores)
                     similar_list.append(frame_silimar)
-            
-            # 转移短程记忆后重置
-            for frame in self.short_memory_buffer:
-                self.long_memory_buffer.append(frame)
-            # print(len(self.long_memory_buffer))
+                
+                # 只要短程记忆的长度大于2就进行合并, 合并到只剩2个
+                while len(self.short_memory_buffer) > self.short_memory_merge:
+                    max_value = max(similar_list)
+                    max_index = similar_list.index(max_value)
+                    # 取平均
+                    new_frame_feature = (self.short_memory_buffer[max_index].cpu()+self.short_memory_buffer[max_index+1].cpu())/2
+                    self.short_memory_buffer[max_index] = new_frame_feature.cuda()
+                    del(self.short_memory_buffer[max_index+1])
+                    similar_list = []
+                    # 重新算一遍相似度
+                    for frame_i in range(len(self.short_memory_buffer)-1):
+                        scores = self.short_memory_buffer[frame_i] @ self.short_memory_buffer[frame_i+1].transpose(-1, -2)
+                        frame_silimar = torch.mean(scores)
+                        similar_list.append(frame_silimar)
+                
+                # 转移短程记忆后重置
+                for frame in self.short_memory_buffer:
+                    self.long_memory_buffer.append(frame)
+                # print(len(self.long_memory_buffer))
 
             self.short_memory_buffer = []
 

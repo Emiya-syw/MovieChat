@@ -24,6 +24,7 @@ import math
 import torch
 import torch.backends.cudnn as cudnn
 import clip
+import matplotlib.pyplot as plt
 # imports modules for registration
 import sys
 sys.path.append("/home/sunyw/MovieChat")
@@ -234,7 +235,7 @@ class Chat:
                 probs = logits_per_text.softmax(dim=-1).cpu().numpy().reshape(-1)
                 if cur_fram_in_frag is not None: 
                     image_features = self.filter_model.encode_image(video_fragment)
-                    probs_image = (image_features @ image_features.T)[round(cur_fram_in_frag/interval),:].softmax(dim=-1).cpu().numpy().reshape(-1)
+                    probs_image = (image_features @ image_features.T)[int(cur_fram_in_frag/interval),:].softmax(dim=-1).cpu().numpy().reshape(-1)
                     # # 与问题相关的索引
                     # indices_question = np.argsort(probs)[::-1][:int(n_frms*2)]
                     # # 与问题相关的索引中 与帧相关的索引
@@ -261,7 +262,7 @@ class Chat:
                     
             indices.sort()
             
-            print(indices, cur_fram_in_frag)
+            # print(indices, cur_fram_in_frag)
             # import sys
             # sys.exit(0)
         else:
@@ -348,7 +349,50 @@ class Chat:
                 end_id = N_SAMPLES
                 cur_fram_in_frag = None
 
-    
+            # # 片段划分
+            # last_frag = None
+            # sim_vecs = []
+            # sample_rate = 8
+            # for i in range(start_id, end_id):
+            #     print(i)
+            #     video_fragment = parse_video_fragment(video_path=video_path, video_length=video_length, n_stage=i, n_samples= N_SAMPLES)
+            #     vr = VideoReader(uri=fragment_video_path, height=224, width=224)
+            #     vlen = len(vr)
+            #     start, end = 0, vlen    
+
+            #     indices = np.arange(start, end, sample_rate).astype(int).tolist()
+            #     temp_frms = vr.get_batch(indices)
+            #     tensor_frms = torch.from_numpy(temp_frms) if type(temp_frms) is not torch.Tensor else temp_frms
+            #     frms = tensor_frms.permute(3, 0, 1, 2).float()  # (C, T, H, W)
+            #     video_fragment = self.vis_processor.transform(frms).to(self.device).permute(1,0,2,3)
+            #     with torch.no_grad():
+            #         image_feature = self.filter_model.encode_image(video_fragment)
+            #         if last_frag is None:
+            #             sim_vec = torch.diag(image_feature[:-1] @ image_feature[1:].T).reshape(-1)
+                        
+            #         else:
+            #             sim_vec = torch.diag(torch.cat([last_frag.unsqueeze(0), image_feature[:-1]], dim=0) @ image_feature.T).reshape(-1)
+            #         sim_vecs.append(sim_vec)
+            #         last_frag = image_feature[-1]
+            # sim_vec = torch.cat(sim_vecs, dim=0).cpu().numpy()
+            # from scipy.signal import savgol_filter
+            # # from scipy.interpolate import UnivariateSpline
+            # x = np.arange(sim_vec.shape[0])
+            # y = savgol_filter(sim_vec, 15, 2, mode='nearest')
+            # # y = np.abs(np.fft.fft(sim_vec))
+            # # x = np.fft.fftfreq(y.shape[0])
+            # # spline = UnivariateSpline(x, sim_vec, s=1)
+            # # y = spline(x)
+            # plt.plot(x, y)
+            # plt.savefig(f"sim_{sample_rate}_savgol.png")
+            # threshold = np.partition(y,20)[100]
+            # # print(y[1:-1] < y[:-2])
+            # boundary_bool = np.logical_and(np.logical_and(y[1:-1] < y[:-2], y[1:-1] > y[2:]), y[1:-1]<threshold)
+            # boundary = ((np.where(boundary_bool)[0] + 1)*sample_rate).tolist()
+            # print(len(boundary), boundary)
+            # import sys
+            # sys.exit(0)
+            
             for i in range(start_id, end_id):
                 print(i)
                 video_fragment = parse_video_fragment(video_path=video_path, video_length=video_length, n_stage=i, n_samples= N_SAMPLES)
@@ -499,7 +543,7 @@ if __name__ =='__main__':
                                 temperature=temperature,
                                 max_new_tokens=300,
                                 max_length=2000)[0]
-                            prompt = " <Video><ImageHere></Video> Here is the caption: " + chain_1_msg + " Here is the question: " + question
+                            prompt = " <Video><ImageHere></Video> Here is the description for reference: " + chain_1_msg + " Here is the question: " + question
                             llm_message = chat.answer(img_list=img_list,
                                 input_text=prompt,
                                 msg = msg,
@@ -514,8 +558,8 @@ if __name__ =='__main__':
                         with open(output_file, 'a') as output_json_file:
                             output_json_file.write(json.dumps(result_data))
                             output_json_file.write("\n")
-            import sys
-            sys.exit(0)
+            # import sys
+            # sys.exit(0)
     else:
         for file in json_files:
             if file.endswith('.json'):
@@ -530,7 +574,6 @@ if __name__ =='__main__':
                         video_path = video_folder + '/' + movie_data["info"]["video_path"]
                         cap = cv2.VideoCapture(video_path)
 
-                        cap = cv2.VideoCapture(video_path)
                         cap.set(cv2.CAP_PROP_POS_FRAMES, 0)
                         ret, frame = cap.read()
                         temp_frame_path = f'src/output_frame/{experiment_name}_snapshot.jpg'
