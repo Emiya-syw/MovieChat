@@ -110,18 +110,25 @@ def video_duration(filename):
                             stderr=subprocess.STDOUT)
     return float(result.stdout)
  
-def capture_video(video_path, fragment_video_path, per_video_length, n_stage):
-    start_time = n_stage * per_video_length
-    end_time = (n_stage+1) * per_video_length
+def capture_video(video_path, fragment_video_path, per_video_length, n_stage, middle_video, cur_video_time):
+    if middle_video:
+        start_time = cur_video_time - 0.5 * per_video_length
+        end_time = cur_video_time + 0.5 * per_video_length
+        start_time = start_time if start_time > 0 else 0
+        end_time = end_time if end_time < N_SAMPLES * per_video_length else N_SAMPLES * per_video_length
+    else:
+        start_time = n_stage * per_video_length
+        end_time = (n_stage+1) * per_video_length
     video = CompositeVideoClip([VideoFileClip(video_path).subclip(start_time,end_time)])
 
     video.write_videofile(fragment_video_path)
 
-def parse_video_fragment(video_path, video_length, n_stage = 0, n_samples = N_SAMPLES):
+def parse_video_fragment(video_path, video_length, n_stage = 0, n_samples = N_SAMPLES, middle_video=1, cur_frame_ratio=1):
     decord.bridge.set_bridge("torch")
     per_video_length = video_length / n_samples
+    cur_video_time = video_length * cur_frame_ratio
     # cut video from per_video_length(n_stage-1, n_stage)
-    capture_video(video_path, fragment_video_path, per_video_length, n_stage)
+    capture_video(video_path, fragment_video_path, per_video_length, n_stage, middle_video, cur_video_time)
     return fragment_video_path
 
 class Chat:
@@ -181,7 +188,7 @@ class Chat:
     def get_context_emb(self, input_text, msg, img_list):
         
         # prompt_1 = "You are able to understand the visual content that the user provides.Follow the instructions carefully and explain your brief answers with no more than 20 words.###Human: <Video><ImageHere></Video>"
-        prompt_1 = "You are able to understand the visual content that the user provides.Follow the instructions carefully and explain your answers.###Human: <Video><ImageHere></Video>"
+        prompt_1 = "You are able to understand the visual content that the user provides.Follow the instructions carefully and explain your answers.###Human: "
         
         prompt_2 = input_text
         prompt_3 = "###Assistant:"
@@ -330,24 +337,28 @@ class Chat:
         per_frag_frame = total_frame / N_SAMPLES
         fragment_id = int(cur_frame / per_frag_frame)
         cur_fram_in_frag = int(cur_frame % per_frag_frame)
-        return fragment_id, cur_fram_in_frag
+        cur_frame_ratio = cur_frame / total_frame
+        return fragment_id, cur_fram_in_frag, cur_frame_ratio
 
     def upload_video_without_audio(self, video_path, fragment_video_path, cur_min, cur_sec, cur_image, img_list, middle_video, question, total_frame=1, cur_frame=1):
         msg = ""
         if isinstance(video_path, str):  # is a video path
             ext = os.path.splitext(video_path)[-1].lower()
             # print(video_path)
-            video_length = video_duration(video_path) 
+            video_length = video_duration(video_path) # second
+            # print(video_length)
+            # import sys
+            # sys.exit(0)
             if middle_video:
                 # 计算断点模式中, 帧所在的片段的序号
-                fragment_id, cur_fram_in_frag = self.cal_fragment_id(total_frame, cur_frame)
-                frag_range = 0
-                start_id = fragment_id - frag_range if fragment_id - frag_range >= 0 else 0
-                end_id = fragment_id + frag_range + 1 if fragment_id + frag_range + 1 <= N_SAMPLES else N_SAMPLES
+                fragment_id, cur_fram_in_frag, cur_frame_ratio = self.cal_fragment_id(total_frame, cur_frame)
+                start_id = fragment_id
+                end_id = fragment_id + 1
             else:
                 start_id = 0
                 end_id = N_SAMPLES
                 cur_fram_in_frag = None
+                cur_frame_ratio = 0
 
             # # 片段划分
             # last_frag = None
@@ -395,7 +406,7 @@ class Chat:
             
             for i in range(start_id, end_id):
                 print(i)
-                video_fragment = parse_video_fragment(video_path=video_path, video_length=video_length, n_stage=i, n_samples= N_SAMPLES)
+                video_fragment = parse_video_fragment(video_path=video_path, video_length=video_length, n_stage=i, n_samples= N_SAMPLES, middle_video=middle_video, cur_frame_ratio=cur_frame_ratio)
                 video_fragment, msg = self.load_video(
                     video_path=fragment_video_path,
                     n_frms=MAX_INT, 
@@ -499,14 +510,14 @@ if __name__ =='__main__':
                                 cap.set(cv2.CAP_PROP_POS_FRAMES, cur_frame)
                                 ret, frame = cap.read()
                                 # print(frame)
-                                temp_frame_path = 'src/output_frame/'+experiment_name+ str(cur_frame) +'_snapshot.jpg'
+                                temp_frame_path = 'src/output_frame/'+experiment_name+ + f"_{global_key}_" + str(int(cur_frame)) +'_snapshot.jpg'
                                 cv2.imwrite(temp_frame_path, frame)
                             except:
                                 cur_frame -= 1
                                 cap.set(cv2.CAP_PROP_POS_FRAMES, cur_frame)
                                 ret, frame = cap.read()
                                 # print(frame)
-                                temp_frame_path = 'src/output_frame/'+experiment_name+ str(cur_frame) +'_snapshot.jpg'
+                                temp_frame_path = 'src/output_frame/'+experiment_name + f"_{global_key}_" + str(int(cur_frame)) +'_snapshot.jpg'
                                 cv2.imwrite(temp_frame_path, frame)
 
                             raw_image = Image.open(temp_frame_path).convert('RGB') 
@@ -535,7 +546,7 @@ if __name__ =='__main__':
                                 cur_frame=cur_frame                         # 当前帧的序号
                             )
                             
-                            prompt = " <Video><ImageHere></Video> Please describe the video in less than 20 words."
+                            prompt = " <Video><ImageHere></Video> Please describe the video in less than 20 words: "
                             chain_1_msg = chat.answer(img_list=img_list,
                                 input_text=prompt,
                                 msg = msg,
@@ -543,7 +554,8 @@ if __name__ =='__main__':
                                 temperature=temperature,
                                 max_new_tokens=300,
                                 max_length=2000)[0]
-                            prompt = " <Video><ImageHere></Video> Here is the description for reference: " + chain_1_msg + " Here is the question: " + question
+                            prompt = " <Video><ImageHere></Video> Here is the description: " + chain_1_msg + " Here is the question: " + question + " Answer the question according to the video and the description in less than 30 words: "
+                            
                             llm_message = chat.answer(img_list=img_list,
                                 input_text=prompt,
                                 msg = msg,
@@ -551,6 +563,16 @@ if __name__ =='__main__':
                                 temperature=temperature,
                                 max_new_tokens=300,
                                 max_length=2000)[0]
+                            
+                            # prompt = " Here is the question: " + question + " Here is the answer: " + chain_2_msg + " Please refine the answer according to the question in less than 20 words: " 
+                            # llm_message = chat.answer(img_list=img_list,
+                            #     input_text=prompt,
+                            #     msg = msg,
+                            #     num_beams=num_beams,
+                            #     temperature=temperature,
+                            #     max_new_tokens=300,
+                            #     max_length=2000)[0]
+                            
                             qa_key['pred'] = llm_message
                             global_value.append(qa_key)
                         result_data = {}
@@ -558,8 +580,9 @@ if __name__ =='__main__':
                         with open(output_file, 'a') as output_json_file:
                             output_json_file.write(json.dumps(result_data))
                             output_json_file.write("\n")
-            # import sys
-            # sys.exit(0)
+            if count == 5:
+                import sys
+                sys.exit(0)
     else:
         for file in json_files:
             if file.endswith('.json'):

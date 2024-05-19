@@ -11,7 +11,7 @@ model:
   llama_model: "ckpt/Video-LLaMA-2-7B-Finetuned/llama-2-7b-chat-hf" 
   # llama_model: "ckpt/moviechat-vicuna"
   
-  llama_proj_model: 'ckpt/minigpt4/pretrained_minigpt4.pth'
+  llama_proj_model: 'ckpt/minigpt4/pretrained_minigpt4.pth' # 没用上
 
   fusion_head_layers: 2
   max_frame_pos: 32
