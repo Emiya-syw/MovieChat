@@ -226,7 +226,10 @@ class Chat:
             indices_t = sorted(rnd.sample(range(vlen // 2, vlen), n_frms // 2))
             indices = indices_h + indices_t
         if sampling == "clip":
-            interval = 2
+            if cur_fram_in_frag is not None:
+                interval = 1
+            else:
+                interval = 2
             
             indices = np.arange(start, end, vlen / (n_frms/2)).astype(int).tolist() 
             indices_finegrained = np.arange(start, end, interval).astype(int).tolist() 
@@ -242,13 +245,8 @@ class Chat:
                 probs = logits_per_text.softmax(dim=-1).cpu().numpy().reshape(-1)
                 if cur_fram_in_frag is not None: 
                     image_features = self.filter_model.encode_image(video_fragment)
+                    print(image_features.size(0), cur_fram_in_frag)
                     probs_image = (image_features @ image_features.T)[int(cur_fram_in_frag/interval),:].softmax(dim=-1).cpu().numpy().reshape(-1)
-                    # # 与问题相关的索引
-                    # indices_question = np.argsort(probs)[::-1][:int(n_frms*2)]
-                    # # 与问题相关的索引中 与帧相关的索引
-                    # probs_image = probs_image[indices_question]
-                    # indices_image = np.argsort(probs_image)[::-1][:int(n_frms)]
-                    # indices_finegrained = (indices_question[indices_image]*interval).tolist()
                     
                     # 与帧相关的索引
                     indices_image = np.argsort(probs_image)[::-1][:int(n_frms*2)]
@@ -257,8 +255,12 @@ class Chat:
                     indices_question = np.argsort(probs)[::-1][:int(n_frms)]
                     indices_finegrained = (indices_image[indices_question]*interval).tolist()
                     
+                    # 直接clip
+                    # indices_question = np.argsort(probs)[::-1][:int(n_frms)]
+                    # indices_finegrained = list(indices_question * interval)
+                    
+                    
                     indices_finegrained.append(cur_fram_in_frag)
-
                     # indices.extend(indices_finegrained)
                     indices = indices_finegrained
                 else: 
@@ -336,7 +338,10 @@ class Chat:
     def cal_fragment_id(self, total_frame, cur_frame):
         per_frag_frame = total_frame / N_SAMPLES
         fragment_id = int(cur_frame / per_frag_frame)
-        cur_fram_in_frag = int(cur_frame % per_frag_frame)
+        if fragment_id == 0 and cur_frame < int(per_frag_frame /2):
+            cur_fram_in_frag = cur_frame
+        else:
+            cur_fram_in_frag = int(per_frag_frame / 2)
         cur_frame_ratio = cur_frame / total_frame
         return fragment_id, cur_fram_in_frag, cur_frame_ratio
 
@@ -554,7 +559,7 @@ if __name__ =='__main__':
                                 temperature=temperature,
                                 max_new_tokens=300,
                                 max_length=2000)[0]
-                            prompt = " <Video><ImageHere></Video> Here is the description: " + chain_1_msg + " Here is the question: " + question + " Answer the question according to the video and the description in less than 30 words: "
+                            prompt = " <Video><ImageHere></Video> Here is the description: " + chain_1_msg + " Here is the question: " + question + " Answer the question according to the video and the description in less than 20 words:"
                             
                             llm_message = chat.answer(img_list=img_list,
                                 input_text=prompt,
@@ -564,7 +569,17 @@ if __name__ =='__main__':
                                 max_new_tokens=300,
                                 max_length=2000)[0]
                             
-                            # prompt = " Here is the question: " + question + " Here is the answer: " + chain_2_msg + " Please refine the answer according to the question in less than 20 words: " 
+                            if llm_message == "":
+                                prompt = " <Video><ImageHere></Video> Here is the description: " + chain_1_msg + " Here is the question: " + question
+                                llm_message = chat.answer(img_list=img_list,
+                                input_text=prompt,
+                                msg = msg,
+                                num_beams=num_beams,
+                                temperature=temperature,
+                                max_new_tokens=300,
+                                max_length=2000)[0]
+                                
+                            # prompt = " <Video><ImageHere></Video> Here is the question: " + question + " Here is the answer: " + chain_2_msg + " Please refine the answer according to the question and the video: " 
                             # llm_message = chat.answer(img_list=img_list,
                             #     input_text=prompt,
                             #     msg = msg,
@@ -580,7 +595,8 @@ if __name__ =='__main__':
                         with open(output_file, 'a') as output_json_file:
                             output_json_file.write(json.dumps(result_data))
                             output_json_file.write("\n")
-            if count == 1:
+
+            if count == 5:
                 import sys
                 sys.exit(0)
     else:
@@ -639,7 +655,7 @@ if __name__ =='__main__':
                         for qa_key in movie_data["global"]:
                             question = qa_key['question']
                             print(question)
-                            prompt = " <Video><ImageHere></Video> Here is the caption: " + chain_1_msg + " Here is the question: " + question + " Answer the question according to the video and the description in less than 30 words: "
+                            prompt = " <Video><ImageHere></Video> Here is the caption: " + chain_1_msg + " Here is the question: " + question + " Answer the question briefly according to the video and the description: "
                             llm_message = chat.answer(img_list=img_list,
                                 input_text=prompt,
                                 msg = msg,
@@ -655,9 +671,9 @@ if __name__ =='__main__':
                             output_json_file.write(json.dumps(result_data))
                             output_json_file.write("\n")
             
-            if count == 5:
-                import sys
-                sys.exit(0)
+            # if count == 5:
+            #     import sys
+            #     sys.exit(0)
 
 
 
