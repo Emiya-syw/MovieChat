@@ -580,7 +580,7 @@ if __name__ =='__main__':
                         with open(output_file, 'a') as output_json_file:
                             output_json_file.write(json.dumps(result_data))
                             output_json_file.write("\n")
-            if count == 5:
+            if count == 1:
                 import sys
                 sys.exit(0)
     else:
@@ -639,7 +639,7 @@ if __name__ =='__main__':
                         for qa_key in movie_data["global"]:
                             question = qa_key['question']
                             print(question)
-                            prompt = " <Video><ImageHere></Video> Here is the caption: " + chain_1_msg + " Here is the question: " + question
+                            prompt = " <Video><ImageHere></Video> Here is the caption: " + chain_1_msg + " Here is the question: " + question + " Answer the question according to the video and the description in less than 30 words: "
                             llm_message = chat.answer(img_list=img_list,
                                 input_text=prompt,
                                 msg = msg,
@@ -654,6 +654,10 @@ if __name__ =='__main__':
                         with open(output_file, 'a') as output_json_file:
                             output_json_file.write(json.dumps(result_data))
                             output_json_file.write("\n")
+            
+            if count == 5:
+                import sys
+                sys.exit(0)
 
 
 
