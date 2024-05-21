@@ -504,25 +504,31 @@ if __name__ =='__main__':
                         # 断点数据
                         for qa_key in movie_data["breakpoint"]:
                             cur_frame = qa_key['time']
+                            # print(cur_frame)
                             total_sec = cur_frame/fps           # 当前帧对应的总时间(s)
+                            # print(total_sec)
                             # 秒数转换为"xx min xx sec"
                             cur_min = int(total_sec/60)         
+                            # print(cur_min)
                             cur_sec = int(total_sec-cur_min*60)  
-                            cur_frame = total_sec * fps_video
+                            # print(cur_sec)
+                            cur_frame = int(total_sec * fps_video)
+                            # print(cur_frame, fps_video)
 
                             ### AWH-7
+                            
                             try:
                                 cap.set(cv2.CAP_PROP_POS_FRAMES, cur_frame)
                                 ret, frame = cap.read()
                                 # print(frame)
-                                temp_frame_path = 'src/output_frame/'+experiment_name+ + f"_{global_key}_" + str(int(cur_frame)) +'_snapshot.jpg'
+                                temp_frame_path = 'src/output_frame/'+ global_key + f"_{cur_frame}.jpg"
                                 cv2.imwrite(temp_frame_path, frame)
                             except:
                                 cur_frame -= 1
                                 cap.set(cv2.CAP_PROP_POS_FRAMES, cur_frame)
                                 ret, frame = cap.read()
                                 # print(frame)
-                                temp_frame_path = 'src/output_frame/'+experiment_name + f"_{global_key}_" + str(int(cur_frame)) +'_snapshot.jpg'
+                                temp_frame_path = 'src/output_frame/'+ global_key + f"_{cur_frame}.jpg"
                                 cv2.imwrite(temp_frame_path, frame)
 
                             raw_image = Image.open(temp_frame_path).convert('RGB') 
@@ -596,9 +602,9 @@ if __name__ =='__main__':
                             output_json_file.write(json.dumps(result_data))
                             output_json_file.write("\n")
 
-            if count == 5:
-                import sys
-                sys.exit(0)
+            # if count == 5:
+            #     import sys
+            #     sys.exit(0)
     else:
         for file in json_files:
             if file.endswith('.json'):
@@ -682,9 +688,9 @@ if __name__ =='__main__':
                             output_json_file.write(json.dumps(result_data))
                             output_json_file.write("\n")
             
-            if count == 5:
-                import sys
-                sys.exit(0)
+            # if count == 5:
+            #     import sys
+            #     sys.exit(0)
 
 
 
