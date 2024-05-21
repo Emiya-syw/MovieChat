@@ -596,9 +596,9 @@ if __name__ =='__main__':
                             output_json_file.write(json.dumps(result_data))
                             output_json_file.write("\n")
 
-            # if count == 5:
-            #     import sys
-            #     sys.exit(0)
+            if count == 5:
+                import sys
+                sys.exit(0)
     else:
         for file in json_files:
             if file.endswith('.json'):

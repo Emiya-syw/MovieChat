@@ -439,9 +439,10 @@ class MovieChat(Blip2Base):
         # self.merge_block_1 = CTM(sample_ratio=0.5, embed_dim=768, dim_out=768, k=5)
         # self.merge_block_2 = CTM(sample_ratio=0.5, embed_dim=768, dim_out=768, k=5)
         # self.merge_block_3 = CTM(sample_ratio=0.5, embed_dim=768, dim_out=768, k=5)
-        self.merge_block_global = CTM(sample_ratio=0.03125, embed_dim=768, dim_out=768)
-        # self.merge_block_global_2 = CTM(sample_ratio=0.25, embed_dim=768, dim_out=768)
-        # self.merge_block_global_3 = CTM(sample_ratio=0.25, embed_dim=768, dim_out=768)
+        # self.merge_block_breakpoint_1 = CTM(sample_ratio=0.5, embed_dim=768, dim_out=768)
+        self.merge_block_global_1 = CTM(sample_ratio=0.125, embed_dim=768, dim_out=768)
+        self.merge_block_global_2 = CTM(sample_ratio=0.5, embed_dim=768, dim_out=768)
+        self.merge_block_global_3 = CTM(sample_ratio=0.5, embed_dim=768, dim_out=768)
         
 
     def vit_to_cpu(self):
@@ -478,6 +479,8 @@ class MovieChat(Blip2Base):
             # image_embeds_dict_3, _ = self.merge_block_3(image_embeds_dict_2)
             
             # image_embeds = torch.cat([image_embeds_dict_1["x"],image_embeds_dict_2["x"],image_embeds_dict_3["x"]], dim=1)
+            
+            # image_embeds = self.merge(image_embeds, self.merge_block_breakpoint_1)
             
             image_atts = torch.ones(image_embeds.size()[:-1], dtype=torch.long).to(device)
             # 将其扩展成 b*t, N, D大小
@@ -549,6 +552,19 @@ class MovieChat(Blip2Base):
 
             self.short_memory_buffer = []
 
+    def merge(self, long_memory, merge_func):
+        long_memory_mean = torch.mean(long_memory, dim=1).unsqueeze(0) # 1 T C
+        long_memory_dict = {"x": long_memory_mean,
+                  "token_num": long_memory_mean.size(1),  # 每个样本的token数量
+                  "idx_token": torch.arange(long_memory_mean.size(1))[None, :].repeat(long_memory_mean.size(0), 1), # token的索引
+                  "agg_weight": long_memory_mean.new_ones(long_memory_mean.size(0), long_memory_mean.size(1), 1), # token聚合的权重, 全是1
+                  "mask": None}
+        _, _, center_id = merge_func(long_memory_dict)
+        center_id, _ = torch.sort(center_id)
+        long_memory = torch.gather(long_memory, 1, center_id.unsqueeze(-1).expand(-1, -1, long_memory.size(-1)))
+        # long_memory = long_memory[center_id, :, :].squeeze(0)   # T 32 768
+        return long_memory
+    
     def encode_long_video(self, cur_image, middle_video:False):
         
         device = 'cuda:0'
@@ -584,8 +600,8 @@ class MovieChat(Blip2Base):
             # video_features = torch.cat([cur_image], dim = 0)    # T 32 768
             video_features = torch.cat([cur_short], dim = 0)    # T 32 768
             # video_features = torch.cat([cur_short, cur_image], dim = 0)    # T 32 768
-            
-            
+            # video_features_merge = self.merge(video_features, self.merge_block_breakpoint_1)
+            # video_features = torch.cat([video_features, video_features_merge], dim = 0)
             # print(video_features.shape)
             cur_video = []
             cur_pos = []
@@ -624,20 +640,13 @@ class MovieChat(Blip2Base):
         else:           
             
             self.long_memory_buffer = torch.cat(self.long_memory_buffer, dim=0) # T L C
+            long_memory_multilayer = []
+            long_memory_multilayer.append(self.merge(self.long_memory_buffer, self.merge_block_global_1))
+            long_memory_multilayer.append(self.merge(long_memory_multilayer[-1], self.merge_block_global_2))
+            # long_memory_multilayer.append(self.merge(long_memory_multilayer[-1], self.merge_block_global_3))
+            
+            self.long_memory_buffer = torch.cat(long_memory_multilayer, dim=0)
             print(self.long_memory_buffer.shape)
-            long_memory_buffer_mean = torch.mean(self.long_memory_buffer, dim=1).unsqueeze(0) # 1 T C
-            long_memory_buffer_dict = {"x": long_memory_buffer_mean,
-                  "token_num": long_memory_buffer_mean.size(1),  # 每个样本的token数量
-                  "idx_token": torch.arange(long_memory_buffer_mean.size(1))[None, :].repeat(long_memory_buffer_mean.size(0), 1), # token的索引
-                  "agg_weight": long_memory_buffer_mean.new_ones(long_memory_buffer_mean.size(0), long_memory_buffer_mean.size(1), 1), # token聚合的权重, 全是1
-                  "mask": None}
-            _, _, center_id = self.merge_block_global(long_memory_buffer_dict)
-            
-            center_id, _ = torch.sort(center_id)
-            print(center_id)
-            self.long_memory_buffer = self.long_memory_buffer[center_id, :, :]
-            print(self.long_memory_buffer.shape) # (1, T, 32, 768)
-            
             cur_video = []
             cur_pos = []
             
@@ -645,7 +654,7 @@ class MovieChat(Blip2Base):
             #     cur_pos.append(self.frame_position_embeddings[i])
             #     cur_video.append(self.long_memory_buffer[i])
             
-            for i in range(self.long_memory_buffer.size(1)):
+            for i in range(self.long_memory_buffer.size(0)):
                 cur_pos.append(self.frame_position_embeddings[i])
             
             cur_pos = [j.unsqueeze(0) for j in cur_pos]
@@ -657,8 +666,8 @@ class MovieChat(Blip2Base):
             # frame_hidden_state = torch.cat(cur_video, dim=0) #[1,32,768]
             # frame_hidden_state = einops.rearrange(frame_hidden_state, '(b t) q h -> b t q h', b=batch_size, t=len(self.long_memory_buffer)) #[64,32,768]
             
-            frame_hidden_state = self.long_memory_buffer.squeeze(0)
-            frame_hidden_state = einops.rearrange(frame_hidden_state, '(b t) q h -> b t q h', b=batch_size, t=self.long_memory_buffer.size(1)) #[64,32,768]
+            frame_hidden_state = self.long_memory_buffer
+            frame_hidden_state = einops.rearrange(frame_hidden_state, '(b t) q h -> b t q h', b=batch_size, t=self.long_memory_buffer.size(0)) #[64,32,768]
             
             
                 
@@ -667,7 +676,7 @@ class MovieChat(Blip2Base):
             # frame attention
             
             # frame_hidden_state =  einops.rearrange(frame_hidden_state, 'b t q h -> b (t q) h',b=batch_size,t=len(self.long_memory_buffer)) 
-            frame_hidden_state =  einops.rearrange(frame_hidden_state, 'b t q h -> b (t q) h',b=batch_size,t=self.long_memory_buffer.size(1)) 
+            frame_hidden_state =  einops.rearrange(frame_hidden_state, 'b t q h -> b (t q) h',b=batch_size,t=self.long_memory_buffer.size(0)) 
             
             frame_atts = torch.ones(frame_hidden_state.size()[:-1], dtype=torch.long).to(device) 
             video_query_tokens = self.video_query_tokens.expand(frame_hidden_state.shape[0], -1, -1) 
