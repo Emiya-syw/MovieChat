@@ -109,7 +109,7 @@ def cluster_dpc_knn(token_dict, cluster_num, k=5, token_mask=None):
         
     
     # 聚类后的索引分布, 聚类数量
-    return idx_cluster, cluster_num
+    return idx_cluster, cluster_num, index_down
 
 def merge_tokens(token_dict, idx_cluster, cluster_num, token_weight=None):
     """Merge image_embeds in the same cluster to a single cluster.
@@ -188,11 +188,11 @@ class CTM(nn.Module):
             cluster_num = max(math.ceil(N * self.sample_ratio), 1)
 
         k = min(3, max(cluster_num//2, 1)) if self.k > cluster_num else self.k
-        idx_cluster, cluster_num = cluster_dpc_knn(
+        idx_cluster, cluster_num, center_id = cluster_dpc_knn(
             token_dict, cluster_num, k, token_mask=token_dict["mask"])
 
         down_dict = merge_tokens(token_dict, idx_cluster, cluster_num, token_weight)
-        return down_dict, token_dict
+        return down_dict, token_dict, center_id
 
 @registry.register_model("moviechat")
 class MovieChat(Blip2Base):
@@ -439,6 +439,9 @@ class MovieChat(Blip2Base):
         # self.merge_block_1 = CTM(sample_ratio=0.5, embed_dim=768, dim_out=768, k=5)
         # self.merge_block_2 = CTM(sample_ratio=0.5, embed_dim=768, dim_out=768, k=5)
         # self.merge_block_3 = CTM(sample_ratio=0.5, embed_dim=768, dim_out=768, k=5)
+        self.merge_block_global = CTM(sample_ratio=0.03125, embed_dim=768, dim_out=768)
+        # self.merge_block_global_2 = CTM(sample_ratio=0.25, embed_dim=768, dim_out=768)
+        # self.merge_block_global_3 = CTM(sample_ratio=0.25, embed_dim=768, dim_out=768)
         
 
     def vit_to_cpu(self):
@@ -517,27 +520,27 @@ class MovieChat(Blip2Base):
                     self.temp_short_memory.append(i)
             
             else: 
-                # merge short_memory_frames
-                similar_list = []
-                for frame_i in range(len(self.short_memory_buffer) -1):
-                    scores = self.short_memory_buffer[frame_i] @ self.short_memory_buffer[frame_i+1].transpose(-1, -2)
-                    frame_silimar = torch.mean(scores)
-                    similar_list.append(frame_silimar)
+                # # merge short_memory_frames
+                # similar_list = []
+                # for frame_i in range(len(self.short_memory_buffer) -1):
+                #     scores = self.short_memory_buffer[frame_i] @ self.short_memory_buffer[frame_i+1].transpose(-1, -2)
+                #     frame_silimar = torch.mean(scores)
+                #     similar_list.append(frame_silimar)
                 
-                # 只要短程记忆的长度大于2就进行合并, 合并到只剩2个
-                while len(self.short_memory_buffer) > self.short_memory_merge:
-                    max_value = max(similar_list)
-                    max_index = similar_list.index(max_value)
-                    # 取平均
-                    new_frame_feature = (self.short_memory_buffer[max_index].cpu()+self.short_memory_buffer[max_index+1].cpu())/2
-                    self.short_memory_buffer[max_index] = new_frame_feature.cuda()
-                    del(self.short_memory_buffer[max_index+1])
-                    similar_list = []
-                    # 重新算一遍相似度
-                    for frame_i in range(len(self.short_memory_buffer)-1):
-                        scores = self.short_memory_buffer[frame_i] @ self.short_memory_buffer[frame_i+1].transpose(-1, -2)
-                        frame_silimar = torch.mean(scores)
-                        similar_list.append(frame_silimar)
+                # # 只要短程记忆的长度大于2就进行合并, 合并到只剩2个
+                # while len(self.short_memory_buffer) > self.short_memory_merge:
+                #     max_value = max(similar_list)
+                #     max_index = similar_list.index(max_value)
+                #     # 取平均
+                #     new_frame_feature = (self.short_memory_buffer[max_index].cpu()+self.short_memory_buffer[max_index+1].cpu())/2
+                #     self.short_memory_buffer[max_index] = new_frame_feature.cuda()
+                #     del(self.short_memory_buffer[max_index+1])
+                #     similar_list = []
+                #     # 重新算一遍相似度
+                #     for frame_i in range(len(self.short_memory_buffer)-1):
+                #         scores = self.short_memory_buffer[frame_i] @ self.short_memory_buffer[frame_i+1].transpose(-1, -2)
+                #         frame_silimar = torch.mean(scores)
+                #         similar_list.append(frame_silimar)
                 
                 # 转移短程记忆后重置
                 for frame in self.short_memory_buffer:
@@ -552,6 +555,7 @@ class MovieChat(Blip2Base):
         # input shape b,c,t,h,w
         batch_size = 1 # batch_size:1 
         self.long_memory_buffer = [i.unsqueeze(0) for i in self.long_memory_buffer]
+        
 
         
         if middle_video:
@@ -618,23 +622,53 @@ class MovieChat(Blip2Base):
             return inputs_llama, atts_llama
 
         else:           
+            
+            self.long_memory_buffer = torch.cat(self.long_memory_buffer, dim=0) # T L C
+            print(self.long_memory_buffer.shape)
+            long_memory_buffer_mean = torch.mean(self.long_memory_buffer, dim=1).unsqueeze(0) # 1 T C
+            long_memory_buffer_dict = {"x": long_memory_buffer_mean,
+                  "token_num": long_memory_buffer_mean.size(1),  # 每个样本的token数量
+                  "idx_token": torch.arange(long_memory_buffer_mean.size(1))[None, :].repeat(long_memory_buffer_mean.size(0), 1), # token的索引
+                  "agg_weight": long_memory_buffer_mean.new_ones(long_memory_buffer_mean.size(0), long_memory_buffer_mean.size(1), 1), # token聚合的权重, 全是1
+                  "mask": None}
+            _, _, center_id = self.merge_block_global(long_memory_buffer_dict)
+            
+            center_id, _ = torch.sort(center_id)
+            print(center_id)
+            self.long_memory_buffer = self.long_memory_buffer[center_id, :, :]
+            print(self.long_memory_buffer.shape) # (1, T, 32, 768)
+            
             cur_video = []
             cur_pos = []
-            for i in range(len(self.long_memory_buffer)):
+            
+            # for i in range(len(self.long_memory_buffer)):
+            #     cur_pos.append(self.frame_position_embeddings[i])
+            #     cur_video.append(self.long_memory_buffer[i])
+            
+            for i in range(self.long_memory_buffer.size(1)):
                 cur_pos.append(self.frame_position_embeddings[i])
-                cur_video.append(self.long_memory_buffer[i])
             
             cur_pos = [j.unsqueeze(0) for j in cur_pos]
             cur_position_embeddings = torch.cat(cur_pos, dim=0)
             cur_position_embeddings = cur_position_embeddings.unsqueeze(-2) 
+            
             cur_position_embeddings = cur_position_embeddings.unsqueeze(0)
-            frame_hidden_state = torch.cat(cur_video, dim=0) #[1,32,768]
-            frame_hidden_state = einops.rearrange(frame_hidden_state, '(b t) q h -> b t q h', b=batch_size, t=len(self.long_memory_buffer)) #[64,32,768]
+            
+            # frame_hidden_state = torch.cat(cur_video, dim=0) #[1,32,768]
+            # frame_hidden_state = einops.rearrange(frame_hidden_state, '(b t) q h -> b t q h', b=batch_size, t=len(self.long_memory_buffer)) #[64,32,768]
+            
+            frame_hidden_state = self.long_memory_buffer.squeeze(0)
+            frame_hidden_state = einops.rearrange(frame_hidden_state, '(b t) q h -> b t q h', b=batch_size, t=self.long_memory_buffer.size(1)) #[64,32,768]
+            
+            
                 
             frame_hidden_state = cur_position_embeddings.to(device) + frame_hidden_state.to(device)
                 
             # frame attention
-            frame_hidden_state =  einops.rearrange(frame_hidden_state, 'b t q h -> b (t q) h',b=batch_size,t=len(self.long_memory_buffer)) 
+            
+            # frame_hidden_state =  einops.rearrange(frame_hidden_state, 'b t q h -> b (t q) h',b=batch_size,t=len(self.long_memory_buffer)) 
+            frame_hidden_state =  einops.rearrange(frame_hidden_state, 'b t q h -> b (t q) h',b=batch_size,t=self.long_memory_buffer.size(1)) 
+            
             frame_atts = torch.ones(frame_hidden_state.size()[:-1], dtype=torch.long).to(device) 
             video_query_tokens = self.video_query_tokens.expand(frame_hidden_state.shape[0], -1, -1) 
             # a video Q-former to aggregate frame-level representations 

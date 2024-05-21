@@ -596,9 +596,9 @@ if __name__ =='__main__':
                             output_json_file.write(json.dumps(result_data))
                             output_json_file.write("\n")
 
-            if count == 5:
-                import sys
-                sys.exit(0)
+            # if count == 5:
+            #     import sys
+            #     sys.exit(0)
     else:
         for file in json_files:
             if file.endswith('.json'):
@@ -638,7 +638,8 @@ if __name__ =='__main__':
                             question = question
                             )
                         # prompt = " <Video><ImageHere></Video> First, please count the number of fragments in the video. Second, please describe these fragments sequentially in less than 150 words."
-                        prompt = " <Video><ImageHere></Video> First, please count the number of fragments in the video. Second, please conclude the fragments in less than 150 words."
+                        # prompt = " <Video><ImageHere></Video> First, please count the number of fragments in the video. Second, please conclude the fragments in less than 150 words."
+                        prompt = " <Video><ImageHere></Video> Please describe the video in less than 100 words: "
                         
                         chain_1_msg = chat.answer(img_list=img_list,
                             input_text=prompt,
@@ -655,7 +656,7 @@ if __name__ =='__main__':
                         for qa_key in movie_data["global"]:
                             question = qa_key['question']
                             print(question)
-                            prompt = " <Video><ImageHere></Video> Here is the caption: " + chain_1_msg + " Here is the question: " + question + " Answer the question briefly according to the video and the description: "
+                            prompt = " <Video><ImageHere></Video> Here is the caption: " + chain_1_msg + " Here is the question: " + question + " Answer the question according to the video and the description in less than 20 words:"
                             llm_message = chat.answer(img_list=img_list,
                                 input_text=prompt,
                                 msg = msg,
@@ -663,6 +664,16 @@ if __name__ =='__main__':
                                 temperature=temperature,
                                 max_new_tokens=300,
                                 max_length=2000)[0]
+                            if llm_message == "":
+                                prompt = " <Video><ImageHere></Video> Here is the description: " + chain_1_msg + " Here is the question: " + question
+                                llm_message = chat.answer(img_list=img_list,
+                                input_text=prompt,
+                                msg = msg,
+                                num_beams=num_beams,
+                                temperature=temperature,
+                                max_new_tokens=300,
+                                max_length=2000)[0]
+                                
                             qa_key['pred'] = llm_message
                             global_value.append(qa_key)
                         result_data = {}
@@ -671,9 +682,9 @@ if __name__ =='__main__':
                             output_json_file.write(json.dumps(result_data))
                             output_json_file.write("\n")
             
-            # if count == 5:
-            #     import sys
-            #     sys.exit(0)
+            if count == 5:
+                import sys
+                sys.exit(0)
 
 
 
