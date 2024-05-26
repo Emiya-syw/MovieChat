@@ -48,3 +48,4 @@ ckpt/
 MovieChat-1K-test/
 CLIP/
 jsons/
+*.png
