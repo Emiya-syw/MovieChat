@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "132.mp4",
+  "url": "",
+  "class": "Family Drama",
+  "w": 1024,
+  "h": 576,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "In the bathroom, two boys put chipmunks into the toilet. One chipmunk stands on the table. A woman signals them to go to her office. They sit at the woman's desk, and she talks to three chipmunks. The woman shows them her tattoo on her arm. A man walks in the hallway with a briefcase, which has three chipmunks on it. They enter a room, open the door, and together admire the night view outside the window. The scene shifts to another man, sitting at home and watching TV. A boy stands in the hallway, with a piece of paper taped behind him. Finally, one boy lies on the bed, sleeping.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does it happen in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day and night."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "How many chipmunks appeared in the clip?",
+   "answer": "Six."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 720,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 1440,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 2160,
+   "question": "Where is the scene?",
+   "answer": "In an office."
+  },
+  {
+   "time": 2880,
+   "question": "What is the animal?",
+   "answer": "A chipmunk."
+  },
+  {
+   "time": 3600,
+   "question": "What is the clothes color of the person?",
+   "answer": "White."
+  },
+  {
+   "time": 4320,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 5040,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 5760,
+   "question": "What pattern is on man's clothes?",
+   "answer": "White circle."
+  },
+  {
+   "time": 6480,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 7200,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 7920,
+   "question": "Where are the chipmunks?",
+   "answer": "On a chair."
+  },
+  {
+   "time": 8640,
+   "question": "Where is the scene?",
+   "answer": "In the living room."
+  },
+  {
+   "time": 9360,
+   "question": "What is the clothes color of the person?",
+   "answer": "Grey."
+  },
+  {
+   "time": 10080,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  }
+ ]
+}

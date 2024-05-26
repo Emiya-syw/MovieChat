@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "s01e01-7.mp4",
+  "url": "",
+  "class": "epic film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "This is a wonderful epic series clip. The background of it is in middle age. Two men are engaged in a friendly conversation. At a certain point, one of them says something and walks into the party, while the other man leaves the party and encounters a son in a room. They have a conversation. The son says some words that greatly shock the man. The man contemplates for a while, then returns to the party, engaging with the people there.Two women, along with their sons and daughters, are conversing and seem to appreciate each other. One man provokes another, but the latter doesn't respond. Later that evening, in a room, a man and a woman are lying in bed asleep when someone enters and hands them a letter. After reading it, they are deeply shocked.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "More than ten."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Night."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 750,
+   "question": "How many people appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 1500,
+   "question": "What is the clothes color of the person?",
+   "answer": "Brown."
+  },
+  {
+   "time": 2250,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 3000,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 3750,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 4500,
+   "question": "Does the person look happy?",
+   "answer": "Yes."
+  },
+  {
+   "time": 5250,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 6000,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 6750,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 7500,
+   "question": "Where is it?",
+   "answer": "In a room."
+  },
+  {
+   "time": 8250,
+   "question": "What is the scene?",
+   "answer": "A couple on a bed."
+  },
+  {
+   "time": 9000,
+   "question": "How many people appeared?",
+   "answer": "Three."
+  },
+  {
+   "time": 9750,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 10500,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  }
+ ]
+}

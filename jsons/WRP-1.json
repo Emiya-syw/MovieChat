@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "WRP-1.mp4",
+        "url": "",
+        "class": "Crime Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "The video begins with a woman being told by doctors that she has a life-threatening tumor and needs surgery and radiation treatment as soon as possible. In the middle of the video, another woman and a man discuss the woman's condition in a restaurant and offer her full support for her treatment. In the next scene, the woman and the man are driving somewhere else. Their conversations and actions lead them to run into an animal and have a car accident. The next part of the video shows the scene one year later. A man walks into a grocery store and has a friendly conversation with the owner. The shopkeeper showed the man something and then gave him a set of keys. The man makes eye contact with the animal on the wall.",
+    "global":
+    [
+        {
+            "question":"When does the things in the video happens, acient, modern, or in the future?",
+            "answer":"It happens at modern time."
+        },
+        {
+            "question":"Are there more than five different places appear in the video(scene switch doesn't necessarily means a place change)?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than five different characters appear?",
+            "answer":"Yes."
+        },
+        {
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Mainly at day time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly indoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"Is there any characters appear?",
+            "answer":"No."
+        },
+        {
+            "time":1600,
+            "question":"Is the woman wearing a hat?",
+            "answer":"No."
+        },
+        {
+            "time":2200,
+            "question":"what's the gender of the person in the middle?",
+            "answer":"She is a woman."
+        },
+        {
+            "time":2950, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":3850,
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":4590,
+            "question":"Is the man bald?",
+            "answer":"Yes."
+        },
+        {
+            "time":5250,
+            "question":"what's in the scene?",
+            "answer":"A woman is talking."
+        },
+        {
+            "time":6100,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":6750, 
+            "question":"How many characters appear in the scene?",
+            "answer":"Two."
+        },
+        {
+            "time":7550,
+            "question":"Is there any vehicles?",
+            "answer":"Yes."
+        },
+        {
+            "time":8200,
+            "question":"what color is the woman's hair?",
+            "answer":"Golden."
+        },
+        {
+            "time":9000, 
+            "question":"How many characters wear a hat?",
+            "answer":"One."
+        },
+        {
+            "time":9750,
+            "question":"Is there more than ten people?",
+            "answer":"No."
+        },
+        {
+            "time":10600, 
+            "question":"Is there more than five people?",
+            "answer":"No."
+        },
+        {
+            "time":11000,
+            "question":"Is there more than three people?",
+            "answer":"No."
+        }
+    ]
+}

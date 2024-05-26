@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "MI6-4.mp4",
+  "url": "",
+  "class": "action film",
+  "w": 720,
+  "h": 480,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "It’s a part of a movie. The theme of the movie is spy and agent. Two men walk into a plane, but it seems that their relationship is not good. They are preparing something on the plane. They look at something on their computer, it’s a photo of a man. But they then have an argument. After that, one man opens the door of the plane and jumps out of it. Another man is cross, and he jump after him. The first man hit something in the sky, and he loses his consciousness. The second man saves his life, and then they land on the roof of a hall.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "More than ten."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 750,
+   "question": "Where is it?",
+   "answer": "In a plane."
+  },
+  {
+   "time": 1500,
+   "question": "How many people appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 2250,
+   "question": "Are there any vehicles?",
+   "answer": "Yes."
+  },
+  {
+   "time": 3000,
+   "question": "What is the background color?",
+   "answer": "Dark red."
+  },
+  {
+   "time": 3750,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 4500,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 5250,
+   "question": "Where is it?",
+   "answer": "In the sky."
+  },
+  {
+   "time": 6000,
+   "question": "Where is it?",
+   "answer": "In the sky."
+  },
+  {
+   "time": 6750,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 7500,
+   "question": "How many people appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 8250,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 9000,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 9750,
+   "question": "What is in the person's hand?",
+   "answer": "A cellphone."
+  },
+  {
+   "time": 10500,
+   "question": "Where is it?",
+   "answer": "In a bar."
+  }
+ ]
+}

@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "AWS-1.mp4",
+        "url": "",
+        "class": "Family Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "The video showcases a slice of ordinary daily life. It begins with a man coming home from work, washing up at the sink, and then relaxing in his house. On the other side, a girl finishes her day at work, greets her best friend, and returns home to join the boy in taking care of their small but cozy home. They seem to be setting up their new home. The latter half of the video shifts into a more metaphorical portrayal with black and white imagery. The man walks into the mist, heading toward the beach. Then, a year later, it is the woman who emerges from the fog.",
+    "global":
+    [
+        {
+            "question":"When does the things in the video happens, acient, modern, or in the future?",
+            "answer":"It happens at modern time."
+        },
+        {
+            "question":"Are there more than six different places appear in the video(scene switch doesn't necessarily means a place change)?",
+            "answer":"No."
+        },
+        {
+            "question":"Is there more than five different characters appear?",
+            "answer":"No."
+        },
+        {
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Mainly at day time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly indoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":650, 
+            "question":"Is there any characters?",
+            "answer":"No."
+        },
+        {
+            "time":1600,
+            "question":"where is the scene?",
+            "answer":"At the door of a house."
+        },
+        {
+            "time":2250,
+            "question":"where is the scene?",
+            "answer":"In a house."
+        },
+        {
+            "time":3100, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":3650,
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":4600,
+            "question":"How many men appear in the scene?",
+            "answer":"One."
+        },
+        {
+            "time":5150,
+            "question":"Is there any vehicles?",
+            "answer":"No."
+        },
+        {
+            "time":6100,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":6750, 
+            "question":"How many people appear in the scene?",
+            "answer":"Two."
+        },
+        {
+            "time":7500,
+            "question":"Does the woman wear a hat?",
+            "answer":"No."
+        },
+        {
+            "time":8250,
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":9000, 
+            "question":"what's the weather like?",
+            "answer":"It's foggy."
+        },
+        {
+            "time":9750,
+            "question":"Is there more than ten people?",
+            "answer":"No."
+        },
+        {
+            "time":10500, 
+            "question":"what's the weather like?",
+            "answer":"It's foggy."
+        },
+        {
+            "time":11000,
+            "question":"Is there more than three people?",
+            "answer":"No."
+        }
+    ]
+}

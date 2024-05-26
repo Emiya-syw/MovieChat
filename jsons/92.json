@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "92.mp4",
+  "url": "",
+  "class": "Family Drama",
+  "w": 1024,
+  "h": 432,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "The location is inside a house where a couple lives with their two daughters and a pet cat. One of the girls enters an imaginative moment, envisioning a giant crane lifting the house and loading it onto a truck that gradually drives away. The two girls wander around inside the house. Later, a woman in yellow clothing enters. The girls chat inside the house and interact with the pet cat. During the day, the girls and the one in the blue clothes sell lemonade outside. A boy in a blue shirt arrives, takes a sip of the lemonade, but spits it out. The girl in the blue dress lies down on a bed, while the girl in yellow clothing walks in the garden. ",
+ "global": [
+  {
+   "question": "When does it happens in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  },
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "No."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 720,
+   "question": "Where is the scene?",
+   "answer": "At the stair case."
+  },
+  {
+   "time": 1440,
+   "question": "Where is the scene?",
+   "answer": "On the road."
+  },
+  {
+   "time": 2160,
+   "question": "How does the person feel?",
+   "answer": "Sad."
+  },
+  {
+   "time": 2880,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 3600,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 4320,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 5040,
+   "question": "What is the animal?",
+   "answer": "A cat."
+  },
+  {
+   "time": 5760,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 6480,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 7200,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 7848,
+   "question": "What is the clothes color of the person?",
+   "answer": "Blue."
+  },
+  {
+   "time": 8640,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 9384,
+   "question": "Where is the scene?",
+   "answer": "In the bedroom."
+  },
+  {
+   "time": 10080,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  }
+ ]
+}

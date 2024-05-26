@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "18.mp4",
+  "url": "",
+  "class": "Family Drama",
+  "w": 848,
+  "h": 464,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "The woman watched the television intently, where a man was performing. Her companion observed her silently, noticing the deep emotional impact the TV program seemed to have on her. She appeared profoundly moved, her face clouded with sorrow. Eventually, she wept.She went to a solitary bridge by the seaside, gazing at the coastal scenery, consumed by her thoughts. In the evening, the man and the woman had a date in a vast field. They chased each other, reveling in the joy of the moment. Later, a group gathered on the beach for a lively barbecue party, full of laughter and enjoyment. At night, the man and the woman conversed at an opening by the seaside.",
+ "global": [
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day and night."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Are there more than 5 characters?",
+   "answer": "Yes."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 792,
+   "question": "What is this?",
+   "answer": "Newspaper."
+  },
+  {
+   "time": 1440,
+   "question": "What is the clothes color of the person?",
+   "answer": "Blue."
+  },
+  {
+   "time": 2136,
+   "question": "Is the person a man or a woman?",
+   "answer": "Woman."
+  },
+  {
+   "time": 2904,
+   "question": "Is the person a man or a woman?",
+   "answer": "Man."
+  },
+  {
+   "time": 3624,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 4368,
+   "question": "Is the person a man or a woman?",
+   "answer": "Man."
+  },
+  {
+   "time": 5040,
+   "question": "Does the gril look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 5760,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 6480,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 7200,
+   "question": "Where is the scene?",
+   "answer": "In the field."
+  },
+  {
+   "time": 7920,
+   "question": "Where is the scene?",
+   "answer": "By the sea."
+  },
+  {
+   "time": 8640,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 9360,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 10152,
+   "question": "How many people are there?",
+   "answer": "Two."
+  }
+ ]
+}

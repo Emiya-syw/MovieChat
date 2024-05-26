@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "S01E3-7.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 10000,
+  "fps": 25
+ },
+ "caption": "This video provides a summary of the content of episode 3, part 7 of a TV series. Raoul is a friend of the writer, set against the backdrop of his sister's passing. The writer addresses questions about his sister in public, mentioning her experiences with transforming a girl. The writer has had interactions with someone called the Home Secretary, whose appearance has been altered. The writer spends time daily in a palace, but missed a day. There's an article about a singer in the Home Secretary's office. The writer's late sister's friend gifted him a cat named Sekhmet. The writer, along with another individual, searches for something in an office. They review foreign articles, and the writer indicates they have obtained what they were seeking.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Morden"
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both"
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "No."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "Five."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What is the person doing?",
+   "answer": "Sitting on a sofa."
+  },
+  {
+   "time": 750,
+   "question": "What is the clothes color of the person?",
+   "answer": "Purple."
+  },
+  {
+   "time": 1500,
+   "question": "How many people  appeared?",
+   "answer": "Three."
+  },
+  {
+   "time": 2250,
+   "question": "Where is it?",
+   "answer": "In a room."
+  },
+  {
+   "time": 3000,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 3750,
+   "question": "Where is it?",
+   "answer": "In a house."
+  },
+  {
+   "time": 4500,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 5250,
+   "question": "What are the peeple doing?",
+   "answer": "Taking photos."
+  },
+  {
+   "time": 6000,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 6750,
+   "question": "Where is it?",
+   "answer": "On the street."
+  },
+  {
+   "time": 7500,
+   "question": "Where is it?",
+   "answer": "In an office."
+  },
+  {
+   "time": 8250,
+   "question": "How many people  appeared?",
+   "answer": "Three,"
+  },
+  {
+   "time": 9000,
+   "question": "What are the peeple doing?",
+   "answer": "Taking a phone call."
+  },
+  {
+   "time": 9750,
+   "question": "Where is it?",
+   "answer": "In a room."
+  },
+  {
+   "time": 10500,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  }
+ ]
+}

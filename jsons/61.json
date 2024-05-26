@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "61.mp4",
+  "url": "",
+  "class": "History Film",
+  "w": 1024,
+  "h": 572,
+  "num_frame": 11040,
+  "fps": 23
+ },
+ "caption": "A man enters the room and touches the teapot on the table. He is accompanied by a lady and a man in a suit. He and the man in the suit sit by the fireplace and engage in conversation, while the lady sits at the table enjoying refreshments. Later, another woman enters the room and seems somewhat surprised to see the people in the room. After some greetings and exchanges in the room, the scene shifts to a vast hall with a throne for a king. People are bustling around in the hall, going about their business. An elderly man with white hair is in conversation with two others, and a man is seated in a red chair in the hall.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "On which continent the story takes palce?",
+   "answer": "Europe."
+  },
+  {
+   "question": "Is this cartoon?",
+   "answer": "No."
+  },
+  {
+   "question": "Does the story happen in the 21st century?",
+   "answer": "No."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 23,
+   "question": "Where is the scene?",
+   "answer": "At the dinning table."
+  },
+  {
+   "time": 690,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 1380,
+   "question": "Where is the scene?",
+   "answer": "By the stove."
+  },
+  {
+   "time": 2070,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 2760,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 3450,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 4163,
+   "question": "Is the person a man or a woman?",
+   "answer": "Woman."
+  },
+  {
+   "time": 4853,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 5543,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 6233,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 6900,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 7590,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 8280,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 8970,
+   "question": "Is the person a man or a woman?",
+   "answer": "Man."
+  },
+  {
+   "time": 9660,
+   "question": "Where is the scene?",
+   "answer": "At the hall."
+  }
+ ]
+}

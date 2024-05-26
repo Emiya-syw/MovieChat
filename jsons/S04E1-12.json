@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "S04E1-12.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "Inside an aquarium, a woman is surrounded by a group of people, looking cornered and seemingly involved in a crime, displaying evident fear. Eventually, she fires a shot at a man she is conversing with, only for another woman to dive in front, taking the bullet. The woman falls to the ground, causing immense panic among the bystanders. As her husband rushes to her side, efforts to save her prove futile, and she succumbs to her injuries. Following this tragedy, the woman is cremated, and the elderly woman who fired the shot is apprehended. The deceased woman's husband stands silent in front of her tombstone, mourning her loss. The man she saved later seeks a doctor, concerned about his mental well-being after the traumatic event. The scene transitions to his home where he appears extremely agitated.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "Nine."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "How does the person feel?",
+   "answer": "Serious."
+  },
+  {
+   "time": 750,
+   "question": "What is happening?",
+   "answer": "A woman is shot."
+  },
+  {
+   "time": 1500,
+   "question": "How does the person feel?",
+   "answer": "Sad."
+  },
+  {
+   "time": 2250,
+   "question": "What is the person doing?",
+   "answer": "Lying on a chair and saying something."
+  },
+  {
+   "time": 3000,
+   "question": "What is the background color?",
+   "answer": "Blue."
+  },
+  {
+   "time": 3750,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 4500,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 5250,
+   "question": "How many people appeared?",
+   "answer": "Three."
+  },
+  {
+   "time": 6000,
+   "question": "What is the scene?",
+   "answer": "A person."
+  },
+  {
+   "time": 6750,
+   "question": "What is the scene?",
+   "answer": "A woman with black skin."
+  },
+  {
+   "time": 7500,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 8250,
+   "question": "How many people appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 9000,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 9750,
+   "question": "Where is it?",
+   "answer": "In a room."
+  },
+  {
+   "time": 10500,
+   "question": "What are the people doing?",
+   "answer": "Communicating."
+  }
+ ]
+}

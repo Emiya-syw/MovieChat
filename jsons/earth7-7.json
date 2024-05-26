@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "earth7-7.mp4",
+  "url": "",
+  "class": "documentary film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "The video tells the story of a pride of cats on an African beach, struggling to survive during the dry season, but coming to life again when the rainy season arrives. The grass is their eternal home, but they must change their behavior to adapt to the new environment. This cat is too big and too difficult to catch. The lonely cat has no chance to stand up. The whole pride is here. There have been huge changes on the African baking beach. The rain has soaked the beach, and the grass of great life has reappeared, and the river buffalo has come back again. Good times are back. On the African beach, grass is an eternal home, but they must change their behavior to adapt to the new environment. Some animals live here for a year. The grass is soaked, but still growing. The beach is submerged, scorched, scorching, and cooling. The grass can withstand everything. There are several very special African beaches. Grass replaces the beach and struggles in a huge area. Fresh beaches flow from a distance to the animals. Africa beach grass dry season rainy season survival environmental change.",
+ "global": [
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Are there any human?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen in the cities?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Are there any human?",
+   "answer": "No."
+  },
+  {
+   "time": 750,
+   "question": "What kind of animal is it?",
+   "answer": "Lion."
+  },
+  {
+   "time": 1500,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 2250,
+   "question": "Are there any water?",
+   "answer": "No."
+  },
+  {
+   "time": 3000,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 3750,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 4500,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 5250,
+   "question": "What is the scene?",
+   "answer": "The earth."
+  },
+  {
+   "time": 6000,
+   "question": "Are there any water?",
+   "answer": "Yes."
+  },
+  {
+   "time": 6750,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 7500,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 8250,
+   "question": "What is the background color?",
+   "answer": "Green."
+  },
+  {
+   "time": 9000,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 9750,
+   "question": "Are there any water?",
+   "answer": "Yes."
+  },
+  {
+   "time": 10500,
+   "question": "Are there any human?",
+   "answer": "No."
+  }
+ ]
+}

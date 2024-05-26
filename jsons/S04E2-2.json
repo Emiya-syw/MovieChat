@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "S04E2-2.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "At night, in a tall building, there's a table with many people seated around it. Next to them stands a chubby man in white attire. He shares some information with them, his expression even more exaggerated and unrestrained. Many who heard this news appear terrified, but they're soon forced to use an item, and their vision starts to blur before they faint. A woman manages to escape and seems intent on writing something on paper. However, she's quickly discovered by the man. Later, she forgets everything and seeks out a detective, seemingly wanting him to piece together the past events. She hands the detective a piece of paper, and he starts to inspect it carefully.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "No."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "More than ten."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Night."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 750,
+   "question": "What is the clothes color of the person?",
+   "answer": "White."
+  },
+  {
+   "time": 1500,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 2250,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 3000,
+   "question": "What is the person doing?",
+   "answer": "Writing something."
+  },
+  {
+   "time": 3750,
+   "question": "Where is it?",
+   "answer": "In a tall building."
+  },
+  {
+   "time": 4500,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 5250,
+   "question": "What is the background color?",
+   "answer": "Yellow."
+  },
+  {
+   "time": 6000,
+   "question": "How many people appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 6750,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 7500,
+   "question": "Where is it?",
+   "answer": "In a room."
+  },
+  {
+   "time": 8250,
+   "question": "What is the clothes color of the person?",
+   "answer": "Red."
+  },
+  {
+   "time": 9000,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 9750,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 10500,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "s01e03-3.mp4",
+  "url": "",
+  "class": "epic film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "This is a wonderful epic series clip. The background of it is in middle age. A father and his daughter are in conversation, and the girl holds a sword in her hand, but her expression appears very despondent. Her father comforts her, and the girl regains her composure. She twirls the sword briefly and then puts it away. Afterward, her father departs. In a high tower, a child lies in bed, having awakened. Sitting beside him is an elderly woman knitting, and they are engaged in conversation. Meanwhile, a group of horsemen enters a city, led by a woman and a plump man. The woman follows the man into a house where they are greeted by another man. It seems they are holding some kind of secretive meeting.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does more than ten people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "How does the person feel?",
+   "answer": "Sad."
+  },
+  {
+   "time": 750,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 1500,
+   "question": "How many people appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 2250,
+   "question": "What is in the person's hand?",
+   "answer": "A sword."
+  },
+  {
+   "time": 3000,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 3750,
+   "question": "Where is it?",
+   "answer": "In a bedroom."
+  },
+  {
+   "time": 4500,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 5250,
+   "question": "What is happening?",
+   "answer": "The door is opened by a man."
+  },
+  {
+   "time": 6000,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 6750,
+   "question": "What is the person doing?",
+   "answer": "Saying something on the bed."
+  },
+  {
+   "time": 7500,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 8250,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 9000,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 9750,
+   "question": "What is the clothes color of the person?",
+   "answer": "Brown."
+  },
+  {
+   "time": 10500,
+   "question": "What is in the person's hand?",
+   "answer": "A knife."
+  }
+ ]
+}

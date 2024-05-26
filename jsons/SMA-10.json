@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "SMA-10.mp4",
+        "url": "",
+        "class": "Animation Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "Several individuals are flying through the air, suspended by threads. They descend from the sky to the ground and continue to navigate the city while hanging from threads. In front of a computer, a person is typing on a keyboard. Someone wearing a black mask touches a glowing object, resulting in a powerful electric shock in their hand. Then, a person with a guitar appears. Several people fly around inside a room. A person in white attire grasps the neck of the person in black attire, causing a massive explosion. The white figure vanishes into a chaotic black void. The scene turns black and white, and a chaotic mass emerges. Everyone starts running. A building appears to have been severed in half, and city structures begin to collapse. Several people are flying in the air.",
+    "global":
+    [
+        {
+            "question":"Is it a video based on reality or not?(Is it a cartoon movie?)",
+            "answer":"No. It seems like an animated movie."
+        },
+        {
+            "question":"Are there more than four different places appear in the video(scene switch doesn't necessarily means a place change)?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than five different characters appear?",
+            "answer":"Yes."
+        },
+        {
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Both at day time and at night time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly indoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":1500,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":2250,
+            "question":"Is there any vehicles?",
+            "answer":"No."
+        },
+        {
+            "time":3000, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":3750,
+            "question":"what's the spiderman hold in hand?",
+            "answer":"A guitar."
+        },
+        {
+            "time":4550,
+            "question":"what's in the scene?",
+            "answer":"A spiderman."
+        },
+        {
+            "time":5250,
+            "question":"Are there any vehicles?",
+            "answer":"No."
+        },
+        {
+            "time":6000,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":6850, 
+            "question":"what happens?",
+            "answer":"There's a big explosion."
+        },
+        {
+            "time":7600,
+            "question":"How many people appear in the scene?",
+            "answer":"One."
+        },
+        {
+            "time":8250,
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":9000, 
+            "question":"where is the scene?",
+            "answer":"On a collapsing building."
+        },
+        {
+            "time":9750,
+            "question":"Is there more than five people?",
+            "answer":"No."
+        },
+        {
+            "time":10470, 
+            "question":"Is there more than ten people?",
+            "answer":"No."
+        },
+        {
+            "time":11100,
+            "question":"Is there more than three people?",
+            "answer":"Yes."
+        }
+    ]
+}

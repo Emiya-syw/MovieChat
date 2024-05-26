@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "s01e01-8.mp4",
+  "url": "",
+  "class": "epic film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "This is a wonderful epic series clip. The background of it is in middle age. Three people are in a room, and it appears that one man is subordinate to another man and a woman. They are discussing something with very serious expressions.Meanwhile, in the morning, by the seaside, a party is taking place with people cheering. Seated at the head is a man resembling a chieftain, and there are some people seated beside him. Two warriors below are engaged in combat, and one of them kills the other. Simultaneously, gifts keep getting presented to a woman, with the most notable gift being a large egg. The woman becomes upset over it. Then, that evening, the woman meets the chieftain-like man by the seaside.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "More than ten."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 750,
+   "question": "How many people appeared?",
+   "answer": "Three."
+  },
+  {
+   "time": 1500,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 2250,
+   "question": "Where is it?",
+   "answer": "Seaside"
+  },
+  {
+   "time": 3000,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 3750,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 4500,
+   "question": "What are the people doing?",
+   "answer": "Fighting."
+  },
+  {
+   "time": 5250,
+   "question": "Does the person look happy?",
+   "answer": "Yes."
+  },
+  {
+   "time": 6000,
+   "question": "What is the scene?",
+   "answer": "A woman."
+  },
+  {
+   "time": 6750,
+   "question": "What is in the person's hand?",
+   "answer": "An egg."
+  },
+  {
+   "time": 7500,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 8250,
+   "question": "What is the scene?",
+   "answer": "Crowds of people."
+  },
+  {
+   "time": 9000,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 9750,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 10500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  }
+ ]
+}

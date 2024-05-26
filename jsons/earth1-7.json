@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "earth1-7.mp4",
+  "url": "",
+  "class": "documentary film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "This video showcases a group of dogs displaying teamwork and coordination as they hunt for taro. They collaborate, utilizing an aerial perspective to locate and capture the taro. In the end, they successfully retrieve the taro and bring it back to the group, highlighting the challenges of survival in extreme conditions and the balance within the ecosystem. Key highlights include the dogs' fondness for taro, using an aerial view to track and capture it. The dogs work in tandem, spreading out as they near their target, with the taro attempting to escape to hidden locations, only for leading dogs to cut off its escape routes and rally the team for the final assault. Though the dogs are brimming with strength, the taro counters with speed, but ultimately, the dogs triumph and secure their prize. Their journey, spanning several weeks, eventually brings them to a water source. This narrative emphasizes the challenges posed by harsh environments and the equilibrium of ecosystems. The process of \"fishing\" further accentuates the significance of water and environmental impacts.",
+ "global": [
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Are there any human?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen in the cities?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Are there any human?",
+   "answer": "No."
+  },
+  {
+   "time": 750,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 1500,
+   "question": "What kind of animal is it?",
+   "answer": "Deer."
+  },
+  {
+   "time": 2250,
+   "question": "What is happening?",
+   "answer": "A hunting."
+  },
+  {
+   "time": 3000,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 3750,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 4500,
+   "question": "Where is it?",
+   "answer": "Beside a lake."
+  },
+  {
+   "time": 5250,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 6000,
+   "question": "What kind of animal is it?",
+   "answer": "Elephant."
+  },
+  {
+   "time": 6750,
+   "question": "Are there any mountains",
+   "answer": "No."
+  },
+  {
+   "time": 7500,
+   "question": "Where is it?",
+   "answer": "A wetland."
+  },
+  {
+   "time": 8250,
+   "question": "How is the weather?",
+   "answer": "Sunny."
+  },
+  {
+   "time": 9000,
+   "question": "Are there any water?",
+   "answer": "Yes."
+  },
+  {
+   "time": 9750,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 10500,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  }
+ ]
+}

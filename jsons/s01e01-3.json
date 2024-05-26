@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "s01e01-3.mp4",
+  "url": "",
+  "class": "epic film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "This is a wonderful epic series clip. The background of it is in middle age. A man held a sword in his hand, and beside him, a frightened-looking child stood as they conversed. It appeared that the man with the sword was the father, and the child was his son. They mounted their horses and rode away. Later, by the side of a bridge, they stumbled upon the corpse of a deer. They examined the deer's body and then discovered the body of a mother wolf nearby. From the mother wolf's belly, they retrieved five wolf cubs. After some discussion, they decided to take the cubs with them.Meanwhile, in a city, inside a palace, a man, a cheerful man, was engaged in a happy conversation with a woman. The scene shifted, and the man who had the sword earlier was now sitting by a lake, wiping his sword by the lakeside.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "More than ten."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 750,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 1500,
+   "question": "How many people appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 2250,
+   "question": "How many people appeared?",
+   "answer": "Three."
+  },
+  {
+   "time": 3000,
+   "question": "Where is it?",
+   "answer": "In a forest."
+  },
+  {
+   "time": 3750,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 4500,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 5250,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 6000,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 6750,
+   "question": "Where is it?",
+   "answer": "In a hall."
+  },
+  {
+   "time": 7500,
+   "question": "How many people appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 8250,
+   "question": "What is the clothes color of the person?",
+   "answer": "Pink."
+  },
+  {
+   "time": 9000,
+   "question": "How does the person feel?",
+   "answer": "At ease."
+  },
+  {
+   "time": 9750,
+   "question": "Where is it?",
+   "answer": "In a markert."
+  },
+  {
+   "time": 10500,
+   "question": "Where is it?",
+   "answer": "Beside a lake."
+  }
+ ]
+}

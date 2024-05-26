@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "88.mp4",
+  "url": "",
+  "class": "Animation Film",
+  "w": 1280,
+  "h": 688,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "On the hilltop during twilight, there was a fox. He circled around a tree several times. They walked shoulder to shoulder on the hillside. As they continued walking, they arrived at a farm. They stealthily entered the farm, navigating through various obstacles to avoid being noticed. Suddenly, a large cage descended from the sky. Inside the house, a fox was reading a newspaper. Breakfast was laid out in front of him. The fox's wife, dressed in yellow, was present. A mole came to the fox's house to inspect the drainage system. Three animals were chatting in the living room.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "No."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day and night."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does it happens in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 1896,
+   "question": "What is the object?",
+   "answer": "A book."
+  },
+  {
+   "time": 2160,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 2880,
+   "question": "Where is the scene?",
+   "answer": "On a hill."
+  },
+  {
+   "time": 3600,
+   "question": "Where is the scene?",
+   "answer": "On a town."
+  },
+  {
+   "time": 4320,
+   "question": "What is the animal?",
+   "answer": "A fox."
+  },
+  {
+   "time": 5040,
+   "question": "Where is the scene?",
+   "answer": "In a yard."
+  },
+  {
+   "time": 5760,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 6600,
+   "question": "Are there any vehicles?",
+   "answer": "Yes."
+  },
+  {
+   "time": 7200,
+   "question": "What is the fox reading?",
+   "answer": "Newspaper."
+  },
+  {
+   "time": 7920,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 8640,
+   "question": "What is the fox doing?",
+   "answer": "Eating."
+  },
+  {
+   "time": 9360,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 10080,
+   "question": "Where is the scene?",
+   "answer": "In the kitchen."
+  },
+  {
+   "time": 10800,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 11304,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  }
+ ]
+}

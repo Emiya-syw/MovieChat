@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "197.mp4",
+  "url": "",
+  "class": "Romance Film",
+  "w": 1024,
+  "h": 432,
+  "num_frame": 12000,
+  "fps": 25
+ },
+ "caption": "A woman leaned against a door, looking inside, while another man approached while eating. A man lay on a bed, playing a game, and a woman stood in front of him. The man later lay on the bed with a book. After a while, the man started spitting blood into a basin. The woman walked down the street and began making a phone call. She arrived at a sports field and later entered an art studio. From a distance, she saw another woman feeding a man and the two of them kissing. The woman called the man on the phone. Two women sat on a sofa, chatting, and another man entered the scene.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  },
+  {
+   "question": "When does it happen in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Does this video more probably happen in Europe or Asia?",
+   "answer": "Asia."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 750,
+   "question": "Where is the scene?",
+   "answer": "In the bedroom."
+  },
+  {
+   "time": 1500,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 2250,
+   "question": "What is the person doing?",
+   "answer": "Lying on the bed."
+  },
+  {
+   "time": 3000,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 3750,
+   "question": "Where is the scene?",
+   "answer": "In the bathroom."
+  },
+  {
+   "time": 4500,
+   "question": "Where is the scene?",
+   "answer": "On the road."
+  },
+  {
+   "time": 5250,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 6000,
+   "question": "Where is the scene?",
+   "answer": "At a bus stop."
+  },
+  {
+   "time": 6750,
+   "question": "Where is the scene?",
+   "answer": "In the gym."
+  },
+  {
+   "time": 7500,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 8250,
+   "question": "What are the people doing?",
+   "answer": "Kissing."
+  },
+  {
+   "time": 9000,
+   "question": "What is the person doing?",
+   "answer": "Making a phone call."
+  },
+  {
+   "time": 9750,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 10500,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  }
+ ]
+}

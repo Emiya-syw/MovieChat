@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "57.mp4",
+  "url": "",
+  "class": "History Film",
+  "w": 1024,
+  "h": 572,
+  "num_frame": 11040,
+  "fps": 23
+ },
+ "caption": "A well-dressed lady in a luxurious room communicates with a suited gentleman. The man briefly leaves the room but returns, and after a conversation, they shake hands. Back at home, a man shares a meal at the dining table with his family. A man enters a room from the hallway, where his wife and two daughters sit by the fireplace. He sits down, chats with the children, and embraces them. Soon after, he departs with his wife, walking down the stairs. The scene transitions to a man standing alone on a stage in an empty room, with three people seated in the audience.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "On which continent the story takes palce?",
+   "answer": "Europe."
+  },
+  {
+   "question": "Is this cartoon?",
+   "answer": "No."
+  },
+  {
+   "question": "Does the story happen in the 21st century?",
+   "answer": "No."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 23,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 736,
+   "question": "Is the person a man or a woman?",
+   "answer": "Woman."
+  },
+  {
+   "time": 1426,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 2116,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 2806,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 3450,
+   "question": "Where is the scene?",
+   "answer": "On the streets."
+  },
+  {
+   "time": 4140,
+   "question": "Is the person a man or a woman?",
+   "answer": "Woman."
+  },
+  {
+   "time": 4830,
+   "question": "Where is the scene?",
+   "answer": "In the living room."
+  },
+  {
+   "time": 5520,
+   "question": "Are there any animals?",
+   "answer": "Yes, a dog."
+  },
+  {
+   "time": 6210,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 6900,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 7590,
+   "question": "What is behind the girl?",
+   "answer": "Stove fire."
+  },
+  {
+   "time": 8165,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 9085,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 9660,
+   "question": "Are there any plants?",
+   "answer": "No."
+  }
+ ]
+}

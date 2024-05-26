@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "FAF-1.mp4",
+        "url": "",
+        "class": "Action Film",
+        "w": 720,
+        "h": 480,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "The video seems to be a segment from a film featuring a bank employee, portrayed as a well-dressed and physically imposing man. The calm of his routine life is shattered when a group of robbers forcefully breaches the bank vault and hauls away the valuables with a vehicle. This prompts the burly employee to leap into action, pursuing the thieves in a high-speed car chase. Despite the prolonged and intense pursuit, the banker in the suit fails to stop the robbers from escaping with the loot. The chase ends dramatically as he himself is forced off a bridge by the criminals' car and plunges into the sea below.",
+    "global":
+    [
+        {
+            "question":"When does the things in the video happens, ancient age, modern age or future?",
+            "answer":"It happens at modern age."
+        },
+        {
+            "question":"Are there more then five different backgrounds appear in the video?",
+            "answer":"No."
+        },
+        {
+            "question":"Is there more than ten different characters appear?",
+            "answer":"No."
+        },
+        {
+            "question":"What's the time in the video? Day time or night time?",
+            "answer":"Mainly at day time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly outdoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":800, 
+            "question":"what's on the screen?",
+            "answer":"Word: original film."
+        },
+        {
+            "time":1500,
+            "question":"what's on the screen?",
+            "answer":"Lots of greenbacks."
+        },
+        {
+            "time":2430,
+            "question":"Is there more than three people?",
+            "answer":"No. "
+        },
+        {
+            "time":3000, 
+            "question":"what's in the scene?",
+            "answer":"A huge jesus statue."
+        },
+        {
+            "time":3750,
+            "question":"what happens?",
+            "answer":"Police officers are shooting a vehicle."
+        },
+        {
+            "time":4600,
+            "question":"what happens?",
+            "answer":"Police officers are running out of the office."
+        },
+        {
+            "time":5300,
+            "question":"where is the scene?",
+            "answer":"In a severely destructed building."
+        },
+        {
+            "time":5900,
+            "question":"Is it day time or night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":6750, 
+            "question":"How many people appear in the scene?",
+            "answer":"Two people."
+        },
+        {
+            "time":7500,
+            "question":"what are they doing?",
+            "answer":"They're using a car to drag a big box."
+        },
+        {
+            "time":8200,
+            "question":"where is the scene?",
+            "answer":"On a bridge."
+        },
+        {
+            "time":8900, 
+            "question":"what happens?",
+            "answer":"A car crashed at the box and fall of the bridge."
+        },
+        {
+            "time":9750,
+            "question":"where is the scene?",
+            "answer":"Outside. Maybe in a parking lot."
+        },
+        {
+            "time":10500, 
+            "question":"How many women appear in the scene?",
+            "answer":"None."
+        },
+        {
+            "time":10875,
+            "question":"what happens?",
+            "answer":"An adult is talking to a kid sitting inside a car."
+        }
+    ]
+}

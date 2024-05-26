@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "S03E1-6.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "Two men are conversing with smiles, appearing to be brothers, and beside them, an elderly woman watches them kindly. Subsequently, they host many people in the room, seeming to gather some information, crossing out pictures, and clarifying doubts for the visitors.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern ages."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "More than ten."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 100,
+   "question": "What's in  the man's hand?",
+   "answer": "A hat."
+  },
+  {
+   "time": 750,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 1500,
+   "question": "Does the person look happy?",
+   "answer": "Yes."
+  },
+  {
+   "time": 2250,
+   "question": "How many people  appeared?",
+   "answer": "Three."
+  },
+  {
+   "time": 3000,
+   "question": "Where is it?",
+   "answer": "In a room."
+  },
+  {
+   "time": 3750,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 4500,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 5250,
+   "question": "How many people  appeared?",
+   "answer": "Four."
+  },
+  {
+   "time": 6000,
+   "question": "How the person feel?",
+   "answer": "Sad."
+  },
+  {
+   "time": 6750,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 7500,
+   "question": "What's in  the man's hand?",
+   "answer": "A book."
+  },
+  {
+   "time": 8250,
+   "question": "How the person feel?",
+   "answer": "Sorry."
+  },
+  {
+   "time": 9000,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 9750,
+   "question": "What is the person doing?",
+   "answer": "Observing something."
+  },
+  {
+   "time": 10500,
+   "question": "What is the person doing?",
+   "answer": "Sitting in an office."
+  }
+ ]
+}

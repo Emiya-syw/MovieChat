@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "TBB-4.mp4",
+        "url": "",
+        "class": "Animation Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "The video starts with a crowd gathering around a massive hole in the middle of the road. Research scientists are seen examining remains found within. A family, comprising of parents and their children, stop to witness the peculiar scene. Shortly after, the researchers shoo away the bystanders, and the children head to school. At school, the children are consumed by their morning's discovery. They excitedly share the story with their peers, drawing a lot of attention until their teacher intervenes, separating them to restore order. By evening, the family returns home, still unsettled by the gaping hole near their residence. Seeking updates, they turn on the television, only to discover that the person responsible for creating the hole has been apprehended. The next day, the shock still hasn't worn off for the family. Even as night falls, they remain deeply affected, struggling to come to terms with the surreal events that transpired. The video perhaps explores the profound impact unexpected events can have on individuals, emphasizing the long-lasting emotional response that can ensue.",
+    "global":
+    [
+        {
+            "question":"Is it a video based on reality or not?(Is it a cartoon movie?)",
+            "answer":"No. It seems like a cartoon movie."
+        },
+        {
+            "question":"Are there more then five different places appear in the video(scene switch doesn't necessarily means a place change)?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than three different characters appear?",
+            "answer":"Yes."
+        },
+        {
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Mainly at day time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly indoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":850, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":1400,
+            "question":"what're they doing?",
+            "answer":"They're walking on the street together."
+        },
+        {
+            "time":2250,
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":3000, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":3750,
+            "question":"where is the scene?",
+            "answer":"In a school canteen."
+        },
+        {
+            "time":4450,
+            "question":"Is there more than four people?",
+            "answer":"Yes."
+        },
+        {
+            "time":5350,
+            "question":"How many characters appear in the scene?",
+            "answer":"Five."
+        },
+        {
+            "time":6000,
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":6750, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":7500,
+            "question":"How many characters appear in the scene wear glasses?",
+            "answer":"One."
+        },
+        {
+            "time":8250,
+            "question":"How many people are wearing yellow clothes?",
+            "answer":"None."
+        },
+        {
+            "time":8950, 
+            "question":"Is there more than five people?",
+            "answer":"No."
+        },
+        {
+            "time":9750,
+            "question":"Is it at day time or at night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":10600, 
+            "question":"Is there more than five people?",
+            "answer":"No."
+        },
+        {
+            "time":11000,
+            "question":"where is the scene?",
+            "answer":"In a bedroom."
+        }
+    ]
+}

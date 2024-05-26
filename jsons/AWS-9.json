@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "AWS-9.mp4",
+        "url": "",
+        "class": "Family Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "The video continues as a man groggily rises from bed, seemingly recalling some past memories. He accompanies his girlfriend to the hospital, where it appears she is pregnant. In preparation, they go shopping in a restaurant and a supermarket, selecting items for their unborn baby. Later, he visits some of his friends to talk, and then he heads off to work at a car wash. Upon returning home in the evening, the man finds that the elderly person with dementia, who he had taken into his care, is having difficulties, leading to a heated argument. The situation escalates, and he finds himself in a physical altercation with the elderly individual.",
+    "global":
+    [
+        {
+            "question":"When does the things in the video happens, acient, modern, or in the future?",
+            "answer":"It happens at modern time."
+        },
+        {
+            "question":"Are there more than four different places appear in the video(scene switch doesn't necessarily means a place change)?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than five different characters appear?",
+            "answer":"Yes."
+        },
+        {
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Both at night and at day time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Both outdoors and indoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":1500,
+            "question":"How many men appear in the scene?",
+            "answer":"One."
+        },
+        {
+            "time":2250,
+            "question":"what's in the scene?",
+            "answer":"A fetal echocardiogram."
+        },
+        {
+            "time":3100, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":3750,
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":4600,
+            "question":"How many women appear in the scene?",
+            "answer":"One."
+        },
+        {
+            "time":5250,
+            "question":"Is there any vehicles?",
+            "answer":"No."
+        },
+        {
+            "time":6250,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":6750, 
+            "question":"How many women appear in the scene?",
+            "answer":"Two."
+        },
+        {
+            "time":7500,
+            "question":"where is the scene?",
+            "answer":"In a car wash garage."
+        },
+        {
+            "time":8250,
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":8900, 
+            "question":"what's the man doing?",
+            "answer":"He's slapping himself."
+        },
+        {
+            "time":9750,
+            "question":"Is there more than five people?",
+            "answer":"No."
+        },
+        {
+            "time":10500, 
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":11000,
+            "question":"Is there more than five people?",
+            "answer":"No."
+        }
+    ]
+}

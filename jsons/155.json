@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "155.mp4",
+  "url": "",
+  "class": "Crime Film",
+  "w": 1280,
+  "h": 528,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "A woman lies in bed. During the day, the two of them sit on the balcony. In a waiting hall, several people are sitting around a table. A man has a handgun on his table and is smoking in a room. By a car, a man is smoking, and they meet each other. The man by the car takes out a playing card and shows it to the other man. Afterward, he produces a stack of playing cards. An explosion occurs, and the car catches fire. A man in white rushes inside, pulling out a fire extinguisher, attempting to put out the flames.",
+ "global": [
+  {
+   "question": "When does it happen in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does the story most probably happen in Aisa or Europe?",
+   "answer": "Aisa."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "No."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 48,
+   "question": "Where is the scene?",
+   "answer": "In the bedroom."
+  },
+  {
+   "time": 768,
+   "question": "Is the person a man or a woman?",
+   "answer": "Man."
+  },
+  {
+   "time": 1440,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 2160,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 2880,
+   "question": "What is the blakc obejct on the table?",
+   "answer": "Gun."
+  },
+  {
+   "time": 3600,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 4320,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 5040,
+   "question": "What is the object?",
+   "answer": "Windows."
+  },
+  {
+   "time": 5760,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 6480,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 7200,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 7920,
+   "question": "What is the man holding in his hand?",
+   "answer": "Playing cards."
+  },
+  {
+   "time": 8640,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 9408,
+   "question": "What is happening?",
+   "answer": "A car go into flames."
+  },
+  {
+   "time": 10176,
+   "question": "What is the person doing?",
+   "answer": "He is running towards the house."
+  }
+ ]
+}

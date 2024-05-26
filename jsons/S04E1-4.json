@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "S04E1-4.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "A couple displays a deeply saddened demeanor, covering their faces with their hands as if sobbing uncontrollably, with two individuals beside them attempting to console them. Shortly after, three individuals exit the room. One of them, holding a magnifying glass, inspects a scene, seemingly collecting clues. This individual then meets another person in an office, who appears to be of significant stature, and the two share a cordial conversation, seemingly discussing very important matters. Elsewhere, in a room, two police officers, a man and a woman, are conversing. The woman is holding a file bag. In another location, inside a room, an overweight man is talking to two other men about something that seems to be of great importance.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "Seven."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 750,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 1500,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 2250,
+   "question": "How many people appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 3000,
+   "question": "Where is it?",
+   "answer": "In a room."
+  },
+  {
+   "time": 3750,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 4500,
+   "question": "How does the person feel?",
+   "answer": "Sad."
+  },
+  {
+   "time": 5250,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 6000,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 6750,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 7500,
+   "question": "Where is it?",
+   "answer": "In a room."
+  },
+  {
+   "time": 8250,
+   "question": "Does the person look happy?",
+   "answer": "Yes."
+  },
+  {
+   "time": 9000,
+   "question": "How does the person feel?",
+   "answer": "Serious."
+  },
+  {
+   "time": 9750,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 10500,
+   "question": "Are there any plants?",
+   "answer": "No."
+  }
+ ]
+}

@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "BKL-6.mp4",
+        "url": "",
+        "class": "Action Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "The video starts with a conversation between two women who seem to work in an office, possibly a law firm. While organizing files, they compare a photo from the file to a real-life photo of a man who might be a fugitive. By nightfall, a man approaches one of the women while she's walking her dog. It seems he's trying to obtain some information from her. At first, she appears reluctant, but eventually, she seems to give in. The scene then shifts to the address of the man in the photo. A bald man has already located him, and an intense gunfight ensues between their parties.",
+    "global":
+    [
+        {
+            "question":"When does the things in the video happens, acient, modern, or in the future?",
+            "answer":"It happens at modern time."
+        },
+        {
+            "question":"Are there more than four different places appear in the video(scene switch doesn't necessarily means a place change)?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than five different characters appear?",
+            "answer":"Yes."
+        },
+        { 
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Both at night and at day time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly indoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":1500,
+            "question":"Is the woman wearing a hat?",
+            "answer":"No."
+        },
+        {
+            "time":2350,
+            "question":"Does the man grow beard?",
+            "answer":"No."
+        },
+        {
+            "time":2950, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":3850,
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":4500,
+            "question":"where is the scene?",
+            "answer":"On the street."
+        },
+        {
+            "time":5250,
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":6100,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":6750, 
+            "question":"what color is the man's hair?",
+            "answer":"It's black."
+        },
+        {
+            "time":7500,
+            "question":"what are they doing?",
+            "answer":"They are engaging in a firefight."
+        },
+        {
+            "time":8250,
+            "question":"How many men appear in the scene?",
+            "answer":"One."
+        },
+        {
+            "time":9000, 
+            "question":"How many women appear in the scene?",
+            "answer":"One."
+        },
+        {
+            "time":9750,
+            "question":"Is there more than ten people?",
+            "answer":"No."
+        },
+        {
+            "time":10600, 
+            "question":"Is there more than five people?",
+            "answer":"No."
+        },
+        {
+            "time":11000,
+            "question":"Is there more than three people?",
+            "answer":"No."
+        }
+    ]
+}

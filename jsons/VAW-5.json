@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "VAW-5.mp4",
+        "url": "",
+        "class": "Animation Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "The girl woke up, her name is camellia. She told Vesper that she came from the citadel and her father was also in the forest. Camellia pleaded with Vesper to save her father. As a reward, she promised to take Vesper and her father to live in the citadel together in the future. Vesper finally agreed. That night, Vesper's father's illness suddenly worsened, his whole body constantly twitching, and his expression was very painful. Vesper was very anxious, but there was nothing she could do. At this moment, Camellia walked over and gently kissed Vesper's father. He immediately calmed down and fell asleep. The next day, Vesper went to the forest and found Camellia's father in a spaceship. At this point, Jonas also arrived here.",
+    "global":
+    [
+        {
+            "question":"Is it a video based on reality or not?(Does it looks like real story? Or it looks like a science fiction movie?)",
+            "answer":"No it isn't. It looks like a science fiction movie happened in future."
+        },
+        {
+            "question":"Are there more then five different scenes appear in the video?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than ten different characters appear(not including people in the background)?",
+            "answer":"No."
+        },
+        {
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Both at night and at day time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Both outdoors and indoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":650, 
+            "question":"How many people appear in the scene?",
+            "answer":"Two people."
+        },
+        {
+            "time":1450,
+            "question":"what's emitting the light? The sun or a lamp?",
+            "answer":"A lamp."
+        },
+        {
+            "time":2250,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":3000, 
+            "question":"where's the scene?",
+            "answer":"Inside a house."
+        },
+        {
+            "time":3750,
+            "question":"How many people appear in the scene?",
+            "answer":"One."
+        },
+        {
+            "time":4500,
+            "question":"Is there more than three people?",
+            "answer":"No."
+        },
+        {
+            "time":5300,
+            "question":"Is it day time or night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":6000,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":6750, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":7500,
+            "question":"How many people appear in the scene?",
+            "answer":"One."
+        },
+        {
+            "time":8200,
+            "question":"where's the scene?",
+            "answer":"Inside a big forest."
+        },
+        {
+            "time":9000, 
+            "question":"How many people appear in the scene?",
+            "answer":"One person."
+        },
+        {
+            "time":9750,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":10500, 
+            "question":"How many people appear in the scene?",
+            "answer":"Two people."
+        },
+        {
+            "time":10875,
+            "question":"Is it day time or night time?",
+            "answer":"It's at day time."
+        }
+    ]
+}

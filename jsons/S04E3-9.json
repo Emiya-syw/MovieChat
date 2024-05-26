@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "S04E3-9.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "On a plane, a terrified girl peered into the pitch-black outside her window. She was on a call with someone, sharing what seemed to be vital information before the call was abruptly cut off. Elsewhere, a few men entered a room containing a coffin. They circled it, deep in thought about some matter. The scene then shifted to a woman's home, where she was cooking. It was suggested that there might be a bomb in her house. She received a call, and during the conversation, the woman conveyed something of significance. She appeared incredibly wronged, and after sharing her truth, she broke down into heart-wrenching sobs. Back in the room with the men, one of them, seemingly relieved, addressed the woman behind the scenes with a statement.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "No."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "Seven."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Are there any vehicles?",
+   "answer": "Yes."
+  },
+  {
+   "time": 750,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 1500,
+   "question": "What is the clothes color of the person?",
+   "answer": "White."
+  },
+  {
+   "time": 2250,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 3000,
+   "question": "How many people appeared?",
+   "answer": "Three."
+  },
+  {
+   "time": 3750,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 4500,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 5250,
+   "question": "What is the clothes color of the person?",
+   "answer": "Colorful."
+  },
+  {
+   "time": 6000,
+   "question": "What is the person doing?",
+   "answer": "Making a phone call."
+  },
+  {
+   "time": 6750,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 7500,
+   "question": "What is the background color?",
+   "answer": "Red."
+  },
+  {
+   "time": 8250,
+   "question": "What is the person doing?",
+   "answer": "Making a phone call."
+  },
+  {
+   "time": 9000,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 9750,
+   "question": "What is the scene?",
+   "answer": "A number two."
+  },
+  {
+   "time": 10500,
+   "question": "How does the person feel?",
+   "answer": "Sad."
+  }
+ ]
+}

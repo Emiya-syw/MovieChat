@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "S01E3-2.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 10000,
+  "fps": 25
+ },
+ "caption": "The video revolves around a massive explosion in central London. There are no reports of casualties yet, and authorities can't determine if it's linked to terrorism. The main character, John, and his friend, Sheila, are watching the news when they suddenly receive an emergency call from the police. John and the detective brother of Sheila, whom we'll refer to as the detective, discover that a civil servant recently died on tram tracks, possibly due to some secretive scheme. To prevent the secret from leaking, the detective is compelled to investigate this case. Highlights: John and Sheila receive an urgent call from the police while watching the news; the detective's business seems to be thriving ever since he became \"friends\" with John; Sheila asks the detective how it feels to live at home, and he replies that he's never bored; the detective is summoned to investigate a civil servant's death, suspecting some covert plan; the detective is forced to probe the matter to prevent a leak; John is puzzled at the detective's lies as he hasn't taken any cases recently; the detective's elder brother, Andrew, is investigating an explosion and requests the detective's assistance; the detective discerns the explosion wasn't accidental but rather a deliberate act; he finds out that the victim might've hidden a secretive plan which is now missing; to prevent the leakage of the secret, the detective decides to locate this covert scheme.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes"
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Morden"
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Daytime"
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes"
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "6"
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What is the clothes color of the person?",
+   "answer": "Red."
+  },
+  {
+   "time": 750,
+   "question": "Where is it?",
+   "answer": "On the street."
+  },
+  {
+   "time": 1500,
+   "question": "Is it day or night?",
+   "answer": "Daytime."
+  },
+  {
+   "time": 2250,
+   "question": "Are there any vehicles?",
+   "answer": "No"
+  },
+  {
+   "time": 3000,
+   "question": "What is the person doing?",
+   "answer": "Playing a violin."
+  },
+  {
+   "time": 3750,
+   "question": "How many people  appeared?",
+   "answer": "3"
+  },
+  {
+   "time": 4500,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 5250,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 6000,
+   "question": "Where is it?",
+   "answer": "In a car."
+  },
+  {
+   "time": 6750,
+   "question": "How many people  appeared?",
+   "answer": "3"
+  },
+  {
+   "time": 7500,
+   "question": "What is the person doing?",
+   "answer": "Looking at a letter."
+  },
+  {
+   "time": 8250,
+   "question": "What's in the man's hand?",
+   "answer": "A pink cellphone."
+  },
+  {
+   "time": 9000,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 9750,
+   "question": "Where is it?",
+   "answer": "In an office"
+  },
+  {
+   "time": 10500,
+   "question": "Where is it?",
+   "answer": "In a house,"
+  }
+ ]
+}

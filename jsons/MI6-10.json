@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "MI6-10.mp4",
+  "url": "",
+  "class": "action film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "It’s a part of a movie. The theme of the movie is spy and agent. A man is trying to save a woman who is shot. He gives the phone to the woman and helps her to call for help. At the same time, another woman is driving a motor on the road, while a few people are driving a car. The woman tries to shoot the car on a bridge, but she fails. The car lose control, but the men are safe. They go into a house, and one man is caught here. They do something on that man.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "More than ten."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 750,
+   "question": "What is the person doing?",
+   "answer": "Riding a motor bike."
+  },
+  {
+   "time": 1500,
+   "question": "What is in the person's hand?",
+   "answer": "A gun."
+  },
+  {
+   "time": 2250,
+   "question": "Where is it?",
+   "answer": "On the street."
+  },
+  {
+   "time": 3000,
+   "question": "Where is it?",
+   "answer": "In a car."
+  },
+  {
+   "time": 3750,
+   "question": "What is the person doing?",
+   "answer": "Driving a car."
+  },
+  {
+   "time": 4500,
+   "question": "Are there any vehicles?",
+   "answer": "Yes."
+  },
+  {
+   "time": 5250,
+   "question": "What is the clothes color of the person?",
+   "answer": "White."
+  },
+  {
+   "time": 6000,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 6750,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 7500,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 8250,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 9000,
+   "question": "How the person feel?",
+   "answer": "Angry."
+  },
+  {
+   "time": 9750,
+   "question": "What is the person doing?",
+   "answer": "Saying something."
+  },
+  {
+   "time": 10500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  }
+ ]
+}

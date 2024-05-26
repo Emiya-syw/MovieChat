@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "S02E1-3.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "The video is a conversation primarily revolving around a meeting between the detective and his brother at a palace. The brother presents the detective with a case related to national security involving a woman known as \"The Woman.\" \"The Woman\" is a professional service provider, catering to individuals who enjoy such services. The brother seeks the detective's assistance in investigating photographs of this woman and a younger female in compromising situations. The detective agrees to the case, and with the help of his friend, they commence their investigation. Key takeaways include: the detective and his brother's meeting at a palace; the brother proposes a national security case to the detective; it involves a woman referred to as \"The Woman\"; \"The Woman\" is a professional service provider, offering niche services; the brother needs the detective to investigate compromising photographs of \"The Woman\" and a young woman; the detective agrees to probe the case; the detective, alongside his friend, initiate their inquiry.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "No."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern ages"
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "Four."
+  },
+  {
+   "question": "Does more than 5 people appered in the video?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Where is it?",
+   "answer": "In an explendid palace."
+  },
+  {
+   "time": 750,
+   "question": "How many people  appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 1500,
+   "question": "How the person feel?",
+   "answer": "Funny."
+  },
+  {
+   "time": 2250,
+   "question": "How many people  appeared?",
+   "answer": "Three."
+  },
+  {
+   "time": 3000,
+   "question": "Where is it?",
+   "answer": "In a palace."
+  },
+  {
+   "time": 3750,
+   "question": "What is the background color?",
+   "answer": "White."
+  },
+  {
+   "time": 4500,
+   "question": "How many people  appeared?",
+   "answer": "Four."
+  },
+  {
+   "time": 5250,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 6000,
+   "question": "Where is it?",
+   "answer": "In a car."
+  },
+  {
+   "time": 6750,
+   "question": "What is the clothes color of the person?",
+   "answer": "White."
+  },
+  {
+   "time": 7500,
+   "question": "What is the person doing?",
+   "answer": "Looking at pictures."
+  },
+  {
+   "time": 8250,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 9000,
+   "question": "What's in the man's hands?",
+   "answer": "A cup."
+  },
+  {
+   "time": 9750,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 10500,
+   "question": "Are there any animals?",
+   "answer": "No."
+  }
+ ]
+}

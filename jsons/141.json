@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "141.mp4",
+  "url": "",
+  "class": "Romance Film",
+  "w": 1024,
+  "h": 432,
+  "num_frame": 12000,
+  "fps": 25
+ },
+ "caption": "A large group of people has gathered indoors, dancing together. Some of them are holding musical instruments. A man and a woman also join the dancing crowd. Another group of people is in the casino, smoking and playing. Some others are drinking. Two individuals are arm-wrestling. During the day, a man and a woman sit together at a dining table, having breakfast. The man suddenly gets angry and overturns the table in a fit of rage. He approaches the woman menacingly, talking to her. After the man had left, a maid comes to assist. Another maid helps the woman get dressed and provides comfort.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "No."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does the scene happens in the 21st century?",
+   "answer": "No."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "What are the people doing?",
+   "answer": "Playing the music."
+  },
+  {
+   "time": 750,
+   "question": "What are the people doing?",
+   "answer": "Dancing."
+  },
+  {
+   "time": 1500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 2250,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 3000,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 3750,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 4500,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 5325,
+   "question": "What is the woman doing?",
+   "answer": "Smoking."
+  },
+  {
+   "time": 6000,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 6750,
+   "question": "How does the person feel?",
+   "answer": "Happy."
+  },
+  {
+   "time": 7500,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 8258,
+   "question": "How many people  appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 9000,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 9750,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 10500,
+   "question": "How many people  appears?",
+   "answer": "Two."
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "177.mp4",
+  "url": "",
+  "class": "Family Drama",
+  "w": 720,
+  "h": 382,
+  "num_frame": 12000,
+  "fps": 25
+ },
+ "caption": "A boy was spinning around beside a sprinkler in the garden. He picked up a football and ran towards the house. Inside the house, a man, his wife, and a very young child were present. Two older boys sat in front of the television, starting to watch TV. Their father unplugged the TV. The boy lay on a bed, and his father pulled the blanket off. The man and the boy went to a lake, where they boarded a boat. Several boys and a woman sat at a table. The woman placed several books on the table. The boy picked up a phone and started making calls. A man with a trumpet entered the room, lifting the boy's blanket once again. They dressed as soldiers and walked in a field.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "No."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does it happen in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Where is the scene?",
+   "answer": "On the lawn."
+  },
+  {
+   "time": 750,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 1500,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 2250,
+   "question": "Where is the scene?",
+   "answer": "In the living room."
+  },
+  {
+   "time": 3000,
+   "question": "What is the man holding in his hands?",
+   "answer": "A bunch of wires."
+  },
+  {
+   "time": 3750,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 4500,
+   "question": "Does the woman wear glasses?",
+   "answer": "Yes."
+  },
+  {
+   "time": 5250,
+   "question": "Where is the scene?",
+   "answer": "In the bedroom."
+  },
+  {
+   "time": 6000,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 6750,
+   "question": "Where is the scene?",
+   "answer": "At the table."
+  },
+  {
+   "time": 7500,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 8250,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 9050,
+   "question": "What are the people doing?",
+   "answer": "They are making a phone call."
+  },
+  {
+   "time": 9750,
+   "question": "What is the man holding in his hands?",
+   "answer": "A gun."
+  },
+  {
+   "time": 10500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  }
+ ]
+}

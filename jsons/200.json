@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "200.mp4",
+  "url": "",
+  "class": "Romance Film",
+  "w": 1024,
+  "h": 432,
+  "num_frame": 12000,
+  "fps": 25
+ },
+ "caption": "A person wearing a breathing mask was seen, while two men were by the riverside. There were many people moving back and forth in a hallway. Several women gathered in the hallway, hugging each other. A woman entered a room where a man was lying on a bed. The man handed the woman a pair of headphones, and she leaned over on the man's bed. At a funeral, many people were dressed in black and holding black umbrellas as heavy rain poured down from the sky. Near a building, several people were carrying boxes up the stairs. A group of women with boxes entered the interior of the building, then left the room.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "No."
+  },
+  {
+   "question": "When does it happen in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Does this video more probably happen in Europe or Asia?",
+   "answer": "Asia."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 750,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 1500,
+   "question": "Is the person a man or a woman?",
+   "answer": "Man."
+  },
+  {
+   "time": 2250,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 3000,
+   "question": "What is the person doing?",
+   "answer": "Texting using a cell phone."
+  },
+  {
+   "time": 3750,
+   "question": "Where is the scene?",
+   "answer": "In the hospital."
+  },
+  {
+   "time": 4625,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 5375,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 6000,
+   "question": "How many people are there in the room?",
+   "answer": "Two."
+  },
+  {
+   "time": 6750,
+   "question": "What is happening?",
+   "answer": "A funeral is taking place."
+  },
+  {
+   "time": 7500,
+   "question": "How is the weather?",
+   "answer": "It is rainy."
+  },
+  {
+   "time": 8325,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 9100,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 10000,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 11050,
+   "question": "What are the people doing?",
+   "answer": "They are drinking."
+  }
+ ]
+}

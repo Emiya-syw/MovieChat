@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "37.mp4",
+  "url": "",
+  "class": "Animation Film",
+  "w": 848,
+  "h": 480,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "An elderly man and an elderly woman are dancing together. They do household chores together and enjoy outdoor activities. However, the elderly woman's health deteriorates, and she becomes bedridden. Soon, the scene transitions to a funeral. The elderly man holds a blue balloon and returns home feeling lonely. He wakes up in bed as usual, then uses an electric wheelchair to go downstairs. Outside the house, he encounters a worker. Back inside the house, the elderly man watches TV. A young boy knocks on his door, and after a conversation, the boy leaves the elderly man's house. At this moment, a large truck arrives and accidentally damages the elderly man's mailbox, leading to an altercation where a worker gets injured.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day and night."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does it happens in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Is this a cartoon?",
+   "answer": "Yes."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 24,
+   "question": "What are the people doing?",
+   "answer": "Dancing."
+  },
+  {
+   "time": 720,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 1440,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 2160,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 2880,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 3600,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 4320,
+   "question": "Is the person a man or a woman?",
+   "answer": "A man."
+  },
+  {
+   "time": 5040,
+   "question": "Where is the scene?",
+   "answer": "At a construction site."
+  },
+  {
+   "time": 5760,
+   "question": "What is the person doing?",
+   "answer": "Getting his mail."
+  },
+  {
+   "time": 6480,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 7200,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 7920,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 8640,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 9360,
+   "question": "What are the people doing?",
+   "answer": "Talking to each other."
+  },
+  {
+   "time": 10104,
+   "question": "What is the clothes color of the person?",
+   "answer": "Yellow."
+  }
+ ]
+}

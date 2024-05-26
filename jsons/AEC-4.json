@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "AEC-4.mp4",
+        "url": "",
+        "class": "Science Fiction Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "The video seems to start on an alien planet where a group of tall blue humanoid beings are interacting and communicating with each other. They pick fruit from trees to eat and engage in activities reminiscent of humans. As the scene shifts to night, a man awakens from his hibernation pod. He sits in a wheelchair and pays a visit to a muscular captain. The captain then steps into a large humanoid mech suit, demonstrating to him how it operates. The next day, the man connects his consciousness to one of the blue tall humanoid bodies. Together with his commanding officer, they board a plane and delve deep into the alien planet to explore.",
+    "global":
+    [
+        {
+            "question":"Is it a video based on reality or not?(Does it looks like real story? Or it looks like a science fiction movie?)",
+            "answer":"No it isn't, it looks like a science fiction movie."
+        },
+        {
+            "question":"Are there more then five different scenes appear in the video?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than five different characters appear?",
+            "answer":"Yes."
+        },
+        {
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Can't tell, maybe mainly at day time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly outdoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"where is the scene?",
+            "answer":"Inside a forest."
+        },
+        {
+            "time":1500,
+            "question":"Is there more than three people?",
+            "answer":"Yes."
+        },
+        {
+            "time":2250,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":3000, 
+            "question":"Is there more than five people appear?",
+            "answer":"Yes there is."
+        },
+        {
+            "time":3800,
+            "question":"what is the man doing?",
+            "answer":"He is showing the woman something."
+        },
+        {
+            "time":4500,
+            "question":"what is the man doing?",
+            "answer":"He is lifting weights."
+        },
+        {
+            "time":5300,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":6000,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":6720, 
+            "question":"Who is older? The man sitting in the cockpit or else?",
+            "answer":"The man sitting in the cockpit."
+        },
+        {
+            "time":7500,
+            "question":"where is the scene?",
+            "answer":"In a machine factory."
+        },
+        {
+            "time":8250,
+            "question":"what's in the scene?",
+            "answer":"A helicopter flying over a lake."
+        },
+        {
+            "time":8980, 
+            "question":"How many characters appear in the scene(including the blue creature)?",
+            "answer":"Four people."
+        },
+        {
+            "time":9750,
+            "question":"where is the scene?",
+            "answer":"Inside a forest."
+        },
+        {
+            "time":10500, 
+            "question":"Is the scene indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":10875,
+            "question":"what are the blue human-like creatures in the middle of the scene doing?",
+            "answer":"They're exploring a forest."
+        }
+    ]
+}

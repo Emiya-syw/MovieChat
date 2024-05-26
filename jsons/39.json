@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "39.mp4",
+  "url": "",
+  "class": "Animation Film",
+  "w": 848,
+  "h": 480,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "An elderly man and a boy walk through the forest, tied to a rope that leads to a house. They are accompanied by a dog and a strange large bird. At night, the elderly man and the boy sit by a campfire and chat. The next day, they wake up to find themselves near a cliff. The large bird climbs on top of the house and cries out into the distance. At this moment, a yellow dog accompanying the elderly man encounters a fierce black dog. The elderly man and the boy try to move away from the dogs but are blocked by two of them. They continue to pull the flying house on the rope through the canyon but are confronted by a group of dogs blocking their path.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day and night."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does it happens in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Is this a cartoon?",
+   "answer": "Yes."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 24,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 720,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 1440,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 2184,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 2880,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 3600,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 4320,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 5064,
+   "question": "How many people  appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 5760,
+   "question": "What is the object?",
+   "answer": "A house with balloons."
+  },
+  {
+   "time": 6480,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 7200,
+   "question": "Where is the scene?",
+   "answer": "On a plain."
+  },
+  {
+   "time": 7920,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 8640,
+   "question": "What is the animal?",
+   "answer": "Dog."
+  },
+  {
+   "time": 9360,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 10104,
+   "question": "Where is the scene?",
+   "answer": "In a canyon."
+  }
+ ]
+}

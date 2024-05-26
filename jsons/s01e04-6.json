@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "s01e04-6.mp4",
+  "url": "",
+  "class": "epic film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "This is a wonderful epic series clip. The background of it is in middle age. In a seemingly cold place, a group of people is gathered around a table, eating, and mocking one of the men who is overweight. Then, they are seen training in a martial arts arena, and the short, overweight man faces discrimination from the others. Meanwhile, near a tent, a man drags a woman inside, but the woman inside the tent refuses him, and the man becomes angry and slaps the woman. The woman resists and threatens the man, who becomes frightened. Afterward, the previously mentioned short, overweight man reappears, and we see him cleaning a table alongside another man dressed in black.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does more than ten people appear in the video?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What are the people doing?",
+   "answer": "Eating and talking."
+  },
+  {
+   "time": 750,
+   "question": "What is the person doing?",
+   "answer": "Sleeping."
+  },
+  {
+   "time": 1500,
+   "question": "What are the people doing?",
+   "answer": "Fighting."
+  },
+  {
+   "time": 2250,
+   "question": "What is in the person's hand?",
+   "answer": "A sword."
+  },
+  {
+   "time": 3000,
+   "question": "How is the weather?",
+   "answer": "Sunny."
+  },
+  {
+   "time": 3750,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 4500,
+   "question": "What are the people doing?",
+   "answer": "Arguing."
+  },
+  {
+   "time": 5250,
+   "question": "How does the person feel?",
+   "answer": "Angry."
+  },
+  {
+   "time": 6000,
+   "question": "How many people appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 6750,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 7500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 8250,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 9000,
+   "question": "How does the person feel?",
+   "answer": "Sad."
+  },
+  {
+   "time": 9750,
+   "question": "What is the person doing?",
+   "answer": "Cleaning the table."
+  },
+  {
+   "time": 10500,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  }
+ ]
+}

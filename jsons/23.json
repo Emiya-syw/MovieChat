@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "23.mp4",
+  "url": "",
+  "class": "History Film",
+  "w": 1280,
+  "h": 688,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "A boy in a white shirt engaged in a conversation with another boy dressed in prison attire behind a wire fence. Later, the boy returned home to his parents and sister. His father initially busied himself with a phone call, his mother knitted a sweater, and the boy brought some snacks and a ball. He went to visit the boy behind the wire fence, and they played for a while. Suddenly, the boy behind the wire fence had to leave, pushing a cart. After returning home, the boy's mother anxiously watched the thick black smoke billowing from the factory chimney.",
+ "global": [
+  {
+   "question": "When does it happens in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  },
+  {
+   "question": "The video propbably take place in which continent?",
+   "answer": "Europe?"
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 24,
+   "question": "What is the clothes color of the person?",
+   "answer": "White."
+  },
+  {
+   "time": 744,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 1416,
+   "question": "Is the person a man or a woman?",
+   "answer": "Woman."
+  },
+  {
+   "time": 2208,
+   "question": "Is the person a man or a woman?",
+   "answer": "Woman."
+  },
+  {
+   "time": 2976,
+   "question": "What is the clothes color of the person?",
+   "answer": "White."
+  },
+  {
+   "time": 3600,
+   "question": "Where is the scene?",
+   "answer": "In the kitchen."
+  },
+  {
+   "time": 4344,
+   "question": "Is the person a man or a woman?",
+   "answer": "Woman."
+  },
+  {
+   "time": 5016,
+   "question": "Is the man old or young?",
+   "answer": "Old."
+  },
+  {
+   "time": 5760,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 7104,
+   "question": "Where is the scene?",
+   "answer": "Dinning room."
+  },
+  {
+   "time": 7920,
+   "question": "What is the boy playing?",
+   "answer": "Ball."
+  },
+  {
+   "time": 8640,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 9360,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 10056,
+   "question": "Are there any vehicles?",
+   "answer": "Yes."
+  },
+  {
+   "time": 10776,
+   "question": "Are there any animals?",
+   "answer": "No."
+  }
+ ]
+}

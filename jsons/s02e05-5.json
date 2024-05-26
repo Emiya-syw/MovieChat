@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "s02e05-5.mp4",
+  "url": "",
+  "class": "epic film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "On this snowy plain, two men dressed in black coats are walking. They notice something in the distance and hurry towards it. Upon arriving, they find a man giving a bottle of green substance to a dwarf. The man appears to boast about the potency of this substance, leaving the dwarf looking terrified. He commands the man to take him to the warehouse, where he discovers a vast quantity of the same substance. He expresses shock and immediately instructs the man to dispose of it. It seems like he wants the substance destroyed.In another location, a small dragon is on a balcony, and two women are playing with it, entertaining the creature. One of the women then dresses up and heads to a gathering, where she socializes and interacts with various people.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does more than ten people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "Does more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 750,
+   "question": "What is in the person's hand?",
+   "answer": "A green bottle."
+  },
+  {
+   "time": 1500,
+   "question": "What is the scene?",
+   "answer": "A man."
+  },
+  {
+   "time": 2250,
+   "question": "How many people appears?",
+   "answer": "Three."
+  },
+  {
+   "time": 3000,
+   "question": "Where is it?",
+   "answer": "Underground."
+  },
+  {
+   "time": 3750,
+   "question": "How does the person feel?",
+   "answer": "Shocked."
+  },
+  {
+   "time": 4500,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 5250,
+   "question": "How many people appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 6000,
+   "question": "How many people appears?",
+   "answer": "Three."
+  },
+  {
+   "time": 6750,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 7500,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 8250,
+   "question": "Does the person look happy?",
+   "answer": "Yes."
+  },
+  {
+   "time": 9000,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 9750,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 10500,
+   "question": "What is the scene?",
+   "answer": "A strange man."
+  }
+ ]
+}

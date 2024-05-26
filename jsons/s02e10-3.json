@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "s02e10-3.mp4",
+  "url": "",
+  "class": "epic film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "In a room, two women are engaged in conversation. As they speak, a man enters, shares a few words with them, and subsequently, they are led outside. This man and one of the women then stroll hand in hand down a broad avenue lined with blooming flowers. Their expressions radiate joy. Their journey leads them to a gathering where they encounter an elderly woman of seemingly high stature and regal bearing. The elderly woman ushers them to a pavilion situated by the sea, and they all take a seat, immersing themselves in further discourse. The younger woman, moved by emotion, begins to recount certain grievances to the elder, who, upon hearing them, is overtaken by indignation, vowing to seek redress on her behalf.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does more than ten people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "Does more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Night."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 750,
+   "question": "How many people appears?",
+   "answer": "Three."
+  },
+  {
+   "time": 1500,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 2250,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 3000,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 3750,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 4500,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 5250,
+   "question": "How many people appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 6000,
+   "question": "What is the scene?",
+   "answer": "A woman."
+  },
+  {
+   "time": 6750,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 7500,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 8250,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 9000,
+   "question": "What is the clothes color of the person?",
+   "answer": "Red."
+  },
+  {
+   "time": 9750,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 10500,
+   "question": "Are there any plants?",
+   "answer": "No."
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "s01e04-7.mp4",
+  "url": "",
+  "class": "epic film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "This is a wonderful epic series clip. The background of it is in middle age. Two men are cleaning a tabletop, and then another person enters and talks to them. This person appears to have a higher status but does not show any particular disdain. In another tent, a woman and another man are having a serious conversation, and the woman looks very worried. Then, in another location, on a racetrack, two knights are dueling, and they are evenly matched. In the end, one of the knights kills the other. In the audience stands, a man is discussing something related to this duel with a girl.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does more than ten people appear in the video?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 750,
+   "question": "How many people appeared?",
+   "answer": "Three."
+  },
+  {
+   "time": 1500,
+   "question": "What is the person doing?",
+   "answer": "Saying a story."
+  },
+  {
+   "time": 2250,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 3000,
+   "question": "How does the person feel?",
+   "answer": "Scared."
+  },
+  {
+   "time": 3750,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 4500,
+   "question": "How many people appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 5250,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 6000,
+   "question": "What is the clothes color of the person?",
+   "answer": "Purple."
+  },
+  {
+   "time": 6750,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 7500,
+   "question": "What is the scene?",
+   "answer": "A king."
+  },
+  {
+   "time": 8250,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 9000,
+   "question": "What is the scene?",
+   "answer": "A dead knight."
+  },
+  {
+   "time": 9750,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 10500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  }
+ ]
+}

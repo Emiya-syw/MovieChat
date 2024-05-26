@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "S03E3-6.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "In the video, the detective and his brother are engaged in a perilous duel. Both are shot and wounded, but the detective manages to stay conscious by controlling his pain. Ultimately, they both leave the scene unharmed. Highlights include both the detective and his brother being injured in the duel, the detective maintaining consciousness by managing his pain, both leaving the scene safe in the end, the detective's brother attempting to kill him but he protects himself, the brother trying to incapacitate the detective by controlling his pain, both surviving the peril in the end, the brother seemingly possessing powers to control others by manipulating their pain, both having past traumas but choosing to forgive each other and depart, the brother ultimately choosing to spare the detective and leave, and despite a complex relationship between them, they opt for a peaceful resolution in the end.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "More than ten."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What is the background color?",
+   "answer": "White."
+  },
+  {
+   "time": 750,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 1500,
+   "question": "How many people appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 2250,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 3000,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 3750,
+   "question": "What is the scene?",
+   "answer": "A man and a dog."
+  },
+  {
+   "time": 4500,
+   "question": "How the person feel?",
+   "answer": "Painful."
+  },
+  {
+   "time": 5250,
+   "question": "How many people appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 6000,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 6750,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 7500,
+   "question": "Where is it?",
+   "answer": "In an operating room."
+  },
+  {
+   "time": 8250,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 9000,
+   "question": "What is the person doing?",
+   "answer": "Struggling."
+  },
+  {
+   "time": 9750,
+   "question": "Where is it?",
+   "answer": "In an hospital."
+  },
+  {
+   "time": 10500,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  }
+ ]
+}

@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "FAF-14.mp4",
+        "url": "",
+        "class": "Action Film",
+        "w": 720,
+        "h": 480,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "The video starts with a group of people in a garage selecting weapons, seemingly preparing for a secret mission. The scene quickly shifts to a different location, where police are escorting a prisoner. Suddenly, as the police car reaches the middle of the road, it's struck and sent flying. The prisoner emerges from the wreck only to find himself in the midst of a gunfight. It appears that someone is attempting a jailbreak, forcing the police to reluctantly cooperate with the prisoner, handing him a weapon. Armed, the prisoner engages in a fierce battle. During the chaos, he discovers that a villain has taken control over his loved one and her family. Enraged, he confronts and severely beats the culprit. However, in a moment of distraction, his loved one is hit by gunfire from a helicopter-mounted machine gun. The man is then forced to abandon the pursuit of the villain in order to seek immediate medical attention for his loved one.",
+    "global":
+    [
+        {
+            "question":"When does the things in the video happens, ancient age, modern age or future?",
+            "answer":"It happens at modern age."
+        },
+        {
+            "question":"Are there more then five different scenes appear in the video?",
+            "answer":"No."
+        },
+        {
+            "question":"Is there more than five different characters appear?",
+            "answer":"Yes."
+        },
+        {
+            "question":"What's the time in the video? Day time or night time?",
+            "answer":"At day time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly outdoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"what are they doing?",
+            "answer":"They're collecting and packaging weapons."
+        },
+        {
+            "time":1500,
+            "question":"where is the scene?",
+            "answer":"In a big dense town."
+        },
+        {
+            "time":2250,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors"
+        },
+        {
+            "time":3100, 
+            "question":"where is the scene?",
+            "answer":"On a bridge."
+        },
+        {
+            "time":3750,
+            "question":"Is there more than three people?",
+            "answer":"Yes."
+        },
+        {
+            "time":4500,
+            "question":"where is the scene?",
+            "answer":"Outdoors, behind a car. Maybe on the road."
+        },
+        {
+            "time":5250,
+            "question":"what is the man doing?",
+            "answer":"He's pulling a car over."
+        },
+        {
+            "time":6000,
+            "question":"what is the man in white doing?",
+            "answer":"He's taking control of a young lady."
+        },
+        {
+            "time":6750, 
+            "question":"Is there more than two men appear?",
+            "answer":"No."
+        },
+        {
+            "time":7500,
+            "question":"Is the scene indodrs or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":8250,
+            "question":"what's the bald man wearing?",
+            "answer":"A jacket."
+        },
+        {
+            "time":9200, 
+            "question":"who's lying on the ground?",
+            "answer":"A woman in blue suit."
+        },
+        {
+            "time":9750,
+            "question":"what's the woman throwing to another woman?",
+            "answer":"A piece of white coat."
+        },
+        {
+            "time":10600, 
+            "question":"what's behind the man in white?",
+            "answer":"A helicopter."
+        },
+        {
+            "time":10750,
+            "question":"Is the woman blond?",
+            "answer":"Yes."
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "BKL-10.mp4",
+        "url": "",
+        "class": "Action Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "The video starts with a conversation between two women, who are in an office discussing something fervently and with apparent concern. The scene then transitions to a man, who also seems to be worried about something and seeks out one of the women to discuss the matter. Later that night, the other woman and her close friend are seen having a late-night snack, and their conversation appears to touch on the events of the day. Subsequently, the previously shown man, seemingly inspired or enlightened by some new information, approaches an older man with white hair, who looks like a leader, and engages in a conversation with him. This leader then gives some tasks or directives to his subordinates.",
+    "global":
+    [
+        {
+            "question":"When does the things in the video happens, acient, modern, or in the future?",
+            "answer":"It happens at modern time."
+        },
+        {
+            "question":"Are there more than six different places appear in the video(scene switch doesn't necessarily means a place change)?",
+            "answer":"No."
+        },
+        {
+            "question":"Is there more than five different characters appear?",
+            "answer":"Yes."
+        },
+        { 
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Mainly at day time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly indoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":1400,
+            "question":"what is the color of the woman's clothes?",
+            "answer":"It's brown."
+        },
+        {
+            "time":2270,
+            "question":"Does the man grow beard?",
+            "answer":"No."
+        },
+        {
+            "time":3000, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":3850,
+            "question":"what is the woman doing?",
+            "answer":"She's using computer on her bed."
+        },
+        {
+            "time":4500,
+            "question":"what is the gender of the person in the scene?",
+            "answer":"She is a woman."
+        },
+        {
+            "time":5250,
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":6000,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":6750, 
+            "question":"Is there any vehicles?",
+            "answer":"No."
+        },
+        {
+            "time":7550,
+            "question":"what is the hair color of the man sitting in the car?",
+            "answer":"White."
+        },
+        {
+            "time":8150,
+            "question":"where is the scene?",
+            "answer":"In an office."
+        },
+        {
+            "time":9000, 
+            "question":"How many women appear in the scene?",
+            "answer":"None."
+        },
+        {
+            "time":9750,
+            "question":"Is there more than ten people?",
+            "answer":"No."
+        },
+        {
+            "time":10600, 
+            "question":"Is there more than five people?",
+            "answer":"No."
+        },
+        {
+            "time":11000,
+            "question":"Is there more than three people?",
+            "answer":"No."
+        }
+    ]
+}

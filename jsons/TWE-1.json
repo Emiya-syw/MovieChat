@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "TWE-1.mp4",
+        "url": "",
+        "class": "Animation Film",
+        "w": 720,
+        "h": 480,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "This video tells the story of how, due to the aging of the sun, humans install engines on the earth to drive the Earth to find new habitable places. The opening scene of the video shows a father and son playing by the beach and enjoying the scenery. In the evening, the father told the grandfather that he was leaving him and that the grandfather would adopt the son. In the next scene, the father is selected as an astronaut to enter the space station and falls into hibernation.",
+    "global":
+    [
+        {
+            "question":"When does the things in the video happens, ancient age, modern age or future?",
+            "answer":"It happens at future."
+        },
+        {
+            "question":"Are there more then five different scenes appear in the video?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than five different characters appear?",
+            "answer":"No."
+        },
+        {
+            "question":"What's the time in the video? Day time or night time?",
+            "answer":"Both at night and day time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly outdoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":680, 
+            "question":"what is in the scene?",
+            "answer":"A high mountain full of snow."
+        },
+        {
+            "time":1500,
+            "question":"what is in the scene?",
+            "answer":"The earth itself watched from universe."
+        },
+        {
+            "time":2200,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors"
+        },
+        {
+            "time":3100, 
+            "question":"Is there more than three people?",
+            "answer":"No."
+        },
+        {
+            "time":3750,
+            "question":"where is the scene?",
+            "answer":"In the hospital."
+        },
+        {
+            "time":4500,
+            "question":"Is there any woman appear?",
+            "answer":"No."
+        },
+        {
+            "time":5250,
+            "question":"where is the scene?",
+            "answer":"At the united nation conference."
+        },
+        {
+            "time":6000,
+            "question":"Is it news recording?",
+            "answer":"Yes."
+        },
+        {
+            "time":6750, 
+            "question":"How many space ships are launched?",
+            "answer":"Eleven."
+        },
+        {
+            "time":7500,
+            "question":"what is in the scene?",
+            "answer":"The 3D structure of a huge building."
+        },
+        {
+            "time":8250,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors"
+        },
+        {
+            "time":9200, 
+            "question":"where is the scene?",
+            "answer":"In a tent."
+        },
+        {
+            "time":9750,
+            "question":"what's the title of the movie?",
+            "answer":"The wandering earth."
+        },
+        {
+            "time":10400, 
+            "question":"what is in the scene?",
+            "answer":"Earth and sun."
+        },
+        {
+            "time":10800,
+            "question":"How many people are there in the screen?",
+            "answer":"Three people."
+        }
+    ]
+}

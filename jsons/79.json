@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "79.mp4",
+  "url": "",
+  "class": "Action Film",
+  "w": 720,
+  "h": 386,
+  "num_frame": 12000,
+  "fps": 25
+ },
+ "caption": "A group of people gathers in the living room to discuss an issue. Three individuals are walking down the street. Someone lies on a bed, reading a book. A shadow jumps over a fence in the darkness. In the daytime, a person dressed in military attire enters a house. It appears to be a bar. They take off their glasses and converse with people seated at the bar. Later, they dance with a woman in the dance hall. A man and a woman stand at the door, and then a group of police officers arrives. They take the man away in a police car. The car appears at a prison the next day. One man practices boxing by punching a punching bag.",
+ "global": [
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day and night."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does it happens in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Do cops appear in the clip?",
+   "answer": "Yes."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 175,
+   "question": "Where is the scene?",
+   "answer": "In the living room."
+  },
+  {
+   "time": 750,
+   "question": "Is the person a man or a woman?",
+   "answer": "Man."
+  },
+  {
+   "time": 1500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 2250,
+   "question": "Where is the scene?",
+   "answer": "On the street."
+  },
+  {
+   "time": 3000,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 3750,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 4500,
+   "question": "Who is the person?",
+   "answer": "A soldier."
+  },
+  {
+   "time": 5250,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 6000,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 6750,
+   "question": "What are the people doing?",
+   "answer": "Dancing."
+  },
+  {
+   "time": 7500,
+   "question": "What are the people doing?",
+   "answer": "Dancing."
+  },
+  {
+   "time": 8250,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 9000,
+   "question": "Who is outside?",
+   "answer": "Cops."
+  },
+  {
+   "time": 9750,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 10425,
+   "question": "Where is the scene?",
+   "answer": "On the road."
+  }
+ ]
+}

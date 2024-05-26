@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "OKJ-14.mp4",
+        "url": "",
+        "class": "Adventure Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "In the cupboard, there is a pair of shoes. On a truck, several people are sitting in the back, and a girl is lying there. The truck stops at a certain place, and the girl walks out, but a man tries to stop her. They arrive at a place with many animals, and these animals are being herded into a building through a passage. The girl runs forward along the passage, where workers are cleaning bloodstains, and there are chunks of meat hanging on the walls. It seems to be an overflow from a factory, with food processing lines. Workers are busy in the factory, and huge animals are being slaughtered by machines. A group of people quickly arrives there, arresting a man, finding the little girl, and communicating with her.",
+    "global":
+    [
+        {
+            "question":"When does the things in the video happens, ancient age, modern age or future?(Does the technology exists on earth?)",
+            "answer":"It happens at modern time."
+        },
+        {
+            "question":"Are there more then ten different places appear in the video(scene switch doesn't necessarily means a place change)?",
+            "answer":"No."
+        },
+        {
+            "question":"Is there more than three different characters appear(not including people in the background)?",
+            "answer":"Yes."
+        },
+        {
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Mainly at night time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly indoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":1500,
+            "question":"Is it at day time or night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":2250,
+            "question":"how many people appear in the scene(not including background)?",
+            "answer":"One person."
+        },
+        {
+            "time":3000, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":3850,
+            "question":"Is it at day time or night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":4600,
+            "question":"Is there more than three people?",
+            "answer":"no."
+        },
+        {
+            "time":5250,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":6000,
+            "question":"where is the scene?",
+            "answer":"In a big factory."
+        },
+        {
+            "time":6750, 
+            "question":"what kind of factory is this place?",
+            "answer":"Maybe it's a abattoir factory."
+        },
+        {
+            "time":7500,
+            "question":"Is there more than five people?",
+            "answer":"No."
+        },
+        {
+            "time":8250,
+            "question":"what are the workers doing?",
+            "answer":"They're operating a machine."
+        },
+        {
+            "time":9000, 
+            "question":"Is there more than five people?",
+            "answer":"Yes."
+        },
+        {
+            "time":9750,
+            "question":"what's the color of the woman's hair?",
+            "answer":"It' white and with a little yellow."
+        },
+        {
+            "time":10500, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":10775,
+            "question":"what are the soldiers doing?",
+            "answer":"They're controling a man."
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "PAW-11.mp4",
+        "url": "",
+        "class": "Action Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "The captain took everyone onto the bus and planned to drive back to the plane. However, Gaspare found that there were separatist forces on the way. Finally, the captain decided to negotiate with them. He knew this might cost his life and he would never meet his family again. But for his passengers, he was willing to take risks. The captain found the leader of the separatists and told him that the rescue team was now searching for them, he hoped that the separatists could let the passengers go home. But the leader didn't believe it, he planned to kill the captain. At this moment, the rescue team arrived and fought against the separatists, after that, they lead everyone escape from the prison.",
+    "global":
+    [
+        {
+            "question":"When does the things in the video happens, ancient age, modern age or future?",
+            "answer":"It happens at modern age."
+        },
+        {
+            "question":"Are there more then five different scenes appear in the video?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than five different characters appear?",
+            "answer":"Yes."
+        },
+        {
+            "question":"What's the time in the video? Day time or night time?",
+            "answer":"Mainly at day time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly outdoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"How many people appear in the scene?",
+            "answer":"Five to six people."
+        },
+        {
+            "time":1400,
+            "question":"what is the man in the middle of the scene wearing?",
+            "answer":"He is wearing a shirt."
+        },
+        {
+            "time":2350,
+            "question":"Is it day time or night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":3000, 
+            "question":"Is there more than four people on bus?",
+            "answer":"Yes."
+        },
+        {
+            "time":3750,
+            "question":"How many people appear in the scene?",
+            "answer":"Two people."
+        },
+        {
+            "time":4500,
+            "question":"what is the man doing?",
+            "answer":"He is walking towards another group of men."
+        },
+        {
+            "time":5250,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":5980,
+            "question":"what's the man doing?",
+            "answer":"He is trying to talk with another guy."
+        },
+        {
+            "time":6750, 
+            "question":"Describe the scene.",
+            "answer":"A man sitting on the grounded is surrounded by many armed soldiers who point their guns at him."
+        },
+        {
+            "time":7500,
+            "question":"Is the scene indodrs or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":8200,
+            "question":"Is it day time or night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":9250, 
+            "question":"Is there more than four people?",
+            "answer":"Yes."
+        },
+        {
+            "time":9750,
+            "question":"where is the scene?",
+            "answer":"Inside a bus."
+        },
+        {
+            "time":10500, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":10875,
+            "question":"Is the man injured?",
+            "answer":"Yes."
+        }
+    ]
+}

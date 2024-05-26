@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "104.mp4",
+  "url": "",
+  "class": "Animation Film",
+  "w": 1024,
+  "h": 576,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "A baby lion stands on a platform while a crowd of people cheer for him. Behind him, a zebra, giraffe, and hippo watch him. The lion quickly grows up. The scene changes to a dense jungle with a massive tree. In the tree, there's a giant slingshot with an airplane at the other end. The lion, hippo, zebra, and giraffe walk along a path, cheered on by a group of monkeys. Several animals are loaded into the airplane. Penguins are inside the cockpit. With a signal from the monkeys, the airplane is launched. It lands in the jungle but quickly takes off again. The animals onboard start having a meal on the plane.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  },
+  {
+   "question": "When does it happens in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 48,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 720,
+   "question": "Where is the scene?",
+   "answer": "A zoo."
+  },
+  {
+   "time": 1440,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 2160,
+   "question": "Are there any vehicles?",
+   "answer": "Yes. A ship."
+  },
+  {
+   "time": 2880,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 3600,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 4320,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 5040,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 5760,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 6480,
+   "question": "Are there any people?",
+   "answer": "No."
+  },
+  {
+   "time": 7200,
+   "question": "Where is the scene?",
+   "answer": "Inside the airplane."
+  },
+  {
+   "time": 7920,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 8640,
+   "question": "Are there any people?",
+   "answer": "No."
+  },
+  {
+   "time": 9360,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 10080,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  }
+ ]
+}

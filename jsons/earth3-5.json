@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "earth3-5.mp4",
+  "url": "",
+  "class": "documentary film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "On this land, life thrives in solitude amidst extreme conditions. The Baikal Ocean is the world's oldest and largest lake, nurturing a plethora of rare species. The organisms here rely on sound to swim and capture, collaboratively working to form a unique ecosystem. Fish fly during the rainy season, evolving into new species. The Baikal Ocean is the world's oldest and largest lake, where organisms rely on sound to swim and capture. This ocean nourishes a range of rare species, with dolphins being the apex predators in the Baikal Ocean. The ecosystem here represents a distinctive ecological system.",
+ "global": [
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Are there any human?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen in the cities?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 750,
+   "question": "How is the weather?",
+   "answer": "Thundering."
+  },
+  {
+   "time": 1500,
+   "question": "What is the background color?",
+   "answer": "Blue."
+  },
+  {
+   "time": 2250,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 3000,
+   "question": "What is the scene?",
+   "answer": "The earth."
+  },
+  {
+   "time": 3750,
+   "question": "What is the scene?",
+   "answer": "Ice."
+  },
+  {
+   "time": 4500,
+   "question": "What is the scene?",
+   "answer": "Fishes."
+  },
+  {
+   "time": 5250,
+   "question": "Where is it?",
+   "answer": "Underwater."
+  },
+  {
+   "time": 6000,
+   "question": "Are there any human?",
+   "answer": "No."
+  },
+  {
+   "time": 6750,
+   "question": "What is the scene?",
+   "answer": "A large river."
+  },
+  {
+   "time": 7500,
+   "question": "What is the background color?",
+   "answer": "Green."
+  },
+  {
+   "time": 8250,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 9000,
+   "question": "Are there any water?",
+   "answer": "Yes."
+  },
+  {
+   "time": 9750,
+   "question": "What kind of animal is it?",
+   "answer": "Finless porpoises."
+  },
+  {
+   "time": 10500,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  }
+ ]
+}

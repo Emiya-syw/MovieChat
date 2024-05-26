@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "153.mp4",
+  "url": "",
+  "class": "Crime Film",
+  "w": 1280,
+  "h": 528,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "A group of people sits in the yard, chatting and smoking. Two individuals converse on a sofa indoors. Another group is having a party on the grass. Meanwhile, in the study, the conversation continues. The scene transitions to a bus, where a man in sunglasses is present. At the back of the bus, a few people initiate a conversation. The scene shifts to an airport, where someone is on the phone. The person on the other end of the call is driving. Finally, a man and a woman appear in a hotel room.",
+ "global": [
+  {
+   "question": "When does it happen in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does the story most probably happen in Aisa or Europe?",
+   "answer": "Aisa."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "No."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 720,
+   "question": "Is the person a man or a woman?",
+   "answer": "Man."
+  },
+  {
+   "time": 1440,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 2160,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 2880,
+   "question": "Where is the scene?",
+   "answer": "In the living room."
+  },
+  {
+   "time": 3600,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 4320,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 5064,
+   "question": "Where is the scene?",
+   "answer": "On the bus."
+  },
+  {
+   "time": 5760,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 6480,
+   "question": "Is it rainy?",
+   "answer": "No."
+  },
+  {
+   "time": 7200,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 7920,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 8640,
+   "question": "What is the person doing?",
+   "answer": "Making a phone call."
+  },
+  {
+   "time": 9360,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 10080,
+   "question": "Where is the scene?",
+   "answer": "In the bedroom."
+  }
+ ]
+}

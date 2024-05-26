@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "S04E3-10.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "A woman in white observed three men, addressing one of them with a stern expression. The man, overcome with anger, slammed shut the lid of a coffin. In a fit of rage and unable to contain himself any longer, he shattered the coffin. It was evident that he was venting the pent-up anger inside him, nearing an emotional breakdown. The trio then moved to another room, where it seemed they were plotting something. The plan appeared to involve the enraged man executing one of the two other men. One of them, looking like his brother, even offered himself to be killed, hoping that it would enable their escape. However, the distraught man refused. In a desperate act, he pointed a gun at himself. The woman behind the scenes, witnessing this, became extremely anxious, scrambling to find a sedative needle to prevent a tragedy.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "No."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "Six."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "How does the person feel?",
+   "answer": "Sad."
+  },
+  {
+   "time": 750,
+   "question": "Where is it?",
+   "answer": "In a room."
+  },
+  {
+   "time": 1500,
+   "question": "What is the scene?",
+   "answer": "An island."
+  },
+  {
+   "time": 2250,
+   "question": "How many people appeared?",
+   "answer": "Three."
+  },
+  {
+   "time": 3000,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 3750,
+   "question": "How many people appeared?",
+   "answer": "Three."
+  },
+  {
+   "time": 4500,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 5250,
+   "question": "What is the clothes color of the person?",
+   "answer": "Blue."
+  },
+  {
+   "time": 6000,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 6750,
+   "question": "What's in the person's hand?",
+   "answer": "A gun."
+  },
+  {
+   "time": 7500,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 8250,
+   "question": "What is the background color?",
+   "answer": "Red."
+  },
+  {
+   "time": 9000,
+   "question": "How does the person feel?",
+   "answer": "Serious."
+  },
+  {
+   "time": 9750,
+   "question": "What is the background color?",
+   "answer": "Black"
+  },
+  {
+   "time": 10500,
+   "question": "What are the people doing?",
+   "answer": "Making a phone call."
+  }
+ ]
+}

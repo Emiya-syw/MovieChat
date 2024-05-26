@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "SHQ-5.mp4",
+        "url": "",
+        "class": "Adventure Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "The children took some things out of the secret headquarters. During school exams, they passed the test paper to the people outside the class through the portal to help themselves answered the questions. In physical education class, Charlie wore the gloves that could enhance his strength and won the competition. They even drove the car on the road, and they were chased by the police because of overspeed. Fortunately, they escaped in the end. However, as they brought these high-tech products outside, the signal of the objects was discovered by the company.",
+    "global":
+    [
+        {
+            "question":"Is it a video based on reality or not?(Does it looks like real story? Or it looks like a science fiction movie?)",
+            "answer":"No. It seems like a science fiction movie"
+        },
+        {
+            "question":"Are there more then five different scenes appear in the video?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than five different characters appear?",
+            "answer":"Yes."
+        },
+        {
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Mainly at day time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Both outdoors and indoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":1600,
+            "question":"what is the color of the girl's hair?",
+            "answer":"Blue."
+        },
+        {
+            "time":2150,
+            "question":"where is the scene?",
+            "answer":"Inside a classroom."
+        },
+        {
+            "time":3000, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":3750,
+            "question":"what's the color of the boy's hat?",
+            "answer":"Blue."
+        },
+        {
+            "time":4500,
+            "question":"what are they doing?",
+            "answer":"They're playing baseball."
+        },
+        {
+            "time":5200,
+            "question":"How many characters appear in the scene?",
+            "answer":"Four."
+        },
+        {
+            "time":6000,
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":6750, 
+            "question":"what's in the scene?",
+            "answer":"The scene of a camera."
+        },
+        {
+            "time":7600,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":8250,
+            "question":"Is there more than five characters?",
+            "answer":"No."
+        },
+        {
+            "time":8950, 
+            "question":"where is the scene?",
+            "answer":"On the road."
+        },
+        {
+            "time":9700,
+            "question":"what happens?",
+            "answer":"A small truck is driving towards a house."
+        },
+        {
+            "time":10600, 
+            "question":"Is the man's hair curly or straight?",
+            "answer":"It's curly."
+        },
+        {
+            "time":10875,
+            "question":"How many characters appear in the scene?",
+            "answer":"One."
+        }
+    ]
+}

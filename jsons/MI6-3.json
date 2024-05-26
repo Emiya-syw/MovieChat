@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "MI6-3.mp4",
+  "url": "",
+  "class": "action film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "It’s a part of a movie. The theme of the movie is spy and agent. A man in black is trying to kill another man who is lying on the bed. But he is stopped by his fellow. They are sad, and they have a phone call. Then the news station says something on the TV. The man on the bed is happy and he is laughing, however, then he finds himself being cheated and he is despaired. Then there’s a small video, and they go to the airport. At the entrance of a plane, a man and a woman is arguing.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "More than ten."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 750,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 1500,
+   "question": "What is the person doing?",
+   "answer": "Using a computer."
+  },
+  {
+   "time": 2250,
+   "question": "How many people appeared?",
+   "answer": "Four."
+  },
+  {
+   "time": 3000,
+   "question": "What are the people doing?",
+   "answer": "Fighting."
+  },
+  {
+   "time": 3750,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 4500,
+   "question": "Where is it?",
+   "answer": "On an airport."
+  },
+  {
+   "time": 5250,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 6000,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 6750,
+   "question": "How many people appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 7500,
+   "question": "Are there any vehicles?",
+   "answer": "Yes."
+  },
+  {
+   "time": 8250,
+   "question": "How does the person feel?",
+   "answer": "Unhappy."
+  },
+  {
+   "time": 9000,
+   "question": "Where is it?",
+   "answer": "An airport."
+  },
+  {
+   "time": 9750,
+   "question": "Where is it?",
+   "answer": "An airport."
+  },
+  {
+   "time": 10500,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  }
+ ]
+}

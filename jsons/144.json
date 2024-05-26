@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "144.mp4",
+  "url": "",
+  "class": "Romance Film",
+  "w": 1024,
+  "h": 432,
+  "num_frame": 12000,
+  "fps": 25
+ },
+ "caption": "A person entered the warehouse with a flashlight to search for something. A man and a woman ran to the deck, sharing a kiss. Two crew members noticed an object ahead and became extremely worried. The helmsman adjusted various instruments and controls as the cruise ship continued forward, swaying. Water flooded into the cabin, causing panic as it rose up to people's chests. People turned on the light and find that the bedrooms were also inundated with seawater, and it filled the entire corridor. Many people gathered on the deck. Some people were still in the inner cabin of the ship.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Night."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "No."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does the scene happens in the 21st century?",
+   "answer": "No."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "What is the person holding?",
+   "answer": "Flash light."
+  },
+  {
+   "time": 800,
+   "question": "Does the girl have blonde hair?",
+   "answer": "No.She has black hair."
+  },
+  {
+   "time": 1500,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 2250,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 3000,
+   "question": "Where is the scene?",
+   "answer": "In the engine room of the ship."
+  },
+  {
+   "time": 3750,
+   "question": "Is it bright or dark?",
+   "answer": "Dark."
+  },
+  {
+   "time": 4500,
+   "question": "Is the person a man or a woman?",
+   "answer": "Man."
+  },
+  {
+   "time": 5300,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 6000,
+   "question": "What is happening?",
+   "answer": "Water is flooding into the room."
+  },
+  {
+   "time": 6750,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 7525,
+   "question": "What are the people doing?",
+   "answer": "Running."
+  },
+  {
+   "time": 8300,
+   "question": "Is the person in sweat?",
+   "answer": "Yes."
+  },
+  {
+   "time": 9175,
+   "question": "Where is the scene?",
+   "answer": "On the deck of the ship."
+  },
+  {
+   "time": 9925,
+   "question": "What is the object?",
+   "answer": "A ship."
+  },
+  {
+   "time": 10500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  }
+ ]
+}

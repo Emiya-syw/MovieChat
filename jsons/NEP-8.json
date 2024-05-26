@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "NEP-8.mp4",
+        "url": "",
+        "class": "Crime Film",
+        "w": 720,
+        "h": 480,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "The video starts with a bald middle-aged man returning home with food, only to discover that his family has been taken hostage by a gang. Under their threat, he is forced to drive to an abandoned factory. However, on the way, his son-in-law arrives and realizes the peril his father-in-law is in. Pretending to be unaware of the situation, the son-in-law decides to accompany the middle-aged man to the factory. Once there, the gang realizes that the son-in-law is actually a police officer and they immediately open fire. However, they fail to kill him and the officer bravely engages them in combat.",
+    "global":
+    [
+        {
+            "question":"When does the things in the video happens, ancient age, modern age or future?",
+            "answer":"It happens at modern age, maybe one decade ago."
+        },
+        {
+            "question":"Are there more then five different backgrounds appear in the video?",
+            "answer":"No."
+        },
+        {
+            "question":"Is there more women of more men appear in the video?",
+            "answer":"More men."
+        },
+        {
+            "question":"What's the time in the video? Day time or night time?",
+            "answer":"Mainly at day time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Both outdoors and indoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":800, 
+            "question":"what happens?",
+            "answer":"A man is running and seems in a hurry."
+        },
+        {
+            "time":1550,
+            "question":"where is the scene?",
+            "answer":"In a restaurant."
+        },
+        {
+            "time":2230,
+            "question":"what is the man doing?",
+            "answer":"He is driving a car. "
+        },
+        {
+            "time":3000, 
+            "question":"How many people appear in the scene?",
+            "answer":"Two people."
+        },
+        {
+            "time":3880,
+            "question":"what are they doing?",
+            "answer":"They are having a phone call."
+        },
+        {
+            "time":4400,
+            "question":"what is the emotion of the man?",
+            "answer":"He is nervous and scared."
+        },
+        {
+            "time":5300,
+            "question":"what are they doing?",
+            "answer":"They're having a conversation."
+        },
+        {
+            "time":6000,
+            "question":"what happens?",
+            "answer":"The black car is driving away."
+        },
+        {
+            "time":6750, 
+            "question":"How many people appear in the scene?",
+            "answer":"Five people."
+        },
+        {
+            "time":7500,
+            "question":"Is the scene outdoors or indoors?",
+            "answer":"The scene is outdoors."
+        },
+        {
+            "time":8250,
+            "question":"what's on the table?",
+            "answer":"A few bottles of beer."
+        },
+        {
+            "time":9000, 
+            "question":"How many people appear in the scene?",
+            "answer":"Three people."
+        },
+        {
+            "time":9750,
+            "question":"What is in the man's hand?",
+            "answer":"A gun."
+        },
+        {
+            "time":10500, 
+            "question":"what is the emotion of the man?",
+            "answer":"He is nervous but confident."
+        },
+        {
+            "time":10975,
+            "question":"what happens?",
+            "answer":"A man is standing up and starts to chase someone else."
+        }
+    ]
+}

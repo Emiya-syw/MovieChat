@@ -1,0 +1,110 @@
+{
+ "info": {
+  "video_path": "S01E0-7.mp4",
+  "class": "detective film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 11250,
+  "fps": 25
+ },
+ "caption": "A man is lying on a taxi saying something to the taxi driver. And then, then taxi driver does something on the man, and he lose his consciousness. Some people in the restaurant see this and one man runs after the taxi, trying to do something. After he wakes up, he finds himself in a room. The taxi driver and him sit around a table, and the driver takes out two bottles, and puts two drugs on the table. After that, the two men begin to talk. During the talk, they burst out an argument. And finally, the video end at there. ",
+ "global": [
+  {
+   "question": "How many characters appears in this video",
+   "answer": "There're four people in the video."
+  },
+  {
+   "question": "How many different environment appears in the video?",
+   "answer": "Two different environments."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "It appears in modern age."
+  },
+  {
+   "question": "How many man and woman appears in the video?",
+   "answer": "There're four men and zero women in the video."
+  },
+  {
+   "question": "What's the time in the video?",
+   "answer": "It's night."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 375,
+   "question": "Where are they\uff1f",
+   "answer": "In a room. "
+  },
+  {
+   "time": 1125,
+   "question": "Where are they?",
+   "answer": "In a room. "
+  },
+  {
+   "time": 2175,
+   "question": "what is on the table?",
+   "answer": "A bottle"
+  },
+  {
+   "time": 2625,
+   "question": "Is one of the men wearing a glass?",
+   "answer": "Yes."
+  },
+  {
+   "time": 3400,
+   "question": "How many people are there?",
+   "answer": "Two."
+  },
+  {
+   "time": 3850,
+   "question": "What's in the hand?",
+   "answer": "A drug."
+  },
+  {
+   "time": 4750,
+   "question": "what's it?",
+   "answer": "A police car."
+  },
+  {
+   "time": 5650,
+   "question": "where is it?",
+   "answer": "A an ambulance ."
+  },
+  {
+   "time": 6325,
+   "question": "How many people are there?",
+   "answer": "Two."
+  },
+  {
+   "time": 7500,
+   "question": "How many people are there?",
+   "answer": "Two."
+  },
+  {
+   "time": 8000,
+   "question": "How many people are there?",
+   "answer": "Two."
+  },
+  {
+   "time": 8875,
+   "question": "how many people are there?",
+   "answer": "one."
+  },
+  {
+   "time": 9300,
+   "question": "What's the color of the cloth?",
+   "answer": "Red."
+  },
+  {
+   "time": 9975,
+   "question": "What's the expression?",
+   "answer": "He's smiling."
+  },
+  {
+   "time": 10825,
+   "question": "Where are they",
+   "answer": "On the street."
+  }
+ ]
+}

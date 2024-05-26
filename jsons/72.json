@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "72.mp4",
+  "url": "",
+  "class": "Family Drama",
+  "w": 1280,
+  "h": 688,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does it happens in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Do animals appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day and night."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 192,
+   "question": "What number appears?",
+   "answer": "Twenty."
+  },
+  {
+   "time": 2160,
+   "question": "Where is the mansion?",
+   "answer": "By the lake."
+  },
+  {
+   "time": 2808,
+   "question": "Where is the scene?",
+   "answer": "Bedroom."
+  },
+  {
+   "time": 3600,
+   "question": "Who is the person?",
+   "answer": "A servent."
+  },
+  {
+   "time": 4320,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 5040,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 6480,
+   "question": "What is the clothes color of the person?",
+   "answer": "On the sofa."
+  },
+  {
+   "time": 7200,
+   "question": "Where is the cat standing?",
+   "answer": "In the living room."
+  },
+  {
+   "time": 7944,
+   "question": "Is the person a man or a woman?",
+   "answer": "A woman."
+  },
+  {
+   "time": 8640,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 9360,
+   "question": "What is the animal?",
+   "answer": "A dog."
+  },
+  {
+   "time": 10080,
+   "question": "Where is the cat?",
+   "answer": "On the table."
+  },
+  {
+   "time": 10560,
+   "question": "Is it indoor or outdoor?",
+   "answer": "It is indoor."
+  },
+  {
+   "time": 10944,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 11472,
+   "question": "Where is the cat?",
+   "answer": "In the house."
+  }
+ ]
+}

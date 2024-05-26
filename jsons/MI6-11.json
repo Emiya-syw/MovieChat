@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "MI6-11.mp4",
+  "url": "",
+  "class": "action film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "It’s a part of a movie. The theme of the movie is spy and agent. A man is caught by a group of man in a room. They do something rude on him. Then, a man and a woman meet with each other near a river under a bridge. They say something, the man is gentle, and woman is kind. They kiss each other. However, the man then goes to meet with another woman. The say something under a tree. The man then sees something. Then he suddenly wakes up in a car. And his friends are there. He takes a phone call.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "More than ten."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 750,
+   "question": "Where is it?",
+   "answer": "Near a river."
+  },
+  {
+   "time": 1500,
+   "question": "How many people appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 2250,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 3000,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 3750,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 4500,
+   "question": "How many people appeared?",
+   "answer": "One."
+  },
+  {
+   "time": 5250,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 6000,
+   "question": "How many people appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 6750,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 7500,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 8250,
+   "question": "How the person feel?",
+   "answer": "Confused."
+  },
+  {
+   "time": 9000,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 9750,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 10500,
+   "question": "What are the people doing?",
+   "answer": "Making a phone call."
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "s01e07-3.mp4",
+  "url": "",
+  "class": "epic film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "In one room, a man is discussing something while two women are sitting on a nearby sofa, listening to him. The man continues talking, and then the perspective shifts to a clock tower.In the clock tower, a girl lies on a pile of hay, being scolded by another young man, but she refuses to comply and resists. This escalates into a heated argument until an elderly person arrives, putting an end to their dispute.On top of a castle, with heavy snowfall outside, two men are gazing out. They see a horse approaching, but there is no rider on it. It appears its owner has died. The horse enters the town with a saddle on. These two men immediately report this development.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does more than ten people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "Does more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What is the person doing?",
+   "answer": "Speaking."
+  },
+  {
+   "time": 750,
+   "question": "What is the scene?",
+   "answer": "Two woman."
+  },
+  {
+   "time": 1500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 2250,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 3000,
+   "question": "How many people appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 3750,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 4500,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 5250,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 6000,
+   "question": "What is the scene?",
+   "answer": "An old man."
+  },
+  {
+   "time": 6750,
+   "question": "How is the weather?",
+   "answer": "Snowy."
+  },
+  {
+   "time": 7500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 8250,
+   "question": "How many people appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 9000,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 9750,
+   "question": "How many people appears?",
+   "answer": "Four."
+  },
+  {
+   "time": 10500,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  }
+ ]
+}

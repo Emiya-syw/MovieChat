@@ -1,0 +1,110 @@
+{
+ "info": {
+  "video_path": "S01E2-1.mp4",
+  "class": "detective film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "A woman is making tea with a pot while saying something. There are crowds of people around her, and they are listening to her. A man says something to her, but he is refused. At night, the woman is doing something in the library, then she finds something and is scared. A man is buying something in a supermarket, but it seems that he has trouble and is cross. At the same time, a man is fighting with another people in a room. The man in the supermarket then comes back and meet with that man, and that man is just using a computer.",
+ "global": [
+  {
+   "question": "How many characters appears in this video",
+   "answer": "There're five people in the video."
+  },
+  {
+   "question": "How many different environment appears in the video?",
+   "answer": "Four different environments."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "It appears in modern age."
+  },
+  {
+   "question": "How many man and woman appears in the video?",
+   "answer": "There're four men and one women in the video."
+  },
+  {
+   "question": "What's the time in the video?",
+   "answer": "Both day and night appears."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 10,
+   "question": "What's she doing?  ",
+   "answer": " Making tea.  "
+  },
+  {
+   "time": 750,
+   "question": " Is there a girl? ",
+   "answer": "  Yes. "
+  },
+  {
+   "time": 1500,
+   "question": " How many people are there? ",
+   "answer": "Two.  "
+  },
+  {
+   "time": 2250,
+   "question": "What's in the woman's hands?  ",
+   "answer": " A pot. "
+  },
+  {
+   "time": 3000,
+   "question": "What happens?  ",
+   "answer": " A door is closed.  "
+  },
+  {
+   "time": 3750,
+   "question": " How many people are there?  ",
+   "answer": "  One. "
+  },
+  {
+   "time": 4500,
+   "question": "  How's the light?  ",
+   "answer": " Dark.   "
+  },
+  {
+   "time": 5250,
+   "question": "  Where is it?   ",
+   "answer": "  In a city.  "
+  },
+  {
+   "time": 6000,
+   "question": "  Where are they?  ",
+   "answer": "  In a supermarket.  "
+  },
+  {
+   "time": 6750,
+   "question": " What's the man doing?   ",
+   "answer": " Buying something in the supermarket.  "
+  },
+  {
+   "time": 7500,
+   "question": " How many people are there?   ",
+   "answer": "  Two.  "
+  },
+  {
+   "time": 8250,
+   "question": "  What's the man doing?  ",
+   "answer": "  Fighting with another man.  "
+  },
+  {
+   "time": 9000,
+   "question": "  What's the man doing?  ",
+   "answer": "  Using a computer.  "
+  },
+  {
+   "time": 9750,
+   "question": " Where are they?   ",
+   "answer": " In a room.   "
+  },
+  {
+   "time": 10500,
+   "question": "  Where are they?  ",
+   "answer": " In a building.  "
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "111.mp4",
+  "url": "",
+  "class": "Animation Film",
+  "w": 1024,
+  "h": 576,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "A cat, a mouse, and a woman in a dress rushed into a building. One mouse came to open the door for the other. Then, the main door of the building opened, and the woman and the cat entered. Two dogs dressed as police officers stood outside the door. The cat, woman, and mouse hid inside a statue. Later, they made a hasty escape. Two dogs began playing musical instruments near the statue. The cat and the mouse got stuck inside the mechanical structure of the instrument. As the two dogs played their instruments, the cat and mouse were flung out. In a bar filled with animals, a lady was performing on stage. Two mice were running around with a diamond, and a winged creature had a rocket activated behind it.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does the clip happen in 21st century?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "During night."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 720,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 1464,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 2160,
+   "question": "Where is the scene?",
+   "answer": "In the church."
+  },
+  {
+   "time": 2880,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 3600,
+   "question": "Where is the scene?",
+   "answer": "In the corridor."
+  },
+  {
+   "time": 4296,
+   "question": "What is the dog doing?",
+   "answer": "Playing musical instrument."
+  },
+  {
+   "time": 5016,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 5760,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 6480,
+   "question": "What is the clothes color of the person?",
+   "answer": "Pink."
+  },
+  {
+   "time": 7200,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 7920,
+   "question": "Is the person a man or a woman?",
+   "answer": "Woman."
+  },
+  {
+   "time": 8640,
+   "question": "Where is the scene?",
+   "answer": "In the pub."
+  },
+  {
+   "time": 9360,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 10080,
+   "question": "Are there any plants?",
+   "answer": "No."
+  }
+ ]
+}

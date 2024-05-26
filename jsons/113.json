@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "113.mp4",
+  "url": "",
+  "class": "History Film",
+  "w": 1024,
+  "h": 560,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "At a dance party, a woman in a dress was chatting with two men. One of the men invited the woman to the dance floor. They danced and then encountered another dancing couple. At night, a man was reading a book by his bedside. The next day, during the day, someone was playing golf, and a crowd of onlookers gathered. A person hit a golf ball, and the ball flew far away. Everyone applauded. A woman was working nearby. It was a competition, and someone was wiping something on the scoreboard. A man was reading a notebook indoors, and then he looked outside.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "No."
+  },
+  {
+   "question": "Does the clip happen in 21st century?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day and night."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Where is the scene?",
+   "answer": "In the ball room."
+  },
+  {
+   "time": 720,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 1440,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 2160,
+   "question": "What are the people doing?",
+   "answer": "Dancing."
+  },
+  {
+   "time": 2880,
+   "question": "Is the person a man or a woman?",
+   "answer": "Man."
+  },
+  {
+   "time": 3600,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 4320,
+   "question": "What are the people doing?",
+   "answer": "Dancing."
+  },
+  {
+   "time": 5040,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 5760,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 6480,
+   "question": "What is the person doing?",
+   "answer": "Writing on blackboard."
+  },
+  {
+   "time": 7200,
+   "question": "Where is the scene?",
+   "answer": "On the gulf court."
+  },
+  {
+   "time": 8160,
+   "question": "What is the person doing?",
+   "answer": "Playing golf."
+  },
+  {
+   "time": 8880,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 9360,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 10080,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  }
+ ]
+}

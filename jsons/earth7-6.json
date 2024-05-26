@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "earth7-6.mp4",
+  "url": "",
+  "class": "documentary film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "The vast ocean of long-spines is the largest home to sand-eating animals on Earth and the smallest and rarest insects in the world. They are looking for sand and water, but the dry grasslands of summer can turn to dust, putting monkeys in urgent danger. They must share water with other thirsty animals, and at night, the presence of lions makes the animals nervous. The vast ocean of long-spines is the largest home to sand-eating animals on Earth and the smallest and rarest insects in the world. The small bugs are no bigger than bugs, the smallest wild insects. The dry grasslands of summer can turn to dust, and insects are looking for sand and water. Monkeys are in urgent danger and must drink water every day. They must rely on memory to find the water hole, which is a hundred kilometers away from the park valley. The presence of lions at night makes animals nervous. Animals have better night vision than humans, but lions are more sensitive. The presence of lions may affect the energy balance of animals. The vast ocean of long-spines sand-eating animals smallest insects dry grasslands dust monkeys urgent danger water thirsty animals presence lions night vision energy balance.",
+ "global": [
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Are there any human?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen in the cities?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What kind of animal is it?",
+   "answer": "Rhino."
+  },
+  {
+   "time": 750,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 1500,
+   "question": "What kind of animal is it?",
+   "answer": "Pig."
+  },
+  {
+   "time": 2250,
+   "question": "What kind of animal is it?",
+   "answer": "Elephant."
+  },
+  {
+   "time": 3000,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 3750,
+   "question": "What is the scene?",
+   "answer": "Elephants."
+  },
+  {
+   "time": 4500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 5250,
+   "question": "What kind of animal is it?",
+   "answer": "Lion."
+  },
+  {
+   "time": 6000,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 6750,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 7500,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 8250,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 9000,
+   "question": "What kind of animal is it?",
+   "answer": "Lion."
+  },
+  {
+   "time": 9750,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 10500,
+   "question": "Are there any human?",
+   "answer": "No."
+  }
+ ]
+}

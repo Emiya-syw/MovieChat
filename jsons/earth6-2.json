@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "earth6-2.mp4",
+  "url": "",
+  "class": "documentary film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "This video introduces how crocodiles survive in the Antarctic region and how they adapt to changes in the coastline.Crocodiles can escape to the farther ocean. Less than 3% of Antarctic terrain is free from ice. Almost all the blasted rocks are located on the Antarctic coast. Crocodiles adapt to the high pressures of summer. They can adapt to changes in the coastline, where almost all the blasted rocks are located. They manage to exist on the Antarctic coast. The survival capability of crocodiles is astonishing. They can exist in extreme environments. Their survival is also impacted by human activities.",
+ "global": [
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Are there any human?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen in the cities?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What is the scene?",
+   "answer": "A bird."
+  },
+  {
+   "time": 750,
+   "question": "What is the background color?",
+   "answer": "White."
+  },
+  {
+   "time": 1500,
+   "question": "What is the scene?",
+   "answer": "The earth."
+  },
+  {
+   "time": 2250,
+   "question": "Are there any mountains",
+   "answer": "Yes."
+  },
+  {
+   "time": 3000,
+   "question": "Are there any water?",
+   "answer": "Yes."
+  },
+  {
+   "time": 3750,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 4500,
+   "question": "What kind of animal is it?",
+   "answer": "Whale."
+  },
+  {
+   "time": 5250,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 6000,
+   "question": "How is the weather?",
+   "answer": "Cloudy."
+  },
+  {
+   "time": 6750,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 7500,
+   "question": "Are there any mountains",
+   "answer": "Yes."
+  },
+  {
+   "time": 8250,
+   "question": "What kind of animal is it?",
+   "answer": "Penguin."
+  },
+  {
+   "time": 9000,
+   "question": "What is the scene?",
+   "answer": "Penguins."
+  },
+  {
+   "time": 9750,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 10500,
+   "question": "Are there any human?",
+   "answer": "No."
+  }
+ ]
+}

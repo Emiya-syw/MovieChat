@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "S03E3-11.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "In this episode, he and his friend decide to head to Appledore, but he suggests bringing a gun to protect his friend's wife. They also discuss a dangerous individual they are tracking, Michael Vanes, and he mentions another perilous person they've encountered before, Sebastian Moran. Ultimately, he reveals some secret information he holds, including the identity of his protectee, his friend's wife. The duo discussing the dangerous individual Michael Vanes they are tracking, him mentioning the perilous Sebastian Moran they met before, him proposing they need to bring a gun to protect his friend’s wife, him disclosing some secret information, including the identity of his protectee, his friend's wife, her being revealed as his emotional anchor, him proposing that they will do their best to protect her and her loved ones, him showcasing a drawing he made, explaining how he utilizes the emotional anchor, him mentioning another dangerous individual they encountered before and Sebastian Moran's pressure point, him implying that they will go to her homeland and something might happen, and him suggesting that they will do their best to protect her and try to guard her secret information.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "No."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "Four."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What's in the person's hand?",
+   "answer": "A computer."
+  },
+  {
+   "time": 750,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 1500,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 2250,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 3000,
+   "question": "How many people appeared?",
+   "answer": "Three."
+  },
+  {
+   "time": 3750,
+   "question": "Where is it?",
+   "answer": "In a house."
+  },
+  {
+   "time": 4500,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 5250,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 6000,
+   "question": "What is the background color?",
+   "answer": "White."
+  },
+  {
+   "time": 6750,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 7500,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 8250,
+   "question": "Where is it?",
+   "answer": "Indoors."
+  },
+  {
+   "time": 9000,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 9750,
+   "question": "What is the background color?",
+   "answer": "White."
+  },
+  {
+   "time": 10500,
+   "question": "What is the scene?",
+   "answer": "A photo."
+  }
+ ]
+}

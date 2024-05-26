@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "s02e06-3.mp4",
+  "url": "",
+  "class": "epic film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "In a room with only one window, sunlight streamed in, indicating that it was daytime outside. Inside the room, some individuals were engaged in a conversation, and among them, there appeared to be a deceased person whose presence loomed large. Others in the room were discussing matters related to this individual. Among them was a shifty-looking person who engaged in conversation with the others. They exchanged words, and then, on a snowy mountain, a place covered in snow, a person lay on the ground with a drawn bow. He released an arrow, targeting one person and then another. The people nearby immediately rushed in, surrounding the group that had been attacked, and they killed them. Only one woman was captured by them, becoming their captive directly.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does more than ten people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "Does more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 750,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 1500,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 2250,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 3000,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 3750,
+   "question": "What is the scene?",
+   "answer": "An old man."
+  },
+  {
+   "time": 4500,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 5250,
+   "question": "What is in the person's hand?",
+   "answer": "A sword."
+  },
+  {
+   "time": 6000,
+   "question": "What are the people doing?",
+   "answer": "Fighting,"
+  },
+  {
+   "time": 6750,
+   "question": "What is in the person's hand?",
+   "answer": "An axe."
+  },
+  {
+   "time": 7500,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 8250,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 9000,
+   "question": "What is the scene?",
+   "answer": "A woman."
+  },
+  {
+   "time": 9750,
+   "question": "How is the weather?",
+   "answer": "Sunny."
+  },
+  {
+   "time": 10500,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  }
+ ]
+}

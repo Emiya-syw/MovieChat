@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "BKL-1.mp4",
+        "url": "",
+        "class": "Action Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "The video is consisted of two parts. The first party shows the scene of a big political rally, during which a woman is giving out a speech passionately. The woman seems to be harshly criticize something, and her action wins plenty of support from the audience. The second part of video shows a man walking in the woods. After walking, he found a secret hiding space near a house and talked with a woman hided there. The woman seemed to be scared and in danger. Two group of people might start a fight with each other.",
+    "global":
+    [
+        {
+            "question":"When does the things in the video happens, acient, modern, or in the future?",
+            "answer":"It happens at modern time."
+        },
+        {
+            "question":"Are there more than five different places appear in the video(scene switch doesn't necessarily means a place change)?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than five different characters appear?",
+            "answer":"Yes."
+        },
+        {
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Both at night and at day time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly outdoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"Is there any characters?",
+            "answer":"No."
+        },
+        {
+            "time":2100,
+            "question":"Is the woman wearing a hat?",
+            "answer":"No."
+        },
+        {
+            "time":2250,
+            "question":"what are they doing?",
+            "answer":"They're holding a rally"
+        },
+        {
+            "time":2950, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":3850,
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":4550,
+            "question":"where is the scene?",
+            "answer":"Over a big city."
+        },
+        {
+            "time":5250,
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":6100,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":6850, 
+            "question":"Is the man wearing glasses?",
+            "answer":"No."
+        },
+        {
+            "time":7500,
+            "question":"what is the man doing?",
+            "answer":"He's driving a car."
+        },
+        {
+            "time":8250,
+            "question":"what is the gender of the person in the middle?",
+            "answer":"He is a man."
+        },
+        {
+            "time":8950, 
+            "question":"How many women appear in the scene?",
+            "answer":"None."
+        },
+        {
+            "time":9750,
+            "question":"Is there more than ten people?",
+            "answer":"No."
+        },
+        {
+            "time":10600, 
+            "question":"Is there more than five people?",
+            "answer":"No."
+        },
+        {
+            "time":11000,
+            "question":"Is there more than three people?",
+            "answer":"No."
+        }
+    ]
+}

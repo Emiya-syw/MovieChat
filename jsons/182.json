@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "182.mp4",
+  "url": "",
+  "class": "Romance Film",
+  "w": 1280,
+  "h": 528,
+  "num_frame": 12000,
+  "fps": 25
+ },
+ "caption": "A woman in a pink dress was brushing her teeth in the bathroom. Another woman in white clothes got out of bed and also started brushing her teeth. In a small alley, there were many people. One woman was reading a magazine in her car, another woman was standing by the roadside as a bus approached, and yet another woman was riding a bicycle. Finally, four women came together in what seemed like a betrayal. On a stage, two boys were performing. On a forest path, two boys were riding a bicycle. Later, the two of them rode two bicycles, each with two girls. The scene returned to the place where the four women and two men met. They were walking along the street, interacting from time to time.",
+ "global": [
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  },
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does it happen in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "The story probably happens in Europe or Asia?",
+   "answer": "Asia."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "No."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 750,
+   "question": "Is the person a man or a woman?",
+   "answer": "Woman."
+  },
+  {
+   "time": 1500,
+   "question": "Where is the scene?",
+   "answer": "On the street."
+  },
+  {
+   "time": 2275,
+   "question": "Where is the scene?",
+   "answer": "In a car."
+  },
+  {
+   "time": 3025,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 3750,
+   "question": "What ist woman doing?",
+   "answer": "Making a phone call."
+  },
+  {
+   "time": 4500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 5250,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 6000,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 6750,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 7500,
+   "question": "Where is the scene?",
+   "answer": "On a road."
+  },
+  {
+   "time": 8250,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 9000,
+   "question": "Is it in the city or rural area?",
+   "answer": "In the city."
+  },
+  {
+   "time": 9750,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 10500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "s01e04-3.mp4",
+  "url": "",
+  "class": "epic film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "This is a wonderful epic series clip. The background of it is in middle age. At night, in a room, a man and a woman are sharing a bath together, both soaking in the bathtub and engaging in conversation. They display a high level of intimacy, and after talking for some time, they eventually embrace and share a kiss. The following morning, in a court or assembly hall, a woman accompanies an older man into the room. Meanwhile, in the assembly hall, several men are gathered around a table, with the man in the center appearing to be the decision-maker. The people below are reporting to him about various matters they have dealt with. As they are about to leave after addressing all the issues, the decision-maker stops one of the older men and asks him a question, to which the older man answers truthfully.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does more than ten people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 750,
+   "question": "How many people appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 1500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 2250,
+   "question": "What are the people doing?",
+   "answer": "Bathing."
+  },
+  {
+   "time": 3000,
+   "question": "Does the person look happy?",
+   "answer": "Yes."
+  },
+  {
+   "time": 3750,
+   "question": "How many people appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 4500,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 5250,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 6000,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 6750,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 7500,
+   "question": "How many people appeared?",
+   "answer": "Six."
+  },
+  {
+   "time": 8250,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 9000,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 9750,
+   "question": "What is the scene?",
+   "answer": "An old man."
+  },
+  {
+   "time": 10500,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  }
+ ]
+}

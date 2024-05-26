@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "63.mp4",
+  "url": "",
+  "class": "History Film",
+  "w": 1280,
+  "h": 544,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "The theater was filled with Nazi German officers and some women. The hallways and lobby of the theater were also crowded with German officers. Several officers, accompanied by a group of soldiers in Nazi uniforms, ascended the stairs. As the officers entered the hall, the entire theater audience began to give them the Nazi salute. Backstage, there was a group of actors dressed in costumes and a band with violins. They squeezed onto the stage. The conductor walked up to the podium and began conducting the orchestra. Suddenly, an unexpected event occurred. There was an explosion above the officers' heads, and white powder showered down. The officers turned white from the powder. The conductor crawled through the corridor and encountered two German soldiers carrying submachine guns. The conductor tried to escape but was caught by the soldiers. They were taken to an underground cellar, and the two soldiers escorted the conductor onto a small boat in the sewer, rowing away.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does this clip happens in the 21st century?",
+   "answer": "No."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Is this cartoon?",
+   "answer": "No."
+  },
+  {
+   "question": "On which continent does the story take place?",
+   "answer": "Europe."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 24,
+   "question": "Where is the scene?",
+   "answer": "In the concert hall."
+  },
+  {
+   "time": 1440,
+   "question": "Is this indoor or outdoor?",
+   "answer": "Nazi Germany soldiers."
+  },
+  {
+   "time": 1440,
+   "question": "Who are these people?",
+   "answer": "Nazi Germany soldiers."
+  },
+  {
+   "time": 2160,
+   "question": "Where is the scene?",
+   "answer": "In the VIP box."
+  },
+  {
+   "time": 2880,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 3600,
+   "question": "What are the people doing?",
+   "answer": "Clapping."
+  },
+  {
+   "time": 4320,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 5040,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 5760,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 6480,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 7200,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 7920,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 8640,
+   "question": "Where is the scene?",
+   "answer": "Beside the stair case."
+  },
+  {
+   "time": 9360,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 10080,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  }
+ ]
+}

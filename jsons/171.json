@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "171.mp4",
+  "url": "",
+  "class": "Family Drama",
+  "w": 1280,
+  "h": 544,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "At an ice skating rink, many people were gliding on ice. Several individuals held microphones on a stage. A boy in red waved his fist at another boy, stumbled, and face-planted into a cake on a table. One boy stood within a painting. What's being narrated on the screen? A family sat around a breakfast table, eating, and then they all stood up. A woman kept talking. They gave money to two boys, who went off to school. The teacher entered and gestured for one of the boys to sit in the front row. A few boys were in the living room, watching TV.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "No."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does it happen in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Are the main characters of this videos kids?",
+   "answer": "Yes."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "What is the clothes color of the boy?",
+   "answer": "Red."
+  },
+  {
+   "time": 720,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 1440,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 2160,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 2880,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 3600,
+   "question": "What is the color of the book?",
+   "answer": "Blue."
+  },
+  {
+   "time": 4320,
+   "question": "What is the clothes color of the person?",
+   "answer": "He is wearing black shirt with white stripes."
+  },
+  {
+   "time": 5040,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 5760,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 6480,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 7200,
+   "question": "Where is the scene?",
+   "answer": "In the dinning room."
+  },
+  {
+   "time": 7920,
+   "question": "Where is the scene?",
+   "answer": "At the shool."
+  },
+  {
+   "time": 8640,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 9360,
+   "question": "Where is the scene?",
+   "answer": "In the classroom."
+  },
+  {
+   "time": 10080,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  }
+ ]
+}

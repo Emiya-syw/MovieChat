@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "MI6-6.mp4",
+  "url": "",
+  "class": "action film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "It’s a part of a movie. The theme of the movie is spy and agent. The man and the woman leave the rest room. They enter a hall where a party is being held. They walk in the crowds of people and walk into another room. In that room, a woman is giving a speech towards many people. The man walks ahead, and the woman greet them. Then the man says something to the woman, and they try to leave. They are attacked but they kill the attacker. Finally, the man and woman along with a few men make a bargain next day in a small room.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "More than ten."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Night."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 750,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 1500,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 2250,
+   "question": "Where is it?",
+   "answer": "In a hall."
+  },
+  {
+   "time": 3000,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 3750,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 4500,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 5250,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 6000,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 6750,
+   "question": "How does the person feel?",
+   "answer": "Angry."
+  },
+  {
+   "time": 7500,
+   "question": "Where is it?",
+   "answer": "In a bar."
+  },
+  {
+   "time": 8250,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 9000,
+   "question": "Are there any vehicles?",
+   "answer": "Yes"
+  },
+  {
+   "time": 9750,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 10500,
+   "question": "How does the person feel?",
+   "answer": "Surprised."
+  }
+ ]
+}

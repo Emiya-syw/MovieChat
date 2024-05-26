@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "187.mp4",
+  "url": "",
+  "class": "Romance Film",
+  "w": 1280,
+  "h": 528,
+  "num_frame": 12000,
+  "fps": 25
+ },
+ "caption": "In an office, a woman was going through some documents. She left the office with a serene expression and encountered another woman carrying a coffee cup. The two women sat on a couch and started talking. Suddenly, a vase fell from above and smashed on the floor in front of them. One woman lay on a bed with a notebook, and another woman sat beside her. They began chatting. Later, a woman in a bathrobe appeared. Three women sat on a couch and had a conversation. Then, another woman in black clothing entered, and all four of them sat on the couch. In a park, a man and a woman sat on a bench. Later, the man took out a wedding ring, and he hurriedly went after the woman. He handed a briefcase to the woman.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "No."
+  },
+  {
+   "question": "When does it happen in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day and night."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "What is the clothes color of the person?",
+   "answer": "Red."
+  },
+  {
+   "time": 750,
+   "question": "Is the person a man or a woman?",
+   "answer": "Man."
+  },
+  {
+   "time": 1500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 2250,
+   "question": "Where is the woman sitting?",
+   "answer": "On the sofa."
+  },
+  {
+   "time": 3000,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 3750,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 4500,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 5250,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 6000,
+   "question": "How many people  appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 7500,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 8250,
+   "question": "Where is the scene?",
+   "answer": "In the living room."
+  },
+  {
+   "time": 9000,
+   "question": "How many girls are there?",
+   "answer": "Four."
+  },
+  {
+   "time": 9750,
+   "question": "How many girls are wearing in white?",
+   "answer": "Two."
+  },
+  {
+   "time": 10500,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 11250,
+   "question": "Are there any animals?",
+   "answer": "No."
+  }
+ ]
+}

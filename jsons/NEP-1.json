@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "NEP-1.mp4",
+        "url": "",
+        "class": "Crime Film",
+        "w": 720,
+        "h": 480,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "The start of the video shows that it's part of a movie. The video start from a scene recalled by a police officer, who was dealing with a fighting issue. He pretended to a customer of KTV, then when the criminals came in with weapons, he showed his identity and quickly smooth things out. He caught all the criminal except one, who ran away. He came to chase after the criminal and use force to bring him under control. However, the scene was photographed by an ordinary person, thus the police began to talk with him and tried to delete the photo. However, it seemed to be a useless work, and the police can do nothing but return.",
+    "global":
+    [
+        {
+            "question":"What is the main character?",
+            "answer":"A big man wearing a blue jacket."
+        },
+        {
+            "question":"How many different environment appears in the video?",
+            "answer":"Three."
+        },
+        {
+            "question":"Is there more women of more men appear in the video?",
+            "answer":"More men."
+        },
+        {
+            "question":"What is the main theme of the video?",
+            "answer":"About a police officer dealing with fighting and other issues."
+        },
+        {
+            "question":"What is the emotional tone of the video?",
+            "answer":"Fast-paced and intensive."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"what are they doing?",
+            "answer":"One man is kicking another man with foot."
+        },
+        {
+            "time":1600,
+            "question":"what is the man doing?",
+            "answer":"He is singing in a KTV with a group of people watching."
+        },
+        {
+            "time":2500,
+            "question":"what are they doing?",
+            "answer":"They are having a fight with each other. "
+        },
+        {
+            "time":3000, 
+            "question":"where is the scene?",
+            "answer":"Maybe in a KTV, or in a night club."
+        },
+        {
+            "time":3800,
+            "question":"what is the man doing?",
+            "answer":"He is talking with another man."
+        },
+        {
+            "time":4500,
+            "question":"what are they doing?",
+            "answer":"A man is talking to another guy."
+        },
+        {
+            "time":5250,
+            "question":"what are they doing?",
+            "answer":"A group of people are squatting on the ground, being controled by police."
+        },
+        {
+            "time":6000,
+            "question":"what are they doing?",
+            "answer":"A man is chasing after another guy."
+        },
+        {
+            "time":6750, 
+            "question":"How many people appear in the scene?",
+            "answer":"Two."
+        },
+        {
+            "time":7500,
+            "question":"How many women appear in the scene?",
+            "answer":"NO woman appears in the scene."
+        },
+        {
+            "time":8250,
+            "question":"what happens?",
+            "answer":"A man is lying on the ground. Two men come for help."
+        },
+        {
+            "time":9000, 
+            "question":"where is the scene?",
+            "answer":"In a big city."
+        },
+        {
+            "time":9750,
+            "question":"where is the scene?",
+            "answer":"In a small grocery store."
+        },
+        {
+            "time":10500, 
+            "question":"what are people doing here?",
+            "answer":"They are playing card games and maybe gambling."
+        },
+        {
+            "time":11050,
+            "question":"what are people doing here?",
+            "answer":"They are smoking and playing mahjong."
+        }
+    ]
+}

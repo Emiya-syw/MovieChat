@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "102.mp4",
+  "url": "",
+  "class": "History Film",
+  "w": 1024,
+  "h": 576,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "A woman in a red dress is talking with a blond haired man inside a room. The woman can't help but cry, and at that moment, a woman in white enters the room. They embrace, and the woman in white comforts the one in the red dress. A group of prisoners stands in a line within the room, and the woman seems to be organizing papers and taking notes. She engages in a conversation with a man. As daylight breaks, people are placing a sign on the roof. Two women are counting money in one place, while another woman in blue is having a conversation with a man near a carriage. Shortly after, the woman drives away in her carriage and encounters a group of bandits who seem intent on stopping her.",
+ "global": [
+  {
+   "question": "Does the clip happen in 21st century?",
+   "answer": "No."
+  },
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "No."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day and night."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 720,
+   "question": "What is the clothes color of the person?",
+   "answer": "Red."
+  },
+  {
+   "time": 1440,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 2160,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 2880,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 3648,
+   "question": "Who are the people that are walking?",
+   "answer": "Prisoners."
+  },
+  {
+   "time": 4320,
+   "question": "Is the person a man or a woman?",
+   "answer": "Man."
+  },
+  {
+   "time": 5760,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 6480,
+   "question": "How many people  appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 7200,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 7920,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 8640,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 9360,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 10080,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 10800,
+   "question": "Does the girl look happy?",
+   "answer": "No."
+  }
+ ]
+}

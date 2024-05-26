@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "136.mp4",
+  "url": "",
+  "class": "Family Drama",
+  "w": 1280,
+  "h": 688,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "In the jungle, there is a woman surrounded by many chipmunks and a man wearing white feathered clothing and a pair of glasses meets another man in dark attire by the river, and they chat by the riverbank. Night falls, and the chipmunks curl up in leaves to sleep. The following morning, the chipmunks wake up and start roaming the jungle. One of the chipmunks hangs upside down. The woman sits on a tree branch, and the chipmunks climb the tree. One chipmunk falls from the tree upside down. The chipmunks begin to dance in a clearing in the forest.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "No."
+  },
+  {
+   "question": "When does it happen in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day and night."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "No."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Where is the scene?",
+   "answer": "In the forrest."
+  },
+  {
+   "time": 96,
+   "question": "Is the person a man or a woman?",
+   "answer": "Woman."
+  },
+  {
+   "time": 720,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 1440,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 2160,
+   "question": "Where is the scene?",
+   "answer": "In the forrest."
+  },
+  {
+   "time": 2880,
+   "question": "Is the person a man or a woman?",
+   "answer": "Man."
+  },
+  {
+   "time": 3600,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 4320,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 5040,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 5760,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 6480,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 7200,
+   "question": "Where is the scene?",
+   "answer": "In the forrest."
+  },
+  {
+   "time": 7920,
+   "question": "Where is the woman sitting?",
+   "answer": "On a tree."
+  },
+  {
+   "time": 8640,
+   "question": "What is happening?",
+   "answer": "An animal falls from the tree."
+  },
+  {
+   "time": 9360,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  }
+ ]
+}

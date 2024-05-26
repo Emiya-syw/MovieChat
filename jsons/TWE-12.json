@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "TWE-12.mp4",
+        "url": "",
+        "class": "Animation Film",
+        "w": 720,
+        "h": 480,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "The video follows humans building huge propulsion engines on the Earth's surface in an attempt to push the planet out of the solar system and find new places to settle. However, during the voyage, it was attracted by Jupiter's gravity and gradually moved closer to Jupiter and was about to collide. Artificial intelligence developed by humans on Earth broadcasts to the entire planet and advises humans to give up hope as soon as possible and reunite with friends and relatives at the last minute. As the main characters, the brother and sister think that they can use the space station to ignite the gravitational chain between Jupiter and Earth and free the Earth from gravity.",
+    "global":
+    [
+        {
+            "question":"When does the things in the video happens, ancient age, modern age or future?",
+            "answer":"It happens at future."
+        },
+        {
+            "question":"Is there any disasterous scene appears?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than five different characters appear?",
+            "answer":"Yes."
+        },
+        {
+            "question":"What's the time in the video? Day time or night time?",
+            "answer":"Mainly at night time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly outdoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":800, 
+            "question":"where is the scene?",
+            "answer":"The surface of Jupyter."
+        },
+        {
+            "time":1540,
+            "question":"How many people appear in the scene?",
+            "answer":"Six."
+        },
+        {
+            "time":2200,
+            "question":"what is shown in screen?",
+            "answer":"A planet is caught by the gravity of Jupyter and being destroyed."
+        },
+        {
+            "time":3000, 
+            "question":"How many people appear in the scene?",
+            "answer":"One."
+        },
+        {
+            "time":3750,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":4500,
+            "question":"where is the scene?",
+            "answer":"In a space station."
+        },
+        {
+            "time":5250,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":6100,
+            "question":"what is the man doing?",
+            "answer":"He is talking to the woman."
+        },
+        {
+            "time":6750, 
+            "question":"what is the man doing?",
+            "answer":"He is shooting blindly."
+        },
+        {
+            "time":7500,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":8250,
+            "question":"what is the emotion of the man?",
+            "answer":"He seems confused and helpless."
+        },
+        {
+            "time":9000, 
+            "question":"How many ballons appear in the scene?",
+            "answer":"Three."
+        },
+        {
+            "time":9750,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":10500, 
+            "question":"what is the man doing?",
+            "answer":"He is talking to himself."
+        },
+        {
+            "time":11000,
+            "question":"what is in the sky?(hint: it's a planet in solar system)?",
+            "answer":"It's the surface of Jupyter."
+        }
+    ]
+}

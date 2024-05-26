@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "s01e01-6.mp4",
+  "url": "",
+  "class": "epic film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "This is a wonderful epic series clip. The background of it is in middle age. A man and a naked woman are engaged in an intimate conversation. Afterward, the man leaves, and the woman goes into a bath. Later, the man and the woman meet someone at the door. At that moment, a group of people on horseback, seemingly a nomadic tribe, arrives. Their leader glances at the woman and then departs. Meanwhile, the man, another gentleman, and the woman are engaged in conversation. Subsequently, the three of them walk along the road, chatting as they go. On the other side, a woman is brushing her daughter's hair, while outside, a party is in full swing, with people mingling and toasting. At this point, one person walks in, warmly greeted by another person, and they embrace.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "More than ten."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 750,
+   "question": "What is the scene?",
+   "answer": "A woman."
+  },
+  {
+   "time": 1500,
+   "question": "How many people appeared?",
+   "answer": "Three."
+  },
+  {
+   "time": 2250,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 3000,
+   "question": "What is the scene?",
+   "answer": "A man and a woman."
+  },
+  {
+   "time": 3750,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 4500,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 5250,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 6000,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 6750,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 7500,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 8250,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 9000,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 9750,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 10500,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  }
+ ]
+}

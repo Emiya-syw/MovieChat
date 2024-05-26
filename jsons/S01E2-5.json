@@ -1,0 +1,110 @@
+{
+ "info": {
+  "video_path": "S01E2-5.mp4",
+  "class": "detective film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "A man and a woman are in a museum, and they have an argument. In another house, one man has just returned and there is also a man already in the room. They say something and leave the house together. They are apart at the front of the house; one takes a taxi. And near the taxi, a woman is taking photo. The man who takes the taxi goes to the police station and get something from the policeman, and they gather again near the entrance of a subway. After that, they go to a shop owned by a Chinese old woman.",
+ "global": [
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "There're six people in the video."
+  },
+  {
+   "question": "Are there more then three  different environments appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "It appears in modern age."
+  },
+  {
+   "question": "Are there more than three men in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "What's the time in the video?",
+   "answer": "Daytime."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 10,
+   "question": " Where are they? ",
+   "answer": "  In a museum. "
+  },
+  {
+   "time": 750,
+   "question": " Where are they? ",
+   "answer": "In a room.   "
+  },
+  {
+   "time": 1500,
+   "question": " Where are they? ",
+   "answer": " On the street. "
+  },
+  {
+   "time": 2250,
+   "question": "How many people are there?  ",
+   "answer": " Two. "
+  },
+  {
+   "time": 3000,
+   "question": " What's the color of the man's cloth? ",
+   "answer": " Black.  "
+  },
+  {
+   "time": 3750,
+   "question": " What's the man doing?  ",
+   "answer": " Searching something from a lot of paper.  "
+  },
+  {
+   "time": 4500,
+   "question": " Where is it?   ",
+   "answer": " On the street.   "
+  },
+  {
+   "time": 5250,
+   "question": "  Where is it?   ",
+   "answer": " On the street.   "
+  },
+  {
+   "time": 6000,
+   "question": "  Where is it?    ",
+   "answer": " In a shop.   "
+  },
+  {
+   "time": 6750,
+   "question": "  How many people are there?  ",
+   "answer": "  Three.  "
+  },
+  {
+   "time": 7500,
+   "question": " Where are they?   ",
+   "answer": "  On the street.  "
+  },
+  {
+   "time": 8250,
+   "question": " What are they doing?   ",
+   "answer": " Having a meal.   "
+  },
+  {
+   "time": 9000,
+   "question": " Where are they?   ",
+   "answer": "In a restaurant.    "
+  },
+  {
+   "time": 9750,
+   "question": "  What happens?  ",
+   "answer": " They leave the restaurant.   "
+  },
+  {
+   "time": 10500,
+   "question": " What are they doing?   ",
+   "answer": "Going upstairs.   "
+  }
+ ]
+}

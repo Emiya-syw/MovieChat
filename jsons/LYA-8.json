@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "LYA-8.mp4",
+        "url": "",
+        "class": "Animation Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "In the video, a group is talking outdoors at night, seemingly making decisions for their upcoming action. They follow a guide through the wilderness to an abandoned minefield. Inside the minefield, they encounter mysterious mechanisms that trap them, but fortunately, by working together, they manage to escape unharmed. After resolving the crisis, they find a new, safe place to briefly rest and regroup, deciding on their next destination.",
+    "global":
+    [
+        {
+            "question":"When does the things in the video happens, ancient age, modern age or future?(Does the technology exists on earth?)",
+            "answer":"It happens at future."
+        },
+        {
+            "question":"Are the characters in the video people in reality? If not, what are they?(For example, they may be aliens or cartoon characters)",
+            "answer":"They are cartoon characters ."
+        },
+        {
+            "question":"Is there more than three different characters appear(not including people in the background)?",
+            "answer":"Yes."
+        },
+        {
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Mainly at night time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly indoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":1500,
+            "question":"Is it at day time or night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":2350,
+            "question":"what is the gender of the person in the right of the scene?",
+            "answer":"She is a woman."
+        },
+        {
+            "time":3000, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":3750,
+            "question":"How many people appear in the middle of the scene(not including people in the background)?",
+            "answer":"Four."
+        },
+        {
+            "time":4500,
+            "question":"Is there more than three people?",
+            "answer":"No."
+        },
+        {
+            "time":5150,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":6000,
+            "question":"what is the gender of the person?",
+            "answer":"He is a man."
+        },
+        {
+            "time":6750, 
+            "question":"what are they doing?",
+            "answer":"They're trying to use their body to destruy a device."
+        },
+        {
+            "time":7500,
+            "question":"Is it at day time or night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":8350,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":9020, 
+            "question":"what is the gender of the person at the right?",
+            "answer":"She is a woman."
+        },
+        {
+            "time":9850,
+            "question":"How many people appear in the middle of the scene(not including people in the background)?",
+            "answer":"Three people."
+        },
+        {
+            "time":10500, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":10975,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        }
+    ]
+}

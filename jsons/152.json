@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "152.mp4",
+  "url": "",
+  "class": "Crime Film",
+  "w": 1280,
+  "h": 528,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "A woman is smoking, sitting on a sofa next to a man in black clothing. On the street, a man stands with a row of cars in front of him. Another man's hands are bound, with bloodstains on his clothes. A woman is in front of him. Then, another man in white arrives and lights a cigarette for the bound man. A group of men descends from the car and takes the people from the scene. In a restaurant, a group of people gathers around a round table with many glasses in front of them. At night, a group of people appears near a car. Another group dines in the restaurant, and yet another group chats in the study.",
+ "global": [
+  {
+   "question": "When does it happen in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does the story most probably happen in Aisa or Europe?",
+   "answer": "Aisa."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "No."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "What is the woman doing?",
+   "answer": "Smoking."
+  },
+  {
+   "time": 720,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 1440,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 2160,
+   "question": "Is it bright or dark?",
+   "answer": "Dark."
+  },
+  {
+   "time": 2880,
+   "question": "Is the person a man or a woman?",
+   "answer": "Man."
+  },
+  {
+   "time": 3600,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 4296,
+   "question": "Is the person a man or a woman?",
+   "answer": "Woman."
+  },
+  {
+   "time": 5040,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 5760,
+   "question": "Where is the scene?",
+   "answer": "In the restaurant."
+  },
+  {
+   "time": 6480,
+   "question": "Where is the scene?",
+   "answer": "On the car."
+  },
+  {
+   "time": 7200,
+   "question": "Are there any vehicles?",
+   "answer": "Yes."
+  },
+  {
+   "time": 7920,
+   "question": "Is the person a man or a woman?",
+   "answer": "A man."
+  },
+  {
+   "time": 8640,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 9360,
+   "question": "Where is the scene?",
+   "answer": "In the office."
+  },
+  {
+   "time": 10080,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  }
+ ]
+}

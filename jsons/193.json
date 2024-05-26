@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "193.mp4",
+  "url": "",
+  "class": "School Film",
+  "w": 848,
+  "h": 464,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "A group of children were performing as pirates on stage. They had created a simple pirate ship. A group of boys sat on outdoor benches. They arrived in front of a building, and a man walked out of the building. The man fainted in front of the building. In a classroom, a teacher sat at the podium. When class ended, the children left the classroom in a rush. One young boy was walking too slowly and was called back by the teacher. A man and a woman were having a conversation in a house. A group of children were lining up in the yard. At this moment, a woman in purple clothing walked by, and all the boys took out their books to read. The woman in purple clothing sat at the podium. She walked directly towards a bespectacled boy. A boy was making a phone call in a telephone booth, and the person who answered the call was from an auto repair shop.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  },
+  {
+   "question": "When does it happen in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Does this video more probably happen in Europe or Asia?",
+   "answer": "Europe."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 480,
+   "question": "What are the boys doing?",
+   "answer": "They are performing a show."
+  },
+  {
+   "time": 1200,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 1440,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 2160,
+   "question": "Where is the scene?",
+   "answer": "In the classroom."
+  },
+  {
+   "time": 2880,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 3648,
+   "question": "How many people are there in the classroom?",
+   "answer": "Only one."
+  },
+  {
+   "time": 4272,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 5040,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Otudoor."
+  },
+  {
+   "time": 5760,
+   "question": "How is the weather?",
+   "answer": "Sunny."
+  },
+  {
+   "time": 6528,
+   "question": "What is the coat color of the old woman?",
+   "answer": "Purple."
+  },
+  {
+   "time": 7224,
+   "question": "What is the person doing?",
+   "answer": "Talking to the students."
+  },
+  {
+   "time": 7944,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 8664,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 9384,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 10104,
+   "question": "What is the person doing?",
+   "answer": "Making a phone call."
+  }
+ ]
+}

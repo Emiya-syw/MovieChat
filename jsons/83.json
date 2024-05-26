@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "83.mp4",
+  "url": "",
+  "class": "Family Drama",
+  "w": 1280,
+  "h": 688,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "This is a scene inside a courtroom. Inside the courtroom, there are many people. Two men are seated in the audience area, one wearing a black suit, and the other wearing a gray suit. On the bench of the courtroom, there sits a judge, and in the chair below the judge, there is a female. This woman is testifying with visible emotion, her eyes appearing somewhat moist. Suddenly, the man in the gray suit stands up, approaches the woman, and begins questioning her. At the same time, the man in the black suit and the judge are both closely observing the proceedings.",
+ "global": [
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "No."
+  },
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does it happens in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  },
+  {
+   "question": "Is this cartoon?",
+   "answer": "No."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Which country's flag appear?",
+   "answer": "United States."
+  },
+  {
+   "time": 720,
+   "question": "Where is the scene?",
+   "answer": "At the counrt."
+  },
+  {
+   "time": 1464,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 2160,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 2880,
+   "question": "What is the clothes color of the person?",
+   "answer": "Grey."
+  },
+  {
+   "time": 3600,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 4320,
+   "question": "Is the person a man or a woman?",
+   "answer": "Woman."
+  },
+  {
+   "time": 5088,
+   "question": "Is the person a man or a woman?",
+   "answer": "Man."
+  },
+  {
+   "time": 5808,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 6504,
+   "question": "Is the person a man or a woman?",
+   "answer": "Woman."
+  },
+  {
+   "time": 7224,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 7920,
+   "question": "What is the hair color of the woman?",
+   "answer": "Blonde."
+  },
+  {
+   "time": 8640,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 9360,
+   "question": "Where is the scene?",
+   "answer": "At the counrt."
+  },
+  {
+   "time": 10080,
+   "question": "Is the person a man or a woman?",
+   "answer": "Woman."
+  }
+ ]
+}

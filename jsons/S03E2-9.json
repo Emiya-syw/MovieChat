@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "S03E2-9.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "In this episode, the detective and his partner investigate the identity of a man pretending to be deceased, finding he is a man escaping domestic life by assuming others' identities. Highlights include the detective and his partner investigating a man masquerading as deceased, the man steals others' identities to flee domestic life, they discover he is connected to three other women, and he is online dating these women but not responding to their calls. The investigators find the man wants to escape domestic life, using intellect and disguise to portray himself, the detective comments on his partner's understanding of humanity but still deems him worthless, and they decide to collaborate to solve the murder case.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "No."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "More than ten."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Where is it?",
+   "answer": "In a room."
+  },
+  {
+   "time": 750,
+   "question": "How many people appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 1500,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 2250,
+   "question": "Where is it?",
+   "answer": "In a court."
+  },
+  {
+   "time": 3000,
+   "question": "Where is it?",
+   "answer": "No."
+  },
+  {
+   "time": 3750,
+   "question": "How many people appeared?",
+   "answer": "Five."
+  },
+  {
+   "time": 4500,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 5250,
+   "question": "What's in the person's hands?",
+   "answer": "Newspaper."
+  },
+  {
+   "time": 6000,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 6750,
+   "question": "What is the person doing?",
+   "answer": "Using a computer."
+  },
+  {
+   "time": 7500,
+   "question": "How many people appeared?",
+   "answer": "Six."
+  },
+  {
+   "time": 8250,
+   "question": "How the person feel?",
+   "answer": "Confused."
+  },
+  {
+   "time": 9000,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 9750,
+   "question": "What is the background color?",
+   "answer": "Yellow."
+  },
+  {
+   "time": 10500,
+   "question": "What is the background color?",
+   "answer": "Yellow."
+  }
+ ]
+}

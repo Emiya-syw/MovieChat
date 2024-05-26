@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "earth3-4.mp4",
+  "url": "",
+  "class": "documentary film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "The video introduces the life of bats and lizards in Lake Malawi in East Africa and the unique environment they inhabit. Bats and lizards live independently in this lake and have distinct survival methods. The lifestyle of bats in Lake Malawi involves bats congregating at anticipated spots awaiting other bats, with their claws gripping onto other bats like a key, never letting go, and striking at lightning speed to surprise other bats. The distinctive environment of Lake Malawi in East Africa includes the lake being larger than Lake Wales and being among the smallest three lakes in the world. The lake houses a variety of fish, making it a crucial habitat for lizards. Only one ancestor of a lizard species has been isolated in this lake for thousands of years. Lizards are very parental creatures; they bite other lizards with their mouths to protect themselves. In darkness, lizards emerge from rocks, circling above sleeping lizards like crocodiles. Lizards utilize electronic fish detectors to capture any approaching lizards by sensing vibrations in electronic spheres.",
+ "global": [
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Are there any human?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen in the cities?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What kind of animal is it?",
+   "answer": "Wildebeest."
+  },
+  {
+   "time": 750,
+   "question": "What kind of animal is it?",
+   "answer": "Crocodiles."
+  },
+  {
+   "time": 1500,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 2250,
+   "question": "What is happening?",
+   "answer": "A crocodile is hunting."
+  },
+  {
+   "time": 3000,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 3750,
+   "question": "Are there any water?",
+   "answer": "Yes."
+  },
+  {
+   "time": 4500,
+   "question": "What is the background color?",
+   "answer": "Yellow."
+  },
+  {
+   "time": 5250,
+   "question": "What is the scene?",
+   "answer": "Ocean."
+  },
+  {
+   "time": 6000,
+   "question": "Where is it?",
+   "answer": "At the side of a lake."
+  },
+  {
+   "time": 6750,
+   "question": "Where is it?",
+   "answer": "Underwater."
+  },
+  {
+   "time": 7500,
+   "question": "What is the scene?",
+   "answer": "Fishes."
+  },
+  {
+   "time": 8250,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 9000,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 9750,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 10500,
+   "question": "What is the background color?",
+   "answer": "Black."
+  }
+ ]
+}

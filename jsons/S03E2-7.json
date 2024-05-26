@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "S03E2-7.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "The video tells the story of a bachelor party for two individuals and a case that causes embarrassment for one of them. While one tries to solve a murder case, the other saves a life. The case involves the most perfect locked-room murder one of them has ever encountered. At the bachelor party, they drink, chat, and experience some awkward moments. Highlights include one of them saving a life, solving the most perfect locked-room murder case, the bachelor party, drinking and chatting at the party, awkward moments between them, international reputation, some details of the case, their friendship, one's alcohol tolerance, and the wedding preparations for them.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "More than ten."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 750,
+   "question": "Where is it?",
+   "answer": "In a wedding ceremony."
+  },
+  {
+   "time": 1500,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 2250,
+   "question": "Does the person look happy?",
+   "answer": "Yes."
+  },
+  {
+   "time": 3000,
+   "question": "How many people appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 3750,
+   "question": "What is the scene?",
+   "answer": "Two people in a lab."
+  },
+  {
+   "time": 4500,
+   "question": "What are the people doing?",
+   "answer": "Drinking."
+  },
+  {
+   "time": 5250,
+   "question": "Where is it?",
+   "answer": "In a bar."
+  },
+  {
+   "time": 6000,
+   "question": "What is happening?",
+   "answer": "A man is drunk."
+  },
+  {
+   "time": 6750,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 7500,
+   "question": "How many people appeared?",
+   "answer": "Three."
+  },
+  {
+   "time": 8250,
+   "question": "Where is it?",
+   "answer": "In a room."
+  },
+  {
+   "time": 9000,
+   "question": "Does the person look happy?",
+   "answer": "Yes."
+  },
+  {
+   "time": 9750,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 10500,
+   "question": "How the person feel?",
+   "answer": "Happy."
+  }
+ ]
+}

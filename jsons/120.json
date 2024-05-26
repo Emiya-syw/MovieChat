@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "120.mp4",
+  "url": "",
+  "class": "Fantasy Film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "A woman sits at a table while a girl takes a bath in a bathtub. Suddenly, an insect appears. In the blink of an eye, the girl finds herself in a ruin. Here, she encounters a creature with legs. Soon, the girl climbs up the stairs. In the daylight, a group of people is seen standing in a queue, with many military officers in the open area. The girl closes a door and picks up a book. The book's pages turn red. At this moment, she sees a woman covered in blood. Rain pours from the sky. A woman is comforting the girl. At night, the woman is searching for something when a man suddenly appears from a large door behind her.",
+ "global": [
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day and night."
+  },
+  {
+   "question": "When does it happen in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "No."
+  },
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Where is the scene?",
+   "answer": "In the bathroom."
+  },
+  {
+   "time": 1440,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 2160,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 2160,
+   "question": "Is the person a boy or a girl?",
+   "answer": "Girl."
+  },
+  {
+   "time": 2880,
+   "question": "Is there a monster?",
+   "answer": "Yes."
+  },
+  {
+   "time": 3600,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 4320,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 5040,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 5760,
+   "question": "What is the object?",
+   "answer": "A book."
+  },
+  {
+   "time": 6480,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 7200,
+   "question": "How is the weather?",
+   "answer": "Rainy."
+  },
+  {
+   "time": 7824,
+   "question": "What are the people doing?",
+   "answer": "They are making the bed."
+  },
+  {
+   "time": 8640,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 9360,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 10080,
+   "question": "Are there any plants?",
+   "answer": "No."
+  }
+ ]
+}

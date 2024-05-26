@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "131.mp4",
+  "url": "",
+  "class": "Family Drama",
+  "w": 1024,
+  "h": 576,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "An airplane is taking off. Several chipmunks, dressed in various outfits, come down an elevator. They approach an elderly woman and chat with her. Suddenly, the old lady, sitting in a wheelchair, descends the stairs. Several chipmunks sit in a man's car, and he engages in conversation with them from the driver's seat. The chipmunks are inside the house, drawing and taking out a snack. The man brings a video game console and presents it to the chipmunks. In a hospital, a man is hooked up to various medical devices. In the evening, the chipmunks start going to sleep, and one of them runs into the man's room. Soon, it's the next morning.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does it happen in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day and night."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "How many chipmunks appeared in the clip?",
+   "answer": "Three."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "What kind of animal is this?",
+   "answer": "Chipmunk."
+  },
+  {
+   "time": 720,
+   "question": "Where is the scene?",
+   "answer": "In a station or an airport."
+  },
+  {
+   "time": 1440,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 2160,
+   "question": "What is happening?",
+   "answer": "The woman with the wheelchair is falling from the stairs."
+  },
+  {
+   "time": 2880,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 3600,
+   "question": "What are the clothes color of the  chipmunks?",
+   "answer": "Red, green and blue."
+  },
+  {
+   "time": 4320,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 5040,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 6480,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 6480,
+   "question": "How many chipmunks are there?",
+   "answer": "Three."
+  },
+  {
+   "time": 7200,
+   "question": "Where are the animals?",
+   "answer": "On the table."
+  },
+  {
+   "time": 7920,
+   "question": "Are there any people?",
+   "answer": "No."
+  },
+  {
+   "time": 8592,
+   "question": "Where is the man?",
+   "answer": "In the hospital."
+  },
+  {
+   "time": 9360,
+   "question": "What are the chipmunks doing?",
+   "answer": "Sleeping."
+  },
+  {
+   "time": 10080,
+   "question": "Where is the scene?",
+   "answer": "In the bedroom."
+  }
+ ]
+}

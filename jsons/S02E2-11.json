@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "S02E2-11.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "the protagonist and his friend are seen chatting, during which the protagonist mentioned the memory technique called \"Mind Palace\" and explained its principle. Subsequently, the protagonist received a phone call with a password from the CIA laboratory he had infiltrated. Key points include: Mind Palace is a memory technique that can help people remember things; the principle of Mind Palace involves creating a mental blueprint in the mind and placing memories in specific locations; this location can be anything, like a house or a street; the protagonist received a phone call containing a password from the CIA laboratory he had stolen from; the password was \"HOUND\", from Project Hound; the protagonist was concerned that he might not be able to access the laboratory; his friend mentioned the Sony company, but the protagonist did not hear clearly; the protagonist’s friend also mentioned a name, which will be referred to as “a person”.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "Six."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Can't determine."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Where is it?",
+   "answer": "In a lab."
+  },
+  {
+   "time": 750,
+   "question": "How many people  appeared?",
+   "answer": "Three."
+  },
+  {
+   "time": 1500,
+   "question": "What is the person doing?",
+   "answer": "Thinking."
+  },
+  {
+   "time": 2250,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 3000,
+   "question": "How many people  appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 3750,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 4500,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 5250,
+   "question": "Where is the scene?",
+   "answer": "bookshelf."
+  },
+  {
+   "time": 6000,
+   "question": "What is the person doing?",
+   "answer": "Typing something."
+  },
+  {
+   "time": 6750,
+   "question": "How the person feel?",
+   "answer": "Shocked."
+  },
+  {
+   "time": 7500,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 8250,
+   "question": "Where is it?",
+   "answer": "In a room."
+  },
+  {
+   "time": 9000,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 9750,
+   "question": "What is the person doing?",
+   "answer": "Making a phone call."
+  },
+  {
+   "time": 10500,
+   "question": "What is the person doing?",
+   "answer": "Making a phone call."
+  }
+ ]
+}

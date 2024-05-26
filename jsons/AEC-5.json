@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "AEC-5.mp4",
+        "url": "",
+        "class": "Science Fiction Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "The video starts with a group of tall blue humanoid beings equipped with military gear, venturing into an alien jungle. They seem to be exploring to familiarize themselves with the new environment. After trekking through the jungle for a while, they come upon a wooden hut. Inside, they discover materials left behind by the local inhabitants. They continue their journey, encountering various forms of flora and fauna native to the alien planet. However, not all of the creatures are friendly. They encounter a beast with the head of a hammerhead shark and the body of a triceratops that displays significant hostility towards them. To make matters worse, lurking behind them is a creature resembling a cheetah, cutting off their escape route and eyeing them predatorily. Forced to flee, they scatter in different directions. After a series of intense chase sequences, one of the male members of the exploration team jumps off a waterfall, landing in the turbulent waters below and narrowly escaping with his life.",
+    "global":
+    [
+        {
+            "question":"Is it a video based on reality or not?(Does it looks like real story? Or it looks like a science fiction movie?)",
+            "answer":"No it isn't, it looks like a science fiction movie."
+        },
+        {
+            "question":"Are there more then five different scenes appear in the video?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than five different characters appear?",
+            "answer":"Yes."
+        },
+        {
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Mainly at day time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly outdoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"where is the scene?",
+            "answer":"Inside a forest."
+        },
+        {
+            "time":1500,
+            "question":"Is there more than three people(including the blue human-like creature)?",
+            "answer":"No."
+        },
+        {
+            "time":2250,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":3000, 
+            "question":"Is there more than five people appear(including the blue human-like creatures)?",
+            "answer":"No."
+        },
+        {
+            "time":3700,
+            "question":"How many characters appear in the scene(including the blue creature)?",
+            "answer":"Three."
+        },
+        {
+            "time":4500,
+            "question":"what is the man doing(refers to the blue human-like creatures)?",
+            "answer":"He is exploring the forest while holding a gun."
+        },
+        {
+            "time":5250,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":6000,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":6850, 
+            "question":"How many monsters(or beasts)appear in the scene?",
+            "answer":"One."
+        },
+        {
+            "time":7500,
+            "question":"where is the scene?",
+            "answer":"Inside a forest."
+        },
+        {
+            "time":8250,
+            "question":"what happens?",
+            "answer":"A blue human-like creature is running away from a beast."
+        },
+        {
+            "time":8980, 
+            "question":"How many characters appear in the scene(including the blue creature)?",
+            "answer":"One."
+        },
+        {
+            "time":9750,
+            "question":"where is the scene?",
+            "answer":"Inside a forest."
+        },
+        {
+            "time":10500, 
+            "question":"Is the scene indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":10975,
+            "question":"what is the blue human-like creature in the middle of the scene doing?",
+            "answer":"He is whittling a piece of wood, maybe trying to make a spear."
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "WRP-2.mp4",
+        "url": "",
+        "class": "Crime Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "The video tells the story of an elderly man who has been bored for a week, during which he recalls that he was once in a car accident. On Friday, three men were chasing and fighting in the woods. One man took a knife and cut another man severely. The knife-wielding man was then chased by a third man. A third man executed the man with the knife. This is when the middle-aged and elderly man in the beginning of the video opens the door and discovers the scene. And shot a third man in the knee. The third man tried to bribe the middle-aged man, but failed. The middle-aged man overpowered the third man.",
+    "global":
+    [
+        {
+            "question":"When does the things in the video happens, acient, modern, or in the future?",
+            "answer":"It happens at modern time."
+        },
+        {
+            "question":"Are there more than three different places appear in the video(scene switch doesn't necessarily means a place change)?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than five different characters appear?",
+            "answer":"Yes."
+        },
+        {
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Mainly at day time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly outdoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":650, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":1500,
+            "question":"what's in the scene?",
+            "answer":"Something is burning. There's a flame."
+        },
+        {
+            "time":2200,
+            "question":"where is the scene?",
+            "answer":"In a forest."
+        },
+        {
+            "time":2950, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":3850,
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":4590,
+            "question":"Is the man bald?",
+            "answer":"No."
+        },
+        {
+            "time":5250,
+            "question":"what's in the man's mouth?",
+            "answer":"A cigar."
+        },
+        {
+            "time":6000,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":6750, 
+            "question":"How many characters appear in the scene?",
+            "answer":"One."
+        },
+        {
+            "time":7700,
+            "question":"where is the scene?",
+            "answer":"In a forest."
+        },
+        {
+            "time":8350,
+            "question":"Is there any vehicles?",
+            "answer":"YEs."
+        },
+        {
+            "time":9000, 
+            "question":"How many characters wear a hat?",
+            "answer":"None."
+        },
+        {
+            "time":9750,
+            "question":"Is there more than ten people?",
+            "answer":"No."
+        },
+        {
+            "time":10600, 
+            "question":"Is there more than five people?",
+            "answer":"No."
+        },
+        {
+            "time":11000,
+            "question":"Is there more than three people?",
+            "answer":"No."
+        }
+    ]
+}

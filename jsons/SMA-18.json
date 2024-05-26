@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "SMA-18.mp4",
+        "url": "",
+        "class": "Animation Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "Two women engage in a conversation. After several flashes of colored light, the women change their clothes. A man is bound to a sandbag. Another person approaches and starts playing a record on a gramophone. He stands by the window. Suddenly, he turns and strikes the sandbag forcefully. At this moment, another peculiar-looking individual jumps down from the room's beams. They remove their mask and converse with the boy tied to the sandbag. A mysterious figure takes off into the sky, soaring high. A person, holding a book, starts to doze off. Suddenly, they notice a woman outside emitting various colors of light. The scene transitions to a person dancing among the city buildings. A giant spider appears in the visuals.",
+    "global":
+    [
+        {
+            "question":"Is it a video based on reality or not?(Is it a cartoon movie?)",
+            "answer":"No. It seems like an animated movie."
+        },
+        {
+            "question":"Are there more than four different places appear in the video(scene switch doesn't necessarily means a place change)?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than ten different characters appear?",
+            "answer":"No."
+        },
+        {
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Mainly at night time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly indoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"what's in the scene?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":1500,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":2350,
+            "question":"Is there any vehicles?",
+            "answer":"No."
+        },
+        {
+            "time":3000, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":3800,
+            "question":"How many people appear in the scene?",
+            "answer":"Two."
+        },
+        {
+            "time":4500,
+            "question":"Is there more than five people?",
+            "answer":"No."
+        },
+        {
+            "time":5250,
+            "question":"Are there any vehicles?",
+            "answer":"No."
+        },
+        {
+            "time":6000,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":6750, 
+            "question":"Is it at day time or night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":7600,
+            "question":"Are there any vehicles?",
+            "answer":"No."
+        },
+        {
+            "time":8350,
+            "question":"what's the color of the woman's hair?",
+            "answer":"It's golden."
+        },
+        {
+            "time":500, 
+            "question":"Is it at day time or night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":1000,
+            "question":"Is there more than three people?",
+            "answer":"No."
+        },
+        {
+            "time":1200, 
+            "question":"Is there more than ten people?",
+            "answer":"No."
+        },
+        {
+            "time":2000,
+            "question":"Is there more than three people?",
+            "answer":"No."
+        }
+    ]
+}

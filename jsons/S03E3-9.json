@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "S03E3-9.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "The discussion about a conflict between the protagonists reveals that they found out Mary is actually an assassin who once saved one of them. Her real identity sparks trust issues between her and her husband, John. In the end, the protagonists decide to trust Mary and assist her in resolving her troubles. Notable moments include the discovery that Mary is an assassin who saved a life, John's shock and mistrust regarding Mary's true identity, inquiries into why Mary became an assassin, the decision to trust and assist her, Mary explaining her past and her lifesaving actions, her being a client and neighbor to John, a request for Mary to remain calm and answer questions, John learning that his life was once saved by Mary, an explanation of Mary's relationship and fondness for one of them, and a joint decision to trust her as they leave one of their homes.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "No."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "Six."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Night."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "How the person feel?",
+   "answer": "Angry."
+  },
+  {
+   "time": 750,
+   "question": "How many people appeared?",
+   "answer": "Three."
+  },
+  {
+   "time": 1500,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 2250,
+   "question": "Where is it?",
+   "answer": "In a room."
+  },
+  {
+   "time": 3000,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 3750,
+   "question": "What is the scene?",
+   "answer": "Three people in a room."
+  },
+  {
+   "time": 4500,
+   "question": "How the person feel?",
+   "answer": "Confused."
+  },
+  {
+   "time": 5250,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 6000,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 6750,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 7500,
+   "question": "What's in the person's hand?",
+   "answer": "A gun."
+  },
+  {
+   "time": 8250,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 9000,
+   "question": "How the person feel?",
+   "answer": "Serious."
+  },
+  {
+   "time": 9750,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 10500,
+   "question": "What is the background color?",
+   "answer": "Colorful."
+  }
+ ]
+}

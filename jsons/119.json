@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "119.mp4",
+  "url": "",
+  "class": "Fantasy Film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "In a forest, a group of military officers on horseback ride through the woods. One of the officers dismounts and examines some firewood on the ground. He picks something up and holds it in his hand. Afterward, the officers depart. As they leave, a group of people emerges in the woods. Among them, a girl covered in mud crawls into a cave. Inside, there are many insects and a giant frog. The giant frog licks the girl. It spits out a sticky substance. Rain begins to pour from the sky. The officers head towards a car. Later, the officers and women are seen dining together at a table. In the dark of night, a woman carries a lamp and walks into the forest.",
+ "global": [
+  {
+   "question": "Does the video happen in the 21st century?",
+   "answer": "No."
+  },
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day and night."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "No."
+  },
+  {
+   "question": "Does strange creature appear in the video?",
+   "answer": "Yes."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Are there any animals?",
+   "answer": "Yes. Horses."
+  },
+  {
+   "time": 720,
+   "question": "What are the job of these people?",
+   "answer": "They are soldiers."
+  },
+  {
+   "time": 1440,
+   "question": "Is the person a man or a woman?",
+   "answer": "Man."
+  },
+  {
+   "time": 2160,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 2880,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 2880,
+   "question": "Is it bright or dark?",
+   "answer": "Dark."
+  },
+  {
+   "time": 4320,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 5040,
+   "question": "What is the animal?",
+   "answer": "A huge frog."
+  },
+  {
+   "time": 6480,
+   "question": "Is there a disgusting creature?",
+   "answer": "She is covered in mud."
+  },
+  {
+   "time": 7200,
+   "question": "What is the girl covered with?",
+   "answer": "Day."
+  },
+  {
+   "time": 7920,
+   "question": "How is the weather?",
+   "answer": "It is rainy."
+  },
+  {
+   "time": 9360,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 10080,
+   "question": "Is the person a man or a woman?",
+   "answer": "Man."
+  },
+  {
+   "time": 10800,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 11280,
+   "question": "Is the person a man or a woman?",
+   "answer": "Woman."
+  }
+ ]
+}

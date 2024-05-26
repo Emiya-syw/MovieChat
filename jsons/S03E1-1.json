@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "S03E1-1.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "The video discusses the circumstances of the detective's death and the process by which the truth was revealed. At a conference, the detective was proven innocent, and the police missed the opportunity to bring him back, which also resulted in the detective's death being proven to be a ruse. Friends said he was like a star, but it also meant he couldn't return to his previous life. Ultimately, the detective was proven to be alive. Wishes for peace to the detective. The entire process confirmed that the detective's death was a plan, and his death was also proven to be fake. Prayers are offered in a specific, culturally nuanced manner, asking for something through the prayers provided. The detective's death also brought a new beginning, allowing his friends to let go of everything in the past and start anew. There’s a declaration of some argument being validated. It's unclear whether the numerous numbers are significant to the content. Various keywords hint towards overarching themes: the detective, the true nature of his death, illusion, friends, planning, a new beginning, letting go of the past, and some culturally specific or coded phrases that might need context to be fully understood.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern ages."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "More than ten."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 750,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 1500,
+   "question": "What is the person doing?",
+   "answer": "Making a phone call."
+  },
+  {
+   "time": 2250,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 3000,
+   "question": "What are the people doing?",
+   "answer": "Kissing."
+  },
+  {
+   "time": 3750,
+   "question": "What is the background color?",
+   "answer": "White."
+  },
+  {
+   "time": 4500,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 5250,
+   "question": "How many people  appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 6000,
+   "question": "How many people  appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 6750,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 7500,
+   "question": "How the person feel?",
+   "answer": "Sad."
+  },
+  {
+   "time": 8250,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 9000,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 9750,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 10500,
+   "question": "What is happening?",
+   "answer": "A man is beat."
+  }
+ ]
+}

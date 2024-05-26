@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "98.mp4",
+  "url": "",
+  "class": "Animation Film",
+  "w": 1024,
+  "h": 432,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "A man releases a mouse from a wide-mouthed bottle. The mouse quickly runs away into the night. The man looks sad and sighs, then goes to fetch his bicycle. Surprisingly, he finds the mouse has returned to him. He takes the mouse back home, with a view of Paris at night outside the window. The next day, the mouse cooks eggs for him for breakfast. In the kitchen, the chefs are reading newspapers. The man walks down the street holding the mouse, then pushes open the kitchen door. He dances around the stove, then runs to the pantry to have a conversation with the mouse. Suddenly, the short chef bursts in. Later, the mouse runs onto the man's head, grabbing his hair. The man covers his own eyes with cloth.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day and night."
+  },
+  {
+   "question": "When does it happens in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Do rats appear in the clip?",
+   "answer": "Yes."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 720,
+   "question": "Where is the scene?",
+   "answer": "On the street."
+  },
+  {
+   "time": 1440,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 2256,
+   "question": "What is the person doing?",
+   "answer": "Sleeping."
+  },
+  {
+   "time": 2880,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 3600,
+   "question": "What is the person doing?",
+   "answer": "Having breakfast with a mouse."
+  },
+  {
+   "time": 4320,
+   "question": "Where is the scene?",
+   "answer": "In the kitchen."
+  },
+  {
+   "time": 5040,
+   "question": "Where is the scene?",
+   "answer": "On the street."
+  },
+  {
+   "time": 5760,
+   "question": "What are the jobs of these people?",
+   "answer": "They are chefs."
+  },
+  {
+   "time": 6480,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 7200,
+   "question": "What is the person doing?",
+   "answer": "Screaming."
+  },
+  {
+   "time": 7920,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 8640,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 9360,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 10080,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  }
+ ]
+}

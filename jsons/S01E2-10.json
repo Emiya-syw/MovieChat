@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "S01E2-10.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "Two men and a woman is watching a performance while several actors and actresses are performing. The performance is really wonderful and dangerous, somebody is nearly being shot by an arrow. One of the men leave and enter the room for the actors. He is searching for something there. He finds yellow bottles, but then he is attacked. He fights with the attacker, but he is defeated. At that time then woman beat the attacker and they run away. Then arrive in their home and start a conversation. They try to find something to eat in their home, but they fail. ",
+ "global": [
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "night"
+  },
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "yes"
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Morden"
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes"
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "5"
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Where is the scene?",
+   "answer": "A woman is performing something"
+  },
+  {
+   "time": 750,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 1500,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 2250,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 3000,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 3750,
+   "question": "How the person feel?",
+   "answer": "nervous"
+  },
+  {
+   "time": 4500,
+   "question": "What is the clothes color of the person?",
+   "answer": "nervous"
+  },
+  {
+   "time": 5250,
+   "question": "What is the clothes color of the person?",
+   "answer": "Red"
+  },
+  {
+   "time": 6000,
+   "question": "Where is it?",
+   "answer": "In a room."
+  },
+  {
+   "time": 6750,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black"
+  },
+  {
+   "time": 7500,
+   "question": "What is the person doing?",
+   "answer": "Fighting."
+  },
+  {
+   "time": 8250,
+   "question": "What is the background color?",
+   "answer": "Dark yellow."
+  },
+  {
+   "time": 9000,
+   "question": "How many people  appeared?",
+   "answer": "4"
+  },
+  {
+   "time": 9750,
+   "question": "How many people  appeared?",
+   "answer": "3"
+  },
+  {
+   "time": 10500,
+   "question": "Where is the scene?",
+   "answer": "In a room"
+  }
+ ]
+}

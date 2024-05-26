@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "70.mp4",
+  "url": "",
+  "class": "Animation Film",
+  "w": 1024,
+  "h": 576,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "A wheeled robot speeds through the ruins at a tremendous pace. A massive mechanical hand grabs a white object, lifting it into the air. The white egg-shaped object is quickly retrieved inside the larger entity. The larger craft takes off into space, and the wheeled robot clings to the side of the spacecraft. The spacecraft travels over the lunar surface, past the solar surface, and through the rings of Saturn. Eventually, it arrives at a larger spaceship within the vast cosmos. The interior of the spaceship is highly technological, making the wheeled robot appear out of place. Here, the wheeled robot encounters many other white robots, and a group of robots moves continuously along what seems to be a highway-like structure.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "No."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does it happens in the video, ancient age, modern age or future?",
+   "answer": "Future."
+  },
+  {
+   "question": "Is this cartoon?",
+   "answer": "Yes."
+  },
+  {
+   "question": "How many man and woman appears in the video?",
+   "answer": "No human appears."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 720,
+   "question": "Where is the scene?",
+   "answer": "On an inclined bridge."
+  },
+  {
+   "time": 1440,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 2160,
+   "question": "Where is the scene?",
+   "answer": "In the outer space."
+  },
+  {
+   "time": 2880,
+   "question": "Is it dark?",
+   "answer": "Yes."
+  },
+  {
+   "time": 3600,
+   "question": "Is there a robot?",
+   "answer": "Yes."
+  },
+  {
+   "time": 4320,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 5040,
+   "question": "Where is the scene?",
+   "answer": "Outside a spaceship."
+  },
+  {
+   "time": 5760,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 6480,
+   "question": "Are there any robots?",
+   "answer": "Yes."
+  },
+  {
+   "time": 7200,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 7920,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 8640,
+   "question": "How many people  appears?",
+   "answer": "No poeple appears."
+  },
+  {
+   "time": 9360,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 10080,
+   "question": "Are there any robots?",
+   "answer": "Yes."
+  }
+ ]
+}

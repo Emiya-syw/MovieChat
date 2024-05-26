@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "s02e04-3.mp4",
+  "url": "",
+  "class": "epic film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "A boy held a crossbow, menacingly pointing it at two women, coercing them into something they appeared to find abhorrent. Both women wore expressions of intense suffering and disgust.By a lakeside, an army was encamped, and inside a tent, two men engaged in conversation. One of the men seemed to be persuading the other, who appeared to hold a high status, as he remained silent and contemplative. There was a hint of intrigue in the air.During the evening, the latter man walked with a woman inside the tent. They conversed as they strolled, appearing quite content.In a desert-like setting, a woman encountered a black-skinned man on horseback, who conveyed something to her. The woman displayed great surprise at this encounter.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does more than ten people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "Does more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 750,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 1500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 2250,
+   "question": "How many people appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 3000,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 3750,
+   "question": "What is the scene?",
+   "answer": "A man."
+  },
+  {
+   "time": 4500,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 5250,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 6000,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 6750,
+   "question": "How many people appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 7500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Oudoor."
+  },
+  {
+   "time": 8250,
+   "question": "How many people appears?",
+   "answer": "Three."
+  },
+  {
+   "time": 9000,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 9750,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 10500,
+   "question": "How does the person feel?",
+   "answer": "Desperate."
+  }
+ ]
+}

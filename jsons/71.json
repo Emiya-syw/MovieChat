@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "71.mp4",
+  "url": "",
+  "class": "Family Drama",
+  "w": 1280,
+  "h": 688,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "A cat riding a dog bounces around on a bed. It walks in front of a servant carrying a plate, asking for a walk in the garden. A gentleman and a lady enter the house. The cat and dog make their way into the hallway. The cat dashes into the hallway, knocking over a flower pot. Shortly after, it breaks some porcelain. It then topples a sculpture, causing a domino effect of sculptures falling. The last sculpture ends up pinning a man to the ground. A man with his feet on a table is on a phone call. The little dog climbs onto the table. Later, they encounter many other animals in the barn. A man in black attire enters the estate with a dog, and they're met by the butler of the house.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "No."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does it happens in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Do animals appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "What is this animal?",
+   "answer": "Cat."
+  },
+  {
+   "time": 720,
+   "question": "Who is the person?",
+   "answer": "A servent."
+  },
+  {
+   "time": 1416,
+   "question": "What is the object?",
+   "answer": "A mansion."
+  },
+  {
+   "time": 2160,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 2880,
+   "question": "Is the person a man or a woman?",
+   "answer": "Man."
+  },
+  {
+   "time": 3600,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 4320,
+   "question": "What is the object?",
+   "answer": "A statue."
+  },
+  {
+   "time": 5088,
+   "question": "Where is the scene?",
+   "answer": "At the office."
+  },
+  {
+   "time": 5760,
+   "question": "What are the animals?",
+   "answer": "Duck, dog and rabbit."
+  },
+  {
+   "time": 6480,
+   "question": "What kind is this bird?",
+   "answer": "Parrot."
+  },
+  {
+   "time": 7200,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 7920,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 8640,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 9360,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 10080,
+   "question": "Are there any people?",
+   "answer": "No."
+  }
+ ]
+}

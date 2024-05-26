@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "s01e01-2.mp4",
+  "url": "",
+  "class": "epic film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "This is a wonderful epic series clip. The background of it is in middle age. A terrified person sat motionless in the snowy field, and nearby, another individual approached him, holding a skull in their hand. Then, there was an animated sequence that resembled a toy castle. This castle kept expanding, and the scene shifted to the person standing in a grassy field, surrounded by cavalry on all sides. Meanwhile, in the castle, some children were practicing archery. Upstairs in the castle, a couple was observing these children. Later, the couple received a report from their subordinates and proceeded to the grassy field, where they killed the fleeing soldier, although they appeared deeply remorseful.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "More than ten."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 750,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 1500,
+   "question": "What is the scene?",
+   "answer": "A shining object."
+  },
+  {
+   "time": 2250,
+   "question": "What is the scene?",
+   "answer": "A map."
+  },
+  {
+   "time": 3000,
+   "question": "What is the scene?",
+   "answer": "a grassland."
+  },
+  {
+   "time": 3750,
+   "question": "What is the person doing?",
+   "answer": "Riding a horse."
+  },
+  {
+   "time": 4500,
+   "question": "What is in the person's hand?",
+   "answer": "A bow."
+  },
+  {
+   "time": 5250,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 6000,
+   "question": "Does the person look happy?",
+   "answer": "Yes."
+  },
+  {
+   "time": 6750,
+   "question": "How many people appeared?",
+   "answer": "Three."
+  },
+  {
+   "time": 7500,
+   "question": "What is the scene?",
+   "answer": "A woman."
+  },
+  {
+   "time": 8250,
+   "question": "Where is it?",
+   "answer": "On a grassland."
+  },
+  {
+   "time": 9000,
+   "question": "How does the person feel?",
+   "answer": "Serious."
+  },
+  {
+   "time": 9750,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 10500,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  }
+ ]
+}

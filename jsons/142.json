@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "142.mp4",
+  "url": "",
+  "class": "Romance Film",
+  "w": 1024,
+  "h": 432,
+  "num_frame": 12000,
+  "fps": 25
+ },
+ "caption": "A group of people stood on the deck. Several individuals were playing with spinning tops. A group of ladies and gentlemen walked from the deck. A man and a woman entered a room. The man gently touched the woman's face. A group of women were dining at a table. In the glow of the sunset, a man and a woman stood on the ship's railings. They closed their eyes, and the woman extended her arms. The man leaned in close behind her, and they shared a kiss under the beautiful sunset. An elderly man inside shared his experiences with the others.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day and night."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "No."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does the story happens on the sea or on the land?",
+   "answer": "On the sea."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 750,
+   "question": "Where is the scene?",
+   "answer": "On the deck of the ship."
+  },
+  {
+   "time": 1500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 2250,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 3000,
+   "question": "How many people  appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 3750,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 4500,
+   "question": "How many people  appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 5250,
+   "question": "Where is the scene?",
+   "answer": "In the restaurant."
+  },
+  {
+   "time": 6000,
+   "question": "Where is the scene?",
+   "answer": "On the deck of the ship."
+  },
+  {
+   "time": 6750,
+   "question": "Is it rainy?",
+   "answer": "No."
+  },
+  {
+   "time": 7500,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 8250,
+   "question": "What is the man doing?",
+   "answer": "He is holding the woman in his arm."
+  },
+  {
+   "time": 9000,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 9750,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 10500,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  }
+ ]
+}

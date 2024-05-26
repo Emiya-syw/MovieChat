@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "S04E3-7.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "Two men were in a room, which soon became crowded as another man was brought in, making the total count three. Suddenly, the room's walls turned blood red, and a video of another man started playing, addressing them. Beside the video, a woman issued them a chilling command: they must kill the newly introduced man, or another woman would be brought in and killed instead. The man pleaded with them to end his life, yet none of them could muster the courage to pull the trigger. As the gun was passed around hesitantly, and as one of them finally seemed determined to carry out the act, the man they were supposed to kill began shaking uncontrollably on the floor. The one with the gun hesitated again, unable to follow through. In the end, the trembling man, driven to madness, took the gun and ended his own life. Despite his sacrifice, the puppeteer woman still had the other female killed, leaving the men in the room consumed by rage.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "No."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "Seven."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 750,
+   "question": "What is the background color?",
+   "answer": "Red."
+  },
+  {
+   "time": 1500,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 2250,
+   "question": "What is the scene?",
+   "answer": "A gun."
+  },
+  {
+   "time": 3000,
+   "question": "How many people appeared?",
+   "answer": "Six."
+  },
+  {
+   "time": 3750,
+   "question": "What's in the person's hand?",
+   "answer": "A gun."
+  },
+  {
+   "time": 4500,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 5250,
+   "question": "What's in the person's hand?",
+   "answer": "A gun."
+  },
+  {
+   "time": 6000,
+   "question": "What is the background color?",
+   "answer": "Black and white."
+  },
+  {
+   "time": 6750,
+   "question": "How does the person feel?",
+   "answer": "Scared."
+  },
+  {
+   "time": 7500,
+   "question": "Where is it?",
+   "answer": "In a room."
+  },
+  {
+   "time": 8250,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 9000,
+   "question": "What is the person doing?",
+   "answer": "Sitting on a chair."
+  },
+  {
+   "time": 9750,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 10500,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  }
+ ]
+}

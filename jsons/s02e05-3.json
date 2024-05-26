@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "s02e05-3.mp4",
+  "url": "",
+  "class": "epic film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "Two people are walking in a bustling city center surrounded by shops. The shops are filled with people coming and going. The two individuals, one shorter and one taller, are glancing around, appearing to be searching for something amidst the bustling crowd.In another location, a small harbor is depicted with several boats setting sail. A man attempts to board one of the boats but is ridiculed by the crew members, leaving him visibly angry yet powerless.In yet another scene, a room is occupied by several elderly individuals dressed in black clothing engaged in conversation.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does more than ten people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "Does more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 750,
+   "question": "Where is it?",
+   "answer": "In a market."
+  },
+  {
+   "time": 1500,
+   "question": "How does the person feel?",
+   "answer": "Excited."
+  },
+  {
+   "time": 2250,
+   "question": "What is the clothes color of the person?",
+   "answer": "Brown."
+  },
+  {
+   "time": 3000,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 3750,
+   "question": "How does the person feel?",
+   "answer": "Angry."
+  },
+  {
+   "time": 4500,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 5250,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 6000,
+   "question": "Where is it?",
+   "answer": "At the bank."
+  },
+  {
+   "time": 6750,
+   "question": "What is the clothes color of the person?",
+   "answer": "Blue."
+  },
+  {
+   "time": 7500,
+   "question": "Where is it?",
+   "answer": "On a boat."
+  },
+  {
+   "time": 8250,
+   "question": "What is the scene?",
+   "answer": "A girl."
+  },
+  {
+   "time": 9000,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 9750,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 10500,
+   "question": "Are there any plants?",
+   "answer": "No."
+  }
+ ]
+}

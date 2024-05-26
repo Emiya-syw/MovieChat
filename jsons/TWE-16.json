@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "TWE-16.mp4",
+        "url": "",
+        "class": "Animation Film",
+        "w": 720,
+        "h": 480,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "The video tells the story of how, with the concerted efforts of the Earth team, it is still unable to solve the crisis that Jupiter's gravity is too large to attract Earth and cause an impact. At this time, the father in the space station said that he could save the Earth by smashing the fuel in the space station into Jupiter, thereby detonating the gas. This proposal was opposed by the governments of artificial intelligence and humans located on the space station. The AI views shut down the system to fight this for the father, and the father chooses to use alcohol to ignite the AI, thus directly out of control. Finally the father piloted the space station. On their way to Jupiter, the government said they supported the father's actions. At the same time, the father also has a final communication with his son, who is the older brother in the plot. He said he was going on a most important mission and was very sorry for his son. Eventually the space station hurtled into Jupiter, igniting the gas and pulling Earth out of crisis.",
+    "global":
+    [
+        {
+            "question":"When does the things in the video happens, ancient age, modern age or future?",
+            "answer":"It happens at future."
+        },
+        {
+            "question":"Is there any disasterous scene appears?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than five different characters appear?",
+            "answer":"Yes."
+        },
+        {
+            "question":"What's the time in the video? Day time or night time?",
+            "answer":"Mainly at night time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Actually, mainly in universe."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":800, 
+            "question":"what is the man doing?",
+            "answer":"He is making a phone call."
+        },
+        {
+            "time":1500,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":2250,
+            "question":"what happens?",
+            "answer":"A bottle of wine is broken and soon caused fire."
+        },
+        {
+            "time":3000, 
+            "question":"Is it at night time or day time?",
+            "answer":"At night."
+        },
+        {
+            "time":3750,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":4500,
+            "question":"Is there any woman?",
+            "answer":"No."
+        },
+        {
+            "time":5250,
+            "question":"what's in the scene?",
+            "answer":"A giant space ship."
+        },
+        {
+            "time":5850,
+            "question":"what are they doing?",
+            "answer":"They're pushing something."
+        },
+        {
+            "time":6750, 
+            "question":"what is the man doing?",
+            "answer":"He is driving a space ship."
+        },
+        {
+            "time":7500,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":8150,
+            "question":"where is the scene?",
+            "answer":"In the space."
+        },
+        {
+            "time":9000, 
+            "question":"what's in the scene?",
+            "answer":"Near the beach."
+        },
+        {
+            "time":9750,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":10600, 
+            "question":"what is the man doing?",
+            "answer":"He is talking to the interphone."
+        },
+        {
+            "time":10750,
+            "question":"Is there more than ten people?",
+            "answer":"Yes."
+        }
+    ]
+}

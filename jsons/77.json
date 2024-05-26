@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "77.mp4",
+  "url": "",
+  "class": "Romance Film",
+  "w": 1280,
+  "h": 696,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "The woman is holding a piece of paper and standing in the room. At this moment, a man enters. Night falls, and the woman leans on the sofa. She hears a noise from outside the door, gets up, and opens it. A man enters from outside, and they share a kiss. They proceed to examine a portrait, a pencil-drawn sketch. They continue conversing inside the house. Eventually, they embrace each other. Morning arrives, and a carriage approaches a house. A group of men and women gather inside the house. The man with the candle finds the woman and continues their conversation. After listening to the man, the woman returns to her room and closes the door.",
+ "global": [
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day and night."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "No."
+  },
+  {
+   "question": "On which continent does the story takes place?",
+   "answer": "Enrope."
+  },
+  {
+   "question": "Does it happen in the 21 st century?",
+   "answer": "No."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 24,
+   "question": "Is the person a man or a woman?",
+   "answer": "Woman."
+  },
+  {
+   "time": 744,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 1440,
+   "question": "What is the object?",
+   "answer": "A scatch."
+  },
+  {
+   "time": 2160,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 2832,
+   "question": "What are the people doing?",
+   "answer": "Kissing."
+  },
+  {
+   "time": 3552,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 4416,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 5088,
+   "question": "Is the person a man or a woman?",
+   "answer": "Man."
+  },
+  {
+   "time": 5808,
+   "question": "What is the person doing?",
+   "answer": "Laughing."
+  },
+  {
+   "time": 6480,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 7200,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 7920,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 8640,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 9360,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 10080,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  }
+ ]
+}

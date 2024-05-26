@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "AEC-1.mp4",
+        "url": "",
+        "class": "Science Fiction Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "This video appears to be the beginning of a sci-fi movie. It starts with a disabled man in a wheelchair entering a bar, where he sees a burly man harassing a woman. Wanting to do the right thing, he intervenes, but he's no match for the brute and is thrown out by his hair. Perhaps in response to his brave act, two men dressed in black approach him and recruit him for a secret mission. After much contemplation, he agrees. When he next awakens from a hibernation pod, he finds himself aboard a spaceship, traveling through space. From there, he is sent on a mission to a new planet.",
+    "global":
+    [
+        {
+            "question":"Is it a video based on reality or not?(Does it looks like real story? Or it looks like a science fiction movie?)",
+            "answer":"No it isn't."
+        },
+        {
+            "question":"Are there more then five different scenes appear in the video?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than ten different characters appear?",
+            "answer":"No."
+        },
+        {
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Mainly at night time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly indoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":950, 
+            "question":"where is the scene?",
+            "answer":"In a cloud-wrapped forest."
+        },
+        {
+            "time":1500,
+            "question":"Is there more than three people?",
+            "answer":"Yes."
+        },
+        {
+            "time":2200,
+            "question":"Is there more than fifty people appear?",
+            "answer":"Yes."
+        },
+        {
+            "time":2980, 
+            "question":"what is the man doing?",
+            "answer":"He's keeping himself balance with a cup of wine on his head."
+        },
+        {
+            "time":3750,
+            "question":"what is the man sitting on?",
+            "answer":"A wheel chair."
+        },
+        {
+            "time":4600,
+            "question":"Is there more than three people?",
+            "answer":"No."
+        },
+        {
+            "time":5300,
+            "question":"Is it day time or night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":6000,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":6750, 
+            "question":"How many people appear in the scene?",
+            "answer":"Four people."
+        },
+        {
+            "time":7500,
+            "question":"what's in the scene?",
+            "answer":"An asteroid."
+        },
+        {
+            "time":8200,
+            "question":"How many people appear in the scene?",
+            "answer":"Three people."
+        },
+        {
+            "time":8850, 
+            "question":"what is surrounding the man?",
+            "answer":"Flames."
+        },
+        {
+            "time":9750,
+            "question":"where is the scene?",
+            "answer":"Inside a space station."
+        },
+        {
+            "time":10500, 
+            "question":"what's in the scene?",
+            "answer":"A planet, maybe earth."
+        },
+        {
+            "time":10875,
+            "question":"what happens?",
+            "answer":"Two people are operating a space plane in an up-side-down pilot house."
+        }
+    ]
+}

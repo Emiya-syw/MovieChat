@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "192.mp4",
+  "url": "",
+  "class": "School Film",
+  "w": 848,
+  "h": 464,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "A man was carrying a television and walking in a room. A woman and a boy were nearby. The man placed the television on a cabinet, causing it to collapse, and the television fell. The boy was writing at the dining table. The man was pacing back and forth. Later, the man also started writing at the table. A family was eating at the dining table. Outdoors, a group of children were lining up under the guidance of a teacher. Suddenly, a boy fell to the ground. In a room, a group of doctors were conducting medical examinations for children and showing them a few drawings.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  },
+  {
+   "question": "When does it happen in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Does this video more probably happen in Europe or Asia?",
+   "answer": "Europe."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 720,
+   "question": "What is the color of the woman's apron?",
+   "answer": "Blue."
+  },
+  {
+   "time": 1440,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 2160,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 2880,
+   "question": "Is the boy smiling?",
+   "answer": "Yes."
+  },
+  {
+   "time": 3600,
+   "question": "What is the man holding in his hand?",
+   "answer": "A piece of paper."
+  },
+  {
+   "time": 4320,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 5040,
+   "question": "How many people  appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 5760,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 6480,
+   "question": "What are the people doing?",
+   "answer": "They are kissing."
+  },
+  {
+   "time": 7200,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 7920,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 8640,
+   "question": "Is the person a man or a woman?",
+   "answer": "Woman."
+  },
+  {
+   "time": 9360,
+   "question": "What is the clothes color of the man?",
+   "answer": "White."
+  },
+  {
+   "time": 10080,
+   "question": "What is the job of the old man?",
+   "answer": "A doctor."
+  }
+ ]
+}

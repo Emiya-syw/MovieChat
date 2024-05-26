@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "s02e04-6.mp4",
+  "url": "",
+  "class": "epic film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "In front of a castle, a woman led a group of horsemen, but they were refused entry by the city's residents, who appeared to be silk-clad merchants. At that moment, a black-skinned merchant came forward, engaging in a conversation and challenging their stance. He then walked over to the woman's side and led her party into the city.Meanwhile, in another place, a man handed a manuscript to a young boy, who passed it on to a jovial man. It seemed like an edict, and the cheerful man and the giver proceeded to a room where they shared a drink.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does more than ten people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "Does more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 750,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 1500,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 2250,
+   "question": "What is the scene?",
+   "answer": "A group of merchants."
+  },
+  {
+   "time": 3000,
+   "question": "How many people appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 3750,
+   "question": "What is in the person's hand?",
+   "answer": "A head."
+  },
+  {
+   "time": 4500,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 5250,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 6000,
+   "question": "How many people appears?",
+   "answer": "Four."
+  },
+  {
+   "time": 6750,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 7500,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 8250,
+   "question": "What is the clothes color of the person?",
+   "answer": "Brown."
+  },
+  {
+   "time": 9000,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 9750,
+   "question": "What is in the person's hand?",
+   "answer": "A cup."
+  },
+  {
+   "time": 10500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  }
+ ]
+}

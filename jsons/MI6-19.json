@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "MI6-19.mp4",
+  "url": "",
+  "class": "action film",
+  "w": 720,
+  "h": 480,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "It’s a part of a movie. The theme of the movie is spy and agent. The helicopter is crashed on the snow land on the cliff. At the same time, in a room, a man is tied on the rope, and another man is trying to kill a woman. The fight against each other. The man tied on the rope helps the woman, but then he is nearly killed by the rope. Luckily, the woman finally kills the man and saves the man who is nearly killed by the rope. Two men crawled out of a crashed helicopter. They fought each other and eventually both fell off a cliff. They managed to grab onto a rope. The man above focused on a rock on the cliff, and then he forcefully pulled the rope down. The hook on the rope hit the man below, causing him to fall off the cliff. ",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "More than ten."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Are there any vehicles?",
+   "answer": "Yes."
+  },
+  {
+   "time": 750,
+   "question": "What are the people doing?",
+   "answer": "Fighting."
+  },
+  {
+   "time": 1500,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 2250,
+   "question": "How many people appeared?",
+   "answer": "Three."
+  },
+  {
+   "time": 3000,
+   "question": "Where is it?",
+   "answer": "In a helicopter."
+  },
+  {
+   "time": 3750,
+   "question": "How many people appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 4500,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 5250,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 6000,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 6750,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 7500,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 8250,
+   "question": "How many people appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 9000,
+   "question": "What are the people doing?",
+   "answer": "Climbing on a rope."
+  },
+  {
+   "time": 9750,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 10500,
+   "question": "What is the person doing?",
+   "answer": "Climbing."
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "101.mp4",
+  "url": "",
+  "class": "History Film",
+  "w": 1024,
+  "h": 576,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "A woman is genuinely taking care of a sick woman downstairs. A little girl comes in from the yard, wearing a dress. The woman goes to the stairs to meet the little girl. She quickly puts on her hat and rushes outside. Carrying her dress, she weaves through carriages and stretchers with many wounded lying on the ground. In the midst of it all, she finds an old man who is helping the injured. The woman returns home, visibly upset, and scolds the little girl. She's sweaty and frustrated. The little girl arrives at the bar's entrance, where a man in white attire is surrounded by a group of women. He appears at the window on the second floor. Soon, the man in white attire arrives at the woman's house in a carriage, and they embrace.",
+ "global": [
+  {
+   "question": "Does the clip happen in 21st century?",
+   "answer": "No."
+  },
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "No."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day and night."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 24,
+   "question": "Where is the scene?",
+   "answer": "In the bedroom."
+  },
+  {
+   "time": 720,
+   "question": "How many people  appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 1536,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 2160,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 2880,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 3624,
+   "question": "Is the person a man or a woman?",
+   "answer": "Woman."
+  },
+  {
+   "time": 4320,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 5040,
+   "question": "Where is the scene?",
+   "answer": "At the stairs."
+  },
+  {
+   "time": 5760,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 6480,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 7440,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 7920,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 8640,
+   "question": "What is the person doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 10080,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 10800,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  }
+ ]
+}

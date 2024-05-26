@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "earth1-6.mp4",
+  "url": "",
+  "class": "documentary film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "As the twin wolves journey forth, they embark on a treasure hunt deep within a forest situated several kilometers away. However, they must tread cautiously to avoid fatigue from the sandy terrain. Their mother accompanies them, aiding in their quest to locate creatures they've lost touch with. Key highlights from the narrative include the twin wolves' venture in search of hidden treasures within the forest, all while evading the debilitating effects of the sand. Their mother plays a pivotal role in this journey, assisting in tracking down lost beings. Even as the wolves emerge from the sandy terrains, showing signs of weariness, their mother remains vigilant, closely watching over them.",
+ "global": [
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Are there any human?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen in the cities?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What is the scene?",
+   "answer": "Elephants."
+  },
+  {
+   "time": 750,
+   "question": "What is the background color?",
+   "answer": "Grey."
+  },
+  {
+   "time": 1500,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 2250,
+   "question": "What kind of animal is it?",
+   "answer": "Elephant."
+  },
+  {
+   "time": 3000,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 3750,
+   "question": "Are there any water?",
+   "answer": "Yes."
+  },
+  {
+   "time": 4500,
+   "question": "What kind of animal is it?",
+   "answer": "Bird."
+  },
+  {
+   "time": 5250,
+   "question": "What kind of animal is it?",
+   "answer": "Buffalo."
+  },
+  {
+   "time": 6000,
+   "question": "How is the weather?",
+   "answer": "Sunny."
+  },
+  {
+   "time": 6750,
+   "question": "Are there any human?",
+   "answer": "No."
+  },
+  {
+   "time": 7500,
+   "question": "What kind of animal is it?",
+   "answer": "Giraffe."
+  },
+  {
+   "time": 8250,
+   "question": "What kind of animal is it?",
+   "answer": "Monkey."
+  },
+  {
+   "time": 9000,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 9750,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 10500,
+   "question": "Are there any human?",
+   "answer": "No."
+  }
+ ]
+}

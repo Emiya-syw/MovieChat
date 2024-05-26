@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "163.mp4",
+  "url": "",
+  "class": "Crime Film",
+  "w": 848,
+  "h": 480,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "A group of people are having a discussion indoors. Next, they get into a car and drive on the road. In a meeting room, a group of people are working at a table. Two people are standing in front of a television discussing. The car drives onto an elevated bridge. A person points at a map on the wall. In an underground garage, several people bring in boxes and place them in the car's trunk. In a control room, a man shouts into a microphone. Several police cars surround the escaping vehicles. The police are chasing the suspects with their guns drawn. During the escape, a car crashes into a wall. A white-haired man quickly opens the door and flees. The scene returns to an office.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does it happen in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Night."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 240,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 960,
+   "question": "Is the person a man or a woman?",
+   "answer": "A man."
+  },
+  {
+   "time": 1440,
+   "question": "Where is the scene?",
+   "answer": "At the stairs."
+  },
+  {
+   "time": 2160,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 2904,
+   "question": "Where is the scene?",
+   "answer": "In the car."
+  },
+  {
+   "time": 3648,
+   "question": "What is the person doing?",
+   "answer": "Writing something on the note pad."
+  },
+  {
+   "time": 4320,
+   "question": "Are there any vehicles?",
+   "answer": "Yes."
+  },
+  {
+   "time": 5040,
+   "question": "What is the color of the car?",
+   "answer": "Black."
+  },
+  {
+   "time": 5760,
+   "question": "Where is the scene?",
+   "answer": "In the garage."
+  },
+  {
+   "time": 6480,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 7296,
+   "question": "What is happening?",
+   "answer": "A gun battle is taking place."
+  },
+  {
+   "time": 7920,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 8640,
+   "question": "Are there any buildings?",
+   "answer": "Yes."
+  },
+  {
+   "time": 9288,
+   "question": "What is happening?",
+   "answer": "A man is lying on the ground, dead."
+  },
+  {
+   "time": 10032,
+   "question": "What are the people doing?",
+   "answer": "Clapping their hands."
+  }
+ ]
+}

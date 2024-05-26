@@ -1,0 +1,110 @@
+{
+ "info": {
+  "video_path": "S01E2-3.mp4",
+  "class": "detective film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "A man drops into a balcony, and he enter a house. He finds that there\u2019s no man in the house, and he is searching for something. At last, he finds a secret room, and in which is a man lying on the bed, he has a gun in his hand. After a while, policemen arrive and have a conversation with the man. At the same time, a man and a woman are saying something, and then the man goes to somewhere and knock a door, but he gets no reply, so he writes a note and pushes it into the house. Also at the same time, a different man is seeking for a job.",
+ "global": [
+  {
+   "question": "How many characters appears in this video",
+   "answer": "There're eight people in the video."
+  },
+  {
+   "question": "How many different environment appears in the video?",
+   "answer": "Three different environments."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "It appears in modern age."
+  },
+  {
+   "question": "How many man and woman appears in the video?",
+   "answer": "There're five men and three women in the video."
+  },
+  {
+   "question": "What's the time in the video?",
+   "answer": "Both daytime and at night."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 10,
+   "question": " Where are they? ",
+   "answer": " In a balcony.  "
+  },
+  {
+   "time": 750,
+   "question": "Where is him?  ",
+   "answer": " In a house.  "
+  },
+  {
+   "time": 1500,
+   "question": " How many people are there? ",
+   "answer": " Four. "
+  },
+  {
+   "time": 2250,
+   "question": " What's the color of the man's cloth? ",
+   "answer": "Black.  "
+  },
+  {
+   "time": 3000,
+   "question": "What's the color of the man's cloth?  ",
+   "answer": " Black.  "
+  },
+  {
+   "time": 3750,
+   "question": " What's the time?  ",
+   "answer": " Daytime.  "
+  },
+  {
+   "time": 4500,
+   "question": " Where are they?   ",
+   "answer": "  In a room.  "
+  },
+  {
+   "time": 5250,
+   "question": " Is there a mirror?   ",
+   "answer": " Yes.   "
+  },
+  {
+   "time": 6000,
+   "question": "  Where are they?  ",
+   "answer": " In a restaurant.   "
+  },
+  {
+   "time": 6750,
+   "question": " Where are they?   ",
+   "answer": "  In a toilet  "
+  },
+  {
+   "time": 7500,
+   "question": " How many people are there?   ",
+   "answer": " Two.   "
+  },
+  {
+   "time": 8250,
+   "question": " Is there a man?   ",
+   "answer": "  Yes.  "
+  },
+  {
+   "time": 9000,
+   "question": "  How many people are there?  ",
+   "answer": "  Two.  "
+  },
+  {
+   "time": 9750,
+   "question": "  What's the man doing?  ",
+   "answer": "  writing something.  "
+  },
+  {
+   "time": 10500,
+   "question": "  How many people are there?  ",
+   "answer": " Two.  "
+  }
+ ]
+}

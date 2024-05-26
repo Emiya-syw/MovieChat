@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "SMA-15.mp4",
+        "url": "",
+        "class": "Animation Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "Several people place their hands on the surface of a high-speed flying craft. A man, shimmering with colorful light, begins a rapid descent. A woman changes into a set of glowing purple attire. Inside a control room, someone operates machinery. The room is filled with people of various colors. A man appears in the space, and it seems like a fight is breaking out among many people. A man turns to face a group of individuals. A girl attempts to communicate with the man but is grabbed by a spider-like mechanical arm. The man emits a variety of colorful lights and enters a space. Spider-Man lies on the ground, taking cover. The man teleports from one location to another. Inside a house, there's a man and a woman watching a baby in a stroller. A masked person enters the house, where a man is sleeping.",
+    "global":
+    [
+        {
+            "question":"Is it a video based on reality or not?(Is it a cartoon movie?)",
+            "answer":"No. It seems like an animated movie."
+        },
+        {
+            "question":"Are there more than four different places appear in the video(scene switch doesn't necessarily means a place change)?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than five different characters appear?",
+            "answer":"Yes."
+        },
+        {
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Mainly at night time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Both outdoors and indoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":1500,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":2350,
+            "question":"Is there any vehicles?",
+            "answer":"No."
+        },
+        {
+            "time":3000, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":3750,
+            "question":"How many people appear in the scene?",
+            "answer":"Two."
+        },
+        {
+            "time":4500,
+            "question":"Is there more than five people?",
+            "answer":"No."
+        },
+        {
+            "time":5250,
+            "question":"Are there any vehicles?",
+            "answer":"No."
+        },
+        {
+            "time":6000,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":6800, 
+            "question":"what happens?",
+            "answer":"A big device exploded."
+        },
+        {
+            "time":7600,
+            "question":"what's in the scene?",
+            "answer":"A man is carrying a little girl."
+        },
+        {
+            "time":8150,
+            "question":"Is it at day time or night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":9100, 
+            "question":"Is it at day time or night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":9850,
+            "question":"Is there more than three people?",
+            "answer":"No."
+        },
+        {
+            "time":10470, 
+            "question":"Is there more than ten people?",
+            "answer":"No."
+        },
+        {
+            "time":11100,
+            "question":"Is there more than three people?",
+            "answer":"No."
+        }
+    ]
+}

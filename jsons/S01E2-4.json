@@ -1,0 +1,110 @@
+{
+ "info": {
+  "video_path": "S01E2-4.mp4",
+  "class": "detective film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "A man and a woman are talking about something in an office. At night, a man rushed into his house, and he is scared to find something. In the next day, he is found to be dead. In the police office, two men are saying something to a policeman, and they then go to the room of the dead person. They find some evidence there, and two of them then leave and walk on the street. A meet a person who is painting on a door and they start to talk. Suddenly, some people arrive and two men run away, one man is left.",
+ "global": [
+  {
+   "question": "How many characters appears in this video",
+   "answer": "There're five people in the video."
+  },
+  {
+   "question": "Are there more then three  different environments appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "It appears in modern age."
+  },
+  {
+   "question": "Are there more than three men in the video?",
+   "answer": "Yes.."
+  },
+  {
+   "question": "What's the time in the video?",
+   "answer": "Daytime."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 10,
+   "question": " How many people are there? ",
+   "answer": "Two.   "
+  },
+  {
+   "time": 750,
+   "question": "What's the color of the woman's cloth?  ",
+   "answer": " White.  "
+  },
+  {
+   "time": 1500,
+   "question": " Where are they? ",
+   "answer": " In a room. "
+  },
+  {
+   "time": 2250,
+   "question": " What's the man doing? ",
+   "answer": " Thinking. "
+  },
+  {
+   "time": 3000,
+   "question": "Where are they?  ",
+   "answer": " In an office.  "
+  },
+  {
+   "time": 3750,
+   "question": " Where are they?  ",
+   "answer": "In a messy room.   "
+  },
+  {
+   "time": 4500,
+   "question": "  How many people are there?  ",
+   "answer": "  Three.  "
+  },
+  {
+   "time": 5250,
+   "question": " What's the color of the man's cloth?  ",
+   "answer": " Black.   "
+  },
+  {
+   "time": 6000,
+   "question": " Where are they?   ",
+   "answer": "  In a library.  "
+  },
+  {
+   "time": 6750,
+   "question": " What's the time?   ",
+   "answer": " Daytime.   "
+  },
+  {
+   "time": 7500,
+   "question": " Where are they?   ",
+   "answer": " On the street.   "
+  },
+  {
+   "time": 8250,
+   "question": "  What's the man doing?  ",
+   "answer": " Painting on a door.   "
+  },
+  {
+   "time": 9000,
+   "question": "What's the man doing?  ",
+   "answer": "  Using his cellphone.  "
+  },
+  {
+   "time": 9750,
+   "question": "  How many people are there?  ",
+   "answer": "  Three.  "
+  },
+  {
+   "time": 10500,
+   "question": "  How many people are there?  ",
+   "answer": " Two.  "
+  }
+ ]
+}

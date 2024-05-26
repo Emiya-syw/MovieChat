@@ -1,0 +1,110 @@
+{
+ "info": {
+  "video_path": "S01E0-5.mp4",
+  "class": "detective film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 11250,
+  "fps": 25
+ },
+ "caption": "The men walk into a restaurant and sit around a small table. The owner of the restaurant sees them and give one of them a hug. It seems like they have close relationship. Then the two men just sit there, eating and talking, until one of them see something. He asks the owner to give him a cup of water and pour it on his face, then he is pushed out of the restaurant. He walks to a taxi, but the driver doesn't allow him to get in. At the final part, he takes a phone and argues with the taxi driver.",
+ "global": [
+  {
+   "question": "How many characters appears in this video",
+   "answer": "There're four people in the video."
+  },
+  {
+   "question": "How many different environment appears in the video?",
+   "answer": "Two different environments."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "It appears in modern age."
+  },
+  {
+   "question": "How many man and woman appears in the video?",
+   "answer": "There're four men and zero women in the video."
+  },
+  {
+   "question": "What's the time in the video?",
+   "answer": "It's night."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 750,
+   "question": "what are the men doing?",
+   "answer": "They are walking on the street. "
+  },
+  {
+   "time": 1500,
+   "question": "what is the environment?",
+   "answer": "They're in a restaurant and sit around a table."
+  },
+  {
+   "time": 2250,
+   "question": "what is the old man doing?",
+   "answer": "He is hugging another man."
+  },
+  {
+   "time": 3000,
+   "question": "what is the old man doing?",
+   "answer": "He gives the two men two menu."
+  },
+  {
+   "time": 3750,
+   "question": "what is put on the table?",
+   "answer": "A tall candle."
+  },
+  {
+   "time": 4500,
+   "question": "is the candle lighted or not?",
+   "answer": "It's lighted."
+  },
+  {
+   "time": 5250,
+   "question": "what's the face expression of the men?",
+   "answer": "They're serious."
+  },
+  {
+   "time": 6000,
+   "question": "what's the color of the napkin on the table?",
+   "answer": "It's red."
+  },
+  {
+   "time": 6750,
+   "question": "what are the men doing?",
+   "answer": "They're talking and eating."
+  },
+  {
+   "time": 7500,
+   "question": "what's the face expression of the men?",
+   "answer": "One of them is excited, and another one is confused."
+  },
+  {
+   "time": 8250,
+   "question": "what's the type of car appears?",
+   "answer": "It's a taxi."
+  },
+  {
+   "time": 9000,
+   "question": "what do the waiter gives to the men?",
+   "answer": "A cup of liquid."
+  },
+  {
+   "time": 9750,
+   "question": "what happens?",
+   "answer": "The waiter throw the man in black coat out of the restaurant."
+  },
+  {
+   "time": 10500,
+   "question": "what's man doing?",
+   "answer": "He is trying to get on a taxi, but he failed."
+  },
+  {
+   "time": 11250,
+   "question": "what happens on the driver?",
+   "answer": "He get a phone call."
+  }
+ ]
+}

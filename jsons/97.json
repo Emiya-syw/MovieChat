@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "97.mp4",
+  "url": "",
+  "class": "Animation Film",
+  "w": 1024,
+  "h": 432,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "A mouse is in the kitchen sink, jumping out of it and hiding all around the kitchen. It scurries around, finally getting into a food cart. The cart is pushed into the dining area, and the mouse seizes the opportunity to sneak back into the kitchen. A skinny chef takes a ladle and pours himself a bowl of soup. After tasting it, he makes a distressed expression. The mouse climbs onto a table and starts adding various seasonings to the pot of soup. However, the skinny chef quickly spots it and hides the mouse in a container. Then, a short chef arrives and angrily grabs the skinny chef by the collar. Soon, someone takes the soup away, and the short chef follows in terror. He rides a bike into the night, arriving at a bridge.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Night."
+  },
+  {
+   "question": "When does it happens in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Do rats appear in the clip?",
+   "answer": "Yes."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 48,
+   "question": "Where is the rat?",
+   "answer": "In the water."
+  },
+  {
+   "time": 720,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 1440,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 2160,
+   "question": "Are there any vehicles?",
+   "answer": "Yes."
+  },
+  {
+   "time": 2280,
+   "question": "Where is the scene?",
+   "answer": "In the restaurant."
+  },
+  {
+   "time": 3600,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 4320,
+   "question": "Are there any people?",
+   "answer": "No."
+  },
+  {
+   "time": 5088,
+   "question": "What is the mouse doing?",
+   "answer": "Making soup."
+  },
+  {
+   "time": 5760,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 7104,
+   "question": "How does the person feel?",
+   "answer": "Angry."
+  },
+  {
+   "time": 7560,
+   "question": "Is the person a man or a woman?",
+   "answer": "Woman."
+  },
+  {
+   "time": 8112,
+   "question": "What is the chef doing?",
+   "answer": "Tasting the soup."
+  },
+  {
+   "time": 8640,
+   "question": "Where is the scene?",
+   "answer": "In the kitchen."
+  },
+  {
+   "time": 9360,
+   "question": "What are the people doing?",
+   "answer": "They are arguing."
+  },
+  {
+   "time": 11040,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  }
+ ]
+}

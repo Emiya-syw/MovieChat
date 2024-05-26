@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "S04E1-3.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "In a room, three men are seated on a sofa, holding some documents in their hands. One of them, who appears a bit overweight, discusses the matter, after which they decide to leave. As they head out together, one of the men begins to complain about something, causing the other two to laugh heartily. The trio then walk together on the street. They arrive at a house and, before entering, they video chat with a woman holding a child on their phones. Upon entering the room, they meet a couple who seem deeply saddened. The tallest of the three men looks around and appears to uncover something shocking. The couple grows impatient, but the man shares some information that leaves them utterly stunned. The scene then shifts to nighttime, where a young boy emerges from the back seat of a car, and his father is visibly elated.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "Seven."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Where is it?",
+   "answer": "In a room."
+  },
+  {
+   "time": 750,
+   "question": "How many people appeared?",
+   "answer": "Three."
+  },
+  {
+   "time": 1500,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 2250,
+   "question": "How many people appeared?",
+   "answer": "Three."
+  },
+  {
+   "time": 3000,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 3750,
+   "question": "How many people appeared?",
+   "answer": "Five."
+  },
+  {
+   "time": 4500,
+   "question": "How does the person feel?",
+   "answer": "Shocked."
+  },
+  {
+   "time": 5250,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 6000,
+   "question": "Where is it?",
+   "answer": "In a room."
+  },
+  {
+   "time": 6750,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 7500,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 8250,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 9000,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 9750,
+   "question": "What is the person doing?",
+   "answer": "Making a phone call."
+  },
+  {
+   "time": 10500,
+   "question": "What is the background color?",
+   "answer": "Black."
+  }
+ ]
+}

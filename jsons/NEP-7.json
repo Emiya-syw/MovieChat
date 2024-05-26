@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "NEP-7.mp4",
+        "url": "",
+        "class": "Crime Film",
+        "w": 720,
+        "h": 480,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "The video starts in a hospital setting late at night. A suspicious group arrives at the hospital, seemingly to visit a patient. However, one of the criminals, disguised as a doctor, enters a patient's room with intentions to kill them. An undercover cop discovers him just in time, and after a chase and a fight, the criminal is subdued and successfully apprehended. The scene then shifts to another location where a gang of criminals in a rundown house seems to be waiting for news from the apprehended individual, unaware that their plan has failed and he has been captured.",
+    "global":
+    [
+        {
+            "question":"When does the things in the video happens, ancient age, modern age or future?",
+            "answer":"It happens at modern age, maybe one decade ago."
+        },
+        {
+            "question":"Are there more then five different backgrounds appear in the video?",
+            "answer":"No."
+        },
+        {
+            "question":"Is there more women of more men appear in the video?",
+            "answer":"More men."
+        },
+        {
+            "question":"What's the time in the video? Day time or night time?",
+            "answer":"Mainly at night time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly indoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":800, 
+            "question":"what happens?",
+            "answer":"A group of police officers are investigating something."
+        },
+        {
+            "time":1500,
+            "question":"where is the scene?",
+            "answer":"In hospital."
+        },
+        {
+            "time":2430,
+            "question":"Is there more than three people?",
+            "answer":"No. "
+        },
+        {
+            "time":3000, 
+            "question":"what is the man doing?",
+            "answer":"He is searching for something."
+        },
+        {
+            "time":3880,
+            "question":"How many people appear in the scene?",
+            "answer":"Two people."
+        },
+        {
+            "time":4500,
+            "question":"what is the emotion of the man?",
+            "answer":"He is furious and irritated."
+        },
+        {
+            "time":5300,
+            "question":"what are they doing?",
+            "answer":"They're having a fight."
+        },
+        {
+            "time":5900,
+            "question":"what are they doing?",
+            "answer":"They're having a fight."
+        },
+        {
+            "time":6750, 
+            "question":"How many people appear in the scene?",
+            "answer":"Two people."
+        },
+        {
+            "time":7500,
+            "question":"what are they doing?",
+            "answer":"They're talking and arguing."
+        },
+        {
+            "time":8200,
+            "question":"where is the scene?",
+            "answer":"In a long hallway."
+        },
+        {
+            "time":9000, 
+            "question":"How many people appear in the scene?",
+            "answer":"Three people."
+        },
+        {
+            "time":9750,
+            "question":"How many people appear in the scene?",
+            "answer":"Three people."
+        },
+        {
+            "time":10500, 
+            "question":"What is in the man's hand?",
+            "answer":"A bundle of money."
+        },
+        {
+            "time":10875,
+            "question":"what happens?",
+            "answer":"A group of police officers are using guns to control criminals."
+        }
+    ]
+}

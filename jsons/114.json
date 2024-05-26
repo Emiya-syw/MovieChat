@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "114.mp4",
+  "url": "",
+  "class": "History Film",
+  "w": 1024,
+  "h": 560,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "It was raining heavily. A group of people held black umbrellas. Inside a tent, many people were typing on typewriters. A group of workers was digging in a cave. Many people were updating a scoreboard. The weather cleared up, and a man stood on a golf course with many spectators. Suddenly, the audience disappeared, and he found himself on a flat plain. He swung his club. Then he arrived at a water hazard, took a shot into the muddy water, and the ball popped out. After that, many people were playing golf in front of an audience. Inside a house, a group of people was drinking. A woman stood up from her chair and went to the yard.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "No."
+  },
+  {
+   "question": "Does the clip happen in 21st century?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "What are the people attending?",
+   "answer": "A funeral."
+  },
+  {
+   "time": 720,
+   "question": "How is the weather?",
+   "answer": "Rainy."
+  },
+  {
+   "time": 1440,
+   "question": "Is the person a man or a woman?",
+   "answer": "Man."
+  },
+  {
+   "time": 2160,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 2880,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 3600,
+   "question": "Where is the scene?",
+   "answer": "On the golf court."
+  },
+  {
+   "time": 4272,
+   "question": "What is the person doing?",
+   "answer": "Playing golf."
+  },
+  {
+   "time": 5040,
+   "question": "What is the person doing?",
+   "answer": "Lighting frie  with a match."
+  },
+  {
+   "time": 5760,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 6480,
+   "question": "What is the person doing?",
+   "answer": "Playing golf."
+  },
+  {
+   "time": 7200,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 7920,
+   "question": "How is the weather?",
+   "answer": "Sunny."
+  },
+  {
+   "time": 8640,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 9360,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 10800,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  }
+ ]
+}

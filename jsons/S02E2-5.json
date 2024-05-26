@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "S02E2-5.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "The story revolves around the first, second, and third individuals, involving the father of the second person, another character, and others. In the end, a strategy was proposed by a certain individual to get Richard back on the battlefield. Highlighted points include: the aforementioned individual bringing episode five, the story unfolding around the first three mentioned individuals, involving the second person's father and another character, a plan was proposed by an individual to get Richard back to the battlefield, an error regarding the first individual, another character conducting biological experiments, the plan was to get Richard back on the battlefield, finding the monster's location, freedom and death, and finally, a plan was proposed by a certain individual to get Richard back on the battlefield.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "More than ten."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What are the people doing?",
+   "answer": "Maing phone calls."
+  },
+  {
+   "time": 750,
+   "question": "Where is it?",
+   "answer": "In an elavator."
+  },
+  {
+   "time": 1500,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 2250,
+   "question": "How many people  appeared?",
+   "answer": "Five."
+  },
+  {
+   "time": 3000,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 3750,
+   "question": "Are there any vehicles?",
+   "answer": "Yes."
+  },
+  {
+   "time": 4500,
+   "question": "Does the person look happy?",
+   "answer": "Yes."
+  },
+  {
+   "time": 5250,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 6000,
+   "question": "Where is it?",
+   "answer": "In a car."
+  },
+  {
+   "time": 6750,
+   "question": "Where is it?",
+   "answer": "In a yard."
+  },
+  {
+   "time": 7500,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 8250,
+   "question": "What is the background color?",
+   "answer": "White."
+  },
+  {
+   "time": 9000,
+   "question": "Where is it?",
+   "answer": "In a house."
+  },
+  {
+   "time": 9750,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 10500,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  }
+ ]
+}

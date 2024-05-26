@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "QWF-5.mp4",
+        "url": "",
+        "class": "War Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "The video tells the story of a young army recruit who survived a devastating bombing. He finished the food provided by the soldier. Started collecting the name tags of the soldiers killed last night. In the muddy ground, he found the glasses of the man wearing glasses the night before, and then he found the body of his good friend, and cried. The video then cuts to a soldier in an office 18 months later, smoking a cigarette and sorting through life tags. Several ministers and soldiers came to a conference room and closed the door, ready to plot something.",
+    "global":
+    [
+        {
+            "question":"When does the things in the video happens, decades ago, now, or in the future?",
+            "answer":"It happens decades ago, most likely during a world war."
+        },
+        {
+            "question":"Are there more then ten different places appear in the video(scene switch doesn't necessarily means a place change)?",
+            "answer":"No."
+        },
+        {
+            "question":"Is there more than five different characters appear(not including people in the background)?",
+            "answer":"Yes."
+        },
+        {
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Mainly at day time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly outdoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"what's the man in the middle of the scene wearing on the head?",
+            "answer":"A steel helmet."
+        },
+        {
+            "time":1500,
+            "question":"Is it day time or night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":2250,
+            "question":"Is there more than five people(including backgrounds)?",
+            "answer":"No."
+        },
+        {
+            "time":3000, 
+            "question":"what's the man in the middle of the scene doing?",
+            "answer":"He is checking whether his comrade-in-arms is dead."
+        },
+        {
+            "time":3750,
+            "question":"Is it day time or night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":4500,
+            "question":"Is there more than three people?",
+            "answer":"No."
+        },
+        {
+            "time":5300,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":6100,
+            "question":"where is the scene?",
+            "answer":"On the battle field."
+        },
+        {
+            "time":6750, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":7600,
+            "question":"where is the scene?",
+            "answer":"Inside an office."
+        },
+        {
+            "time":8250,
+            "question":"Is it day time or night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":9000, 
+            "question":"wIs the man in the middle of the scene wearing glasses?",
+            "answer":"Yes"
+        },
+        {
+            "time":9750,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":10500, 
+            "question":"Is it day time or night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":10875,
+            "question":"How many people appear in the scene?(not including people in the background)",
+            "answer":"Two people."
+        }
+    ]
+}

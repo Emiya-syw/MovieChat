@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "s02e03-1.mp4",
+  "url": "",
+  "class": "epic film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "The video begins with a map, displaying mountains, rivers, castles, and trees. The castles are continuously expanding, and the trees are steadily growing, giving the impression that the entire map is like a set of building blocks.Then, in a room, two men are engaged in a serious conversation, their expressions grave. In another location, some people are working in the snow, tending to tasks. A child awakens from a dream, finding a wolf lying on the bed beside him, staring intently at him.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does more than ten people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "Does more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What is the background color?",
+   "answer": "Grey."
+  },
+  {
+   "time": 750,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 1500,
+   "question": "What is the scene?",
+   "answer": "Toy castles."
+  },
+  {
+   "time": 2250,
+   "question": "What is the scene?",
+   "answer": "A map."
+  },
+  {
+   "time": 3000,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 3750,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 4500,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 5250,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 6000,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 6750,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 7500,
+   "question": "How many people appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 8250,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 9000,
+   "question": "Are there any animals?",
+   "answer": "yes."
+  },
+  {
+   "time": 9750,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 10500,
+   "question": "What is the background color?",
+   "answer": "Black."
+  }
+ ]
+}

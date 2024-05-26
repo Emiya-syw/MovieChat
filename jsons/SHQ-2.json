@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "SHQ-2.mp4",
+        "url": "",
+        "class": "Adventure Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "From then on, a person named 'guard' appeared. He often combatted crime, so the crime rate reduced greatly in the United States, but at the same time, the interests of the national defense company had been harmed. ‘Guard’ never showed up, and no one known his real identity. Ten years passed in a blink of an eye, and Charlie had grown up. Jack lived alone due to the work and rarely get together with his son. Charlie's birthday, the parents' meeting, and so on, he never attended. Finally, one day, he had the opportunity to meet his son. They chatted, played video games together, and they were very happy.",
+    "global":
+    [
+        {
+            "question":"Is it a video based on reality or not?(Does it looks like real story? Or it looks like a science fiction movie?)",
+            "answer":"Yes."
+        },
+        {
+            "question":"Are there more then five different scenes appear in the video?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than five different characters appear?",
+            "answer":"Yes."
+        },
+        {
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Mainly at day time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Both indoors and outdoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":1500,
+            "question":"what's in the scene?",
+            "answer":"A big baseball scoreboard."
+        },
+        {
+            "time":2150,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":3000, 
+            "question":"what are they doing?",
+            "answer":"They're playing baseball."
+        },
+        {
+            "time":3650,
+            "question":"How many characters appear in the scene?",
+            "answer":"One."
+        },
+        {
+            "time":4550,
+            "question":"How many characters appear in the scene?",
+            "answer":"Two."
+        },
+        {
+            "time":5250,
+            "question":"Is the man wearing glasses?",
+            "answer":"Yes."
+        },
+        {
+            "time":6000,
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":6750, 
+            "question":"How many characters appear in the scene?",
+            "answer":"One."
+        },
+        {
+            "time":7500,
+            "question":"what's the man's hair color?",
+            "answer":"Golden."
+        },
+        {
+            "time":8250,
+            "question":"Is there more than five characters?",
+            "answer":"No."
+        },
+        {
+            "time":9000, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":9750,
+            "question":"where is the scene?",
+            "answer":"Inside a house."
+        },
+        {
+            "time":10500, 
+            "question":"Is the scene indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":10875,
+            "question":"what is the color of the boy's hair?",
+            "answer":"Golden."
+        }
+    ]
+}

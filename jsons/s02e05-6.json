@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "s02e05-6.mp4",
+  "url": "",
+  "class": "epic film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "At the marketplace, a woman dressed in splendid attire mingles with the crowd. Among the onlookers, there is a man who appears to be a wizard; he exchanges a few words and then departs. The woman doesn't seem saddened and proceeds to interact with others.In a forest clearing, two women are resting by a white horse, taking a break to drink water. One of the women, a female knight, speaks to the other person, her expression resolute. The other woman agrees with her.Inside a dark castle, a young man and another man are in charge. Someone rushes in, urgently informing them of a dire situation.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does more than ten people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "Does more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What is the scene?",
+   "answer": "A strange man."
+  },
+  {
+   "time": 750,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 1500,
+   "question": "Does the person look happy?",
+   "answer": "Yes."
+  },
+  {
+   "time": 2250,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 3000,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 3750,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 4500,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 5250,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 6000,
+   "question": "Are there any plants?",
+   "answer": "yes."
+  },
+  {
+   "time": 6750,
+   "question": "How many people appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 7500,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 8250,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 9000,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 9750,
+   "question": "What is the scene?",
+   "answer": "A boy."
+  },
+  {
+   "time": 10500,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "s01e02-1.mp4",
+  "url": "",
+  "class": "epic film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "This is a wonderful epic series clip. The background of it is in middle age. The initial scene is an animation that seems to depict a map with some toys, a castle, and trees. There's a growing castle and an expanding map in this animation.xFollowing that, there are people walking in a barren land, some of them on horseback. A beautiful woman is riding a white horse, and she's engaged in conversation with another man. Afterward, this man talks to another handsome man. The group eventually comes to a stop, and the men and women begin setting up tents, making a fire, and preparing food. Meanwhile, a shorter man is in a stable, and a child is making fun of him, but the man doesn't seem to mind.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "More than ten."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 750,
+   "question": "What is the scene?",
+   "answer": "Castles."
+  },
+  {
+   "time": 1500,
+   "question": "What is the background color?",
+   "answer": "White."
+  },
+  {
+   "time": 2250,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 3000,
+   "question": "Where is it?",
+   "answer": "On the grassland."
+  },
+  {
+   "time": 3750,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 4500,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 5250,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 6000,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 6750,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 7500,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 8250,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 9000,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 9750,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 10500,
+   "question": "Does the person look happy?",
+   "answer": "Yes."
+  }
+ ]
+}

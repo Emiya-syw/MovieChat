@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "S03E1-5.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "It's time for a look back as the first speaker and the second speaker discuss an issue together. The second speaker takes a stand where he believes is right, but the first speaker asks him to stay still and make eye contact. The first speaker pulls out a letter, his notice, and asks if the second speaker can help. The second speaker asks what needs to be done, and the first speaker says it's about this letter. The second speaker asks if the letter should be left behind, to which the first speaker agrees. Then, a man appears, and they start to argue, with the first speaker eventually shouting at him to shut up. Subsequently, the first speaker asks the second speaker if he has gone mad, and the second speaker indicates uncertainty. The first speaker comments that he can't see why to keep the letter, just like his theory. The second speaker shares some thoughts, but the first speaker thinks he’s not serious enough. They continue to argue, and eventually, the first speaker thinks they shouldn’t be wearing hats and should seek out a third person. Next, they visit a bar, where the first speaker poses some questions to the third person, who tells them that he believes some people are plotting an attack. Finally, the third person informs them it's time to take action.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern ages."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "More than ten."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What is the person doing?",
+   "answer": "Smoking."
+  },
+  {
+   "time": 750,
+   "question": "What is the person doing?",
+   "answer": "Washing dishes."
+  },
+  {
+   "time": 1500,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 2250,
+   "question": "How many people  appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 3000,
+   "question": "Where is it?",
+   "answer": "In a room."
+  },
+  {
+   "time": 3750,
+   "question": "What is happening?",
+   "answer": "Eight persons are in a room."
+  },
+  {
+   "time": 4500,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 5250,
+   "question": "Where is it?",
+   "answer": "In a city."
+  },
+  {
+   "time": 6000,
+   "question": "Where is the scene?",
+   "answer": "On the street."
+  },
+  {
+   "time": 6750,
+   "question": "What are the people doing?",
+   "answer": "Playing chess."
+  },
+  {
+   "time": 7500,
+   "question": "How many people  appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 8250,
+   "question": "Where is the scene?",
+   "answer": "In a house."
+  },
+  {
+   "time": 9000,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 9750,
+   "question": "How the person feel?",
+   "answer": "Glad."
+  },
+  {
+   "time": 10500,
+   "question": "What's in  the man's hand?",
+   "answer": "A hat."
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "96.mp4",
+  "url": "",
+  "class": "Animation Film",
+  "w": 1024,
+  "h": 432,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "Two mice are carrying food through the grass. One of the mice is using a twig to hold an object. They enter indoors, with one of them standing on a table and the other searching through bottles on a counter. They approach a television, where there's a chef on the screen. Suddenly, an elderly woman in the house wakes up and discovers the two mice. She grabs a shotgun and starts shooting at the mice. The mice climb onto a chandelier on the ceiling. The elderly woman frantically shoots at the chandelier, causing it to crash down from the ceiling. The fallen chandelier is full of mice, and they start fleeing in a frenzy. One mouse floats on top of a book, trying to catch up with its companions. It eventually floats into a sewer.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "No."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  },
+  {
+   "question": "When does it happens in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Do rats appear in the clip?",
+   "answer": "Yes."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 720,
+   "question": "What are the animals?",
+   "answer": "Rats."
+  },
+  {
+   "time": 1440,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 2160,
+   "question": "How is the weather?",
+   "answer": "Cloudy, seems that it is going to rain."
+  },
+  {
+   "time": 2880,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 3600,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 4320,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 5040,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 5760,
+   "question": "What is the rat watching?",
+   "answer": "Television."
+  },
+  {
+   "time": 6480,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 7152,
+   "question": "What is the old woman doing?",
+   "answer": "Using a gun to shoot rats."
+  },
+  {
+   "time": 7920,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 8544,
+   "question": "What is happening?",
+   "answer": "Lamp with rats falls from the cieling."
+  },
+  {
+   "time": 9360,
+   "question": "How is the weather?",
+   "answer": "Rainy."
+  },
+  {
+   "time": 10080,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "67.mp4",
+  "url": "",
+  "class": "History Film",
+  "w": 1280,
+  "h": 544,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "Two people are fighting with each other. Suddenly, a carriage arrives, driven by a nun. Inside the carriage, there are two men hiding in a barrel. Shortly after, the two men cover themselves and hide inside the barrel. A group of soldiers appears in the jungle, passing by. By the riverside, there is a small boat with two people. A car enters a courtyard, and a military officer gets out and enters a building. At the same time, the nun driving the carriage arrives at the same building to conduct her business. Inside the building, there are many soldiers. After finishing their business, the nun drives away. The two men then emerge from the barrel they were hiding in. Later, their hiding spot in the barrel is discovered by the soldiers, and they quickly subdue the soldiers. The scene then switches back to the interior of the building filled with soldiers.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does this clip happens in the 21st century?",
+   "answer": "No."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "On which continent does the story take place?",
+   "answer": "Europe."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day and night."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 24,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 720,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 1440,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 2160,
+   "question": "Where is the scene?",
+   "answer": "On the river."
+  },
+  {
+   "time": 2880,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 3600,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 4320,
+   "question": "Is there a wagon?",
+   "answer": "Yes."
+  },
+  {
+   "time": 5040,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 5760,
+   "question": "Who are these people?",
+   "answer": "Soldiers."
+  },
+  {
+   "time": 6360,
+   "question": "Where is the scene?",
+   "answer": "On a road."
+  },
+  {
+   "time": 7200,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 7920,
+   "question": "Is the person a man or a woman?",
+   "answer": "Man."
+  },
+  {
+   "time": 8688,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 9360,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 10080,
+   "question": "Are there any plants?",
+   "answer": "No."
+  }
+ ]
+}

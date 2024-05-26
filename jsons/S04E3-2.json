@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "S04E3-2.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "A man in a shirt is angry at another man due to some issues. The latter mocks the former, leaving the angry man feeling powerless. The next day, the disgruntled man visits the two men, and they sit down to chat. They seem to be family, but their expressions are far from happy. They are both very angry, and as they argue, they gradually uncover the truth behind their conflict. Their memories take them to a grassy field with some tombstones. A young boy is seen playing joyfully with a ship's knife and a pirate hat; this appears to be a memory of their childhood.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "Six."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Night."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 750,
+   "question": "How does the person feel?",
+   "answer": "Angry."
+  },
+  {
+   "time": 1500,
+   "question": "How many people appeared?",
+   "answer": "Four."
+  },
+  {
+   "time": 2250,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 3000,
+   "question": "Where is it?",
+   "answer": "In a room."
+  },
+  {
+   "time": 3750,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 4500,
+   "question": "How many people appeared?",
+   "answer": "Three."
+  },
+  {
+   "time": 5250,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 6000,
+   "question": "What's in the person's hand?",
+   "answer": "A stone."
+  },
+  {
+   "time": 6750,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 7500,
+   "question": "What is the scene?",
+   "answer": "Graveyard."
+  },
+  {
+   "time": 8250,
+   "question": "Where is it?",
+   "answer": "In the field."
+  },
+  {
+   "time": 9000,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 9750,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 10500,
+   "question": "What's in the person's hand?",
+   "answer": "A match."
+  }
+ ]
+}

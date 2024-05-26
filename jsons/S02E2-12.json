@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "S02E2-12.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "a character is pursued by his father for unknown reasons. Ultimately, he is rescued by two coaches, but he doesn’t remember who he is. Key points are: He is chased by his father; he is rescued by two coaches; he can't recall his own identity; the coaches explain some things to him; Henry was once a child; he recalls some things during rehearsal; he does not understand why he is being pursued; he cannot remember who he is while being chased by his father; the coaches remind Henry to remember past events; he neither recalls who he is nor understands why he is being hunted.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "No."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "Four."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Night."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 50,
+   "question": "What is the person doing?",
+   "answer": "Making a phone call."
+  },
+  {
+   "time": 750,
+   "question": "Are there any vehicles?",
+   "answer": "Yes."
+  },
+  {
+   "time": 1500,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 2250,
+   "question": "What's in the man's hand?",
+   "answer": "A gun."
+  },
+  {
+   "time": 3000,
+   "question": "What's in the man's hand?",
+   "answer": "A gun."
+  },
+  {
+   "time": 3750,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 4500,
+   "question": "How many people  appeared?",
+   "answer": "Four."
+  },
+  {
+   "time": 5250,
+   "question": "How many people  appeared?",
+   "answer": "Four."
+  },
+  {
+   "time": 6000,
+   "question": "What is happening?",
+   "answer": "A monster appears."
+  },
+  {
+   "time": 6750,
+   "question": "What are the people doing?",
+   "answer": "Fighting."
+  },
+  {
+   "time": 7500,
+   "question": "How the person feel?",
+   "answer": "Shocked."
+  },
+  {
+   "time": 8250,
+   "question": "What is happening?",
+   "answer": "A man is lying on the ground."
+  },
+  {
+   "time": 9000,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 9750,
+   "question": "Where is it?",
+   "answer": "In a forest."
+  },
+  {
+   "time": 10500,
+   "question": "What's in the man's hand?",
+   "answer": "Spotlights."
+  }
+ ]
+}

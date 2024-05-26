@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "154.mp4",
+  "url": "",
+  "class": "Crime Film",
+  "w": 1280,
+  "h": 528,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "Several men are inside a car, which stops in an open area. A group of people meets here. Soon, many more cars arrive, carrying individuals armed with guns. They surround the previous car. In an room, a few people engage in a conversation. Someone lies on a bed smoking, accompanied by an attractive woman. It's late at night, and some people are chatting in a room, dining in a restaurant, drinking on the road, and observing a fish tank. Some have their mouths covered, and one woman sets another person on fire. One woman suffocates a man by placing a plastic bag over his head, murdering him.",
+ "global": [
+  {
+   "question": "When does it happen in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does the story most probably happen in Aisa or Europe?",
+   "answer": "Aisa."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "No."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Where are the two people?",
+   "answer": "They are on the car."
+  },
+  {
+   "time": 792,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 1440,
+   "question": "Where is the scene?",
+   "answer": "On the street of the city."
+  },
+  {
+   "time": 2160,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 2880,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 3600,
+   "question": "Is the person a man or a woman?",
+   "answer": "Man."
+  },
+  {
+   "time": 4320,
+   "question": "What is the object?",
+   "answer": "A watch."
+  },
+  {
+   "time": 5040,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 5760,
+   "question": "Are there any vehicles?",
+   "answer": "Yes."
+  },
+  {
+   "time": 6480,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 7200,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 7920,
+   "question": "What is the woman doing?",
+   "answer": "Making a phone call."
+  },
+  {
+   "time": 8688,
+   "question": "What is the person doing?",
+   "answer": "Fetch something from the suitcae."
+  },
+  {
+   "time": 9840,
+   "question": "What is happening?",
+   "answer": "A man is on fire."
+  },
+  {
+   "time": 10632,
+   "question": "What is the person doing?",
+   "answer": "Shooting wiht a gun."
+  }
+ ]
+}

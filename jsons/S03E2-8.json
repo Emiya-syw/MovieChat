@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "S03E2-8.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "In this episode, a detective receives a peculiar phone call, leading to the discovery of a man dead in a hotel room who had been engaging in online dating with a woman, who is unaware of his demise. The detective and his partner unravel a larger conspiracy behind the case. Highlights: the detective and his partner discover the dead man who was online dating; the woman is oblivious to the man's death; suspicions arise about a larger conspiracy; the man had posed as a ghost to date women in chat rooms; the investigation into the chatroom uncovers a disturbing secret. Their investigation encounters police obstruction; the case implicates a notable police officer, forcing them to leave the scene; the dead man had dated a woman who subsequently died; when visiting the woman's family, her mother is found to be dating a man. This man, a con artist, also posed as a ghost to date women. Ultimately, the case is solved, and the detective reminds his partner that his life will undergo significant changes after marriage.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "Six."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Where is it?",
+   "answer": "In a room."
+  },
+  {
+   "time": 750,
+   "question": "How many people appeared?",
+   "answer": "Three."
+  },
+  {
+   "time": 1500,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 2250,
+   "question": "How the person feel?",
+   "answer": "Sad."
+  },
+  {
+   "time": 3000,
+   "question": "What are the people doing?",
+   "answer": "Communicating."
+  },
+  {
+   "time": 3750,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 4500,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 5250,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 6000,
+   "question": "How many people appeared?",
+   "answer": "Four."
+  },
+  {
+   "time": 6750,
+   "question": "How the person feel?",
+   "answer": "Bad."
+  },
+  {
+   "time": 7500,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 8250,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 9000,
+   "question": "What is the person doing?",
+   "answer": "Drinking and eating."
+  },
+  {
+   "time": 9750,
+   "question": "How many people appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 10500,
+   "question": "Where is it?",
+   "answer": "In a room."
+  }
+ ]
+}

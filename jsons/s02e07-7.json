@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "s02e07-7.mp4",
+  "url": "",
+  "class": "epic film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "At a meeting, a group of people was discussing something. Nearby, a woman stood, trying to convey something to them, but they expressed opposition. Suddenly, a person stood up, walked around, and delivered a speech. Then, he ordered the killing of everyone. The woman appeared greatly shocked and fled.In another location, a person was captured and bound, surrounded by an enraged crowd that wanted to kill him. However, an older woman protected him, and he was tied up instead.Meanwhile, in a room, a woman was confiding in another person, appearing deeply remorseful.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does more than ten people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "Does more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 750,
+   "question": "What is the clothes color of the person?",
+   "answer": "Golden."
+  },
+  {
+   "time": 1500,
+   "question": "How does the person feel?",
+   "answer": "Shocked."
+  },
+  {
+   "time": 2250,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 3000,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 3750,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 4500,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 5250,
+   "question": "What are the people doing?",
+   "answer": "Arguing."
+  },
+  {
+   "time": 6000,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 6750,
+   "question": "What is the scene?",
+   "answer": "A woman."
+  },
+  {
+   "time": 7500,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 8250,
+   "question": "How many people appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 9000,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 9750,
+   "question": "What is the clothes color of the person?",
+   "answer": "brown."
+  },
+  {
+   "time": 10500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  }
+ ]
+}

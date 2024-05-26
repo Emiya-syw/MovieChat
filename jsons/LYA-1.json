@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "LYA-1.mp4",
+        "url": "",
+        "class": "Animation Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "The video begins with a massive spaceship descending onto a planet. Following this, the pilot wakes up from the cryogenic chamber, puts on protective gear, and starts surveying the surface environment. The exploration team delves deeper into the planet's surface and finds the environment to be promising. However, as they prepare to return, they are attacked by native creatures, including giant vines and insects, which continuously assault them. They attempt to return to the spaceship to restart it and take off, but they are initially thwarted by the native lifeforms. Ultimately, they manage to take off, though not without some alarming moments.",
+    "global":
+    [
+        {
+            "question":"When does the things in the video happens, ancient age, modern age or future?(Does the technology exists on earth?)",
+            "answer":"It happens at future."
+        },
+        {
+            "question":"Are the characters in the video people in reality? If not, what are they?(For example, they may be aliens or cartoon characters)",
+            "answer":"They are cartoon characters ."
+        },
+        {
+            "question":"Is there more than three different characters appear(not including people in the background)?",
+            "answer":"No."
+        },
+        {
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Both at day time and at night time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly outdoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":700, 
+            "question":"where's the scene?",
+            "answer":"In front of a disney castle."
+        },
+        {
+            "time":1500,
+            "question":"what is the word on the screen?",
+            "answer":"This is that movie."
+        },
+        {
+            "time":2250,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":3100, 
+            "question":"How many people appear in the middle of the scene(not including people in the background)?",
+            "answer":"One person."
+        },
+        {
+            "time":3750,
+            "question":"Is it day time or night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":4500,
+            "question":"Is there more than three people?",
+            "answer":"No."
+        },
+        {
+            "time":5350,
+            "question":"what is the man in the middle of the scene doing?",
+            "answer":"He is introducing the woman to the man on the right."
+        },
+        {
+            "time":6000,
+            "question":"what is the man in the middle of the scene doing?",
+            "answer":"He is talking to a woman."
+        },
+        {
+            "time":6750, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":7500,
+            "question":"what is the man in the middle of the scene doing?",
+            "answer":"He is using a sword to fight with some bat-like monsters."
+        },
+        {
+            "time":8250,
+            "question":"where's the scene?",
+            "answer":"In a forest."
+        },
+        {
+            "time":9100, 
+            "question":"what is the man in the middle of the scene doing?",
+            "answer":"He is climbing up on something."
+        },
+        {
+            "time":9750,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":10450, 
+            "question":"How many people appear in the middle of the scene(not including people in the background)?",
+            "answer":"One person."
+        },
+        {
+            "time":10875,
+            "question":"what happens?",
+            "answer":"A round rocket is taking off."
+        }
+    ]
+}

@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "74.mp4",
+  "url": "",
+  "class": "Romance Film",
+  "w": 1280,
+  "h": 696,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "A young girl in a dress falls to the ground. In a room, a young girl, a lady, and a man engage in conversation. Soon, the man exits the room. As the day turns to night, a girl sits inside a carriage. She arrives at a building and is guided inside by a woman holding a lantern. In the early morning, a girl wakes up in a room. There's a person sitting at the table, and they have lunch together, chatting as they eat. A group of girls sits in chairs, and a man enters the room, causing everyone to stand up.",
+ "global": [
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day and night."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "On which continent does the story takes place?",
+   "answer": "Enrope."
+  },
+  {
+   "question": "Does it happen in the 21 st century?",
+   "answer": "No."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 720,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 1440,
+   "question": "Where is the scene?",
+   "answer": "In the living room."
+  },
+  {
+   "time": 2160,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 2880,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 3648,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 4320,
+   "question": "Is there a wagon?",
+   "answer": "Yes."
+  },
+  {
+   "time": 5040,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 5760,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 6480,
+   "question": "Is the person a man or a woman?",
+   "answer": "Woman."
+  },
+  {
+   "time": 7200,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 7920,
+   "question": "What are the people doing?",
+   "answer": "Having their meal."
+  },
+  {
+   "time": 8640,
+   "question": "Is the person a man or a woman?",
+   "answer": "Woman."
+  },
+  {
+   "time": 9360,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 10080,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  }
+ ]
+}

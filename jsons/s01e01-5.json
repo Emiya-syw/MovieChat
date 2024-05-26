@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "s01e01-5.mp4",
+  "url": "",
+  "class": "epic film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "This is a wonderful epic series clip. The background of it is in middle age. A man who appeared to be a king was conversing with some children, and then he exchanged warm greetings with another man. Afterwards, the two of them entered an underground passage and continued talking as they walked. It seemed like they were reminiscing about the past. Meanwhile, in another room, a man and a woman were engaged in an intimate encounter. At that moment, another man walked in. He had a conversation with the shorter man on the bed, then left the scene and returned to the underground passage, where he was caressing a stone statue.Simultaneously, in a different location, a woman was preparing to take a bath. A man entered, gently undressed her, and began to caress her.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "More than ten."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Does the person look happy?",
+   "answer": "Yes."
+  },
+  {
+   "time": 750,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 1500,
+   "question": "How many people appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 2250,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 3000,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 3750,
+   "question": "What is the person doing?",
+   "answer": "Drinking."
+  },
+  {
+   "time": 4500,
+   "question": "How many people appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 5250,
+   "question": "Does the person look happy?",
+   "answer": "Yes."
+  },
+  {
+   "time": 6000,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 6750,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 7500,
+   "question": "What is the scene?",
+   "answer": "A sculpture."
+  },
+  {
+   "time": 8250,
+   "question": "What is the scene?",
+   "answer": "A woman."
+  },
+  {
+   "time": 9000,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 9750,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 10500,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  }
+ ]
+}

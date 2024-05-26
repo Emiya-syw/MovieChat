@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "s02e07-4.mp4",
+  "url": "",
+  "class": "epic film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "A man was speaking affectionately and quietly to a woman, making promises. Afterward, he left, appearing content.In another place, a group of people on horseback was searching for something, but an elderly man among them was sent back. He had hoped to stay with them, but he was sent back, as the man beside him was not pleased with him.A woman entered a room and discovered that her servant had been killed. She was filled with anger and grief. Another man hurriedly came over, and the woman recounted the incident to him. He saw the man responsible and seemed pleased with his actions.On a snow-covered mountainside, a female captive was held by a man. They were walking, and as the woman spoke, she suddenly tripped the man and made a run for it.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does more than ten people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "Does more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "How many people appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 750,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 1500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 2250,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 3000,
+   "question": "Are there any plants?",
+   "answer": "yes."
+  },
+  {
+   "time": 3750,
+   "question": "How many people appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 4500,
+   "question": "What is the scene?",
+   "answer": "A woman."
+  },
+  {
+   "time": 5250,
+   "question": "How many people appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 6000,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 6750,
+   "question": "What is the clothes color of the person?",
+   "answer": "Brown."
+  },
+  {
+   "time": 7500,
+   "question": "Where is it?",
+   "answer": "On the mountains."
+  },
+  {
+   "time": 8250,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 9000,
+   "question": "How many people appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 9750,
+   "question": "What is the background color?",
+   "answer": "White."
+  },
+  {
+   "time": 10500,
+   "question": "What is in the person's hand?",
+   "answer": "S string."
+  }
+ ]
+}

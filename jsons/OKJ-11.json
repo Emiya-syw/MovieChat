@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "OKJ-11.mp4",
+        "url": "",
+        "class": "Adventure Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "In a dimly lit room, there were several people. A man was lying next to a gigantic creature, which was trying to move away from him. The man sat at a table. In a car, several people were making phone calls. A man in a white uniform approached the creature. On a major street, a parade was passing by. Parade participants waved to onlookers, and there was a marching band playing music behind them. A young girl was surrounded by two women. A group of people gathered around a dining table. The girl went to her room. A man held up a sign to get her attention, and he tried to climb out the window.",
+    "global":
+    [
+        {
+            "question":"When does the things in the video happens, ancient age, modern age or future?(Does the technology exists on earth?)",
+            "answer":"It happens at modern time."
+        },
+        {
+            "question":"Are there more then five different places appear in the video(scene switch doesn't necessarily means a place change)?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than three different characters appear(not including people in the background)?",
+            "answer":"Yes."
+        },
+        {
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Both at day time and at night time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly indoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":850, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":1600,
+            "question":"what is the man doing?",
+            "answer":"He is tring to stand up."
+        },
+        {
+            "time":2350,
+            "question":"what is the man wearing?",
+            "answer":"A white coat and short pants."
+        },
+        {
+            "time":3000, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":3650,
+            "question":"how many people appear in the scene?",
+            "answer":"One person."
+        },
+        {
+            "time":4600,
+            "question":"Is there more than three people?",
+            "answer":"No."
+        },
+        {
+            "time":5250,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":5900,
+            "question":"what's the gender of the person in the middle of the scene?",
+            "answer":"He is a man."
+        },
+        {
+            "time":6750, 
+            "question":"what's the weather like?",
+            "answer":"The weather is sunny and nice."
+        },
+        {
+            "time":7480,
+            "question":"Is there more than five people?",
+            "answer":"No."
+        },
+        {
+            "time":8250,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":9000, 
+            "question":"what's on the left of the dish?",
+            "answer":"A fork."
+        },
+        {
+            "time":9750,
+            "question":"where is the scene?",
+            "answer":"Inside a hotel room."
+        },
+        {
+            "time":10500, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":10625,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        }
+    ]
+}

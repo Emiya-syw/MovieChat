@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "S04E1-7.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "The video describes how two individuals face a potential crisis and seek solutions. They want to put someone into beer, but they believe he wouldn't agree since he used to work with a woman. The highlights include the two facing a crisis and trying to find a solution, their plan to put someone into beer, their belief that this person would not consent, the past association of this person with the woman, their search for someone to assist, their concerns about being shot if the person approaches, their repeated mention of \"Braward\", their desire for assistance while fearing for their safety, and their eventual decision not to let that person come. The video showcases finding solutions in crises and self-protection.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "Four."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Night."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 750,
+   "question": "Where is it?",
+   "answer": "In a room."
+  },
+  {
+   "time": 1500,
+   "question": "Where is it?",
+   "answer": "In a factory."
+  },
+  {
+   "time": 2250,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 3000,
+   "question": "How many people appeared?",
+   "answer": "Three."
+  },
+  {
+   "time": 3750,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 4500,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 5250,
+   "question": "What's the weather?",
+   "answer": "Rainy."
+  },
+  {
+   "time": 6000,
+   "question": "How many people appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 6750,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 7500,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 8250,
+   "question": "Where is it?",
+   "answer": "In a room."
+  },
+  {
+   "time": 9000,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 9750,
+   "question": "How does the person feel?",
+   "answer": "Funny."
+  },
+  {
+   "time": 10500,
+   "question": "Are there any animals?",
+   "answer": "No."
+  }
+ ]
+}

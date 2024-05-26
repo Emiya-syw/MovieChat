@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "S04E2-1.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "The video starts with a gun being held by someone. Another individual wakes up from a dream, appearing to be deeply grieved as if a close relative of his had been killed by that gun. The next morning, he visits a female psychologist. They converse, but it seems to be unfruitful. At that moment, he sees a vision of a woman beside him, his wife, who is crying. However, the apparition quickly fades, suggesting that she might have been killed by the gun. He appears stunned. That evening, in a tall building, a man dressed in white is hosting a group of people, laughing radiantly with exaggerated and unrestrained expressions, as if discussing some matters.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "No."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "More than ten."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What is the scene?",
+   "answer": "A gun."
+  },
+  {
+   "time": 750,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 1500,
+   "question": "How many people appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 2250,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 3000,
+   "question": "Where is it?",
+   "answer": "In a room."
+  },
+  {
+   "time": 3750,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 4500,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 5250,
+   "question": "Are there any vehicles?",
+   "answer": "Yes."
+  },
+  {
+   "time": 6000,
+   "question": "Where is it?",
+   "answer": "In a city."
+  },
+  {
+   "time": 6750,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 7500,
+   "question": "Where is it?",
+   "answer": "In a building."
+  },
+  {
+   "time": 8250,
+   "question": "How many people appeared?",
+   "answer": "Five."
+  },
+  {
+   "time": 9000,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 9750,
+   "question": "How many people appeared?",
+   "answer": "Seven"
+  },
+  {
+   "time": 10500,
+   "question": "Are there any animals?",
+   "answer": "No."
+  }
+ ]
+}

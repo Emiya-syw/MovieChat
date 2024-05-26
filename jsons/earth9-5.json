@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "earth9-5.mp4",
+  "url": "",
+  "class": "documentary film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "This video showcases the importance of seafood in the marine ecosystem. The enormous seafood in the ocean supports the majority of marine life, yet their contributions are often little-known to people. The video also introduces other organisms in the ocean, such as dragonflies and sharks, which play crucial roles in the marine ecosystem.Dragonflies and sharks both play vital roles in the marine ecosystem. Sharks' bellies are consumed by other sharks, creating a cycle in the ocean. South African sharks create a sufficient support system for over a million oceans. Shark currents drive marine life to the ocean surface.",
+ "global": [
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Are there any human?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen in the cities?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What kind of animal is it?",
+   "answer": "Fish."
+  },
+  {
+   "time": 750,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 1500,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 2250,
+   "question": "What is the background color?",
+   "answer": "Blue."
+  },
+  {
+   "time": 3000,
+   "question": "What is the background color?",
+   "answer": "Blue."
+  },
+  {
+   "time": 3750,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 4500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 5250,
+   "question": "Are there any human?",
+   "answer": "No."
+  },
+  {
+   "time": 6000,
+   "question": "What is the background color?",
+   "answer": "Blue."
+  },
+  {
+   "time": 6750,
+   "question": "What kind of animal is it?",
+   "answer": "Seastar."
+  },
+  {
+   "time": 7500,
+   "question": "What kind of animal is it?",
+   "answer": "Seastar."
+  },
+  {
+   "time": 8250,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 9000,
+   "question": "Are there any water?",
+   "answer": "Yes."
+  },
+  {
+   "time": 9750,
+   "question": "What is the scene?",
+   "answer": "The earth."
+  },
+  {
+   "time": 10500,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  }
+ ]
+}

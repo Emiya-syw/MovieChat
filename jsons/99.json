@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "99.mp4",
+  "url": "",
+  "class": "History Film",
+  "w": 1024,
+  "h": 576,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "A group of women is seen praying in a room. Afterward, a maid is dressing up a lady in white. The maid helps the lady put on a beautiful dress, and she hurriedly leaves the room. Many carriages arrive at an estate. Inside the hall, there are elegantly dressed ladies and gentlemen. We can see the lady who left earlier is now among the crowd. She first shakes hands and chats with a man in brown attire. Later, she encounters a man in a black suit who gracefully kisses her hand. The lady engages in conversation with a lady wearing a blue dress.",
+ "global": [
+  {
+   "question": "Does the clip happen in 21st century?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Night."
+  },
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Where does it happen in the video?",
+   "answer": "In a house."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "No."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 720,
+   "question": "Is the person a man or a woman?",
+   "answer": "Woman."
+  },
+  {
+   "time": 1440,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 2136,
+   "question": "Is the person a man or a woman?",
+   "answer": "Man."
+  },
+  {
+   "time": 2880,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 3600,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 4320,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 5040,
+   "question": "How many women are sitting by the table?",
+   "answer": "No."
+  },
+  {
+   "time": 5760,
+   "question": "Is the person a man or a woman?",
+   "answer": "Woman."
+  },
+  {
+   "time": 6480,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 7200,
+   "question": "Where are the people?",
+   "answer": "Night."
+  },
+  {
+   "time": 7920,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 8640,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 9360,
+   "question": "Is the person a man or a woman?",
+   "answer": "Man."
+  },
+  {
+   "time": 10080,
+   "question": "Is the man young or old?",
+   "answer": "Old."
+  }
+ ]
+}

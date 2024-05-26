@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "S03E3-1.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "This video is about an investigative public hearing where a gentleman, being a media mogul, is questioned about his relationship with the head of the British government. He denies any influence over the British Prime Minister and explains that his seven meetings on Downing Street were merely upon invitation, refusing to disclose the topics discussed. However, the chairman of the inquiry committee still questions whether his frequent contacts with the British Prime Minister are appropriate as a foreigner. Outside the hearing, the gentleman is accused by a woman of having an inappropriate relationship with her 15-year-old daughter and possessing their correspondence and photographs, trying to extort him with these. He denies all the allegations and tries to threaten the woman but ultimately fails.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "Ten."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 750,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 1500,
+   "question": "What are the people doing?",
+   "answer": "Having a meeting."
+  },
+  {
+   "time": 2250,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 3000,
+   "question": "Where is it?",
+   "answer": "In a large building."
+  },
+  {
+   "time": 3750,
+   "question": "What is the person doing?",
+   "answer": "Looking at a photo."
+  },
+  {
+   "time": 4500,
+   "question": "How many people appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 5250,
+   "question": "How the person feel?",
+   "answer": "Serious."
+  },
+  {
+   "time": 6000,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 6750,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 7500,
+   "question": "How the person feel?",
+   "answer": "Disgusting."
+  },
+  {
+   "time": 8250,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 9000,
+   "question": "Where is it?",
+   "answer": "On a car."
+  },
+  {
+   "time": 9750,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 10500,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  }
+ ]
+}

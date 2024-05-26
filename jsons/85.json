@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "85.mp4",
+  "url": "",
+  "class": "Animation Film",
+  "w": 1280,
+  "h": 528,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "On the roadside, there was a green lizard and a peculiar creature. The lizard soon ventured into the depths of the desert. Along the way, he encountered four owls perched on the skull of a dead cow. The owls were playing various musical instruments. He moved closer to a cactus, only to be pricked by its thorns. Suddenly, an eagle swooped down from the sky, attempting to capture the green lizard. However, the eagle's head got accidentally stuck in a jar. Later, the lizard sought refuge inside a bottle to evade the eagle's pursuit. The eagle grabbed the bottle and threw it down. Night fell swiftly, and the lizard had a strange dream. The next day, the lizard was awakened by a gun-wielding lizard. A cart filled with bottles appeared.",
+ "global": [
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "No."
+  },
+  {
+   "question": "When does it happens in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day and night."
+  },
+  {
+   "question": "Is this cartoon?",
+   "answer": "Yes."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Where is the scene?",
+   "answer": "In the desert."
+  },
+  {
+   "time": 720,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 1464,
+   "question": "What are the animals?",
+   "answer": "Owls."
+  },
+  {
+   "time": 2184,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 2904,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 3600,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 4464,
+   "question": "What is the object?",
+   "answer": "A bottle."
+  },
+  {
+   "time": 5040,
+   "question": "What is the animal?",
+   "answer": "An egal."
+  },
+  {
+   "time": 5760,
+   "question": "How is the weather?",
+   "answer": "Sunny."
+  },
+  {
+   "time": 6480,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 7200,
+   "question": "Where is the scene?",
+   "answer": "In the desert."
+  },
+  {
+   "time": 7920,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 8640,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 9360,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 10800,
+   "question": "Is there a wagon?",
+   "answer": "Yes."
+  }
+ ]
+}

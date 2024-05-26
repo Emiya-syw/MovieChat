@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "191.mp4",
+  "url": "",
+  "class": "School Film",
+  "w": 848,
+  "h": 464,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "Two boys were arguing with each other. A teacher came over, grabbed one of the boys by the ear, and led him inside. One boy was reading a book outside, while a man was playing soccer on the field. Then, there was a scene of swimming. In the yard, two men were in an argument. A woman was dressing up a boy and gave him a kiss. Following that, an animated scene appeared. In a classroom, there was a female teacher, and a boy from the back of the class stood up and left his seat, capturing the attention of all the children. A group of children was chatting outdoors.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does it happen in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 720,
+   "question": "Is the person a man or a woman?",
+   "answer": "Man."
+  },
+  {
+   "time": 1440,
+   "question": "What is the person doing?",
+   "answer": "He is reading a book."
+  },
+  {
+   "time": 2160,
+   "question": "What is the man doing?",
+   "answer": "Smoking."
+  },
+  {
+   "time": 2880,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 3600,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 8640,
+   "question": "Where is the scene?",
+   "answer": "In the classroom."
+  },
+  {
+   "time": 9000,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 9360,
+   "question": "What is the job of the woman in pink?",
+   "answer": "Teacher."
+  },
+  {
+   "time": 9720,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 10080,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 10440,
+   "question": "What is the hair color of the woman?",
+   "answer": "Blonde."
+  },
+  {
+   "time": 10800,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 11160,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 3864,
+   "question": "What is the woman doing?",
+   "answer": "She is combing the boy."
+  }
+ ]
+}

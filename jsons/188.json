@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "188.mp4",
+  "url": "",
+  "class": "Romance Film",
+  "w": 1280,
+  "h": 528,
+  "num_frame": 12000,
+  "fps": 25
+ },
+ "caption": "Four women raised their glasses in front of a Christmas tree. Inside an office, two women stood in front of a man, and a woman knocked on the corridor. The two of them entered the room, which was in a chaotic state with items strewn all over. The man was eating an apple. Later, a woman began cleaning the room. She kept talking to the man as she followed him around. The woman sat outside the man's door. The man opened the door again and handed a book to the woman. The woman brought the book to an office and gave it to a man at his desk. A man with a muscular build was playing badminton, and then a wedding scene appeared. A short-haired woman approached a man to strike up a conversation.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "No."
+  },
+  {
+   "question": "When does it happen in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day and night."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Is there a christmas tree?",
+   "answer": "Yes."
+  },
+  {
+   "time": 750,
+   "question": "What ist the man holding?",
+   "answer": "A black cup."
+  },
+  {
+   "time": 1500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 2250,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 3000,
+   "question": "Is the room tidy or messy?",
+   "answer": "Messy."
+  },
+  {
+   "time": 3750,
+   "question": "What is the clothes color of the girl?",
+   "answer": "White."
+  },
+  {
+   "time": 4500,
+   "question": "Is the person a man or a woman?",
+   "answer": "Woman."
+  },
+  {
+   "time": 5250,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 6000,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 6750,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 7875,
+   "question": "Does the girl look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 8250,
+   "question": "Is the person a man or a woman?",
+   "answer": "Man."
+  },
+  {
+   "time": 8975,
+   "question": "How does the person feel?",
+   "answer": "The girl feels so sad that she cries."
+  },
+  {
+   "time": 9750,
+   "question": "What is happening?",
+   "answer": "A wedding is taking place."
+  },
+  {
+   "time": 10500,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  }
+ ]
+}

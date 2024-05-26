@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "45.mp4",
+  "url": "",
+  "class": "Animation Film",
+  "w": 1024,
+  "h": 576,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "Various bottles of potions fell from the table. The monster, along with the cat and a donkey, dodged them skillfully. They ended up in a mill and were nearly thrown off. A group of crossbowmen chased them, but a large container filled with purple liquid spilled, causing them to retreat. A man and a woman entered the room. The monster, the donkey, the cat, and the others arrived in an open space. The sky changed from clear to overcast and began pouring rain. They found shelter in a house. The house the monsters brought emitted a purple light. During the day, more people and a white horse arrived in the house. The cat remained the same as before.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does it happens in the video, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "Is this cartoon?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 240,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 1440,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 2160,
+   "question": "What is the man holding?",
+   "answer": "A sword."
+  },
+  {
+   "time": 2880,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 3600,
+   "question": "Is there a cat?",
+   "answer": "Yes."
+  },
+  {
+   "time": 4320,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 5040,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 5760,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 6480,
+   "question": "How is the weather?",
+   "answer": "Rainy."
+  },
+  {
+   "time": 7200,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 7920,
+   "question": "Is it bright or dark?",
+   "answer": "Dark."
+  },
+  {
+   "time": 8640,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 9360,
+   "question": "What is the object?",
+   "answer": "A house."
+  },
+  {
+   "time": 10080,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 10800,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "S04E3-3.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "A little girl uses a match to set a house on fire. Bystanders watch as ashes fill the sky, their faces filled with sorrow. The scene then shifts, and they are back in the room from which they fled, anticipating what's next due to some issues they faced. The scene changes again to a fortress where it seems someone is imprisoned. The fortress is situated on an island, appearing to be a safe haven until a plane flies in carrying a bomb. The inhabitants are filled with terror, realizing they are under threat. They spot the female owner of the house downstairs in the kitchen, indicating she's safe. They then countdown \"three, two, one\" and rush out, flames spewing behind them. They jump from the second floor, fortunately escaping unharmed. The scene shifts again, and they are on a boat. They hijack the boat, setting course to an unspecified destination.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "More than ten."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What's in the person's hand?",
+   "answer": "A match."
+  },
+  {
+   "time": 750,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 1500,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 2250,
+   "question": "What is the scene?",
+   "answer": "An island."
+  },
+  {
+   "time": 3000,
+   "question": "How many people appeared?",
+   "answer": "Three."
+  },
+  {
+   "time": 3750,
+   "question": "Where is it?",
+   "answer": "In a room."
+  },
+  {
+   "time": 4500,
+   "question": "What is the person doing?",
+   "answer": "Cleaning the house."
+  },
+  {
+   "time": 5250,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 6000,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 6750,
+   "question": "What are the people doing?",
+   "answer": "Escaping."
+  },
+  {
+   "time": 7500,
+   "question": "Where is it?",
+   "answer": "On the ocean."
+  },
+  {
+   "time": 8250,
+   "question": "What is the clothes color of the person?",
+   "answer": "Yellow."
+  },
+  {
+   "time": 9000,
+   "question": "How many people appeared?",
+   "answer": "Three."
+  },
+  {
+   "time": 9750,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 10500,
+   "question": "Where is it?",
+   "answer": "On an island."
+  }
+ ]
+}

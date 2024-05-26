@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "NEP-5.mp4",
+        "url": "",
+        "class": "Crime Film",
+        "w": 720,
+        "h": 480,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "The video starts from a scene of a group of people standing outdoors, where it's snowing heavily. A man is tied on the tree, being beaten by this group. Then the scene switched several times quickly, finally into a scene where two men are having dinner. Then the scene switch again into a police station, where a bunch of police officers are talking about evidence and analyzing a case. After talking, they seem to have clear ideas and plans, and they started to taking actions, smashed several illegal private casinos and other illegal places. They arrested many people and confiscate properties.",
+    "global":
+    [
+        {
+            "question":"When does the things in the video happens, ancient age, modern age or future?",
+            "answer":"It happens at modern age, maybe one decade ago."
+        },
+        {
+            "question":"Are there more then five different backgrounds appear in the video?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more women of more men appear in the video?",
+            "answer":"More men."
+        },
+        {
+            "question":"What's the time in the video? Day time or night time?",
+            "answer":"Both daytime and  night time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly indoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"what happens?",
+            "answer":"A group of people are having dinner."
+        },
+        {
+            "time":1600,
+            "question":"what are they doing here?",
+            "answer":"They are eating and talking."
+        },
+        {
+            "time":2430,
+            "question":"Is there more than three people?",
+            "answer":"No. "
+        },
+        {
+            "time":3000, 
+            "question":"where is the scene?",
+            "answer":"In a small restaurant."
+        },
+        {
+            "time":3880,
+            "question":"How many people appear in the scene?",
+            "answer":"About four people."
+        },
+        {
+            "time":4500,
+            "question":"what is he doing?",
+            "answer":"He is making a phone call."
+        },
+        {
+            "time":5200,
+            "question":"what are they doing?",
+            "answer":"They're talking and discussing something."
+        },
+        {
+            "time":6000,
+            "question":"How many people appear in the scene?",
+            "answer":"Four people."
+        },
+        {
+            "time":6750, 
+            "question":"How many people appear in the scene?",
+            "answer":"Four people."
+        },
+        {
+            "time":7500,
+            "question":"what is the emotion of the man?",
+            "answer":"He is serious and a little upset."
+        },
+        {
+            "time":8200,
+            "question":"where is the scene?",
+            "answer":"In a small dark room."
+        },
+        {
+            "time":9000, 
+            "question":"where is the scene?",
+            "answer":"In a small dark room."
+        },
+        {
+            "time":9750,
+            "question":"what is the man doing?",
+            "answer":"He is affixing his seal."
+        },
+        {
+            "time":10500, 
+            "question":"How many people appear in the scene?",
+            "answer":"Two people."
+        },
+        {
+            "time":10875,
+            "question":"What is the man eating?",
+            "answer":"He is eating instant noodles."
+        }
+    ]
+}

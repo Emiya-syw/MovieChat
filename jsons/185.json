@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "185.mp4",
+  "url": "",
+  "class": "Romance Film",
+  "w": 1280,
+  "h": 528,
+  "num_frame": 12000,
+  "fps": 25
+ },
+ "caption": "A man and a woman were standing on the street, having a conversation. The man handed a bag to the woman, and they embraced tightly, with the woman shedding tears. Above them, three people were watching a play. A couple was playing in the park. Four women were sitting on the steps, leaning on each other. A group of people sat on a couch in a lavishly decorated room. A woman entered an office, then went to a room filled with glass cups. A man and a woman were chatting under a chandelier. A woman entered what seemed to be the office of a chairman.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "No."
+  },
+  {
+   "question": "When does it happen in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day and night."
+  },
+  {
+   "question": "Are there more male characters or female characters?",
+   "answer": "Female characters."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 750,
+   "question": "What are the people doing?",
+   "answer": "They are embracing each other."
+  },
+  {
+   "time": 1500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 2250,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 3000,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 3750,
+   "question": "How many girls are there?",
+   "answer": "Four."
+  },
+  {
+   "time": 4500,
+   "question": "Where is the scene?",
+   "answer": "In the living room."
+  },
+  {
+   "time": 5250,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 6000,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 6750,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 7500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 8250,
+   "question": "What is the pants color of the man?",
+   "answer": "White."
+  },
+  {
+   "time": 9000,
+   "question": "How many people  appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 9750,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 10500,
+   "question": "Is the person a man or a woman?",
+   "answer": "A woman."
+  }
+ ]
+}

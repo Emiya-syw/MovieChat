@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "earth1-1.mp4",
+  "url": "",
+  "class": "documentary film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "Over the past century, the Earth's population has surged from 150 million to over 600 million. Yet, despite our vast numbers, vast stretches of the planet remain untouched by human presence. This video invites viewers on an expedition to these last wild sanctuaries, offering a showcase of the planet's pristine beauty and its vibrant wildlife. A hundred years ago, Earth was inhabited by 150 million people, a number that has now ballooned beyond 600 million. Still, a myriad of regions have eluded human reach. This series promises a deep dive into Earth's final wild territories, celebrating the splendors of our shared home and its myriad life forms. Earth stands as our sole abode, the singular haven supporting our existence. It's a place teeming with breathtaking natural landscapes and a rich tapestry of wildlife. The onus is upon us to cherish and safeguard our planet, ensuring its ecosystems thrive and its beauty endures.",
+ "global": [
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Are there any human?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen in the cities?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 750,
+   "question": "What is the scene?",
+   "answer": "The earth."
+  },
+  {
+   "time": 1500,
+   "question": "Are there any mountains",
+   "answer": "Yes."
+  },
+  {
+   "time": 2250,
+   "question": "Are there any animals?",
+   "answer": "Bird."
+  },
+  {
+   "time": 3000,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 3750,
+   "question": "How is the weather?",
+   "answer": "Snowy."
+  },
+  {
+   "time": 4500,
+   "question": "What is the background color?",
+   "answer": "Dark."
+  },
+  {
+   "time": 5250,
+   "question": "What is the scene?",
+   "answer": "The earth."
+  },
+  {
+   "time": 6000,
+   "question": "What kind of animal is it?",
+   "answer": "Polar bear."
+  },
+  {
+   "time": 6750,
+   "question": "What is the scene?",
+   "answer": "Polar bear babies."
+  },
+  {
+   "time": 7500,
+   "question": "What is the background color?",
+   "answer": "White."
+  },
+  {
+   "time": 8250,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 9000,
+   "question": "What is the scene?",
+   "answer": "Polar bears."
+  },
+  {
+   "time": 9750,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 10500,
+   "question": "Are there any mountains",
+   "answer": "Yes."
+  }
+ ]
+}

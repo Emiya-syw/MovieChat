@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "150.mp4",
+  "url": "",
+  "class": "Family Drama",
+  "w": 624,
+  "h": 336,
+  "num_frame": 12000,
+  "fps": 25
+ },
+ "caption": "A young boy with a blue helmet stands next to an excavator, with his parents nearby. The boy watches a group of people dancing below. Later, there's a classroom scene. A crane lifts a car out of the water, and the boy and a man connect a cable to it. Then, the boy holds a red piece of cloth to the crane's hook using a walkie-talkie. Behind him are people holding flowers and balloons. The boy lies on a bed. Later, his parents join him in the kitchen. There's a party, with several people singing. The boy operates a crane, lifting a bucket. He goes back to reading a magazine.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "No."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does it happen in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 750,
+   "question": "Is the person a boy or a girl.",
+   "answer": "A boy."
+  },
+  {
+   "time": 1525,
+   "question": "Where is the scene?",
+   "answer": "In the classroom."
+  },
+  {
+   "time": 2275,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 3000,
+   "question": "How many people  appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 3750,
+   "question": "How is the weather?",
+   "answer": "It is sunny."
+  },
+  {
+   "time": 4525,
+   "question": "What is in the hands of the woman in white dress?",
+   "answer": "Flowers."
+  },
+  {
+   "time": 5250,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 6000,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 6750,
+   "question": "Is it bright or dark?",
+   "answer": "Dark."
+  },
+  {
+   "time": 7500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 8250,
+   "question": "Where is the scene?",
+   "answer": "In a pub."
+  },
+  {
+   "time": 9000,
+   "question": "What is the boy doing?",
+   "answer": "Answering a phone call."
+  },
+  {
+   "time": 10500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 11275,
+   "question": "What is the boy doing?",
+   "answer": "Making a phone call."
+  }
+ ]
+}

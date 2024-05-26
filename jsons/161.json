@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "161.mp4",
+  "url": "",
+  "class": "Crime Film",
+  "w": 848,
+  "h": 480,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "Two people are drinking water, with a group of people nearby talking on the phone and doing various things while keeping an eye on them. One man is eating noodles, and he finds these two people drinking water. At this moment, a woman and a little girl arrive. The man turns and leaves, heading to a subway station. He boards the subway. An employee in an office is making a phone call. He goes to the window with the phone. Two men are standing on the rooftop. Downstairs, a group of cars has arrived with many people. Suddenly, chaos breaks out in the office, and everyone rushes out. A group of people enters the building. Many people are running in the stairwell. A man runs out of the building and gets into a taxi.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does it happen in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 720,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 1440,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 2160,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 2880,
+   "question": "What is the hair color of the little girl?",
+   "answer": "Black."
+  },
+  {
+   "time": 3600,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 4320,
+   "question": "Is the person a man or a woman?",
+   "answer": "Man."
+  },
+  {
+   "time": 5040,
+   "question": "Where is the scene?",
+   "answer": "In the office."
+  },
+  {
+   "time": 5760,
+   "question": "Where is the scene?",
+   "answer": "On the street in the city."
+  },
+  {
+   "time": 6480,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 7200,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 7920,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 8640,
+   "question": "Where is the scene?",
+   "answer": "At the corridor."
+  },
+  {
+   "time": 9360,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 10080,
+   "question": "Where is the scene?",
+   "answer": "At the stairs."
+  }
+ ]
+}

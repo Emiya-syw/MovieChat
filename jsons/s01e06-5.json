@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "s01e06-5.mp4",
+  "url": "",
+  "class": "epic film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "A small man is arguing with the woman. They seem to be discussing a situation where a knight walks out, and the woman speaks to him, but the knight kneels down and refuses. Later, the small man argues with the woman again, and this time, someone else actually helps the small man.In a bamboo forest, several people are walking, with the leader carrying a spear. It appears they are hunting, but the leader is overweight and not moving quickly.Inside a grand hall, a man sits on a throne, and someone below reports something to him. The person reporting appears very distressed and provides detailed information about the matter. After hearing this, the man makes a decision. Those around him seem very afraid and attempt to stop him.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does more than ten people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "Does more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Where is it?",
+   "answer": "In a hall."
+  },
+  {
+   "time": 750,
+   "question": "How many people appears?",
+   "answer": "Four."
+  },
+  {
+   "time": 1500,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 2250,
+   "question": "Where is it?",
+   "answer": "In a forest."
+  },
+  {
+   "time": 3000,
+   "question": "How many people appears?",
+   "answer": "Four."
+  },
+  {
+   "time": 3750,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 4500,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 5250,
+   "question": "Where is it?",
+   "answer": "In a hall."
+  },
+  {
+   "time": 6000,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 6750,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 7500,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 8250,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 9000,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 9750,
+   "question": "Does the perosn look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 10500,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  }
+ ]
+}

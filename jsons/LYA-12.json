@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "LYA-12.mp4",
+        "url": "",
+        "class": "Animation Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "The video begins in space where a man is engaged in a battle with a mech pilot, while on the other side, the man's companions are trying their best to help him. Eventually, through their concerted efforts, they manage to board their own spacecraft and escape from the villain's ship. After their escape, they desperately head towards the surface of a planet to land. During this, the man, in order to ensure the survival of his companions, takes the initiative to go outside the aircraft to support and guide its flight. Fortunately, in the end, they land safely and no one is injured.",
+    "global":
+    [
+        {
+            "question":"When does the things in the video happens, ancient age, modern age or future?(Does the technology exists on earth?)",
+            "answer":"It happens at future."
+        },
+        {
+            "question":"Are the characters in the video people in reality? If not, what are they?(For example, they may be aliens or cartoon characters)",
+            "answer":"They are cartoon characters ."
+        },
+        {
+            "question":"Is there more than three different characters appear(not including people in the background)?",
+            "answer":"Yes."
+        },
+        {
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Mainly at night time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Both indoors and indoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"Is it at day time or night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":1500,
+            "question":"Is it on earth or in space?",
+            "answer":"It's in space."
+        },
+        {
+            "time":2250,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":3000, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":3750,
+            "question":"How many people appear in the middle of the scene(not including people in the background)?",
+            "answer":"Two."
+        },
+        {
+            "time":4500,
+            "question":"Is there more than two people?",
+            "answer":"No."
+        },
+        {
+            "time":5250,
+            "question":"Is it at day time or night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":6000,
+            "question":"what is the man doing?",
+            "answer":"He's driving a plane."
+        },
+        {
+            "time":6850, 
+            "question":"what is the gender of the person at the middle?",
+            "answer":"He is a man."
+        },
+        {
+            "time":7500,
+            "question":"Is it at day time or night time?",
+            "answer":"Can't tell. Maybe at night time."
+        },
+        {
+            "time":8350,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":9050, 
+            "question":"what is the gender of the person at the right?",
+            "answer":"She is a woman."
+        },
+        {
+            "time":9800,
+            "question":"what is the man doing?",
+            "answer":"He is running towards a crushed plane."
+        },
+        {
+            "time":10350, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":10975,
+            "question":"Is it on earth or in space?",
+            "answer":"It's on earth."
+        }
+    ]
+}

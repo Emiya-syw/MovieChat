@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "122.mp4",
+  "url": "In a room, there are two men and one woman. The woman is tied up with ropes and has been trying to free herself. Suddenly, the woman attacks one of the men with a sharp object. After injuring the man, she escapes from the room. She hides her small knife. Outside, there are many officers. The injured man, covered in blood, rushes out of the house. The woman escapes into the woods, pursued by a group of soldiers. She is surrounded by the enemy troops, but suddenly, the cavalry horses start falling one after another. A group of people charges out of the forest. The girl talks to a creature with horns. A man's mouth is sewn shut, and he stitches it up in front of a mirror.",
+  "class": "Fantasy Film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "",
+ "global": [
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day and night."
+  },
+  {
+   "question": "When does it happen in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "No."
+  },
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 720,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 1440,
+   "question": "How many people are in the room?",
+   "answer": "Two."
+  },
+  {
+   "time": 2160,
+   "question": "What is the woman doing?",
+   "answer": "She is threatening the man with a knife."
+  },
+  {
+   "time": 2880,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 3600,
+   "question": "What is the woman doing?",
+   "answer": "She is running."
+  },
+  {
+   "time": 4320,
+   "question": "Where is the scene?",
+   "answer": "In the forrest."
+  },
+  {
+   "time": 5040,
+   "question": "What is the woman holding?",
+   "answer": "A knife."
+  },
+  {
+   "time": 5760,
+   "question": "What is happening?",
+   "answer": "A soldier falls from his horse."
+  },
+  {
+   "time": 6480,
+   "question": "Where is the scene?",
+   "answer": "In the forrest."
+  },
+  {
+   "time": 7200,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 7920,
+   "question": "Is there a monster?",
+   "answer": "Yes."
+  },
+  {
+   "time": 8640,
+   "question": "Where is the scene?",
+   "answer": "On a clearing in the forrest."
+  },
+  {
+   "time": 9360,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 10080,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  }
+ ]
+}

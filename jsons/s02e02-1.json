@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "s02e02-1.mp4",
+  "url": "",
+  "class": "epic film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "The video began with a map depicting castles, trees, and rivers. The castles were expanding, and the trees were growing taller, but they looked like toys. Then the perspective shifted to reality. In one place, a young boy was kindling a fire, and inside a cage, a man sat, appearing very proud, and engaged in conversation with the boy. They talked for a while.In another location, two riders approached someone on foot, asking questions. As the conversation continued, the person suddenly drew a knife, holding the two riders at bay. After a while, the knife was retracted, and many people nearby stood up.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does more than ten people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "Does more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What is the background color?",
+   "answer": "grey."
+  },
+  {
+   "time": 750,
+   "question": "What is the scene?",
+   "answer": "Toy castles."
+  },
+  {
+   "time": 2250,
+   "question": "What is the scene?",
+   "answer": "A map."
+  },
+  {
+   "time": 1500,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 3000,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 3750,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 4500,
+   "question": "Where is it?",
+   "answer": "In a cage."
+  },
+  {
+   "time": 5250,
+   "question": "What is in the person's hand?",
+   "answer": "Woods."
+  },
+  {
+   "time": 6000,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 6750,
+   "question": "Where is it?",
+   "answer": "In a forest."
+  },
+  {
+   "time": 7500,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 8250,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 9000,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 9750,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 10500,
+   "question": "How many people appears?",
+   "answer": "Three."
+  }
+ ]
+}

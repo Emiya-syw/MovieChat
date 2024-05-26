@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "s02e05-4.mp4",
+  "url": "",
+  "class": "epic film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "In a room, a man dressed in black is engaged in a conversation. Suddenly, a young girl enters, disguised as a servant. They recognize her true identity and have a discussion with her, giving her some tasks to complete. Afterward, the young girl leaves the room and goes to fetch water.At the water source, she encounters another man, and they seem to share a close relationship. While conversing, the man appears to inquire about something from the girl.Meanwhile, in a snowy landscape, two men dressed in black traverse through deep snowdrifts. They continue walking until they join a larger group in a particular location. Their mission appears to involve some form of shadowy assistance.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does more than ten people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "Does more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 750,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 1500,
+   "question": "What is the scene?",
+   "answer": "A girl."
+  },
+  {
+   "time": 2250,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 3000,
+   "question": "What is the person doing?",
+   "answer": "Going downstairs."
+  },
+  {
+   "time": 3750,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 4500,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 5250,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 6000,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 6750,
+   "question": "What is the background color?",
+   "answer": "White."
+  },
+  {
+   "time": 7500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 8250,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 9000,
+   "question": "How is the weather?",
+   "answer": "Sunny."
+  },
+  {
+   "time": 9750,
+   "question": "How many people appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 10500,
+   "question": "Are there any plants?",
+   "answer": "No."
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "56.mp4",
+  "url": "",
+  "class": "Fantasy Film",
+  "w": 1024,
+  "h": 576,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "The ghost emerges from under the carpet, and the man tries to fight the ghost using the tools at hand. They battle on the stairs, and the ghost even tries to use foul odors against the man. However, the man picks up a vacuum cleaner and sucks the ghost into it. The girl runs upstairs and embraces the man. At the dining table, a friendly ghost appears. The friendly ghost makes a glass of fruit juice for the girl. The man also joins them at the table. Suddenly, the tables, chairs, and the lights above start shaking. The three ghosts that were vacuumed up reappear, but at that moment, the windows open, and the three ghosts are instantly melted away.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "No."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does it happens in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Are there any ghosts?",
+   "answer": "Yes."
+  },
+  {
+   "question": "How many man and woman appears in the video?",
+   "answer": "One man and one woman."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 720,
+   "question": "Is the person a man or a woman?",
+   "answer": "Man."
+  },
+  {
+   "time": 1440,
+   "question": "What is the man doing?",
+   "answer": "Pulling the ghost."
+  },
+  {
+   "time": 2160,
+   "question": "Where is the scene?",
+   "answer": "In the corridor."
+  },
+  {
+   "time": 2880,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 3600,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 4320,
+   "question": "What is happening?",
+   "answer": "The door is opening."
+  },
+  {
+   "time": 5040,
+   "question": "Is the person a man or a woman?",
+   "answer": "Woman."
+  },
+  {
+   "time": 5832,
+   "question": "Where is the scene?",
+   "answer": "At tje dinning table."
+  },
+  {
+   "time": 6552,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 7248,
+   "question": "What is the ghost doing?",
+   "answer": "Pouring juice."
+  },
+  {
+   "time": 7968,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 8688,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 9360,
+   "question": "Where is the scene?",
+   "answer": "At the dinning table."
+  },
+  {
+   "time": 10080,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  }
+ ]
+}

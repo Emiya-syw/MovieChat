@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "earth9-3.mp4",
+  "url": "",
+  "class": "documentary film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "Ocean forests are the largest ecosystems in the ocean, reaching up to three kilometers in length and weighing approximately half a ton. Sharks are the most important food source in ocean forests, but they face challenges due to uneven food distribution. Sharks must use incredible techniques for hunting, including using their tongues to scoop up prey. Only eight people have learned this technique. Sharks face danger as they are trapped in the sea, but luckily, their strength can carry them to deeper waters. Every year, one million sand tiger sharks gather in the deserts of Paris for breeding.",
+ "global": [
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Are there any human?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen in the cities?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Are there any mountains",
+   "answer": "No."
+  },
+  {
+   "time": 750,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 1500,
+   "question": "What is the background color?",
+   "answer": "green."
+  },
+  {
+   "time": 2250,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 3000,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 3750,
+   "question": "Are there any water?",
+   "answer": "Yes."
+  },
+  {
+   "time": 4500,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 5250,
+   "question": "What is the scene?",
+   "answer": "Dolphines."
+  },
+  {
+   "time": 6000,
+   "question": "Where is it?",
+   "answer": "At the seaside."
+  },
+  {
+   "time": 6750,
+   "question": "Are there any human?",
+   "answer": "No."
+  },
+  {
+   "time": 7500,
+   "question": "Are there any water?",
+   "answer": "Yes."
+  },
+  {
+   "time": 8250,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 9000,
+   "question": "How is the weather?",
+   "answer": "Sunny."
+  },
+  {
+   "time": 9750,
+   "question": "What kind of animal is it?",
+   "answer": "Seabirds."
+  },
+  {
+   "time": 10500,
+   "question": "What is the scene?",
+   "answer": "Birds."
+  }
+ ]
+}

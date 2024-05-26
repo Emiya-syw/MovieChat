@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "15.mp4",
+  "url": "",
+  "class": "Animation Film",
+  "w": 1280,
+  "h": 688,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "A squirrel struggled to run on the icy surface, chasing its elusive acorn. The scene quickly shifted to a prehistoric plain where a mammoth, a saber-toothed tiger, and a prehistoric kangaroo roamed. They walked from day into night, and then back into day.Along the way, they encountered two attached mice. The saber-toothed tiger tried to catch them, but these marsupials were experts at digging holes. The mammoth reached a spot and came across another mammoth hanging head-down from a tree. They were both startled. Soon, their friends from outside, also hanging upside down, joined in. The upside-down mammoth jumped down from the tree and engaged in a conversation with its marsupial friends.",
+ "global": [
+  {
+   "question": "Is this a cartoon?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  },
+  {
+   "question": "How many man and woman appears in the video?",
+   "answer": "Zero."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "No."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 24,
+   "question": "Where is the scene?",
+   "answer": "Above the water."
+  },
+  {
+   "time": 744,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 1440,
+   "question": "Where is the scene?",
+   "answer": "On an ice burge."
+  },
+  {
+   "time": 2160,
+   "question": "Where is the scene?",
+   "answer": "In a vallye."
+  },
+  {
+   "time": 2880,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 3600,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 4320,
+   "question": "What is the largest annimal in tis frame?",
+   "answer": "Mammoth."
+  },
+  {
+   "time": 5040,
+   "question": "Is there a tiger?",
+   "answer": "Yes."
+  },
+  {
+   "time": 5760,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 6480,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 7200,
+   "question": "Where is the scene?",
+   "answer": "In a forrest."
+  },
+  {
+   "time": 7920,
+   "question": "How many animals are there?",
+   "answer": "Two."
+  },
+  {
+   "time": 8640,
+   "question": "Where is the animal?",
+   "answer": "On a tree."
+  },
+  {
+   "time": 9360,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 10080,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  }
+ ]
+}

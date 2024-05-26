@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "S04E2-8.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "A slightly short and chubby man leads two other men dressed in black down a corridor. They then enter a room which appears to be inside a hospital. The shorter man provocatively taunts the other two, who show clear signs of anger but seem powerless to react. The setting appears to be a morgue, and the taunting man seems to be a doctor from that place. The man in black is accusing the doctor of something and calls over a woman for verification. However, the woman seems utterly clueless, expressing great shock. The man in black is baffled, lost in deep thought, unable to comprehend why the woman doesn't recognize him.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "No."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "Four."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What is the background color?",
+   "answer": "Blue."
+  },
+  {
+   "time": 750,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 1500,
+   "question": "Where is it?",
+   "answer": "In a hospital."
+  },
+  {
+   "time": 2250,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 3000,
+   "question": "How many people appeared?",
+   "answer": "Three."
+  },
+  {
+   "time": 3750,
+   "question": "What is the background color?",
+   "answer": "White."
+  },
+  {
+   "time": 4500,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 5250,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 6000,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 6750,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 7500,
+   "question": "How does the person feel?",
+   "answer": "Happy."
+  },
+  {
+   "time": 8250,
+   "question": "How many people appeared?",
+   "answer": "Three."
+  },
+  {
+   "time": 9000,
+   "question": "What is happening?",
+   "answer": "A woman comes in."
+  },
+  {
+   "time": 9750,
+   "question": "How many people appeared?",
+   "answer": "Four."
+  },
+  {
+   "time": 10500,
+   "question": "Where is it?",
+   "answer": "In a hospital."
+  }
+ ]
+}

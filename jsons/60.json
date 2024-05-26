@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "60.mp4",
+  "url": "",
+  "class": "History Film",
+  "w": 1024,
+  "h": 572,
+  "num_frame": 11040,
+  "fps": 23
+ },
+ "caption": "A man and a woman are sitting in a room chatting. After a scene transition, a man in a coat sits in a cold-toned room. Two men in suits enter the room, and one of them opens the door. The man in the coat puts on his hat and leaves. The scene shifts again to two people conversing in a European-style room. Later, many gentlemen gather in a room, and one of them sits at a table signing documents. He quickly moves to another room, sits in a chair, and reads from a script into a microphone. Then, a splendidly dressed man appears, signifying his high status. He enters a room with a group of gentlemen who look toward him. Afterward, he appears in a hallway, wearing his magnificent attire, and walks toward his daughters and wife.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "On which continent the story takes palce?",
+   "answer": "Europe."
+  },
+  {
+   "question": "Is this cartoon?",
+   "answer": "No."
+  },
+  {
+   "question": "Does the story happen in the 21st century?",
+   "answer": "No."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 46,
+   "question": "Is the person a man or a woman?",
+   "answer": "Man."
+  },
+  {
+   "time": 690,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 1380,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 2070,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 2760,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 3450,
+   "question": "What is the person doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 4140,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 4830,
+   "question": "What is happening?",
+   "answer": "A document is being signed."
+  },
+  {
+   "time": 5520,
+   "question": "Is the person a man or a woman?",
+   "answer": "Man."
+  },
+  {
+   "time": 6210,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 6946,
+   "question": "Who is the man?",
+   "answer": "The king."
+  },
+  {
+   "time": 7590,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 8280,
+   "question": "Where is the scene?",
+   "answer": "At the hall."
+  },
+  {
+   "time": 8970,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 9660,
+   "question": "Are there any girls?",
+   "answer": "Yes."
+  }
+ ]
+}

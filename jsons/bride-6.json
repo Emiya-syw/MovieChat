@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "bride-6.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "The video revolves around a conversation between the detective and his doctor friend. The doctor mentions concerns about the detective's lifestyle being detrimental to his health. The detective, in turn, talks about his family traits and a case about a hanging. Towards the end, the detective alludes to an adversary that threatens society and stresses the importance of addressing this issue to avoid defeat. Key points include the doctor pointing out the health hazards of the detective's lifestyle, the detective shedding light on his familial characteristics, solving a case about hanging, referencing an enemy that poses a societal threat, and the belief that they must act swiftly to prevent their own downfall. The detective also brings up a case involving a lady named \"Lady Carmichael.\" He opines that this enemy is omnipresent and unstoppable. The detective firmly believes they need to take action, or they'll be defeated. The doctor, however, remains skeptical of the detective's perspective. Interestingly, the detective concedes that they might not be able to triumph over the enemy, as the enemy might be in the right while they are in the wrong.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does more than ten people appear in the video?",
+   "answer": "No."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Does more than 5 people appear in the video?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 750,
+   "question": "How many people appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 1500,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 2250,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 3000,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 3750,
+   "question": "What is the scene?",
+   "answer": "A people with white cloth."
+  },
+  {
+   "time": 4500,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 5250,
+   "question": "What is the scene?",
+   "answer": "Fingers."
+  },
+  {
+   "time": 6000,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 6750,
+   "question": "What is the scene?",
+   "answer": "A fat man."
+  },
+  {
+   "time": 7500,
+   "question": "Where is it?",
+   "answer": "On a train."
+  },
+  {
+   "time": 8250,
+   "question": "How many people appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 9000,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 9750,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 10500,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  }
+ ]
+}

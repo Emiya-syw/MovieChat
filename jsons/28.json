@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "28.mp4",
+  "url": "",
+  "class": "Animation Film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "A group of Vikings danced inside a small wooden hut. However, their merriment was short-lived as a group of soldiers arrived at the hut, including a clever white horse. A girl and a man managed to escape through a secret tunnel, but their escape route was quickly discovered by the white horse. A woman in a red robe appeared at the door, brandishing a knife and threatening a small, angelic old man. The man and the girl continued through the tunnel with soldiers hot on their heels, carrying torches. They narrowly escaped thanks to the girl's long hair. However, they inadvertently destroyed the dam of a reservoir at the tunnel's exit. They took refuge in a cave, but the water quickly flooded in. Just as the water was about to engulf them, the girl's hair began to glow.",
+ "global": [
+  {
+   "question": "When does it happens in the video, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  },
+  {
+   "question": "Is this cartoon?",
+   "answer": "Yes."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 24,
+   "question": "What are the people doing?",
+   "answer": "Singing and dancing."
+  },
+  {
+   "time": 744,
+   "question": "How do they feel?",
+   "answer": "Afraid."
+  },
+  {
+   "time": 1464,
+   "question": "Where is the scene?",
+   "answer": "Inside a room."
+  },
+  {
+   "time": 2184,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 2904,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 3648,
+   "question": "What is the clothes color of the person?",
+   "answer": "Pink."
+  },
+  {
+   "time": 4368,
+   "question": "Where is the scene?",
+   "answer": "In a tunnel."
+  },
+  {
+   "time": 5088,
+   "question": "How many people  appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 6528,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 7248,
+   "question": "Where is the scene?",
+   "answer": "In a vallye."
+  },
+  {
+   "time": 7992,
+   "question": "What is happening?",
+   "answer": "There is flood comming"
+  },
+  {
+   "time": 8640,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 9360,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 10080,
+   "question": "How many people  appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 10800,
+   "question": "What is the background color?",
+   "answer": "Black."
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "s02e03-4.mp4",
+  "url": "",
+  "class": "epic film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "In a room, two women were having a meal. One of them was slightly older, and the other appeared to be a young girl dressed in green clothing. They were engaged in conversation and seemed to be in cheerful spirits. Just then, the young girl entered the room, and her female servant approached her, saying something to her. The young girl appeared quite surprised.On a balcony, two men were conversing. They seemed to be discussing something highly important in secrecy. Their expressions appeared relaxed, but in reality, they were quite tense.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does more than ten people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "Does more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What are the people doing?",
+   "answer": "Having a meal."
+  },
+  {
+   "time": 750,
+   "question": "What is the scene?",
+   "answer": "A lady."
+  },
+  {
+   "time": 1500,
+   "question": "What is in the person's hand?",
+   "answer": "A cup."
+  },
+  {
+   "time": 2250,
+   "question": "How many people appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 3000,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 3750,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 4500,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 5250,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 6000,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 6750,
+   "question": "Where is it?",
+   "answer": "In a room."
+  },
+  {
+   "time": 7500,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 8250,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 9000,
+   "question": "How does the person feel?",
+   "answer": "Confident."
+  },
+  {
+   "time": 9750,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 10500,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  }
+ ]
+}

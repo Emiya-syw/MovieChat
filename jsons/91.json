@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "91.mp4",
+  "url": "",
+  "class": "Family Drama",
+  "w": 1024,
+  "h": 432,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "A couple and their two daughters are in the living room. The father chats and takes care of the baby at the same time. Then, the father starts making various strange gestures. He takes out a piece of paper and begins reading to everyone. The girl in blue drags a stool to reach the top fridge and opens it. The mother pushes the baby carriage to the dining table, and the family starts having breakfast while conversing. They eat and chat simultaneously. The girl in the blue dress goes to the bathroom and squirts all the toothpaste into the sink. Another girl, wearing green clothes, climbs a tree. Another woman finds her and joins her on the tree, and they chat while up there. The next day, one of the girls wakes up, goes downstairs, and sees excavators and some construction workers.",
+ "global": [
+  {
+   "question": "When does it happens in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  },
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "No."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 720,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 1440,
+   "question": "What is the object?",
+   "answer": "Grade paper."
+  },
+  {
+   "time": 2160,
+   "question": "Where is the scene?",
+   "answer": "In the kitchen."
+  },
+  {
+   "time": 2880,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 3600,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 4320,
+   "question": "Where is the scene?",
+   "answer": "At the dinning table."
+  },
+  {
+   "time": 5040,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 5760,
+   "question": "Where is the scene?",
+   "answer": "In the bathroom."
+  },
+  {
+   "time": 6480,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 7200,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 7920,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 8640,
+   "question": "How is the weather?",
+   "answer": "Sunny."
+  },
+  {
+   "time": 9360,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 10032,
+   "question": "What are the people doing?",
+   "answer": "Hugging each other."
+  }
+ ]
+}

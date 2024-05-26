@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "MLC-9.mp4",
+        "url": "",
+        "class": "Animation Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "The girl in the red opens a box, and two butterflies fly out. The girl in the red and the boy in the black outfit fight side by side, defeating many enemies. In a school, a girl plays the flute and does gymnastics. The boy and girl sit on the street, then head to the cinema. They visit the Eiffel Tower, with two cars parked nearby. They share ice cream together. On a rooftop at night, they dance around. The girl prepares a gift indoors, while the boy balances on a beam. The boy jumps down from the beam, and they have a conversation on the stage. The boy then goes to a piano, and behind the curtain appear stars, the moon, and clouds. They are back on the rooftop again.",
+    "global":
+    [
+        {
+            "question":"Is it a video based on reality or not?(What is the style of the movie?)",
+            "answer":"No. It seems like a cartoon movie."
+        },
+        {
+            "question":"Are there more than three different places appear in the video(scene switch doesn't necessarily means a place change)?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than five different people appear?",
+            "answer":"Yes."
+        },
+        {
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Both at night and at day time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Both indoors and outdoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":1500,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":2250,
+            "question":"Is there more than five people?",
+            "answer":"No."
+        },
+        {
+            "time":3400, 
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":3750,
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":4400,
+            "question":"where is the scene?",
+            "answer":"On the roof of city buildings."
+        },
+        {
+            "time":5150,
+            "question":"Is there any vehicles?",
+            "answer":"No."
+        },
+        {
+            "time":6000,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":6850, 
+            "question":"How many women appear in the scene?",
+            "answer":"One."
+        },
+        {
+            "time":7550,
+            "question":"what's the color of the woman's hair?",
+            "answer":"It's blue."
+        },
+        {
+            "time":8350,
+            "question":"what's the color of the man's hair?",
+            "answer":"It's golden."
+        },
+        {
+            "time":9100, 
+            "question":"what's the man doing?",
+            "answer":"He's playing the piano."
+        },
+        {
+            "time":9850,
+            "question":"Is there more than three people?",
+            "answer":"No."
+        },
+        {
+            "time":10500, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":11100,
+            "question":"Is there more than three people?",
+            "answer":"No."
+        }
+    ]
+}

@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "earth6-7.mp4",
+  "url": "",
+  "class": "documentary film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "After a long winter, the penguins' parents finally welcomed spring. Their struggles have come to an end, and all the hardships were for this moment. The males saved the chicks during the winter but grew weak due to prolonged fasting. At this time, the females returned home with bellies full of fish, reuniting with their partners and chicks. However, the males had to let go of the chicks to explore the world independently. In the end, the chicks grew up successfully, grateful for their parents' hard work. Penguins parents welcome spring after a long winter. Males saved the chicks during the winter but grew weak from fasting. Females return with bellies full of fish, reuniting with partners and chicks. Males must let the chicks explore the world independently. Chicks grow up successfully, thankful for their parents' hard work. Chicks that survived the first year have the best start. Males and females fought during the winter for the chicks' growth. Chicks prepare to conquer the world and become self-reliant. Chicks search for warmth and colonies deep in the winter. They continue to work together in summer to find food and shelter. Chicks that survived the first year have the best start, thanks to their parents' hard work. Antarctica penguins winter parents spring fish independence growth life adventure.",
+ "global": [
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Are there any human?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen in the cities?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 750,
+   "question": "Are there any mountains",
+   "answer": "No."
+  },
+  {
+   "time": 1500,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 2250,
+   "question": "What kind of animal is it?",
+   "answer": "Penguin."
+  },
+  {
+   "time": 3000,
+   "question": "Are there any mountains",
+   "answer": "Yes."
+  },
+  {
+   "time": 3750,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 4500,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 5250,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 6000,
+   "question": "Where is it?",
+   "answer": "In polar area."
+  },
+  {
+   "time": 6750,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 7500,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 8250,
+   "question": "What is the background color?",
+   "answer": "White."
+  },
+  {
+   "time": 9000,
+   "question": "Are there any mountains",
+   "answer": "Yes."
+  },
+  {
+   "time": 9750,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 10500,
+   "question": "What kind of animal is it?",
+   "answer": "Polar bear."
+  }
+ ]
+}

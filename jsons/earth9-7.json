@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "earth9-7.mp4",
+  "url": "",
+  "class": "documentary film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "This video showcases the lives of crocodile princes and the challenges they face for survival. It also discusses the threat posed by shark princes to the crocodile princes and how the crocodile princes protect themselves.",
+ "global": [
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Are there any human?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen in the cities?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 750,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 1500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 2250,
+   "question": "What kind of animal is it?",
+   "answer": "penguin"
+  },
+  {
+   "time": 3000,
+   "question": "What is the scene?",
+   "answer": "Penguins."
+  },
+  {
+   "time": 3750,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 4500,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 5250,
+   "question": "Are there any water?",
+   "answer": "No."
+  },
+  {
+   "time": 6000,
+   "question": "Where is it?",
+   "answer": "In the ocean."
+  },
+  {
+   "time": 6750,
+   "question": "What is the scene?",
+   "answer": "Ice."
+  },
+  {
+   "time": 7500,
+   "question": "What is the scene?",
+   "answer": "The earth."
+  },
+  {
+   "time": 8250,
+   "question": "What kind of animal is it?",
+   "answer": "Seabird."
+  },
+  {
+   "time": 9000,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 9750,
+   "question": "Where is it?",
+   "answer": "Underwater."
+  },
+  {
+   "time": 10500,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  }
+ ]
+}

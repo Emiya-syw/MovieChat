@@ -1,0 +1,110 @@
+{
+ "info": {
+  "video_path": "S01E1-9.mp4",
+  "class": "detective film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 11250,
+  "fps": 25
+ },
+ "caption": "A man receives something from his cellphone, maybe a message, and he is really surprised. He then rushed out of the room. And outside the house is a taxi. He talks for a while with the taxi driver. At the same time, the men and women in the room are confused of his behavior. The man finally enters the taxi, and the taxi driver is going to send him somewhere. The men in the room are cross and unhappy. They finally decide to leave. At the same time, the taxi stops in front of a building. The environment outside is totally dark.",
+ "global": [
+  {
+   "question": "How many characters appears in this video",
+   "answer": "There're seven people in the video."
+  },
+  {
+   "question": "How many different environment appears in the video?",
+   "answer": "Two different environments."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "It appears in modern age."
+  },
+  {
+   "question": "How many man and woman appears in the video?",
+   "answer": "There're six men and one women in the video."
+  },
+  {
+   "question": "What's the time in the video?",
+   "answer": "Night."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 750,
+   "question": " What's he doing? ",
+   "answer": " Using a computer.  "
+  },
+  {
+   "time": 1500,
+   "question": " Who goes in? ",
+   "answer": " A woman. "
+  },
+  {
+   "time": 2250,
+   "question": " Where are they? ",
+   "answer": "In a room.  "
+  },
+  {
+   "time": 3000,
+   "question": " What's the man's cloth? ",
+   "answer": "Black.   "
+  },
+  {
+   "time": 3750,
+   "question": " What's he doing?  ",
+   "answer": " Using his cellphone.  "
+  },
+  {
+   "time": 4500,
+   "question": "  What's in the scene?  ",
+   "answer": "  A taxi.  "
+  },
+  {
+   "time": 5250,
+   "question": "  Is the man wearing a glass?  ",
+   "answer": "Yes.    "
+  },
+  {
+   "time": 6000,
+   "question": " What are they doing?   ",
+   "answer": " Talking.   "
+  },
+  {
+   "time": 6750,
+   "question": " Is the man wearing a hat?   ",
+   "answer": "   Yes. "
+  },
+  {
+   "time": 7500,
+   "question": "   Who's in the car?  ",
+   "answer": " A man.   "
+  },
+  {
+   "time": 8250,
+   "question": " Where are they?   ",
+   "answer": " In a room.   "
+  },
+  {
+   "time": 9000,
+   "question": " How many people are there?   ",
+   "answer": "  Four.  "
+  },
+  {
+   "time": 9750,
+   "question": "  Where are they?  ",
+   "answer": " In a car.   "
+  },
+  {
+   "time": 10500,
+   "question": "  Where are they?  ",
+   "answer": " In a room.  "
+  },
+  {
+   "time": 11250,
+   "question": " Where are they?  ",
+   "answer": " In a car.  "
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "s02e01-4.mp4",
+  "url": "",
+  "class": "epic film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "A group of people gathered at a particular location, led by an elderly figure with a younger individual beneath him. The younger person said something to the elder, but the old man appeared displeased, cautioning the youth. They then huddled together to discuss something.Behind them stretched a forest, suggesting they were in the midst of it. A fire blazed in their midst, likely for warmth. Afterward, they seemed to be planning to depart. They used the fire to set the surroundings ablaze and took some ignited wood as torches before leaving the area.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does more than ten people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "Does more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 750,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 1500,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 2250,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 3000,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 3750,
+   "question": "What is the scene?",
+   "answer": "An old man."
+  },
+  {
+   "time": 4500,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 5250,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 6000,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 6750,
+   "question": "How does the person feel?",
+   "answer": "Angry."
+  },
+  {
+   "time": 7500,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 8250,
+   "question": "What is the clothes color of the person?",
+   "answer": "Brown."
+  },
+  {
+   "time": 9000,
+   "question": "What is the scene?",
+   "answer": "Fire."
+  },
+  {
+   "time": 9750,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 10750,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  }
+ ]
+}

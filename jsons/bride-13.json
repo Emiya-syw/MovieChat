@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "bride-13.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "This segment is about a thrilling showdown between the protagonist and an antagonist. The antagonist, by manipulating the protagonist's thoughts, tries to corner him. Ultimately, the protagonist, through his intelligence and courage, defeats the antagonist, declaring that the antagonist is dead. Highlights: The protagonist's thoughts are manipulated by the antagonist in an attempt to put him in a dire situation; the showdown between them is suspenseful and thrilling; the antagonist claims to be the Napoleon of the criminal world, aiming to corner the protagonist; the dialogues between the protagonist and the antagonist are filled with wisdom and challenge; the protagonist eventually overcomes the antagonist with intelligence and bravery; the antagonist finally admits his demise, but his ideology persists; the protagonist's friend aids him in the fight against the antagonist, ultimately assisting in the victory; the protagonist announces the antagonist's death and vows to continue their conflict; the antagonist is finally defeated by the protagonist, but his demise doesn't conclude the protagonist's tale; the protagonist finally returns to reality, continuing his adventurous life.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does more than ten people appear in the video?",
+   "answer": "No."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Does more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What is the scene?",
+   "answer": "A waterfall."
+  },
+  {
+   "time": 750,
+   "question": "What is the scene?",
+   "answer": "A man."
+  },
+  {
+   "time": 1500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 2250,
+   "question": "What are the people doing?",
+   "answer": "Fighting."
+  },
+  {
+   "time": 3000,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 3750,
+   "question": "What is in the person's hand?",
+   "answer": "A gun."
+  },
+  {
+   "time": 4500,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 5250,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 6000,
+   "question": "How many people appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 6750,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 7500,
+   "question": "Where is it?",
+   "answer": "On a plane."
+  },
+  {
+   "time": 8250,
+   "question": "Are there any vehicles?",
+   "answer": "Yes."
+  },
+  {
+   "time": 9000,
+   "question": "How is the weather?",
+   "answer": "Sunny."
+  },
+  {
+   "time": 9750,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 10500,
+   "question": "What is the person doing?",
+   "answer": "Smoking."
+  }
+ ]
+}

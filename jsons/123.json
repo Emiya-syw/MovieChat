@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "123.mp4",
+  "url": "",
+  "class": "Animation Film",
+  "w": 1024,
+  "h": 576,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "A group of race cars is chasing each other on the race track. There are intense collisions on the track, and many cars crash into each other, creating a cloud of smoke. Some cars lose their tires. From the midst of the smoke, a red car emerges and lands safely. The race continues, and in the audience stands, many cars with eyes are cheering loudly. The red car's rear wheels produce dazzling sparks. In the end, three cars simultaneously cross the finish line. The race cars are surrounded by their team, and many cars with cameras are taking pictures of them enthusiastically.",
+ "global": [
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Night."
+  },
+  {
+   "question": "When does it happen in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "No."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Where is the scene?",
+   "answer": "In the stadium."
+  },
+  {
+   "time": 720,
+   "question": "Where is the scene?",
+   "answer": "On the race track."
+  },
+  {
+   "time": 1440,
+   "question": "Are there any vehicles?",
+   "answer": "Yes."
+  },
+  {
+   "time": 2880,
+   "question": "What is happening?",
+   "answer": "A car race is happening."
+  },
+  {
+   "time": 3504,
+   "question": "What is the color of these cars?",
+   "answer": "Red."
+  },
+  {
+   "time": 4320,
+   "question": "Does the number of audience cars more than 100?",
+   "answer": "Yes."
+  },
+  {
+   "time": 5040,
+   "question": "What is the color of the car?",
+   "answer": "Red."
+  },
+  {
+   "time": 5760,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 6480,
+   "question": "Where is the scene?",
+   "answer": "In the stadium."
+  },
+  {
+   "time": 7200,
+   "question": "Are there any vehicles?",
+   "answer": "Yes."
+  },
+  {
+   "time": 7920,
+   "question": "What are the color of these cars?",
+   "answer": "Green."
+  },
+  {
+   "time": 8640,
+   "question": "What are the journalist cars doing?",
+   "answer": "Trying to film and interview the red race car."
+  },
+  {
+   "time": 9360,
+   "question": "What is the color of the cars?",
+   "answer": "Red."
+  },
+  {
+   "time": 10080,
+   "question": "Are there any vehicles?",
+   "answer": "Yes."
+  },
+  {
+   "time": 10800,
+   "question": "What is happening?",
+   "answer": "Missiles are attacking insect-like robots."
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "s02e02-4.mp4",
+  "url": "",
+  "class": "epic film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "Inside a room with red curtains, the sunlight filtered in, casting a reddish hue over everything. One woman sat on a chair, wearing an unhappy expression. Beside her, a man was attempting to console her. He moved around her, speaking words of comfort. Eventually, the woman broke into a smile, and it seemed her mood improved.In another room, two men were having a meal together. The larger man was verbally insulting and belittling the smaller one. In response, the smaller man called over some people and had the obese man apprehended because his threats continued to escalate. However, it appeared to have no effect, and the obese man was dragged away in despair. The one who apprehended him came over to converse with the troublemaker.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does more than ten people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "Does more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "How many people appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 750,
+   "question": "What is the person doing?",
+   "answer": "Crying."
+  },
+  {
+   "time": 1500,
+   "question": "What is the clothes color of the person?",
+   "answer": "White."
+  },
+  {
+   "time": 2250,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 3000,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 3750,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 4500,
+   "question": "Does the person look happy?",
+   "answer": "Yes."
+  },
+  {
+   "time": 5250,
+   "question": "What are the people doing?",
+   "answer": "Eating."
+  },
+  {
+   "time": 6000,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 6750,
+   "question": "What is the clothes color of the person?",
+   "answer": "Brown."
+  },
+  {
+   "time": 7500,
+   "question": "How does the person feel?",
+   "answer": "Serious."
+  },
+  {
+   "time": 8250,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 9000,
+   "question": "How many people appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 9750,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 10500,
+   "question": "What is the background color?",
+   "answer": "Black."
+  }
+ ]
+}

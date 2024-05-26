@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "RGT-6.mp4",
+        "url": "",
+        "class": "Animation Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "Grandmother told her that the mission of the krakens was to protect the environment and the creatures in the ocean. But they had many enemies, the most powerful of them was the mermaid. Once upon a time, there was a war between the krakens and the mermaids. The mermaids had a powerful weapon, the Trident. Although the krakens won in the end, the trident disappeared. Grandma hoped that Ruby could go and find it. With the Trident, they could eliminate the mermaids. On the way home, Ruby was caught by a boat. At that moment, Chelsea appeared and saved her. Surprisingly, Chelsea's true identity was a mermaid.",
+    "global":
+    [
+        {
+            "question":"Is it a video based on reality or not?(Is it a cartoon movie?)",
+            "answer":"No. It seems like a cartoon movie."
+        },
+        {
+            "question":"Are there more than five different places appear in the video(scene switch doesn't necessarily means a place change)?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than five different characters appear?",
+            "answer":"Yes."
+        },
+        {
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Mainly at night time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly outdoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":1500,
+            "question":"Is there more than three people?",
+            "answer":"No."
+        },
+        {
+            "time":2350,
+            "question":"where is the scene?",
+            "answer":"In the sea."
+        },
+        {
+            "time":3000, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":3850,
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":4700,
+            "question":"where is the scene?",
+            "answer":"In the sea."
+        },
+        {
+            "time":5380,
+            "question":"what color is the right creature's skin?",
+            "answer":"Purple."
+        },
+        {
+            "time":6100,
+            "question":"what color is the upper creature's skin?",
+            "answer":"Yellow."
+        },
+        {
+            "time":6750, 
+            "question":"what is the creature doing?",
+            "answer":"It swims away."
+        },
+        {
+            "time":7620,
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":8200,
+            "question":"what is the gender of the creature in the middle?",
+            "answer":"She's female."
+        },
+        {
+            "time":9750, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":9750,
+            "question":"Is there more than ten people?",
+            "answer":"No."
+        },
+        {
+            "time":10500, 
+            "question":"what are they doing?",
+            "answer":"They're having a chat while swimming."
+        },
+        {
+            "time":11000,
+            "question":"Is there more than three people?",
+            "answer":"No."
+        }
+    ]
+}

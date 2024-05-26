@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "29.mp4",
+  "url": "",
+  "class": "Adventure Film",
+  "w": 1280,
+  "h": 528,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "The wizards wielded their wands, casting spells. A group of stone soldiers began to move. In the pitch-black sky, the glow of a protective barrier shimmered. People ascended and descended a circular staircase. The male protagonist entered a dark corridor within the castle, where he encountered a ghost. Upon hearing the protagonist's words, the ghost initially prepared to leave but then turned back. Outside the castle, an evil, bald character led a group of people dressed in black robes, ready to launch an attack. They brandished their wands, chanting spells. In an instant, starlight sparkled above the castle. The scene shifted back to the male protagonist and the ghost. After hearing the ghost's words, the male protagonist swiftly set out. The protective barrier outside the castle was being destroyed.",
+ "global": [
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Night."
+  },
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Where does it happen in the video?",
+   "answer": "In a castle."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "What role are the people in the clip?",
+   "answer": "Wizards and witch."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Is the person a man or a woman?",
+   "answer": "Woman."
+  },
+  {
+   "time": 720,
+   "question": "What is the person doing?",
+   "answer": "Casting spells."
+  },
+  {
+   "time": 1440,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 2160,
+   "question": "Is the person a man or a woman?",
+   "answer": "Man."
+  },
+  {
+   "time": 2880,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 3600,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 4320,
+   "question": "Is the person a man or a woman?",
+   "answer": "Man."
+  },
+  {
+   "time": 5040,
+   "question": "Is there a ghost?",
+   "answer": "Yes."
+  },
+  {
+   "time": 5760,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 6480,
+   "question": "What are the people doing?",
+   "answer": "Casting spells."
+  },
+  {
+   "time": 7200,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 7920,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 8640,
+   "question": "What is the shape of the boy's glasses?",
+   "answer": "Circle."
+  },
+  {
+   "time": 9360,
+   "question": "Where is the scene?",
+   "answer": "In the hall."
+  },
+  {
+   "time": 10080,
+   "question": "Where is the scene?",
+   "answer": "At the catsle."
+  }
+ ]
+}

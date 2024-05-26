@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "bride-7.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "The video depicts a scheme by a lady to have a man encounter the ghost of his ex-wife, Amelia Ricoletti, in her villa as retribution for his past misdeeds. However, the man refuses to follow the ghost due to fears of facing retribution for his actions. During this night, the detective and his doctor friend embark on an investigation to unravel the truth behind these events. Key highlights involve the lady's plan to have the man meet a ghost in her villa as punishment for his sins, the man's refusal to follow the ghost fearing repercussions, and the joint investigation by the detective and his doctor friend. There's mention of \"Orange pips\" being a traditional warning signal indicating a penal death in the U.S. The man feels guilt remembering Amelia Ricoletti. The lady possesses keen insight, and the doctor notes her pronounced arch of the foot. While the detective is disinterested in marriage, the doctor believes the lady is a better match for the man than the current one. The detective wears a watch containing a photograph of Irene Adler, which the doctor notices. The detective's refusal to communicate with the doctor leaves the latter puzzled. The detective's health inquiry towards the doctor feels odd to the latter. As they continue their investigation, it's clear that the doctor is the detective's closest confidant.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does more than ten people appear in the video?",
+   "answer": "No."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Does more than 5 people appear in the video?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 750,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 1500,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 2250,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 3000,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 3750,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 4500,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 5250,
+   "question": "What is the scene?",
+   "answer": "A man with a black hat."
+  },
+  {
+   "time": 6000,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 6750,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 7500,
+   "question": "What is the scene?",
+   "answer": "A ghost."
+  },
+  {
+   "time": 8250,
+   "question": "What is the person doing?",
+   "answer": "Running."
+  },
+  {
+   "time": 9000,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 9750,
+   "question": "How does the person feel?",
+   "answer": "Sad."
+  },
+  {
+   "time": 10500,
+   "question": "What is the background color?",
+   "answer": "Black."
+  }
+ ]
+}

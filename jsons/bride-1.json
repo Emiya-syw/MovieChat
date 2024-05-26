@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "bride-1.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "The video introduces the story of a famous detective and his assistant meeting and solving crimes together through a narrative. The highlights include the detective and his assistant meeting, solving crimes together, the detective's personality and abilities, him solving a challenge set by a hacker, returning to London after being injured in a war, finding a suitable residence, and together, solving a mysterious case.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does more than ten people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Does more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 750,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 1500,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 2250,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 3000,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 3750,
+   "question": "Where is it?",
+   "answer": "In a war."
+  },
+  {
+   "time": 4500,
+   "question": "Where is it?",
+   "answer": "On the street."
+  },
+  {
+   "time": 5250,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 6000,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 6750,
+   "question": "How many people appears?",
+   "answer": "Three."
+  },
+  {
+   "time": 7500,
+   "question": "What is the person doing?",
+   "answer": "Putting on his coat."
+  },
+  {
+   "time": 8250,
+   "question": "Are there any vehicles?",
+   "answer": "Yes."
+  },
+  {
+   "time": 9000,
+   "question": "What is in the person's hand?",
+   "answer": "Newspapers."
+  },
+  {
+   "time": 9750,
+   "question": "What is the scene?",
+   "answer": "A carriage."
+  },
+  {
+   "time": 10500,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  }
+ ]
+}

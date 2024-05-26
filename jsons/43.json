@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "43.mp4",
+  "url": "",
+  "class": "Animation Film",
+  "w": 1024,
+  "h": 576,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "A fairy appears before the green-skinned woman and waves her wand, causing the furniture in the room to come to life and dance around. Soon, a green monster and his donkey enter the scene. Shortly after, the fairy departs in a flying carriage. The green-skinned woman and the monster have an argument, leaving the woman in tears. A man named Wang Hao sits on a bed reading a book, while a king paces back and forth in a bedroom. The king then boards the fairy's carriage, accompanied by two guards and a handsome man, all carrying a large axe. The film ends with a scene in a gloomy bar.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Is there a donkey in the clip?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does it happens in the video, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "Is this cartoon?",
+   "answer": "Yes."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 24,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 720,
+   "question": "What is in front of the green monster girl?",
+   "answer": "Mirror."
+  },
+  {
+   "time": 1440,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 2160,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 2880,
+   "question": "Are there any animals?",
+   "answer": "Yes. A donkey."
+  },
+  {
+   "time": 3600,
+   "question": "What are the color of the monsters?",
+   "answer": "Green."
+  },
+  {
+   "time": 4320,
+   "question": "What is the color of the dog?",
+   "answer": "White."
+  },
+  {
+   "time": 5040,
+   "question": "What is the monster girl doing?",
+   "answer": "Putting her hand over her face."
+  },
+  {
+   "time": 5760,
+   "question": "Is the person a man or a woman?",
+   "answer": "Woman."
+  },
+  {
+   "time": 6480,
+   "question": "Is the person a man or a woman?",
+   "answer": "A man."
+  },
+  {
+   "time": 7200,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 7920,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 8664,
+   "question": "Where is the scene?",
+   "answer": "In a carriage."
+  },
+  {
+   "time": 9408,
+   "question": "Is moon up on the sky?",
+   "answer": "Yes."
+  },
+  {
+   "time": 10080,
+   "question": "What is the king holding?",
+   "answer": "Ax."
+  }
+ ]
+}

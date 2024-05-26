@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "s02e07-5.mp4",
+  "url": "",
+  "class": "epic film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "A man lay on the ground, realizing he was surrounded by others. It was a mountainous area covered in white, suggesting it was covered in snow. Many wild people stood around him, pointing their spears at him. He was captured and couldn't escape.In another place, two women were in conversation. One of them appeared to be more animated, and she seemed quite pleased with the other woman. They were discussing past events. The older one reminisced about the past and confided in the younger girl.Meanwhile, in a campsite, two men were conversing in the darkness, leaning against a fence.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does more than ten people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "Does more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What is in the person's hand?",
+   "answer": "S string."
+  },
+  {
+   "time": 750,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 1500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 2250,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 3000,
+   "question": "Where is it?",
+   "answer": "In a room."
+  },
+  {
+   "time": 3750,
+   "question": "How many people appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 4500,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 5250,
+   "question": "What is the clothes color of the person?",
+   "answer": "Blue."
+  },
+  {
+   "time": 6000,
+   "question": "What is the scene?",
+   "answer": "A girl."
+  },
+  {
+   "time": 6750,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 7500,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 8250,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 9000,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 9750,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 10500,
+   "question": "Are there any plants?",
+   "answer": "No."
+  }
+ ]
+}

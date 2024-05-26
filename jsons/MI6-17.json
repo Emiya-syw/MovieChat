@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "MI6-17.mp4",
+  "url": "",
+  "class": "action film",
+  "w": 720,
+  "h": 480,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "It’s a part of a movie. The theme of the movie is spy and agent. A man gets on a helicopter and tries to run away. Another man runs after him and catches the rope that swings down from the helicopter. He gradually climbs on the rope. At the same time., a man and a woman are trying to do something, they look nervous and cross, and they even start an argument. The man finally climbs into a helicopter and kills the driver. He uses the helicopter to fight against another one. Finally, the two helicopters all lose control and crash towards the ground.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "More than ten."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Where is it?",
+   "answer": "In a car."
+  },
+  {
+   "time": 750,
+   "question": "Are there any vehicles?",
+   "answer": "Yes."
+  },
+  {
+   "time": 750,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 2250,
+   "question": "Where is the scene?",
+   "answer": "Helicopters."
+  },
+  {
+   "time": 3000,
+   "question": "How many people appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 3750,
+   "question": "What is the person doing?",
+   "answer": "Climbing on a rope."
+  },
+  {
+   "time": 4500,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 5250,
+   "question": "Are there any vehicles?",
+   "answer": "Yes."
+  },
+  {
+   "time": 6000,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 6750,
+   "question": "What is the person doing?",
+   "answer": "Driving a helicopter."
+  },
+  {
+   "time": 7500,
+   "question": "Where is it?",
+   "answer": "In the sky."
+  },
+  {
+   "time": 8250,
+   "question": "Where is the scene?",
+   "answer": "Mountains and water."
+  },
+  {
+   "time": 9000,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 9750,
+   "question": "What is the background color?",
+   "answer": "Green."
+  },
+  {
+   "time": 10500,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  }
+ ]
+}

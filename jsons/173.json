@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "173.mp4",
+  "url": "",
+  "class": "Family Drama",
+  "w": 1280,
+  "h": 544,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "Two boys were playing in a room. After a while, they lay on the bed to watch TV. A man and a woman entered a dark room with flashlights, and there was a huge painting on the wall. On the TV, a woman was lying on the bed. The two boys turned off the TV and began to sleep. Suddenly, the two boys screamed and jumped off the bed. The next morning, a boy was in the living room, and he suddenly pounced at a door, colliding with it. A woman and a boy were chatting in the room. One boy is waving sticks.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "No."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does it happen in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day and night."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Where is the scene?",
+   "answer": "In the bedroom."
+  },
+  {
+   "time": 720,
+   "question": "How many people  appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 1440,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 2160,
+   "question": "What is the object?",
+   "answer": "A television."
+  },
+  {
+   "time": 2880,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 3648,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 4368,
+   "question": "Is the person a man or a woman?",
+   "answer": "A woman."
+  },
+  {
+   "time": 5088,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 5808,
+   "question": "What are the people doing?",
+   "answer": "Talking to each other."
+  },
+  {
+   "time": 6528,
+   "question": "Is there a fish tank?",
+   "answer": "Yes."
+  },
+  {
+   "time": 7224,
+   "question": "Does the woman have blonde hair?",
+   "answer": "No."
+  },
+  {
+   "time": 7920,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 8640,
+   "question": "Where is the scene?",
+   "answer": "In the bedroom."
+  },
+  {
+   "time": 9360,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 10080,
+   "question": "What is the clothes color of the boy?",
+   "answer": "Green."
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "149.mp4",
+  "url": "",
+  "class": "Romance Film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "Two girls are communicating using sign language in a room. They both seem very upset. One of the girls goes to the edge of the pool and vomits. The other girl brings a towel to help clean her up. They then sit at a table and continue communicating. Afterwards, they hug tightly. One of the girls sits at the computer and starts typing, chatting with someone online. The two girls lie down on the bed to sleep. A boy sits in front of a computer with LED lights attached to his body, kissing the computer screen. In the distance, there's a field, and a girl is using binoculars to gaze into the distance.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Night."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "No."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does it happen in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "What is the clothes color of the person?",
+   "answer": "White."
+  },
+  {
+   "time": 720,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 1440,
+   "question": "Where is the scene?",
+   "answer": "In the kitchen."
+  },
+  {
+   "time": 2160,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 2880,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 3600,
+   "question": "What is the clothes color of the person?",
+   "answer": "Grey."
+  },
+  {
+   "time": 4320,
+   "question": "What object is behind the girl?",
+   "answer": "A fish tank."
+  },
+  {
+   "time": 5040,
+   "question": "Is the person a man or a woman?",
+   "answer": "Woman."
+  },
+  {
+   "time": 5760,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 6480,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 7200,
+   "question": "Is the person a man or a woman?",
+   "answer": "Woman."
+  },
+  {
+   "time": 7920,
+   "question": "Is it bright or dark?",
+   "answer": "Dark."
+  },
+  {
+   "time": 8640,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 9384,
+   "question": "What is the person doing?",
+   "answer": "Using his computer."
+  },
+  {
+   "time": 10104,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  }
+ ]
+}

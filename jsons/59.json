@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "59.mp4",
+  "url": "",
+  "class": "History Film",
+  "w": 1024,
+  "h": 572,
+  "num_frame": 11040,
+  "fps": 23
+ },
+ "caption": "An elderly man stands in front of a Christmas tree, while a younger man sits behind a desk. The older man carefully guides the younger man, whose desk is filled with various recording devices. He patiently reads from a script. In another part of the room, a person covered with a towel smokes and reclines on a sofa. After a while, they get up from the sofa and change the record on a phonograph. Behind the man, a woman in pajamas emerges from a room. Below a mottled wall, there is a sofa with a man and a woman seated on it. In the room, a man in a suit stands practicing. The scenes switch to various situations where the man is addressing the public. In the end, an airplane lands on a lawn, and after the pilot exits the plane, he engages in conversation with another man.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "On which continent the story takes palce?",
+   "answer": "Europe."
+  },
+  {
+   "question": "Is this cartoon?",
+   "answer": "No."
+  },
+  {
+   "question": "Does the story happen in the 21st century?",
+   "answer": "No."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 690,
+   "question": "Is the person a man or a woman?",
+   "answer": "Man."
+  },
+  {
+   "time": 1380,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 2070,
+   "question": "Is there a lamp?",
+   "answer": "Yes."
+  },
+  {
+   "time": 2760,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 3450,
+   "question": "Where is the scene?",
+   "answer": "At the living room."
+  },
+  {
+   "time": 4140,
+   "question": "Is the person a man or a woman?",
+   "answer": "Man."
+  },
+  {
+   "time": 4830,
+   "question": "Is there a woman?",
+   "answer": "Yes."
+  },
+  {
+   "time": 5520,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 6210,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 6900,
+   "question": "What is the object?",
+   "answer": "A couch."
+  },
+  {
+   "time": 7590,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 8280,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 8970,
+   "question": "Are there more than 5 people at the spot?",
+   "answer": "Yes."
+  },
+  {
+   "time": 9660,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  }
+ ]
+}

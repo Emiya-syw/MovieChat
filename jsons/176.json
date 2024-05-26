@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "176.mp4",
+  "url": "",
+  "class": "Family Drama",
+  "w": 720,
+  "h": 382,
+  "num_frame": 12000,
+  "fps": 25
+ },
+ "caption": "Two boys walked on the street and arrived at the school. Along the way, they greeted familiar faces and entered a classroom. In that classroom, a boy in a yellow shirt squeezed in beside them, and there was an owl on the desk. A girl was chewing bubblegum. When class ended, everyone casually moved around in the classroom. The boy picked up a book, slung his backpack over his shoulder, and headed outside. They reached the area outside the classroom, and he started reading the book again. A man came home with a newspaper, sat at the table with the boy.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "No."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does it happen in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 1750,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 2250,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 3000,
+   "question": "Where is the scene?",
+   "answer": "In the classroom."
+  },
+  {
+   "time": 3750,
+   "question": "What is the object?",
+   "answer": "A notebook."
+  },
+  {
+   "time": 4500,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 5250,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 6000,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 6750,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 7500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 8250,
+   "question": "Is it in a house?",
+   "answer": "Yes."
+  },
+  {
+   "time": 9000,
+   "question": "What is the boy holding in his hands?",
+   "answer": "Books."
+  },
+  {
+   "time": 9750,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 10500,
+   "question": "Is the person a man or a woman?",
+   "answer": "He is a man."
+  },
+  {
+   "time": 11250,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 1575,
+   "question": "What is the clothes color of the person?",
+   "answer": "Red."
+  }
+ ]
+}

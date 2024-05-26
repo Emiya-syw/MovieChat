@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "AWS-6.mp4",
+        "url": "",
+        "class": "Family Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "At the start of the video, a man and a woman gradually develop affection for each other, their interlocked hands confirming their romantic relationship. However, this bliss is short-lived; while they are enjoying time together in a cabin, their parents suddenly burst in, questioning the legitimacy of their relationship and expressing their lack of understanding for their love. Despite the parents' insistence, the couple's determination eventually leads the family to give up trying to separate them. In the end, the parents leave the couple alone, and the man takes the woman away to embark on a happy and ordinary life together.",
+    "global":
+    [
+        {
+            "question":"When does the things in the video happens, acient, modern, or in the future?",
+            "answer":"It happens at modern time."
+        },
+        {
+            "question":"Are there more than four different places appear in the video(scene switch doesn't necessarily means a place change)?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than five different characters appear?",
+            "answer":"Yes."
+        },
+        {
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Both at night and at day time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Both outdoors and indoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":1400,
+            "question":"How many men appear in the scene?",
+            "answer":"One."
+        },
+        {
+            "time":2250,
+            "question":"what are they doing?",
+            "answer":"They're chatting."
+        },
+        {
+            "time":3000, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":3850,
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":4500,
+            "question":"How many men appear in the scene?",
+            "answer":"One."
+        },
+        {
+            "time":5250,
+            "question":"Is there any vehicles?",
+            "answer":"No."
+        },
+        {
+            "time":5900,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":6750, 
+            "question":"How many women appear in the scene?",
+            "answer":"One."
+        },
+        {
+            "time":7600,
+            "question":"what are they doing?",
+            "answer":"They're hugging each other."
+        },
+        {
+            "time":8250,
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":9000, 
+            "question":"where is the scene?",
+            "answer":"On the street of a night market."
+        },
+        {
+            "time":9750,
+            "question":"Is there more than five people?",
+            "answer":"No."
+        },
+        {
+            "time":10500, 
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":11000,
+            "question":"Is there more than five people?",
+            "answer":"No."
+        }
+    ]
+}

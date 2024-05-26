@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "MLC-5.mp4",
+        "url": "",
+        "class": "Animation Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "A massive creature with a boy in black clothing on top and a girl hanging from a line behind passes through a building, and the girl crashes into the bell. The creature plunges into the water, where there are boats on the surface. Suddenly, the creature appears in a subway station, terrifying the people. The girl in red clothing dangles from a line under a bridge as a subway train passes over the bridge, colliding with the creature, creating a purple smoke. Behind the boy and the girl, an old man appears. The boy climbs to the rooftop, then runs above the clouds.",
+    "global":
+    [
+        {
+            "question":"Is it a video based on reality or not?(What is the style of the movie?)",
+            "answer":"No. It seems like a cartoon movie."
+        },
+        {
+            "question":"Are there more than three different places appear in the video(scene switch doesn't necessarily means a place change)?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than five different characters appear?",
+            "answer":"Yes."
+        },
+        {
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Mainly at night time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly outdoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":1520,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":2250,
+            "question":"Is there more than five people?",
+            "answer":"Yes."
+        },
+        {
+            "time":3100, 
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at night."
+        },
+        {
+            "time":3650,
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":4600,
+            "question":"where is the scene?",
+            "answer":"In a train."
+        },
+        {
+            "time":5150,
+            "question":"Is there any vehicles?",
+            "answer":"No."
+        },
+        {
+            "time":6000,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":6850, 
+            "question":"How many women appear in the scene?",
+            "answer":"One."
+        },
+        {
+            "time":7500,
+            "question":"what's the color of the man's hair?",
+            "answer":"It's golden."
+        },
+        {
+            "time":8350,
+            "question":"what's the color of the man's clothes?",
+            "answer":"It's black."
+        },
+        {
+            "time":9200, 
+            "question":"what's the man doing?",
+            "answer":"He's trying to grab a petal."
+        },
+        {
+            "time":9850,
+            "question":"Is there more than three people?",
+            "answer":"No."
+        },
+        {
+            "time":10500, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":11100,
+            "question":"Is there more than three people?",
+            "answer":"No."
+        }
+    ]
+}

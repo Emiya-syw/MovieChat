@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "earth3-7.mp4",
+  "url": "",
+  "class": "documentary film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "The video narrates the scene of Wu Lu Chang Diao waiting on the beach for food to drop, and other organisms within the beach ecosystem. Fishing for Wu Lu Chang Diao involves safeguarding injured Wu Lu Chang Diao and swiftly removing fishbones. Wu Lu Chang Diao is one of 650 fish species in Pan Sen Bay, with a vast number of fish sustaining a large population of water birds. Bangkok, Hong Pond, and Bru Lla River combine to form the world's largest beach. Each year, nearly 20 million tons of sand from the South Sea flow onto the beach. Butterflies have carved a unique ecological niche on the beach, with butterflies feeding on other butterflies, specialized to Bangkok's environment. In Indonesia, these butterflies have formed a distinctive ecosystem. The beach also serves as a relaxation playground for the youth, with some even indulging in swimming, staying on the beach for over 30 seconds. Other organisms in the beach ecosystem include Ling Xiang, Yun Chong, and Nuan Ge Bi.",
+ "global": [
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Are there any human?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen in the cities?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Where is it?",
+   "answer": "Underwater."
+  },
+  {
+   "time": 750,
+   "question": "What is the background color?",
+   "answer": "Teal."
+  },
+  {
+   "time": 1500,
+   "question": "What is the background color?",
+   "answer": "Yellow."
+  },
+  {
+   "time": 2250,
+   "question": "Are there any animals?",
+   "answer": "Birds."
+  },
+  {
+   "time": 3000,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 3750,
+   "question": "What kind of animal is it?",
+   "answer": "Crocodile."
+  },
+  {
+   "time": 4500,
+   "question": "What is happening?",
+   "answer": "A crocodile is eating a bird."
+  },
+  {
+   "time": 5250,
+   "question": "What is the scene?",
+   "answer": "Delta."
+  },
+  {
+   "time": 6000,
+   "question": "Where is it?",
+   "answer": "In a mangrove."
+  },
+  {
+   "time": 6750,
+   "question": "What kind of animal is it?",
+   "answer": "Monkey."
+  },
+  {
+   "time": 7500,
+   "question": "Where is it?",
+   "answer": "Underwater."
+  },
+  {
+   "time": 8250,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 9000,
+   "question": "Are there any human?",
+   "answer": "No."
+  },
+  {
+   "time": 9750,
+   "question": "Are there any water?",
+   "answer": "Yes."
+  },
+  {
+   "time": 10500,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  }
+ ]
+}

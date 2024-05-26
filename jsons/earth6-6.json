@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "earth6-6.mp4",
+  "url": "",
+  "class": "documentary film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "The video shows a Larvae Superintendent gathering larvae on an island by the sea. The larvae have lost half their weight and need to find food. Unfortunately, the Larvae Superintendent gets injured and can't survive. Global climate change leads to the melting of hail, making it impossible for the Larvae Superintendent to survive in the coldest weather. Larvae grow at the bottom of the sea, but the platform disappears, necessitating the search for a new location. The Larvae's weight decreases by half, requiring them to seek food. The Larvae Superintendent suffers injuries and cannot survive. The Larvae Superintendent becomes motionless, unable to survive or feed. Their plans fail, and they are ridiculed. Severe injuries prevent the Larvae Superintendent from walking or eating. Global climate change causes hail to melt, making it impossible for the Larvae Superintendent to survive in the coldest weather.",
+ "global": [
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Are there any human?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen in the cities?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What kind of animal is it?",
+   "answer": "Walrus."
+  },
+  {
+   "time": 750,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 1500,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 2250,
+   "question": "What is the scene?",
+   "answer": "Walruses."
+  },
+  {
+   "time": 3000,
+   "question": "What is happening?",
+   "answer": "A polar bear is hunting."
+  },
+  {
+   "time": 3750,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 4500,
+   "question": "Are there any water?",
+   "answer": "Yes."
+  },
+  {
+   "time": 5250,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 6000,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 6750,
+   "question": "What kind of animal is it?",
+   "answer": "Polar bear."
+  },
+  {
+   "time": 7500,
+   "question": "Are there any human?",
+   "answer": "No."
+  },
+  {
+   "time": 8250,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 9000,
+   "question": "What is the background color?",
+   "answer": "Dark red."
+  },
+  {
+   "time": 9750,
+   "question": "What is the scene?",
+   "answer": "Aurora."
+  },
+  {
+   "time": 10500,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  }
+ ]
+}

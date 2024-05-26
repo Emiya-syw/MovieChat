@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "93.mp4",
+  "url": "",
+  "class": "Family Drama",
+  "w": 1024,
+  "h": 432,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "A man holds money and speaks to a little girl and a woman in white clothes. And then the man and the woman sit in a car while the girl in red clothing is washing the car outside. Suddenly, the paint on top of the car roof spills, splattering paint all over the vehicle. A group of people gathers outside the house, looking at the car covered in colorful paint. The little girl goes inside and washes her hands at the sink, then starts feeding a baby. The whole family is in the dining room, sitting at the table and chatting.",
+ "global": [
+  {
+   "question": "When does it happens in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day and night."
+  },
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "No."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Is the person a man or a woman?",
+   "answer": "A man."
+  },
+  {
+   "time": 720,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 1440,
+   "question": "Are there any vehicles?",
+   "answer": "Yes."
+  },
+  {
+   "time": 2160,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 2880,
+   "question": "Where is the scene?",
+   "answer": "In the car."
+  },
+  {
+   "time": 3600,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 4320,
+   "question": "Where is the scene?",
+   "answer": "In the car."
+  },
+  {
+   "time": 5040,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 5760,
+   "question": "What is the color of the car?",
+   "answer": "The car is in all colors."
+  },
+  {
+   "time": 6480,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 7200,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 8016,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 8640,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 9360,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 10080,
+   "question": "What is the clothes color of the woman?",
+   "answer": "Purple."
+  }
+ ]
+}

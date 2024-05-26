@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "36.mp4",
+  "url": "",
+  "class": "School Film",
+  "w": 1280,
+  "h": 544,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "The sky is pouring with rain, and a boy is hiding behind a car. In a corridor, a teacher approaches a young boy sitting on the steps. It seems that two boys were caught sneaking food in a room by the teacher. At this moment, the teacher notices another boy singing in the classroom. The next morning, the teacher begins the class in the classroom. Under the teacher's guidance, the boys gather together to sing. As the teacher is about to leave, he suddenly pats his face and heads off to meet a student's mother.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does it happens in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Does the story happens in a European country?",
+   "answer": "Yes."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 24,
+   "question": "What is the weather?",
+   "answer": "Rainy."
+  },
+  {
+   "time": 720,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 1440,
+   "question": "Is the person a man or a woman?",
+   "answer": "A man."
+  },
+  {
+   "time": 2160,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 2880,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 3600,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 4320,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 5040,
+   "question": "What are the people doing?",
+   "answer": "Talking to each other."
+  },
+  {
+   "time": 5760,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 6480,
+   "question": "Are there girls?",
+   "answer": "No."
+  },
+  {
+   "time": 7200,
+   "question": "What are the people doing?",
+   "answer": "Singing."
+  },
+  {
+   "time": 7920,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 8640,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 9360,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 10080,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  }
+ ]
+}

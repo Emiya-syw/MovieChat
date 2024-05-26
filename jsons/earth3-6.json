@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "earth3-6.mp4",
+  "url": "",
+  "class": "documentary film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "In this video, we observe the impact of floods on the Earth and how humans adapt to and harness the presence of floods. From the speed of the water flow to the alterations it brings to the land, the potency of floods is displayed. We also witness the effects of floods on life, encompassing both flora and fauna. With water flowing at a staggering 1.3 billion kilometers per second, the change in landscape due to floods is evident. The tidal period in Paris, UK, sees the Enan River fulfilling the banks. Floods affect life forms, including plants such as firewood trees and rock dews that provide food for fresh fish, and animals like Dorado, known as Fresh Fish Bay, seeking opportunities to best the fresh fish.",
+ "global": [
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Are there any human?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen in the cities?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 750,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 1500,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 2250,
+   "question": "What is the scene?",
+   "answer": "Two fishes."
+  },
+  {
+   "time": 3000,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 3750,
+   "question": "What is the scene?",
+   "answer": "Waterfall."
+  },
+  {
+   "time": 4500,
+   "question": "What is the scene?",
+   "answer": "Waterfall."
+  },
+  {
+   "time": 5250,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 6000,
+   "question": "What is the scene?",
+   "answer": "A rainbow."
+  },
+  {
+   "time": 6750,
+   "question": "Are there any water?",
+   "answer": "Yes."
+  },
+  {
+   "time": 7500,
+   "question": "What is the scene?",
+   "answer": "Amazon royal water lily."
+  },
+  {
+   "time": 8250,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 9000,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 9750,
+   "question": "What is the scene?",
+   "answer": "Fishes."
+  },
+  {
+   "time": 10500,
+   "question": "Where is it?",
+   "answer": "Underwater."
+  }
+ ]
+}

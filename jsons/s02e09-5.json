@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "s02e09-5.mp4",
+  "url": "",
+  "class": "epic film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "In a castle, a woman held a wine glass, her body trembling with fear. Beside her was a young girl, to whom the woman was recounting past events, seemingly attempting to alleviate her own terror through speech. Meanwhile, outside the castle, upon the seas, an army was attempting to make landfall on ships. The city's defenders were visibly panicked. They launched rockets at the invaders, but these failed to repel them. The invaders successfully landed and began an assault on the city gates. Chaos ensued. The defenders' commander was doing his utmost to halt the advancing forces.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does more than ten people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "Does more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Night."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 750,
+   "question": "What is in the person's hand?",
+   "answer": "A goblet."
+  },
+  {
+   "time": 1500,
+   "question": "How many people appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 2250,
+   "question": "What is in the person's hand?",
+   "answer": "A goblet."
+  },
+  {
+   "time": 3000,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 3750,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 4500,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 5250,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 6000,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 6750,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 7500,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 8250,
+   "question": "What are the people doing?",
+   "answer": "Fighting."
+  },
+  {
+   "time": 9000,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 9750,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 10500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  }
+ ]
+}

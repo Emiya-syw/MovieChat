@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "S03E1-9.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "This narrative revolves around a dialogue between the first man and the second man. The first man shows the second man some clues and mentions that someone is trying to get close to him through the second man. They also discuss an imminent terrorist attack and the suspicious behavior of an individual named Moran. Highlights include: the first man presenting clues to the second man, including a lottery ticket and some information about a terrorist attack; the second man's parents come to London, and the first man unexpectedly finds them to be very ordinary people; the first and second men discuss why someone might want to approach the first man through the second man; the first man showcases his clues, involving some spies and suspicious characters; the first man discovers Moran has been an undercover agent working for North Korea since 1996; the two men talk about an impending terrorist attack, but they can’t identify the specific threat; the first man mentions their intelligence agency might have a list of the most obvious threats.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "More than ten."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "How many people  appeared?",
+   "answer": "Three."
+  },
+  {
+   "time": 750,
+   "question": "How many people  appeared?",
+   "answer": "Four."
+  },
+  {
+   "time": 1500,
+   "question": "Where is it?",
+   "answer": "In a room."
+  },
+  {
+   "time": 2250,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 3000,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 3750,
+   "question": "What is the person doing?",
+   "answer": "Sitting on a sofa."
+  },
+  {
+   "time": 4500,
+   "question": "What's the weather?",
+   "answer": "Sunny."
+  },
+  {
+   "time": 5250,
+   "question": "Are there any vehicles?",
+   "answer": "Yes."
+  },
+  {
+   "time": 6000,
+   "question": "How many people  appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 6750,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 7500,
+   "question": "How the person feel?",
+   "answer": "Glad."
+  },
+  {
+   "time": 8250,
+   "question": "What are the people doing?",
+   "answer": "Talking through a computer."
+  },
+  {
+   "time": 9000,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 9750,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 10500,
+   "question": "What is the scene?",
+   "answer": "A man is opening a door."
+  }
+ ]
+}

@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "RMA-9.mp4",
+        "url": "",
+        "class": "Science Fiction Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "",
+    "global":
+    [
+        {
+            "question":"When does the things in the video happens, ancient age, modern age or future?",
+            "answer":"Can't tell. It maybe happen at modern age."
+        },
+        {
+            "question":"Are there more then five different scenes appear in the video?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than ten different characters appear?",
+            "answer":"No."
+        },
+        {
+            "question":"Is it mainly day time or night time?",
+            "answer":"Mainly at day time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly outdoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"what's on the man's shoulder?",
+            "answer":"A high power flashlight."
+        },
+        {
+            "time":1500,
+            "question":"Is there any person appears?",
+            "answer":"Yes."
+        },
+        {
+            "time":2350,
+            "question":"Is there any beasts in the scene?",
+            "answer":"Yes."
+        },
+        {
+            "time":3100, 
+            "question":"How many people appear in the scene?",
+            "answer":"One person."
+        },
+        {
+            "time":3750,
+            "question":"Is it day time or night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":4500,
+            "question":"Is there more than three people?",
+            "answer":"No."
+        },
+        {
+            "time":5250,
+            "question":"waht's in the scene?",
+            "answer":"Hundreds of pieces of meteorites."
+        },
+        {
+            "time":6100,
+            "question":"what is the woman doing?",
+            "answer":"She is hiding from something."
+        },
+        {
+            "time":6750, 
+            "question":"what is the man doing?",
+            "answer":"He is running in the forest."
+        },
+        {
+            "time":7600,
+            "question":"what is the man doing?",
+            "answer":"He is helping the girl climbing up."
+        },
+        {
+            "time":8250,
+            "question":"where is the scene?",
+            "answer":"In a big forest."
+        },
+        {
+            "time":9000, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":9750,
+            "question":"How many people appear in the scene?",
+            "answer":"Two people."
+        },
+        {
+            "time":10500, 
+            "question":"what are they doing?",
+            "answer":"They're operating a small machine."
+        },
+        {
+            "time":10800,
+            "question":"what is the man doing?",
+            "answer":"He is pointing to the ground and talking to the woman excitedly."
+        }
+    ]
+}

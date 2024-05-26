@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "s02e02-2.mp4",
+  "url": "",
+  "class": "epic film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "Several people were gathered around a table, deep in discussion about something important. As they conversed, a man approached, and one man and one woman at the table issued some instructions to him. The man nodded in agreement. Before leaving, the woman expressed something very sorrowful to him. Afterward, the man departed, but the atmosphere remained heavy.The others around the table continued their conversation for a while, and eventually, they too left the table. In another location, seemingly a campsite, it was snowing all around, surrounded by a forest. Some people were fetching water and packing up their belongings. They seemed to be stationed here, possibly as a part of an army or a group.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does more than ten people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "Does more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "How many people appears?",
+   "answer": "Three."
+  },
+  {
+   "time": 750,
+   "question": "How many people appears?",
+   "answer": "Three."
+  },
+  {
+   "time": 1500,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 2250,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 3000,
+   "question": "What is the clothes color of the person?",
+   "answer": "Brown."
+  },
+  {
+   "time": 3750,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 4500,
+   "question": "What is the scene?",
+   "answer": "A woman."
+  },
+  {
+   "time": 5250,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 6000,
+   "question": "How many people appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 6750,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 7500,
+   "question": "How is the weather?",
+   "answer": "Snowy."
+  },
+  {
+   "time": 8250,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 9000,
+   "question": "How does the person feel?",
+   "answer": "Confused."
+  },
+  {
+   "time": 9750,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 10500,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  }
+ ]
+}

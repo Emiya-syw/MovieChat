@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "s01e07-6.mp4",
+  "url": "",
+  "class": "epic film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "In a winter castle, a man is making some declarations. He speaks to the people below him, and one of them stands up to respond. They exchange words, possibly discussing matters of importance. Afterward, there seems to be a list being presented, and one person reacts with anger, confronting another individual. However, the second person responds calmly, which only seems to infuriate their friend. Meanwhile, in another location, two men are conspiring. One older man appears composed, while the younger one seems impatient. They are engaged in a discussion, with the younger man urging the older man to make a decision quickly.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does more than ten people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "Does more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "How does the person feel?",
+   "answer": "Serious."
+  },
+  {
+   "time": 750,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 1500,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 2250,
+   "question": "How does the person feel?",
+   "answer": "Confused."
+  },
+  {
+   "time": 3000,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 3750,
+   "question": "What is the scene?",
+   "answer": "An old man."
+  },
+  {
+   "time": 4500,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 5250,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 6000,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 6750,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 7500,
+   "question": "What is the scene?",
+   "answer": "A fat man."
+  },
+  {
+   "time": 8250,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 9000,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 9750,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 10500,
+   "question": "What is the background color?",
+   "answer": "Black."
+  }
+ ]
+}

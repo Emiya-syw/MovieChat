@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "170.mp4",
+  "url": "",
+  "class": "Animation Film",
+  "w": 640,
+  "h": 434,
+  "num_frame": 12000,
+  "fps": 25
+ },
+ "caption": "An elderly person picked up the phone to answer a call. Two little people hid on the boy's shoulder, while the other two stood on a table. Another boy was hiding behind the sofa. The elderly person followed him out of the room. The four little people reunited. During the night, they walked through the bushes and stumbled upon an airplane. A cat approached and dragged the plane with a string. At this moment, an elderly person with a cane appeared. The elderly person pushed the lawnmower into the warehouse. Several little people lit a candle and worked by its light. Two of them ran from a water pipe into the indoors.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Do planes appear in the video?",
+   "answer": "Yes."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "What is the person doing?",
+   "answer": "Making a phone call."
+  },
+  {
+   "time": 750,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 1500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 2250,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 3000,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 3750,
+   "question": "Are there any vehicles?",
+   "answer": "Yes."
+  },
+  {
+   "time": 4500,
+   "question": "Are there any animals?",
+   "answer": "Yes.A cat."
+  },
+  {
+   "time": 5250,
+   "question": "What is the person doing?",
+   "answer": "Pulling a rope."
+  },
+  {
+   "time": 6000,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 6750,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 7500,
+   "question": "What is the color of the cat?",
+   "answer": "Black."
+  },
+  {
+   "time": 8250,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 9000,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 9750,
+   "question": "What is the hat color of the boy?",
+   "answer": "Red."
+  },
+  {
+   "time": 10750,
+   "question": "Are there any vehicles?",
+   "answer": "Yes."
+  }
+ ]
+}

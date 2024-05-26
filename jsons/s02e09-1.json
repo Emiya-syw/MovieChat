@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "s02e09-1.mp4",
+  "url": "",
+  "class": "epic film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "It begins with a map featuring impressive castles, mountains, and rivers. These castles, mountains, and rivers all appear majestic, with the castles expanding, and the trees growing. The sky holds a blazing sun, all constructed from blocks and metal.Then, we move to a ship where everything is pitch black, and nothing can be seen. It's nighttime, and two people, one old and one young, are engaged in conversation, discussing something.In another place, within a castle, a man and a woman are lying in bed. They are engaged in conversation and seem worried. Eventually, they drift off into a deep sleep.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does more than ten people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "Does more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Night."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What is the background color?",
+   "answer": "Grey."
+  },
+  {
+   "time": 750,
+   "question": "What is the scene?",
+   "answer": "A map."
+  },
+  {
+   "time": 2250,
+   "question": "What is the scene?",
+   "answer": "A map."
+  },
+  {
+   "time": 3000,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 3750,
+   "question": "Where is it?",
+   "answer": "On a ship."
+  },
+  {
+   "time": 4500,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 5250,
+   "question": "How many people appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 6000,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 6750,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 7500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 8250,
+   "question": "What is the scene?",
+   "answer": "A man."
+  },
+  {
+   "time": 9000,
+   "question": "Where is it?",
+   "answer": "On a bed."
+  },
+  {
+   "time": 9750,
+   "question": "What are the people doing?",
+   "answer": "Kissing."
+  },
+  {
+   "time": 10500,
+   "question": "What is in the person's hand?",
+   "answer": "A cup."
+  },
+  {
+   "time": 1500,
+   "question": "What is the scene?",
+   "answer": "A tree."
+  }
+ ]
+}

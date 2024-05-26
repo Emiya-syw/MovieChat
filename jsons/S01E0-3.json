@@ -1,0 +1,110 @@
+{
+ "info": {
+  "video_path": "S01E0-3.mp4",
+  "class": "detective film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 11250,
+  "fps": 25
+ },
+ "caption": "The two men walk into the building through the stairs. On the top of the building, there\u2019s a woman lying on the ground. She is wearing a pink cloth and don\u2019t move at all. She might be dead. The men walk around the woman, and he squats down to have a better observation. He keeps doing it for a long time until he finds something and run away. Before he leaves, he talks to the remaining two man on the stair. And after that, one of them is pushed to leave through the stair and goes back to the ground. ",
+ "global": [
+  {
+   "question": "How many characters appears in this video",
+   "answer": "There're five people in the video."
+  },
+  {
+   "question": "How many different environment appears in the video?",
+   "answer": "There're two different environments."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "It appears in modern age."
+  },
+  {
+   "question": "How many man and woman appears in the video?",
+   "answer": "There're four men and one  women in the video."
+  },
+  {
+   "question": "What's the time in the video?",
+   "answer": "It's night."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 750,
+   "question": "what happens?",
+   "answer": "The man in black is arguing with the man in blue, and he goes into the building."
+  },
+  {
+   "time": 1500,
+   "question": "what is the man in black doing?",
+   "answer": "He is wearing a blue cloth."
+  },
+  {
+   "time": 2250,
+   "question": "what do they find in the room?",
+   "answer": "A woman with pink cloth lying on the ground."
+  },
+  {
+   "time": 3000,
+   "question": "who happens?",
+   "answer": "Two man are talking with each other, or maybe arguing."
+  },
+  {
+   "time": 3750,
+   "question": "who are they doing?",
+   "answer": "The two men squat down to observe a dead people.."
+  },
+  {
+   "time": 4500,
+   "question": "what are the man mainly observing?",
+   "answer": "The woman's hand."
+  },
+  {
+   "time": 5250,
+   "question": "what's in the room?",
+   "answer": "Three people, a light and a shelf."
+  },
+  {
+   "time": 6000,
+   "question": "what's the standing man doing?",
+   "answer": "He is taking notes."
+  },
+  {
+   "time": 6750,
+   "question": "what do they find on the woman's fingers?",
+   "answer": "They find a ring on her finger."
+  },
+  {
+   "time": 7500,
+   "question": "what's the color of the men's cloth?",
+   "answer": "It's blue."
+  },
+  {
+   "time": 8250,
+   "question": "what do the man shows to his fellow?",
+   "answer": "The screen of his cellphone."
+  },
+  {
+   "time": 9000,
+   "question": "what are they looking at?",
+   "answer": "The legs of the dead people."
+  },
+  {
+   "time": 9750,
+   "question": "what happens?",
+   "answer": "One of the men take off his coat and leaves the room after saying something."
+  },
+  {
+   "time": 10500,
+   "question": "who gets into the room?",
+   "answer": "A group of people in blue cloth."
+  },
+  {
+   "time": 11250,
+   "question": "what's the environment?",
+   "answer": "The street after raining."
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "183.mp4",
+  "url": "",
+  "class": "Romance Film",
+  "w": 1280,
+  "h": 528,
+  "num_frame": 12000,
+  "fps": 25
+ },
+ "caption": "A man with sunglasses was talking on the phone. Behind him were two men, and there was a woman nearby. The elevator arrived at a floor, and the woman hurriedly got off. She climbed many steps and arrived at a place where there were many stylish women. Two women were sitting by the pool. Another woman entered the changing room and began undressing. At that moment, a man appeared. Three women sat on benches by the lake. The scene returned to the office building with stylish women. A woman accidentally fell, and a man in a suit helped her up. The woman slept in bed, then quickly got up, freshened up, and walked out of the room.",
+ "global": [
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  },
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does it happen in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "The story probably happens in Europe or Asia?",
+   "answer": "Asia."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "No."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "What is the man doing?",
+   "answer": "Making a phone call."
+  },
+  {
+   "time": 750,
+   "question": "What is the number shown on the display?",
+   "answer": "Twenty."
+  },
+  {
+   "time": 1500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 2250,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 3000,
+   "question": "How many people  appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 3750,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 4500,
+   "question": "What is the clothes color of the man?",
+   "answer": "White."
+  },
+  {
+   "time": 5250,
+   "question": "How many women are there?",
+   "answer": "Three."
+  },
+  {
+   "time": 6000,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 6750,
+   "question": "What is the hair color of the woman?",
+   "answer": "Black."
+  },
+  {
+   "time": 7500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 8250,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 9000,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 9750,
+   "question": "Where is the scene?",
+   "answer": "In the living room."
+  },
+  {
+   "time": 10500,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  }
+ ]
+}

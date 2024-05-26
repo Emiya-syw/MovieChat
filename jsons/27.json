@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "27.mp4",
+  "url": "",
+  "class": "Animation Film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "In the canyon, there was a tall tower where a girl with extremely long hair lived. Her mother called her from below, and the girl used her hair to pull her mother up. Together, they stood in front of a mirror. Later, the mother sat in a chair, chatting with her daughter. She closed all the windows in the room. The following scenes were presented in an animated opera style. The daughter and mother sang and danced, conveying the plot. Eventually, the mother had to leave, and the daughter used her hair to lower her back to the ground. Meanwhile, the three fugitives from the beginning of the film had escaped into a forest but were soon pursued and caught by the horse-riding soldiers.",
+ "global": [
+  {
+   "question": "When does it happens in the video, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  },
+  {
+   "question": "Is this cartoon?",
+   "answer": "Yes."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 24,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 744,
+   "question": "Where is the scene?",
+   "answer": "On the lawn."
+  },
+  {
+   "time": 1464,
+   "question": "Where is the scene?",
+   "answer": "In the room."
+  },
+  {
+   "time": 2160,
+   "question": "How many people  appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 2880,
+   "question": "What is the hair color of the girl?",
+   "answer": "Blonde."
+  },
+  {
+   "time": 3600,
+   "question": "What is the clothes color of the person?",
+   "answer": "Pink."
+  },
+  {
+   "time": 4320,
+   "question": "Is the person a man or a woman?",
+   "answer": "Woman."
+  },
+  {
+   "time": 5040,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 5760,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 6528,
+   "question": "What is the woman holding?",
+   "answer": "A paint brush."
+  },
+  {
+   "time": 7200,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 7920,
+   "question": "How many people  appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 8640,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 9360,
+   "question": "Where is the scene?",
+   "answer": "Under the tree."
+  },
+  {
+   "time": 10032,
+   "question": "How many people  appears?",
+   "answer": "Three."
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "earth11-7.mp4",
+  "url": "",
+  "class": "documentary film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "In the next 20 years, most sea turtles will inevitably die, but the survivors will return to the beaches where they were hatched, just like their mothers. How they find their way home across thousands of miles of open ocean remains a mystery. Below the sea surface, a bird of prey soars, searching for food beneath. But where is it? Animals flying over the ocean must be able to read the signs of fresh supplies, or they won't survive. 100 miles off the coast of Mexico, sharp eyes spot a moving target. Three-meter-long sailfish are closing in on their prey. They only expend enough energy for the kill, never wasting a single swing of their fins. Almost a hundred sailfish surround a school of smaller fish, a sight that's quite rare. To herd their prey, the predators raise their massive dorsal fins. A mistaken attack by one sailfish could fatally wound another, so they constantly change colors, from blue to striped to black. This not only communicates intentions to their companions but also confuses their prey. With the school of fish driven near the surface, the smaller fish have nowhere to hide. The life of a sailfish is full of vigor. To survive, they need to find prey daily, spending their entire lives on the move. Over 90% of Earth's living space is in the ocean, the habitat of the largest animal on Earth: the blue whale. Some blue whales weigh close to 200 tons, twice the size of the largest dinosaurs. Despite their massive size, we still don't know their migration paths across the vast oceans, let alone how they reproduce. The largest animals on Earth rely almost entirely on the smallest creatures for food - crustaceans like krill. They swallow millions of krill in a single gulp, then filter out the nutrients. Each day, every blue whale consumes about 4 million krill. Such vast intakes depend on the ocean's continued fertility. But global changes pose a threat to all this.",
+ "global": [
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Are there any human?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen in the cities?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Where is it?",
+   "answer": "On a beach."
+  },
+  {
+   "time": 750,
+   "question": "Are there any water?",
+   "answer": "Yes."
+  },
+  {
+   "time": 1500,
+   "question": "Where is it?",
+   "answer": "Underwater."
+  },
+  {
+   "time": 2250,
+   "question": "What is the scene?",
+   "answer": "Ocean."
+  },
+  {
+   "time": 3000,
+   "question": "What kind of animal is it?",
+   "answer": "sailfish."
+  },
+  {
+   "time": 3750,
+   "question": "What kind of animal is it?",
+   "answer": "sailfish."
+  },
+  {
+   "time": 4500,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 5250,
+   "question": "Are there any water?",
+   "answer": "Yes."
+  },
+  {
+   "time": 6000,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 6750,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 7500,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 8250,
+   "question": "What kind of animal is it?",
+   "answer": "Blue whale."
+  },
+  {
+   "time": 9000,
+   "question": "How is the weather?",
+   "answer": "Sunny."
+  },
+  {
+   "time": 9750,
+   "question": "What kind of animal is it?",
+   "answer": "Blue whale."
+  },
+  {
+   "time": 10500,
+   "question": "Are there any mountains",
+   "answer": "No."
+  }
+ ]
+}

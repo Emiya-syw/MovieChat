@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "earth1-3.mp4",
+  "url": "",
+  "class": "documentary film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "The video showcases the seasonal changes in different regions of the Earth and how these fluctuations influence the lives of animals. From the chilly winters of Antarctica, where branches are inedible and virtually no animal life exists, to the warm summers of the North American plains and the humid rainy seasons of Southeast Asian forests, Earth's seasonal transformations have a profound impact on animal reproduction, migration, and survival. During Antarctic winters, branches are scarce, and the frozen forests seem silent, with snow trails hinting at life underneath. As summer approaches, longer branches replace the shorter ones, providing animals the sustenance they need. The sun's power becomes more intense and results in drastic changes around the 50-degree latitude, signaling the arrival of spring. In the Southeast Asian forests, the Amur cat faces challenging hunting conditions during winter. At only a year old, the feline still relies on its mother. Such challenges highlight the fragile nature of wildlife in changing environments. The sun's energy colors the landscapes, and the Earth's rotation spawns the seasons, which in turn shape the lives of animals in terms of reproduction, migration, and overall survival.",
+ "global": [
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Are there any human?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen in the cities?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Are there any human?",
+   "answer": "No."
+  },
+  {
+   "time": 750,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 1500,
+   "question": "What is the scene?",
+   "answer": "The earth."
+  },
+  {
+   "time": 2250,
+   "question": "What is the background color?",
+   "answer": "White."
+  },
+  {
+   "time": 3000,
+   "question": "What kind of animal is it?",
+   "answer": "Deer."
+  },
+  {
+   "time": 3750,
+   "question": "Are there any mountains",
+   "answer": "No."
+  },
+  {
+   "time": 4500,
+   "question": "How is the weather?",
+   "answer": "Snowy."
+  },
+  {
+   "time": 5250,
+   "question": "What kind of animal is it?",
+   "answer": "Snow leopard."
+  },
+  {
+   "time": 6000,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 6750,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 7500,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 8250,
+   "question": "Are there any water?",
+   "answer": "No."
+  },
+  {
+   "time": 9000,
+   "question": "How is the weather?",
+   "answer": "Sunny."
+  },
+  {
+   "time": 9750,
+   "question": "What is the scene?",
+   "answer": "A tree."
+  },
+  {
+   "time": 10500,
+   "question": "Where is it?",
+   "answer": "In a forest."
+  }
+ ]
+}

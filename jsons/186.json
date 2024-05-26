@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "186.mp4",
+  "url": "",
+  "class": "Romance Film",
+  "w": 1280,
+  "h": 528,
+  "num_frame": 12000,
+  "fps": 25
+ },
+ "caption": "A man and a woman were sitting in a room. The woman was on the couch, sipping tea, while the man was in the bathroom taking a shower. The man came out, wrapped in a towel, and lay down on the bed. There was a woman in front of a mirror, who picked up her phone and started making a call. She handed the phone to another woman, who rushed outside. A woman was walking between buildings and reached a bridge, where she saw a man on the bridge being kicked and hit. Another woman in a white dress approached to intervene. A short-haired woman in black clothing was having a conversation with a man at the entrance of a building. At that moment, another woman got out of a car, and a man and a woman embraced tightly.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "No."
+  },
+  {
+   "question": "When does it happen in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day and night."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 750,
+   "question": "What is the person doing?",
+   "answer": "Taking a shower."
+  },
+  {
+   "time": 1500,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 2250,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 3000,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 3750,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 4500,
+   "question": "Where is the scene?",
+   "answer": "On the street."
+  },
+  {
+   "time": 5250,
+   "question": "Is the person a man or a woman?",
+   "answer": "Woman."
+  },
+  {
+   "time": 6000,
+   "question": "How many people  appears?",
+   "answer": "Three."
+  },
+  {
+   "time": 6750,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 7500,
+   "question": "Is it sunny?",
+   "answer": "No."
+  },
+  {
+   "time": 8250,
+   "question": "Where is the woman?",
+   "answer": "She is in the car."
+  },
+  {
+   "time": 9000,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 9750,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 10500,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  }
+ ]
+}

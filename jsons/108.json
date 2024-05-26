@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "108.mp4",
+  "url": "",
+  "class": "Animation Film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "The zebra, lion, hippo, and giraffe were surrounded by a group of monkeys. There was even a monkey beneath the lion's feet. Above them, a skeleton appeared. Some animals reached the beach and started playing around, having a great time. Out at sea, a ship was sailing, guided by several penguins. The scene shifted back to the beach, where a group of animals dug a hole in the sand. As the day turned into night, the lion constructed a thatched hut, and the giraffe tried to start a fire with sticks in the pit, but the flames accidentally caught the hut on fire, reducing it to ashes. Meanwhile, a gathering of monkeys sat inside a room, discussing something.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "No."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day and night."
+  },
+  {
+   "question": "When does it happens in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Where is the scene?",
+   "answer": "In the jungle."
+  },
+  {
+   "time": 720,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 1440,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 2160,
+   "question": "What time is it in a day?",
+   "answer": "At dusk."
+  },
+  {
+   "time": 2880,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 3600,
+   "question": "Where is the scene?",
+   "answer": "On the beach."
+  },
+  {
+   "time": 4320,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 5040,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 5760,
+   "question": "Are there any people?",
+   "answer": "No."
+  },
+  {
+   "time": 6480,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 7200,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 7680,
+   "question": "What is happening?",
+   "answer": "The giraffe is on fire."
+  },
+  {
+   "time": 8400,
+   "question": "Where is the scene?",
+   "answer": "On the beach."
+  },
+  {
+   "time": 9360,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 10080,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  }
+ ]
+}

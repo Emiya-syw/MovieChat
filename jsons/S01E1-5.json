@@ -1,0 +1,110 @@
+{
+ "info": {
+  "video_path": "S01E1-5.mp4",
+  "class": "detective film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 11250,
+  "fps": 25
+ },
+ "caption": "The man on the stairs shout something to the men in the room and rush away. And after a while, a group of people with blue outfit go into the room. A man with crush struggle downstairs and have a talk with a woman with curly hair. Then he begins to walk on the street, until he gets a phone call. While taking the phone, he finds some camera looking at him. Then he goes on a car, in which is a woman. They talk for a while until the man is sent somewhere to meet another man. That man has an umbrella in his hands, and they begin to argue.",
+ "global": [
+  {
+   "question": "How many characters appears in this video",
+   "answer": "There're five people in the video."
+  },
+  {
+   "question": "How many different environment appears in the video?",
+   "answer": "Three different environments."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "It appears in modern age."
+  },
+  {
+   "question": "How many man and woman appears in the video?",
+   "answer": "There're four men and one women in the video."
+  },
+  {
+   "question": "What's the time in the video?",
+   "answer": "Night."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 1,
+   "question": "  What's the color of the man'c cloth?",
+   "answer": " Black.  "
+  },
+  {
+   "time": 750,
+   "question": " What happens? ",
+   "answer": " Several people enter the room. "
+  },
+  {
+   "time": 1075,
+   "question": " What's the man doing? ",
+   "answer": " Going downstairs.s "
+  },
+  {
+   "time": 2500,
+   "question": " What's the car? ",
+   "answer": " Police car.  "
+  },
+  {
+   "time": 2575,
+   "question": "  Who's talking to the man? ",
+   "answer": " A woman.  "
+  },
+  {
+   "time": 3675,
+   "question": " Where is him?   ",
+   "answer": " On the street.   "
+  },
+  {
+   "time": 4025,
+   "question": " What's the man doing?   ",
+   "answer": "  Walking with a crush.  "
+  },
+  {
+   "time": 5050,
+   "question": "  Where's the man?  ",
+   "answer": "  On the street.  "
+  },
+  {
+   "time": 5825,
+   "question": "  What's the man doing?  ",
+   "answer": "  Taking a phone.  "
+  },
+  {
+   "time": 6725,
+   "question": "   What's the man doing? ",
+   "answer": "  Taking a phone.   "
+  },
+  {
+   "time": 7125,
+   "question": " Where are they?   ",
+   "answer": "  On a car.  "
+  },
+  {
+   "time": 8000,
+   "question": " How many people are there?   ",
+   "answer": " Two.   "
+  },
+  {
+   "time": 8550,
+   "question": " What's in the man's hand?   ",
+   "answer": " An umbrella.   "
+  },
+  {
+   "time": 9125,
+   "question": "  How many people are there?  ",
+   "answer": " Two.  "
+  },
+  {
+   "time": 10625,
+   "question": "  How many people are there?  ",
+   "answer": "  Two. "
+  }
+ ]
+}

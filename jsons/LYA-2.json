@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "LYA-2.mp4",
+        "url": "",
+        "class": "Animation Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "The video starts with a man piloting a spaceship that collides with a rock wall, causing them to crash. After the crash, the crew members disembark from the ship and start looking for a way to ascend again, gradually establishing a launch base in the vicinity. The latter half of the video tells the story of the protagonist continuously trying to pilot a spacecraft to take off from the planet's surface. Eventually, he succeeds. He successfully takes off and flies around the sun.",
+    "global":
+    [
+        {
+            "question":"When does the things in the video happens, ancient age, modern age or future?(Does the technology exists on earth?)",
+            "answer":"It happens at future."
+        },
+        {
+            "question":"Are the characters in the video people in reality? If not, what are they?(For example, they may be aliens or cartoon characters)",
+            "answer":"They are cartoon characters ."
+        },
+        {
+            "question":"Is there more than three different characters appear(not including people in the background)?",
+            "answer":"Yes."
+        },
+        {
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Mainly at day time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly outdoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"what is the word on the screen?",
+            "answer":"DISNEY PRESENTS."
+        },
+        {
+            "time":1500,
+            "question":"what is in the scene?",
+            "answer":"An unknown broken device."
+        },
+        {
+            "time":2250,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":2900, 
+            "question":"How many people appear in the middle of the scene(not including people in the background)?",
+            "answer":"Two people."
+        },
+        {
+            "time":3750,
+            "question":"Is it day time or night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":4500,
+            "question":"Is there more than three people?",
+            "answer":"Yes."
+        },
+        {
+            "time":5150,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":6050,
+            "question":"what is the man in the middle of the scene doing?",
+            "answer":"He is waving a glowstick to guide a plane."
+        },
+        {
+            "time":6750, 
+            "question":"what's happening?",
+            "answer":"A rocket is taking off."
+        },
+        {
+            "time":7350,
+            "question":"what is the man in the middle of the scene doing?",
+            "answer":"He is driving a space ship."
+        },
+        {
+            "time":8350,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":9100, 
+            "question":"what is the man in the middle of the scene doing?",
+            "answer":"He is driving a space ship."
+        },
+        {
+            "time":9750,
+            "question":"Is it on earth or in space?",
+            "answer":"It's in space."
+        },
+        {
+            "time":10450, 
+            "question":"How many people appear in the middle of the scene(not including people in the background)?",
+            "answer":"One person."
+        },
+        {
+            "time":10800,
+            "question":"what can be inferred from the man's helmet?",
+            "answer":"He is an astronaut."
+        }
+    ]
+}

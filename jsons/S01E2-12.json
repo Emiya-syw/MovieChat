@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "S01E2-12.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "A man is tied on the chair and a woman is saying something to him. The man is always refusing, and the woman is angry and plans to kill another woman, maybe his girlfriend. At that time, a new man arrives. The woman shoots at the man, but she fails. In the fight, that man is nearly killed, until he kicks something and use the arrow to kill the killer. The woman who is said to be killed is really afraid and cried. The next day, the two men go into a building while talking to each other, and they stop in front of a receptionist. ",
+ "global": [
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "both"
+  },
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "yes"
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Morden"
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes"
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "6"
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 750,
+   "question": "What are the peeple doing?",
+   "answer": "Looking at a map."
+  },
+  {
+   "time": 1500,
+   "question": "How the person feel?",
+   "answer": "Afraid."
+  },
+  {
+   "time": 2250,
+   "question": "How the person feel?",
+   "answer": "Afraid."
+  },
+  {
+   "time": 3000,
+   "question": "Are there any vehicles?",
+   "answer": "No"
+  },
+  {
+   "time": 3750,
+   "question": "How many people  appeared?",
+   "answer": "4"
+  },
+  {
+   "time": 4500,
+   "question": "Is it day or night?",
+   "answer": "Night"
+  },
+  {
+   "time": 5250,
+   "question": "What is the person doing?",
+   "answer": "Fighting."
+  },
+  {
+   "time": 6000,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 6750,
+   "question": "What is happening?",
+   "answer": "A man is shot by an arrow."
+  },
+  {
+   "time": 7500,
+   "question": "How many people  appeared?",
+   "answer": "3"
+  },
+  {
+   "time": 8250,
+   "question": "Where is the scene?",
+   "answer": "On the street"
+  },
+  {
+   "time": 9000,
+   "question": "How many people  appeared?",
+   "answer": "2"
+  },
+  {
+   "time": 9750,
+   "question": "Where is the scene?",
+   "answer": "In a  building."
+  },
+  {
+   "time": 10500,
+   "question": "How many people  appeared?",
+   "answer": "2"
+  }
+ ]
+}

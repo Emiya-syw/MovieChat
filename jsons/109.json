@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "109.mp4",
+  "url": "",
+  "class": "Animation Film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "Several penguins were at a roulette wheel, and a group of animals attempted to approach but got knocked over by the spinning wheel. Suddenly, a lion burst into the area, and all the animals quickly made way for him. The lion carried a zebra, a hippo, and a giraffe, advancing toward a group of animals. He opened his fearsome mouth, frightening them all away. The lion, wearing a floral wreath, sat at a long banquet table, surrounded by many monkeys. The lions and their companions boarded a massive ship. Four penguins sat in beach chairs, reading newspapers. Like the animals on the ship, they waved their goodbyes.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "No."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  },
+  {
+   "question": "When does it happens in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 720,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 1440,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 2160,
+   "question": "Where is the scene?",
+   "answer": "In the jungle."
+  },
+  {
+   "time": 2880,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 3600,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 4320,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 5040,
+   "question": "What is  this animal?",
+   "answer": "A lion."
+  },
+  {
+   "time": 5760,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 6480,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 7200,
+   "question": "Are there any vehicles?",
+   "answer": "Yes. A ship."
+  },
+  {
+   "time": 7920,
+   "question": "How is the weather?",
+   "answer": "The weather is clear and sunny."
+  },
+  {
+   "time": 8088,
+   "question": "Where is the scene?",
+   "answer": "On the beach."
+  },
+  {
+   "time": 8280,
+   "question": "What are the animals doing?",
+   "answer": "Waving."
+  },
+  {
+   "time": 7536,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  }
+ ]
+}

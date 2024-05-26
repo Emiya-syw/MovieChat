@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "147.mp4",
+  "url": "",
+  "class": "Romance Film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "A woman in helmet and a man in white are chatting. The man is making various gestures to explain things, and the woman starts eating from a lunchbox while he watches. She then takes out a notebook and starts drawing in it. They communicate and gesture to each other. Suddenly, the woman runs off, leaving the man behind. The man opens an email on his computer. A woman in a green outfit walks over and playfully pats the man's head. A group of people are swimming in the water. A man in green and a woman in white chat by the pool. Meanwhile, the man in white is cooking stew inside the house.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "No."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does it happen in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 720,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 1464,
+   "question": "What is the girl doing?",
+   "answer": "Eating."
+  },
+  {
+   "time": 2880,
+   "question": "Where are the boy and girl sitting?",
+   "answer": "On a bench."
+  },
+  {
+   "time": 3600,
+   "question": "What is the girl holding?",
+   "answer": "A notebook."
+  },
+  {
+   "time": 4320,
+   "question": "What is the clothes color of the person?",
+   "answer": "White."
+  },
+  {
+   "time": 5112,
+   "question": "What is the man doing?",
+   "answer": "Using the computer."
+  },
+  {
+   "time": 5760,
+   "question": "What is shown on the screen?",
+   "answer": "An email."
+  },
+  {
+   "time": 6480,
+   "question": "What is the clothes color of the person?",
+   "answer": "Green."
+  },
+  {
+   "time": 7200,
+   "question": "Where is the scene?",
+   "answer": "In the swimming pool."
+  },
+  {
+   "time": 7920,
+   "question": "How many people are there in the water?",
+   "answer": "Four."
+  },
+  {
+   "time": 8640,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 9360,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 10200,
+   "question": "Does the boy look happy?",
+   "answer": "Yes."
+  },
+  {
+   "time": 11040,
+   "question": "What is the person doing?",
+   "answer": "Tasting the soup."
+  }
+ ]
+}

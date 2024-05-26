@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "OTL-8.mp4",
+        "url": "",
+        "class": "Suspense Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "The video shows three men in a television station looking for clues as they try to escape under the control of terrorists. The men followed the terrorists' tips through a number of rooms, and they found that the rooms had been tampered with by the terrorists. Posters of men as hosts were vandalized by random drawings of terrorists. The man and his companions walked through the office area to a utility room, where they opened a closet and, on instructions from the terrorists, took out a doll. The man then removed the surveillance camera and went into a plumbing room.",
+    "global":
+    [
+        {
+            "question":"When does the things in the video happens, ancient age, modern age or future?",
+            "answer":"It happens at modern age."
+        },
+        {
+            "question":"Are there more then five different places appear in the video(scene switch doesn't necessarily means a place change)?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than five different characters appear(not including people in the background)?",
+            "answer":"No."
+        },
+        {
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Mainly at night time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly indoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":1000, 
+            "question":"where's the scene?",
+            "answer":"Inside an empty room."
+        },
+        {
+            "time":1500,
+            "question":"Is it day time or night time?",
+            "answer":"Maybe it's at night time."
+        },
+        {
+            "time":2250,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":3100, 
+            "question":"How many people appear in the middle of the scene(not including people in the background)?",
+            "answer":"Three people."
+        },
+        {
+            "time":3750,
+            "question":"Is it day time or night time?",
+            "answer":"Maybe it's at night time."
+        },
+        {
+            "time":4500,
+            "question":"Is there more than three people?",
+            "answer":"No."
+        },
+        {
+            "time":5350,
+            "question":"what is the man in the middle of the scene doing?",
+            "answer":"He is sneaking into a room."
+        },
+        {
+            "time":6100,
+            "question":"what is the man in the middle of the scene doing?",
+            "answer":"He seems to be looking after something."
+        },
+        {
+            "time":6750, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":7600,
+            "question":"How many people appear in the middle of the scene(not including people in the background)?",
+            "answer":"Two people."
+        },
+        {
+            "time":8350,
+            "question":"who is younger? The man on the left or right?",
+            "answer":"The man on the left."
+        },
+        {
+            "time":9100, 
+            "question":"Does the man in the middle of the scene grow a beard?",
+            "answer":"Yes."
+        },
+        {
+            "time":9750,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":10450, 
+            "question":"Is it day time or night time?",
+            "answer":"Can't tell, maybe it's at night time."
+        },
+        {
+            "time":10875,
+            "question":"what are they doing?",
+            "answer":"They are walking into a workshop."
+        }
+    ]
+}

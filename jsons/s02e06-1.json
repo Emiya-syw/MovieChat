@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "s02e06-1.mp4",
+  "url": "",
+  "class": "epic film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "Recently, there was a map, displayed in a very wide perspective, spanning from one corner to the other, showing the entire map to us. The map featured trees and a castle, with the trees growing and the castle expanding. These trees and the castle appeared to be constructed from individual building blocks, creating a truly spectacular sight.Then, in a room, pitch black, a boy lay on the ground while an adult man stood beside him, issuing threats. The man appeared arrogant and domineering. Subsequently, this man was apprehended and some matters were publicly announced. People below expressed their dissatisfaction and resisted the adult man, who responded with physical violence, exhibiting a very unpleasant demeanor.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does more than ten people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "Does more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What is the background color?",
+   "answer": "Grey."
+  },
+  {
+   "time": 750,
+   "question": "What is the scene?",
+   "answer": "A map."
+  },
+  {
+   "time": 1500,
+   "question": "What is the scene?",
+   "answer": "A tree."
+  },
+  {
+   "time": 2250,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 3000,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 3750,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 4500,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 5250,
+   "question": "How many people appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 6000,
+   "question": "What is the scene?",
+   "answer": "A boy."
+  },
+  {
+   "time": 6750,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 7500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 8250,
+   "question": "What is the scene?",
+   "answer": "An old man."
+  },
+  {
+   "time": 9000,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 9750,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 10500,
+   "question": "How does the person feel?",
+   "answer": "Angry."
+  }
+ ]
+}

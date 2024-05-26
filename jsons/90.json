@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "90.mp4",
+  "url": "",
+  "class": "Animation Film",
+  "w": 1280,
+  "h": 688,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "Several foxes were digging frantically. Three excavators were also digging on a small hill. The excavators worked from day to night. The foxes rested underground. Meanwhile, a little boy was having his meal. A group of people had dug a large pit in this area. While the fox family was digging underground, they encountered the mole family. They began a conversation with each other. A fox was patting the dirt wall, and then everyone started digging under his guidance. In the end, they dug into a shed full of chickens. Meanwhile, a group of people was partying around a bonfire. A group of animals dug into a room full of birds.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day and night."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does it happens in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 24,
+   "question": "What is the fox doing?",
+   "answer": "Digging."
+  },
+  {
+   "time": 720,
+   "question": "Where is the scene?",
+   "answer": "In a hole."
+  },
+  {
+   "time": 1440,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 2160,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 2880,
+   "question": "What is happening?",
+   "answer": "An explosion."
+  },
+  {
+   "time": 3600,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 4320,
+   "question": "Where is the scene?",
+   "answer": "In a hole."
+  },
+  {
+   "time": 5040,
+   "question": "Is it dark?",
+   "answer": "Yes."
+  },
+  {
+   "time": 5760,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 6480,
+   "question": "Where is the scene?",
+   "answer": "In a hole."
+  },
+  {
+   "time": 7200,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 7920,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 8640,
+   "question": "How is the weather?",
+   "answer": "Can't tell."
+  },
+  {
+   "time": 9408,
+   "question": "What are the animals doing?",
+   "answer": "Digging a hole."
+  },
+  {
+   "time": 10008,
+   "question": "Where is the scene?",
+   "answer": "In a chicken house."
+  }
+ ]
+}

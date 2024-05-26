@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "S03E1-3.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "The detective discovers that his friend is getting married, and his friend also tells the detective about another friend in Pakistan. The detective decides to go to Pakistan to find this friend. However, during dinner, the detective receives some news that makes him decide to stay and help his friend. Ultimately, the friendship between the detective and his friend strengthens. Key points include their meeting where the friend informs the detective of his impending marriage, the mention of a friend in Pakistan which prompts the detective to contemplate a journey there, and a decision to stay and assist his friend after receiving certain news at dinner, solidifying their friendship. Discussions between the detective and his friend include pondering if the friend’s friend will like the detective, with an eventual decision to stay and help rather than travel to Pakistan. Their friendship, conversations over coffee, and discussions in a restaurant underscore its importance in their relationship. The friendship deepens and they decide to stay together in the restaurant.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern ages."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "More than ten."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What is the person doing?",
+   "answer": "Taking on his coat."
+  },
+  {
+   "time": 750,
+   "question": "Where is it?",
+   "answer": "In a room."
+  },
+  {
+   "time": 1500,
+   "question": "How many people  appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 2250,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 3000,
+   "question": "What is the clothes color of the person?",
+   "answer": "Grey."
+  },
+  {
+   "time": 3750,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 4500,
+   "question": "Where is it?",
+   "answer": "In a city."
+  },
+  {
+   "time": 5250,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 6000,
+   "question": "Where is it?",
+   "answer": "In a restaurant."
+  },
+  {
+   "time": 6750,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 7500,
+   "question": "Where is the scene?",
+   "answer": "A dimond ring in a box."
+  },
+  {
+   "time": 8250,
+   "question": "Does the person look happy?",
+   "answer": "Yes."
+  },
+  {
+   "time": 9000,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 9750,
+   "question": "How the person feel?",
+   "answer": "Happy."
+  },
+  {
+   "time": 10500,
+   "question": "How many people  appeared?",
+   "answer": "Three."
+  }
+ ]
+}

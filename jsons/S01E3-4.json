@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "S01E3-4.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 10000,
+  "fps": 25
+ },
+ "caption": " In this video segment, the protagonist, through an old pair of sneakers, unravels a mystery. He discovers that the shoes belonged to a child who came to London from Sussex 20 years ago and tragically drowned during a swimming competition. However, the protagonist finds that the child's shoes weren't left at the scene but were taken by the child's family. Upon investigation, the protagonist realizes the child's death was no accident but a murder case. The old sneakers are crucial evidence in a murder case; the shoes belonged to a child who arrived in London from Sussex two decades ago; the child tragically drowned in a swimming contest; the child's shoes were taken by his family; the protagonist deduces the child's death wasn't accidental; the child's demise was actually a murder; the protagonist's investigation attracts police attention; the child's shoes left on the scene are a pivotal clue in the murder case; the protagonist's deductive abilities are astonishing; the protagonist eventually unveils the truth behind the murder. ",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Morden"
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both"
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "Six"
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What is the person doing?",
+   "answer": "Looking at a pair of shoes."
+  },
+  {
+   "time": 750,
+   "question": "How many people  appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 1500,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 2250,
+   "question": "Where is it?",
+   "answer": "In a car."
+  },
+  {
+   "time": 3000,
+   "question": "Is it day or night?",
+   "answer": "Day,"
+  },
+  {
+   "time": 3750,
+   "question": "What's in the man's hand?",
+   "answer": "A pink cellphone."
+  },
+  {
+   "time": 4500,
+   "question": "What is the clothes color of the person?",
+   "answer": "Red."
+  },
+  {
+   "time": 5250,
+   "question": "Where is it?",
+   "answer": "In a room."
+  },
+  {
+   "time": 6000,
+   "question": "What is the clothes color of the person?",
+   "answer": "Grey."
+  },
+  {
+   "time": 6750,
+   "question": "How many people  appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 7500,
+   "question": "What is the person doing?",
+   "answer": "Doing an experiment."
+  },
+  {
+   "time": 8250,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 9000,
+   "question": "How the person feel?",
+   "answer": "Scared."
+  },
+  {
+   "time": 9750,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 10500,
+   "question": "What's in the man's hand?",
+   "answer": "A pink cellphone."
+  }
+ ]
+}

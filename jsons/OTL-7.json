@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "OTL-7.mp4",
+        "url": "",
+        "class": "Suspense Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "The video begins with a male terrorist counting down the minutes before a woman on the top floor of the station passes a communication device to the man on the first floor via an elevator. The terrorist told the man in a communication device that there was a 40-minute time bomb on the first floor and that there were other bombs in other parts of the building. The man was angry and angry, but secretly followed the communication device to find a room. After entering the room, the man's companion was severely controlled and beaten by a strange man, and found that there was a security officer in the room after the rescue. Security personnel also expressed confusion about their status.",
+    "global":
+    [
+        {
+            "question":"When does the things in the video happens, ancient age, modern age or future?",
+            "answer":"It happens at modern age."
+        },
+        {
+            "question":"Are there more then five different places appear in the video(scene switch doesn't necessarily means a place change)?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than five different characters appear(not including people in the background)?",
+            "answer":"No."
+        },
+        {
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Mainly at night time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly indoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":700, 
+            "question":"where's the scene?",
+            "answer":"Inside a building."
+        },
+        {
+            "time":1500,
+            "question":"Is it day time or night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":2250,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":3100, 
+            "question":"How many people appear in the middle of the scene(not including people in the background)?",
+            "answer":"Two people."
+        },
+        {
+            "time":3750,
+            "question":"Is it day time or night time?",
+            "answer":"Maybe it's at night time."
+        },
+        {
+            "time":4500,
+            "question":"Is there more than three people?",
+            "answer":"No."
+        },
+        {
+            "time":5350,
+            "question":"what is the man in the middle of the scene doing?",
+            "answer":"He is talking to his headphone."
+        },
+        {
+            "time":6100,
+            "question":"what is the man in the middle of the scene doing?",
+            "answer":"He is staring at another man."
+        },
+        {
+            "time":6750, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":7600,
+            "question":"How many people appear in the middle of the scene(not including people in the background)?",
+            "answer":"Two people."
+        },
+        {
+            "time":8250,
+            "question":"who is younger? The man on the left or right?",
+            "answer":"The man on the left."
+        },
+        {
+            "time":9000, 
+            "question":"Does the man in the middle of the scene grow a beard?",
+            "answer":"No."
+        },
+        {
+            "time":9750,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":10450, 
+            "question":"Is it day time or night time?",
+            "answer":"Maybe it's at night time."
+        },
+        {
+            "time":10875,
+            "question":"what are they doing?",
+            "answer":"They are having an argue."
+        }
+    ]
+}

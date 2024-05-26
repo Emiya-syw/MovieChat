@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "134.mp4",
+  "url": "",
+  "class": "Family Drama",
+  "w": 1280,
+  "h": 688,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "A man with a suitcase heads towards a cruise ship by the seaside, and his suitcase is adorned with many chipmunk stickers. The cruise ship's deck is full of sand, ants, and chipmunks playing around. One chipmunk ventures into the captain's cabin. A group of people is partying on the cruise ship. The chipmunks take the stage and sing into the microphone. The man and the chipmunks enter a room on the cruise. The man dons a white shirt and ties a bowtie. He then puts on a suit and adds a colorful necklace. The chipmunks watch television in the room.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does it happen in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "No."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 720,
+   "question": "Where is the scene?",
+   "answer": "At the harbor, near a ship."
+  },
+  {
+   "time": 1440,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 2160,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 2880,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 3600,
+   "question": "What is the little animal doing?",
+   "answer": "Surfing."
+  },
+  {
+   "time": 4320,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 5040,
+   "question": "Where is the scene?",
+   "answer": "In the bedroom."
+  },
+  {
+   "time": 5760,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 6480,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 7200,
+   "question": "What is the clothes color of the animal?",
+   "answer": "Blue."
+  },
+  {
+   "time": 7920,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 8688,
+   "question": "What is the clothes color of the person?",
+   "answer": "Mainly black."
+  },
+  {
+   "time": 9360,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 10080,
+   "question": "Are there any plants?",
+   "answer": "No."
+  }
+ ]
+}

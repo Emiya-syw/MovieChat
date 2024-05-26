@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "s01e03-8.mp4",
+  "url": "",
+  "class": "epic film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "This is a wonderful epic series clip. The background of it is in middle age. A diminutive man is holding a wine glass, actively engaged in conversation with another person. Meanwhile, an older man has joined them, and they are discussing something with very serious expressions. It appears to be a matter of great importance. In another location, a man and a woman are lying in bed together, embracing each other closely, suggesting a strong bond. The man seems to be some kind of leader or chieftain. On the same evening, by a campfire, two men are bidding farewell, with one of them displaying a deep reluctance to part. The following morning, in a palace, a girl is learning how to use a sword. She is facing a sword master, and he repeatedly strikes her sword, but the girl remains determined and continues with her training. ",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does more than ten people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 750,
+   "question": "What is in the person's hand?",
+   "answer": "A cup."
+  },
+  {
+   "time": 1500,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 2250,
+   "question": "How many people appeared?",
+   "answer": "Three."
+  },
+  {
+   "time": 3000,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 3750,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 4500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 5250,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 6000,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 6750,
+   "question": "How many people appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 7500,
+   "question": "What is the scene?",
+   "answer": "A girl."
+  },
+  {
+   "time": 8250,
+   "question": "What is in the person's hand?",
+   "answer": "A sword."
+  },
+  {
+   "time": 9000,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 9750,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 10500,
+   "question": "What are the people doing?",
+   "answer": "Fighting."
+  }
+ ]
+}

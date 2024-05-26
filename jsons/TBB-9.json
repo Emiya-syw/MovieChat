@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "TBB-9.mp4",
+        "url": "",
+        "class": "Animation Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "The video chronicles the adventurous experiences of three children. Initially, the children find themselves in a place resembling a bar, engaging in conversation with a man dressed akin to a naval lieutenant. Instead of a typical bar, the environment appears more like a showroom, even displaying a submarine. As the adults converse, the kids begin to explore the room. They notice pictures on the walls, revealing younger versions of the adults present, suggesting the storied pasts of these individuals. As events unfold, an unexpected incident causes more adults to tumble into this showroom-like setting.",
+    "global":
+    [
+        {
+            "question":"Is it a video based on reality or not?(Is it a cartoon movie?)",
+            "answer":"No. It seems like a cartoon movie."
+        },
+        {
+            "question":"Are there more then five different places appear in the video(scene switch doesn't necessarily means a place change)?",
+            "answer":"No."
+        },
+        {
+            "question":"Is there more than three different characters appear?",
+            "answer":"Yes."
+        },
+        {
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Mainly at day time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly indoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":1500,
+            "question":"How many characters appear in the scene?",
+            "answer":"Four."
+        },
+        {
+            "time":2250,
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":3000, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":3750,
+            "question":"How many characters appear in the scene?",
+            "answer":"Three."
+        },
+        {
+            "time":4500,
+            "question":"Is there more than three people?",
+            "answer":"No."
+        },
+        {
+            "time":5200,
+            "question":"How many characters appear in the scene(including background)?",
+            "answer":"Two."
+        },
+        {
+            "time":6000,
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":6750, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":7750,
+            "question":"How many characters appear in the scene wear glasses?",
+            "answer":"Three."
+        },
+        {
+            "time":8250,
+            "question":"How many people are wearing yellow clothes?",
+            "answer":"None."
+        },
+        {
+            "time":9000, 
+            "question":"Is there more than five people?",
+            "answer":"Yes."
+        },
+        {
+            "time":9750,
+            "question":"Is it at day time or at night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":10500, 
+            "question":"Is there more than five people?",
+            "answer":"Yes."
+        },
+        {
+            "time":11090,
+            "question":"what's the man in pink doing?",
+            "answer":"He's dancing under the light."
+        }
+    ]
+}

@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "S02E1-8.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "The detective wrote a song, there are errors in the blog data, deceptive information, the doctor asks if there's a girlfriend, a conversation between the doctor and the detective, the doctor tells the detective he's still alive, the doctor seeks assistance, the doctor and a lady dine together, the doctor says he and the detective aren't a couple, but the detective still cares about the doctor.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "Six."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "How many people  appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 750,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 1500,
+   "question": "What is the person doing?",
+   "answer": "Playing a violin."
+  },
+  {
+   "time": 2250,
+   "question": "Where is it?",
+   "answer": "In a room."
+  },
+  {
+   "time": 3000,
+   "question": "What is the person doing?",
+   "answer": "Playing a violin."
+  },
+  {
+   "time": 3750,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 4500,
+   "question": "Where is it?",
+   "answer": " On the street."
+  },
+  {
+   "time": 5250,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 6000,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 6750,
+   "question": "How many people  appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 7500,
+   "question": "What is the background color?",
+   "answer": "White."
+  },
+  {
+   "time": 8250,
+   "question": "What is the person doing?",
+   "answer": "Using her cellphone."
+  },
+  {
+   "time": 9000,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 9750,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 10500,
+   "question": "Where is it?",
+   "answer": "In front of a door."
+  }
+ ]
+}

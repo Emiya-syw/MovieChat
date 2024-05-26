@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "earth1-2.mp4",
+  "url": "",
+  "class": "documentary film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "This video narrative chronicles the challenges faced by a group of mother bats and their offspring during migration, encompassing threats from predators and the rigors of the journey itself. In the wilds of northern Canada, an annual migration of three million bats heads to the Asia-Pacific valley, marking one of the most dramatic episodes in their lifecycle. Notable insights include the bats' encounters with predators during migration, yet their remarkable composure amidst such threats, with maternal instincts playing a pivotal role in ensuring their young's safety. Throughout the migration, they confront challenges like food scarcity and seawater separation. Ten days into the journey, mother bats conduct tests on their offspring to determine their readiness for migration. Along the way, they confront other predators such as wolves. The intricacies of migration mean some bats could lose their way or get separated, yet their innate survival instincts drive them to persevere. Remarkably, the bats' migration spans over two thousand kilometers, representing one of the longest coastal movements among all creatures.",
+ "global": [
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Are there any human?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen in the cities?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Are there any mountains",
+   "answer": "Yes."
+  },
+  {
+   "time": 750,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 1500,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 2250,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 3000,
+   "question": "How is the weather?",
+   "answer": "Sunny."
+  },
+  {
+   "time": 3750,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 4500,
+   "question": "Are there any water?",
+   "answer": "Yes."
+  },
+  {
+   "time": 5250,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 6000,
+   "question": "What kind of animal is it?",
+   "answer": "Wolf."
+  },
+  {
+   "time": 6750,
+   "question": "What kind of animal is it?",
+   "answer": "Deer."
+  },
+  {
+   "time": 7500,
+   "question": "What is happening?",
+   "answer": "The deers are running away from the  wolves."
+  },
+  {
+   "time": 8250,
+   "question": "What is happening?",
+   "answer": "A wolf is hunting."
+  },
+  {
+   "time": 9000,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 9750,
+   "question": "How is the weather?",
+   "answer": "Sunny."
+  },
+  {
+   "time": 10500,
+   "question": "Are there any human?",
+   "answer": "No."
+  }
+ ]
+}

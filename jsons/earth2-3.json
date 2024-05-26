@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "earth2-3.mp4",
+  "url": "",
+  "class": "documentary film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "This video showcases the challenges animals face for survival in the mountainous regions of Earth. These animals need to overcome harsh environmental conditions, seek food, and protect themselves from predators. This includes herds of cattle, pandas, and bees. Highlights include: herds of cattle facing difficulties but helping each other to adapt to the mountainous environment. Male cattle in the herd may kill other cattle but also provide them with opportunities. Large animals find the mountainous environment challenging to navigate. Mother cattle face the problem of drying up and must leave the high mountain pastures as soon as possible. Summer is a real test for large animals' survival. In snow-covered valleys, animals can still survive. Pandas find it hard to live in mountainous environments but still manage to attract animals. They rely on honey to get energy. Honey in the mountainous environment is a precious food for pandas. Honey, rich in fat, can help pandas make more improvements in survival challenges. Honey, baked in rocks, becomes a snack for pandas. Stones in the mountainous environment pose a survival challenge for animals. The stones no longer rise but gradually disappear. Animals need to overcome harsh conditions and find new ways to survive.",
+ "global": [
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Are there any human?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen in the cities?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What is the background color?",
+   "answer": "White."
+  },
+  {
+   "time": 750,
+   "question": "What is happening?",
+   "answer": "A avalanche."
+  },
+  {
+   "time": 1500,
+   "question": "How is the weather?",
+   "answer": "Sunny."
+  },
+  {
+   "time": 2250,
+   "question": "Are there any mountains",
+   "answer": "Yes."
+  },
+  {
+   "time": 3000,
+   "question": "What is the scene?",
+   "answer": "Bears."
+  },
+  {
+   "time": 3750,
+   "question": "What kind of animal is it?",
+   "answer": "Bear."
+  },
+  {
+   "time": 4500,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 5250,
+   "question": "What is the scene?",
+   "answer": "Mountains."
+  },
+  {
+   "time": 6000,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 6750,
+   "question": "Are there any water?",
+   "answer": "No."
+  },
+  {
+   "time": 7500,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 8250,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 9000,
+   "question": "What is the scene?",
+   "answer": "Three bears."
+  },
+  {
+   "time": 9750,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 10500,
+   "question": "Are there any human?",
+   "answer": "No."
+  }
+ ]
+}

@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "AEC-6.mp4",
+        "url": "",
+        "class": "Science Fiction Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "The video begins with a tall blue alien humanoid walking through a jungle, holding a wooden stick. On his shoulders sits another female alien, aiming an arrow at the male with her bow drawn, but for some reason, she doesn't release the arrow. The scene shifts, and a helicopter evacuates a group of blue aliens, but they accidentally leave the male protagonist behind. Alone in the dense forest at night, he encounters several menacing beasts. To fend them off, he lights a fire, scaring the creatures away. However, in the midst of the conflict, he unintentionally kills one of them. Soon after, the female alien from the video's beginning appears. She seems upset with the protagonist's reckless killing. She tries to revive the small creature but fails. The protagonist argues that the creature posed a threat to his life. This sparks a heated argument between the two. In the end, the male protagonist finds himself at the mercy of the female alien, who threatens him with her wooden stick, forcing him to plead for forgiveness.",
+    "global":
+    [
+        {
+            "question":"Is it a video based on reality or not?(Does it looks like real story? Or it looks like a science fiction movie?)",
+            "answer":"No it isn't, it looks like a science fiction movie."
+        },
+        {
+            "question":"Are there more then five different scenes appear in the video?",
+            "answer":"No."
+        },
+        {
+            "question":"Is there more than five different characters appear?",
+            "answer":"No."
+        },
+        {
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Mainly at night time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly outdoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"what is the blue human-like creature in the middle of the scene doing?",
+            "answer":"She is aiming at something."
+        },
+        {
+            "time":1500,
+            "question":"where is the scene?",
+            "answer":"Inside a forest."
+        },
+        {
+            "time":2250,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":3000, 
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":3700,
+            "question":"How many characters appear in the scene(including the blue creature)?",
+            "answer":"One."
+        },
+        {
+            "time":4500,
+            "question":"what is the man doing(refers to the blue human-like creatures)?",
+            "answer":"He is using a torch to keep away beasts."
+        },
+        {
+            "time":5250,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":6000,
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":6850, 
+            "question":"How many characters appear in the scene(including the blue creature)?",
+            "answer":"One."
+        },
+        {
+            "time":7500,
+            "question":"where is the scene?",
+            "answer":"Inside a forest."
+        },
+        {
+            "time":8250,
+            "question":"what happens?",
+            "answer":"A blue human-like creature is enjoying the beautiful scenery."
+        },
+        {
+            "time":8980, 
+            "question":"How many characters appear in the scene(including the blue creature)?",
+            "answer":"Two."
+        },
+        {
+            "time":9750,
+            "question":"where is the scene?",
+            "answer":"Inside a forest."
+        },
+        {
+            "time":10500, 
+            "question":"Is the scene indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":10975,
+            "question":"what are the blue human-like creatures in the middle of the scene doing?",
+            "answer":"They're having a chat and discussing about something."
+        }
+    ]
+}

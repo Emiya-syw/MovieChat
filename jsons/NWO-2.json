@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "NWO-2.mp4",
+        "url": "",
+        "class": "Crime Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 10350,
+        "fps": 23.00
+    },
+    "caption": "The video happens at night, with two men waiting outside a night club waiting for someone. There are many people lining up in a queue, waiting for a chance to get into the club. After those two men get in, they go to separate directions, and try to find or investigate something. One man gets the clue quickly, and after knocking down the gate keeper, he went upstairs and found out the evidence of a group of young man taking drugs. He easily took those men under control and knocked down every people who stood in his way. Finally, he got together with his teammate and leave.",
+    "global":
+    [
+        {
+            "question":"What is the main character?",
+            "answer":"A big man wearing a black suit."
+        },
+        {
+            "question":"How many different environment appears in the video?",
+            "answer":"Five."
+        },
+        {
+            "question":"How many people appear in the scene?",
+            "answer":"A lot."
+        },
+        {
+            "question":"What is the main theme of the video?",
+            "answer":"About a police officer taking down drug users."
+        },
+        {
+            "question":"What is the emotional tone of the video?",
+            "answer":"Fast-paced and intensive."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":690, 
+            "question":"what are they doing?",
+            "answer":"Many people line up in a queue. A man is running."
+        },
+        {
+            "time":1380,
+            "question":"what are they doing?",
+            "answer":"Walking down into a club."
+        },
+        {
+            "time":2070,
+            "question":"what are they doing?",
+            "answer":"Walking around in the club. "
+        },
+        {
+            "time":2760, 
+            "question":"How many people appear in the scene?",
+            "answer":"Two."
+        },
+        {
+            "time":3450,
+            "question":"what are they doing?",
+            "answer":"Two men are talking and exchanging something."
+        },
+        {
+            "time":4140,
+            "question":"where is the scene?",
+            "answer":"In the toilet."
+        },
+        {
+            "time":4830, 
+            "question":"How many people appear in the scene?",
+            "answer":"Two."
+        },
+        {
+            "time":5520,
+            "question":"How many women appear in the scene?",
+            "answer":"One."
+        },
+        {
+            "time":6210,
+            "question":"what happens?",
+            "answer":"A man knocks down another man."
+        },
+        {
+            "time":6900, 
+            "question":"what is the man doing?",
+            "answer":"He is singing with a microphone."
+        },
+        {
+            "time":7590,
+            "question":"what is the scene about?",
+            "answer":"People are walking out of a club."
+        },
+        {
+            "time":8280,
+            "question":"where is the scene?",
+            "answer":"In a containing room full of wine."
+        },
+        {
+            "time":8970, 
+            "question":"what is the woman doing?",
+            "answer":"Taking something away from a man."
+        },
+        {
+            "time":9660,
+            "question":"What is the man wearing?",
+            "answer":"A grey suit with white shirt in it."
+        },
+        {
+            "time":10300,
+            "question":"How many people appear in the scene?",
+            "answer":"Five."
+        }
+    ]
+}

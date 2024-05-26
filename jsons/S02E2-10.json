@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "S02E2-10.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "one individual and another were investigating the case of a murdered young man when they were drugged, leading both of them to have hallucinations. In the end, it was discovered that all this happened because they ate sugar from the young man's house, which had been laced with a drug. Key points include: both of them were drugged while investigating the young man's case; they both had hallucinations, with one of them seeing a huge hound; it was found that they were drugged because of the sugar they ate from the young man's home; they suspected it might be a hallucinogen or psychoactive drug; but it was later found that the sugar was infused with jellyfish genes; this led to a realization that there might be deeper things at play; one of them discovered that the young man had also seen the hound, but the other hadn't; it turned out the reason the latter wasn't affected by the drug was because he didn't drink coffee and therefore didn't consume the sugar; all these events were a cover-up for human cloning experiments, and the cloned animals were not just sheep but larger animals; in the end, it was realized that all of this was a cover-up for a deeper truth, and they had to leave the place.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "Three."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Can't determine."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What is the person doing?",
+   "answer": "Trying to find something."
+  },
+  {
+   "time": 750,
+   "question": "What is the background color?",
+   "answer": "Black"
+  },
+  {
+   "time": 1500,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 2250,
+   "question": "How the person feel?",
+   "answer": "Scared."
+  },
+  {
+   "time": 3000,
+   "question": "Where is it?",
+   "answer": "In a gate."
+  },
+  {
+   "time": 3750,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 4500,
+   "question": "What's in the man's hand?",
+   "answer": "A cellphone."
+  },
+  {
+   "time": 5250,
+   "question": "What is the background color?",
+   "answer": "White."
+  },
+  {
+   "time": 6000,
+   "question": "How many people  appeared?",
+   "answer": "Three."
+  },
+  {
+   "time": 6750,
+   "question": "What is the person doing?",
+   "answer": "Using a microscope."
+  },
+  {
+   "time": 7500,
+   "question": "What is the person doing?",
+   "answer": "Using a microscope."
+  },
+  {
+   "time": 8250,
+   "question": "Does the person look happy?",
+   "answer": "Yes."
+  },
+  {
+   "time": 9000,
+   "question": "How the person feel?",
+   "answer": "Angry."
+  },
+  {
+   "time": 9750,
+   "question": "How many people  appeared?",
+   "answer": "Three."
+  },
+  {
+   "time": 10500,
+   "question": "Where is it?",
+   "answer": "In a lab."
+  }
+ ]
+}

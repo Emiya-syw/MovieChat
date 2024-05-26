@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "QWF-3.mp4",
+        "url": "",
+        "class": "War Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "The video shows a group of very young recruits riding in a car to the front line. The smiles faded from the faces of the recruits. The recruits were wearing helmets when a sudden explosion occurred, and the recruits were paralyzed to the ground. At the officer's command, the recruits put on gas masks. Went into a trench to hide. During the night, a flare was fired from another part of the trench, and several recruits were very curious about it.",
+    "global":
+    [
+        {
+            "question":"When does the things in the video happens, decades ago, now, or in the future?",
+            "answer":"It happens decades ago, most likely during a world war."
+        },
+        {
+            "question":"Are there more then five different places appear in the video(scene switch doesn't necessarily means a place change)?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than five different characters appear(not including people in the background)?",
+            "answer":"Yes."
+        },
+        {
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Mainly at day time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly outdoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"what's the man in the middle of the scene wearing?",
+            "answer":"A bloody coat."
+        },
+        {
+            "time":1600,
+            "question":"Is it day time or night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":2450,
+            "question":"Is there more than five people(including backgrounds)?",
+            "answer":"Yes."
+        },
+        {
+            "time":3000, 
+            "question":"How many people appear in the middle of the scene?(not include the people in the background)",
+            "answer":"Three people."
+        },
+        {
+            "time":3750,
+            "question":"Is it day time or night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":4500,
+            "question":"Is there more than three people?",
+            "answer":"Yes."
+        },
+        {
+            "time":5300,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":6100,
+            "question":"where is the scene?",
+            "answer":"On the battle field."
+        },
+        {
+            "time":6880, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":7500,
+            "question":"what is the weather like?",
+            "answer":"It's raining heavily."
+        },
+        {
+            "time":8250,
+            "question":"Is it day time or night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":9250, 
+            "question":"Does the curly-haired man wear glasses?",
+            "answer":"Yes."
+        },
+        {
+            "time":9750,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":10500, 
+            "question":"Is it day time or night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":10875,
+            "question":"what are they doing?",
+            "answer":"They're having a chat."
+        }
+    ]
+}

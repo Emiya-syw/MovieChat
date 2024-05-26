@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "PAW-8.mp4",
+        "url": "",
+        "class": "Action Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "In the end, the captain killed the separatist. Suddenly, he heard several gunshots, he immediately hid behind a table. In fact, it was Gaspare. He came to help with many weapons. They found a room with a camera inside. There were many videos of victims. The separatists kept them as hostages and demanded ransom from their families. At this moment, the separatists on the island found the plane and took control of the passengers. They obtained the passenger list and asked where the captain was. In the meantime, two passengers tried to escape, but they failed and were killed. Everyone was scared. The captain and Gaspare also saw this scene in the distance.",
+    "global":
+    [
+        {
+            "question":"When does the things in the video happens, ancient age, modern age or future?",
+            "answer":"It happens at modern age."
+        },
+        {
+            "question":"Are there more then five different scenes appear in the video?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than five different characters appear?",
+            "answer":"Yes."
+        },
+        {
+            "question":"What's the time in the video? Day time or night time?",
+            "answer":"Mainly at day time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly outdoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"where is the scene?",
+            "answer":"Inside an abandoned factory."
+        },
+        {
+            "time":1500,
+            "question":"How many people appear in the scene??",
+            "answer":"Two people."
+        },
+        {
+            "time":2350,
+            "question":"Is it day time or night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":3000, 
+            "question":"what does the bald man wear?",
+            "answer":"He is wearing a white undershirt."
+        },
+        {
+            "time":3750,
+            "question":"How many people appear in the scene??",
+            "answer":"Two people."
+        },
+        {
+            "time":4400,
+            "question":"what is the man doing?",
+            "answer":"He is setting up a camera."
+        },
+        {
+            "time":5250,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":6050,
+            "question":"what's the gender of the person?",
+            "answer":"He is a man."
+        },
+        {
+            "time":6850, 
+            "question":"How many women appear?",
+            "answer":"Three."
+        },
+        {
+            "time":7500,
+            "question":"Is the scene indodrs or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":8200,
+            "question":"Is it day time or night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":9100, 
+            "question":"Is there more than four people?",
+            "answer":"Yes."
+        },
+        {
+            "time":9750,
+            "question":"what are they doing?",
+            "answer":"They are hiding in the bushes."
+        },
+        {
+            "time":10500, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":10875,
+            "question":"what is the emotion of the man?",
+            "answer":"He is nervous and scared."
+        }
+    ]
+}

@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "49.mp4",
+  "url": "",
+  "class": "Animation Film",
+  "w": 1024,
+  "h": 576,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "On the island in the middle of a lava lake, there stands a castle. The castle is connected to the outside world by a suspension bridge over the molten lava. The green monster and a donkey make their way across the suspension bridge towards the castle. They enter the castle through a covered walkway. Inside the castle, it's incredibly eerie, with various skeletons scattered around. The green monster picks up a suit of armor and puts it on. Suddenly, flames erupt as a massive dragon emerges from a hidden doorway. It starts chasing the monster and the donkey relentlessly. The donkey is driven to a desperate situation. Wearing the armor, the green monster enters a room in the castle where a woman in green clothing is seated on a bed. With a torch in hand, the armored monster escorts the woman out of the room. He uses her handkerchief to wipe his nose.",
+ "global": [
+  {
+   "question": "Is this cartoon?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "No."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does it happens in the video, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Night."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 48,
+   "question": "Where is the scene?",
+   "answer": "At an castle."
+  },
+  {
+   "time": 720,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 1440,
+   "question": "Where is the scene?",
+   "answer": "On a bridge."
+  },
+  {
+   "time": 2160,
+   "question": "Is there a monster?",
+   "answer": "Yes."
+  },
+  {
+   "time": 2880,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 3600,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 4320,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 5040,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 5832,
+   "question": "What is the animal in flames?",
+   "answer": "A dragon."
+  },
+  {
+   "time": 6480,
+   "question": "Where is the dragon?",
+   "answer": "Beside the castle."
+  },
+  {
+   "time": 7200,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 7920,
+   "question": "Where is the donkey standing?",
+   "answer": "On a rock."
+  },
+  {
+   "time": 8640,
+   "question": "Where is the scene?",
+   "answer": "In the bedroom."
+  },
+  {
+   "time": 9360,
+   "question": "What is the girl holding?",
+   "answer": "Flowers."
+  },
+  {
+   "time": 10896,
+   "question": "What are they doing?",
+   "answer": "Running with a torch."
+  }
+ ]
+}

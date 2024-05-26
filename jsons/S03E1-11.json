@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "S03E1-11.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "The audio recording of this video is a dialogue where the protagonist, for some unknown reasons, is forced to stand by the window, facing a gun, while Anna in front of him tries to save him from danger. The protagonist is forced to face a gun, and Anna tries to save him. Anna explains her plan to the protagonist, hoping he will cooperate. Anna needs to shoot an airbag, blocking the protagonist's target with an ambulance. Anna needs the protagonist to see the body to swap positions. The final step is to place a ball under the pants, using enough pressure to make it leave the pants instantly. Anna successfully saves the protagonist and swaps the position of the body on the ground, allowing him to leave easily. The protagonist is safely rescued, everything was anticipated, and it was a complete success. Another character surrenders; she is the little girl who was frightened to death by Moriarty. Moriarty is startled awake by Anna, thinking someone looks exactly like her. In the end, Anna successfully saves the protagonist with her plan and completes the mission, crying in a certain manner.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "No."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "Three."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Where is it?",
+   "answer": "In a subway train."
+  },
+  {
+   "time": 750,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 1500,
+   "question": "How many people  appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 2250,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 3000,
+   "question": "Are there any vehicles?",
+   "answer": "Yes."
+  },
+  {
+   "time": 3750,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 4500,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 5250,
+   "question": "What's the weather?",
+   "answer": "Cloudy."
+  },
+  {
+   "time": 6000,
+   "question": "Where is it?",
+   "answer": "On the street."
+  },
+  {
+   "time": 6750,
+   "question": "What are the people doing?",
+   "answer": "Making a phone call."
+  },
+  {
+   "time": 7500,
+   "question": "What is the person doing?",
+   "answer": "Jump down from a building."
+  },
+  {
+   "time": 8250,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 9000,
+   "question": "What is the scene?",
+   "answer": "A man with blood on his face."
+  },
+  {
+   "time": 9750,
+   "question": "How many people  appeared?",
+   "answer": "One."
+  },
+  {
+   "time": 11250,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  }
+ ]
+}

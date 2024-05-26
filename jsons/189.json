@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "189.mp4",
+  "url": "",
+  "class": "Romance Film",
+  "w": 1280,
+  "h": 528,
+  "num_frame": 12000,
+  "fps": 25
+ },
+ "caption": "A man took out a red box and handed it to a woman, but the woman didn't accept it and walked away. The woman walked slowly on the city streets. She made a call to a woman in a car. Another woman sitting on a couch answered a phone call. Then, a woman near the entrance of a shopping mall answered a call. The four of them gathered at a certain place. They sat in front of the bed in a bedroom and waved together. They then started drinking and taking selfies on the bed. Afterwards, the women posed in a brightly lit room. Two men stood by the riverside, admiring cherry blossoms. Four women stood on a rooftop terrace, drinking.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "No."
+  },
+  {
+   "question": "When does it happen in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day and night."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 750,
+   "question": "What is the clothes color of the person?",
+   "answer": "White."
+  },
+  {
+   "time": 1500,
+   "question": "What is the person doing?",
+   "answer": "Making a phone call in the car."
+  },
+  {
+   "time": 2250,
+   "question": "Is the person a man or a woman?",
+   "answer": "Woman."
+  },
+  {
+   "time": 3000,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 3750,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 4500,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 5325,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 6000,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 6750,
+   "question": "How many people  appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 7500,
+   "question": "Where is the scene?",
+   "answer": "On the stairs."
+  },
+  {
+   "time": 8250,
+   "question": "What are people wathing?",
+   "answer": "Fireworks."
+  },
+  {
+   "time": 9000,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 9750,
+   "question": "How many girls are there?",
+   "answer": "Four."
+  },
+  {
+   "time": 10500,
+   "question": "What is the clothes color of the girls?",
+   "answer": "White."
+  }
+ ]
+}

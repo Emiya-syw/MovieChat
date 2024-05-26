@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "s01e07-8.mp4",
+  "url": "",
+  "class": "epic film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "Next to a bonfire, a group of people is gathered, conducting some ritual. A man is tied to a pole, and the tribal chief is furious, whipping him. Then, he shows great gentleness toward another person and embraces his wife. He delivers an impassioned speech, moving energetically, displaying both valor and anger. He appears determined to do something significant and is simultaneously whipping the person on the table. The people around are excited, cheering for him and applauding.In another place, a man is walking, but he is suddenly stopped.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does more than ten people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "Does more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "How many people appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 750,
+   "question": "How many people appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 1500,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 2250,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 3000,
+   "question": "How does the person feel?",
+   "answer": "Angry."
+  },
+  {
+   "time": 3750,
+   "question": "How does the person feel?",
+   "answer": "Angry."
+  },
+  {
+   "time": 4500,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 5250,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 6000,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 6750,
+   "question": "Where is it?",
+   "answer": "In a hall."
+  },
+  {
+   "time": 7500,
+   "question": "What is the scene?",
+   "answer": "A boy."
+  },
+  {
+   "time": 8250,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 9000,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 9750,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 10500,
+   "question": "How does the person feel?",
+   "answer": "Angry."
+  }
+ ]
+}

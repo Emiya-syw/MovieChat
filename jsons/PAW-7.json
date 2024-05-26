@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "PAW-7.mp4",
+        "url": "",
+        "class": "Action Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "Finally, the captain saw the houses in the jungle. He walked in and found bullet holes and casings everywhere. He walked into a room and found a phone, but it was already damaged. He immediately started repairing it. At the same time, the people of the aircraft company found a team of mercenaries to search for the plane. The captain fixed the phone and contacted the company. But the company’s operator thought it was a scam call and ignored it. Afterwards, he called his daughter and asked her to tell the company to rescue them. Suddenly, a separatist found the captain and they started to fight.",
+    "global":
+    [
+        {
+            "question":"When does the things in the video happens, ancient age, modern age or future?",
+            "answer":"It happens at modern age."
+        },
+        {
+            "question":"Are there more then five different scenes appear in the video?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than five different characters appear?",
+            "answer":"Yes."
+        },
+        {
+            "question":"What's the time in the video? Day time or night time?",
+            "answer":"Mainly at day time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly indoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"where is the scene?",
+            "answer":"Inside an abandoned house, maybe garage."
+        },
+        {
+            "time":1500,
+            "question":"Is it day time or night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":2350,
+            "question":"How many people appear in the scene??",
+            "answer":"Four people."
+        },
+        {
+            "time":3000, 
+            "question":"what does the bald man wear?",
+            "answer":"He is wearing a black cloth."
+        },
+        {
+            "time":3750,
+            "question":"How many people appear in the scene??",
+            "answer":"One."
+        },
+        {
+            "time":4500,
+            "question":"what is the man doing?",
+            "answer":"He is making a phone call."
+        },
+        {
+            "time":5250,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":6050,
+            "question":"what's the gender of the person?",
+            "answer":"He is a man."
+        },
+        {
+            "time":6750, 
+            "question":"How many women appear?",
+            "answer":"Two."
+        },
+        {
+            "time":7500,
+            "question":"Is the scene indodrs or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":8200,
+            "question":"Is it day time or night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":8900, 
+            "question":"where is the scene?",
+            "answer":"Inside an abandoned factory."
+        },
+        {
+            "time":9800,
+            "question":"what are they doing?",
+            "answer":"They are having a fight with each other."
+        },
+        {
+            "time":10500, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":10875,
+            "question":"what is the emotion of the man?",
+            "answer":"He is confused and tired."
+        }
+    ]
+}

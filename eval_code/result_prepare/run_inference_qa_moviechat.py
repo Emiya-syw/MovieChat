@@ -145,7 +145,6 @@ class Chat:
             stop_words_ids = [torch.tensor([2]).to(self.device)]
         self.stopping_criteria = StoppingCriteriaList([StoppingCriteriaSub(stops=stop_words_ids)])
         
-        
         print('Loading Frame Filter')
         self.filter_model, self.filter_preprocess = clip.load("./ckpt/ViT-B-32.pt", device=device)
         print('Loading Frame Filter Done')
@@ -438,7 +437,11 @@ class Chat:
         img_list.append(video_emb) 
         return msg  
 
-
+    def get_example(self, questions, questions_featrues, question):
+        question = clip.tokenize(question).to(self.device)
+        question_features = self.filter_model.encode_text(question)
+        id = np.random.choice(np.argsort((question_features @ questions_featrues.T).squeeze(0).detach().cpu().numpy())[::-1][2:10])
+        return questions[id]
 
 if __name__ =='__main__':
     
@@ -482,6 +485,17 @@ if __name__ =='__main__':
     json_files = get_chunk(json_files, args.num_chunks, args.chunk_idx)
     count = 0
     if middle_video:
+        with open("./Outputs/examples_breakpoint.json", "r") as f:
+            examples = json.load(f)
+        questions_features = []
+        questions = []
+        for question in examples.keys():
+            questions_features.append(clip.tokenize(question))
+            questions.append(question)
+        questions_features = torch.cat(questions_features, dim=0).to("cuda:0")
+        with torch.no_grad():
+            questions_features = chat.filter_model.encode_text(questions_features)
+            
         for file in json_files:
             if file.endswith('.json'):
                 file_path = os.path.join(qa_folder, file)
@@ -536,10 +550,10 @@ if __name__ =='__main__':
                             cur_image = chat.model.encode_image(image)  
 
                             question = qa_key['question']
-                            if "(any type)" in question:
-                                question = question.replace("(any type)", "")
-                            print(question)
-
+                            # if "(any type)" in question:
+                            #     question = question.replace("(any type)", "")
+                            # print(question)
+                            
                             img_list = []
                             chat.model.long_memory_buffer = []
                             chat.model.temp_short_memory = []
@@ -565,7 +579,16 @@ if __name__ =='__main__':
                                 temperature=temperature,
                                 max_new_tokens=300,
                                 max_length=2000)[0]
-                            prompt = " <Video><ImageHere></Video> Here is the description: " + chain_1_msg + " Here is the question: " + question + " Answer the question according to the video and the description in less than 20 words:"
+                            
+                            example_question = chat.get_example(questions, questions_features, question)
+                            example_answer = examples[example_question]
+                            print(question)
+                            print(example_question)
+                            print(example_answer)
+                            example = "You should follow the format of the example: ```Here is the question: " + example_question + "Answer the question in less than 20 words:" + example_answer + '```'
+                            
+                            prompt = example + " <Video><ImageHere></Video> Here is the uncertain description: ```" + chain_1_msg + "``` Here is the question: ```" + question \
+                                + "``` Answer the question according to the video and the description in less than 20 words:"
                             
                             llm_message = chat.answer(img_list=img_list,
                                 input_text=prompt,
@@ -584,7 +607,10 @@ if __name__ =='__main__':
                                 temperature=temperature,
                                 max_new_tokens=300,
                                 max_length=2000)[0]
-                                
+                            
+                            index = llm_message.find('\n')
+                            if index != -1:
+                                llm_message = llm_message[:index]
                             # prompt = " <Video><ImageHere></Video> Here is the question: " + question + " Here is the answer: " + chain_2_msg + " Please refine the answer according to the question and the video: " 
                             # llm_message = chat.answer(img_list=img_list,
                             #     input_text=prompt,
@@ -606,6 +632,24 @@ if __name__ =='__main__':
             #     import sys
             #     sys.exit(0)
     else:
+        with open("./Outputs/examples_global.json", "r") as f:
+            examples = json.load(f)
+        questions_features = []
+        questions = []
+        for question in examples.keys():
+            questions_features.append(clip.tokenize(question))
+            questions.append(question)
+        questions_features = torch.cat(questions_features, dim=0).to("cuda:0")
+        with torch.no_grad():
+            questions_features = chat.filter_model.encode_text(questions_features)
+        
+        # example_question = chat.get_example(questions, questions_features, "Is there more than three different characters appear?")
+        # example_answer = examples[example_question]
+        # print(question)
+        # print(example_question)
+        # print(example_answer)
+        # import sys
+        # sys.exit(0)
         for file in json_files:
             if file.endswith('.json'):
                 file_path = os.path.join(qa_folder, file)
@@ -644,8 +688,8 @@ if __name__ =='__main__':
                             question = question
                             )
                         # prompt = " <Video><ImageHere></Video> First, please count the number of fragments in the video. Second, please describe these fragments sequentially in less than 150 words."
-                        # prompt = " <Video><ImageHere></Video> First, please count the number of fragments in the video. Second, please conclude the fragments in less than 150 words."
-                        prompt = " <Video><ImageHere></Video> Please describe the video in less than 100 words: "
+                        prompt = " <Video><ImageHere></Video> First, please count the number of fragments in the video. Second, please conclude the fragments in less than 150 words."
+                        # prompt = " <Video><ImageHere></Video> Please describe the video in less than 100 words: "
                         
                         chain_1_msg = chat.answer(img_list=img_list,
                             input_text=prompt,
@@ -661,8 +705,15 @@ if __name__ =='__main__':
                         print(video_path)
                         for qa_key in movie_data["global"]:
                             question = qa_key['question']
+                            example_question = chat.get_example(questions, questions_features, question)
+                            example_answer = examples[example_question]
                             print(question)
-                            prompt = " <Video><ImageHere></Video> Here is the caption: " + chain_1_msg + " Here is the question: " + question + " Answer the question according to the video and the description in less than 20 words:"
+                            print(example_question)
+                            print(example_answer)
+                            example = "You should follow the format of the example: ``` Here is the question: " + example_question + "Answer the question in less than 20 words:" + example_answer + '```'
+                            # prompt = " <Video><ImageHere></Video> Here is the description: " + chain_1_msg + " Here is the question: " + question + " Answer the question according to the video and the description in less than 20 words:"
+                            prompt = example + " <Video><ImageHere></Video> Here is the uncertain description: ```" + chain_1_msg + "``` Here is the question: ```" + question + "``` Answer the question according to the video and the description in less than 20 words:"
+                            # prompt = example + "<Video><ImageHere></Video> Here is the question: " + question + " Answer the question according to the video and the description in less than 20 words:"
                             llm_message = chat.answer(img_list=img_list,
                                 input_text=prompt,
                                 msg = msg,
@@ -672,6 +723,7 @@ if __name__ =='__main__':
                                 max_length=2000)[0]
                             if llm_message == "":
                                 prompt = " <Video><ImageHere></Video> Here is the description: " + chain_1_msg + " Here is the question: " + question
+                                # prompt = " <Video><ImageHere></Video>  Here is the question: " + question
                                 llm_message = chat.answer(img_list=img_list,
                                 input_text=prompt,
                                 msg = msg,

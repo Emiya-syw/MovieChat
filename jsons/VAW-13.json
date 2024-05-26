@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "VAW-13.mp4",
+        "url": "",
+        "class": "Animation Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "At night, the soldiers from the citadel arrived at Jonas' house first. He came out of the house and thought they were coming to reward him. However, he was shot dead by the soldiers. Afterwards, the soldiers arrived at Vesper's house and found nothing except the father who was paralyzed in bed. In order to buy enough time for Vesper, he used that robot to ignite the house and sacrificed himself. Vesper turned around and saw the house on fire, she immediately understood everything. She rushed back to the house, crying and shouting, but was stopped by Camellia. After a while, they calmed down, continued to flee because they saw other soldiers walking towards them in the darkness.",
+    "global":
+    [
+        {
+            "question":"Is it a video based on reality or not?(Does it looks like real story or something else like science fiction movie or magical stories?)",
+            "answer":"No it isn't."
+        },
+        {
+            "question":"Are there more then five different scenes appear in the video?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than five different characters appear(not including people in the background)?",
+            "answer":"No."
+        },
+        {
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Mainly at night time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly outdoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":780, 
+            "question":"Does the man in the middle of the scene grow a beard?",
+            "answer":"Yes he does."
+        },
+        {
+            "time":1350,
+            "question":"Is it day time or night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":2250,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":3000, 
+            "question":"where's the scene?",
+            "answer":"In a dark forest."
+        },
+        {
+            "time":3750,
+            "question":"Is it day time or night time?",
+            "answer":"It's at night."
+        },
+        {
+            "time":4500,
+            "question":"Is there more than three people?",
+            "answer":"No."
+        },
+        {
+            "time":5300,
+            "question":"Is it day time or night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":6000,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":6750, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":7700,
+            "question":"How many people appear in the middle of the scene?",
+            "answer":"Two people."
+        },
+        {
+            "time":8250,
+            "question":"where's the scene?",
+            "answer":"In a dark forest."
+        },
+        {
+            "time":9200, 
+            "question":"How many people appear in the scene?",
+            "answer":"Two people."
+        },
+        {
+            "time":9750,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":10600, 
+            "question":"Is it day time or night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":10875,
+            "question":"Is it day time or night time?",
+            "answer":"It's at night time."
+        }
+    ]
+}

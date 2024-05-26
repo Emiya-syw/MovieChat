@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "48.mp4",
+  "url": "",
+  "class": "Animation Film",
+  "w": 1024,
+  "h": 576,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "A person in red clothing stands in front of a mirror with a white face. A green monster and a donkey appear on a road. Across the road stands a massive castle. The monster pays no attention to the barriers at the entrance and charges inside. Inside the castle, they encounter many toy figures and continue along the castle's grand avenue. In the inner city, they arrive at an arena where they are soon surrounded by armored warriors. The green monster smashes a wine barrel, and the contents spill out. Then, the monster engages in a duel with the warriors in the arena. After leaving the castle, the monster and the donkey walk through a field of sunflowers.",
+ "global": [
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does it happens in the video, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  },
+  {
+   "question": "Is it cartoon?",
+   "answer": "Yes."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 720,
+   "question": "What is on the wall?",
+   "answer": "A mirror."
+  },
+  {
+   "time": 1440,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 2160,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 2880,
+   "question": "Is there a donkey?",
+   "answer": "Yes."
+  },
+  {
+   "time": 3600,
+   "question": "What are these?",
+   "answer": "Puppets."
+  },
+  {
+   "time": 4272,
+   "question": "Where is the scene?",
+   "answer": "On the street."
+  },
+  {
+   "time": 5040,
+   "question": "Where is the scene?",
+   "answer": "In the castle."
+  },
+  {
+   "time": 5760,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 6480,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 7200,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 7920,
+   "question": "What is the monster doing?",
+   "answer": "Lifting a man."
+  },
+  {
+   "time": 8640,
+   "question": "What is the clothes color of the person?",
+   "answer": "Red."
+  },
+  {
+   "time": 9360,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 10080,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  }
+ ]
+}

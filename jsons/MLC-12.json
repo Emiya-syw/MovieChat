@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "MLC-12.mp4",
+        "url": "",
+        "class": "Animation Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "A boy is suspended in mid-air, and a girl leaps onto him. They both fall heavily to the ground. A man wearing a headpiece approaches. Suddenly, the dark night turns into day. The man with the headpiece abruptly changes into different clothing. He engages in a conversation with the boy in black clothing. Memories rush into the man's mind. The man suddenly kneels down, and he and the boy embrace tightly. At this moment, the city lies in ruins, shrouded in thick smoke. An old man stands behind the girl in red and gives her something. The girl stands on the rooftop, addressing the people in the square. She uses her magic to restore the city to its original state. A girl steps out of a car, wearing a dress, and enters a banquet hall.",
+    "global":
+    [
+        {
+            "question":"Is it a video based on reality or not?(What is the style of the movie?)",
+            "answer":"No. It seems like a cartoon movie."
+        },
+        {
+            "question":"Are there more than three different places appear in the video(scene switch doesn't necessarily means a place change)?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than five different people appear?",
+            "answer":"Yes."
+        },
+        {
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Mainly at day time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly outdoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":1500,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":2250,
+            "question":"Is there more than five people?",
+            "answer":"No."
+        },
+        {
+            "time":2950, 
+            "question":"How many people appear in the scene?",
+            "answer":"Three."
+        },
+        {
+            "time":4100,
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":4600,
+            "question":"where is the scene?",
+            "answer":"Over the city ruin."
+        },
+        {
+            "time":5250,
+            "question":"Is there any vehicles?",
+            "answer":"No."
+        },
+        {
+            "time":6000,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":6700, 
+            "question":"what are they doing?",
+            "answer":"They're talking to each other."
+        },
+        {
+            "time":7550,
+            "question":"what's the color of the woman's hair?",
+            "answer":"It's blue."
+        },
+        {
+            "time":8350,
+            "question":"what's the color of the woman's clothes?",
+            "answer":"It's red."
+        },
+        {
+            "time":9100, 
+            "question":"what's the weather like?",
+            "answer":"It's sunny and nice."
+        },
+        {
+            "time":9850,
+            "question":"Is there more than three people?",
+            "answer":"No."
+        },
+        {
+            "time":10500, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":11100,
+            "question":"Is there more than three people?",
+            "answer":"Yes."
+        }
+    ]
+}

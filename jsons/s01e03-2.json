@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "s01e03-2.mp4",
+  "url": "",
+  "class": "epic film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "This is a wonderful epic series clip. The background of it is in middle age. A man is in conversation with several other men who appear to be reporting to him. The man asks a series of questions, and the answers seem to greatly shock him. He displays strong resentment, while the men reporting to him appear helpless. Afterward, there is a scene with a mother and daughter eating, as well as a mother and son having a meal. The child is complaining about something and looks quite frustrated, but the mothers are trying to console him. Later, the child stands up and angrily says something. The girl asks a question, but the child suddenly gets stuck and can't answer. Following this, there is a scene with a young girl eating. She angrily stabs her knife into the table. At that moment, her father enters and engages with her in a friendly conversation. ",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does more than ten people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What is in the person's hand?",
+   "answer": "A piece of paper."
+  },
+  {
+   "time": 750,
+   "question": "How does the person feel?",
+   "answer": "Angry."
+  },
+  {
+   "time": 1500,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 2250,
+   "question": "How many people appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 3000,
+   "question": "How many people appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 3750,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 4500,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 5250,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 6000,
+   "question": "What is in the person's hand?",
+   "answer": "A knife."
+  },
+  {
+   "time": 6750,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 7500,
+   "question": "How many people appeared?",
+   "answer": "Three."
+  },
+  {
+   "time": 8250,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 9000,
+   "question": "How many people appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 9750,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 10500,
+   "question": "How does the person feel?",
+   "answer": "Sad."
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "40.mp4",
+  "url": "",
+  "class": "Animation Film",
+  "w": 848,
+  "h": 480,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "Two elderly men and a young boy walk inside a vast room filled with red carpets and various fossils on display. Later, the three of them sit at a dining table to share a meal. One of the elderly men holds a lamp and approaches a fossil of a bird, his expression turning fierce as he glares at the other elderly man and the boy. The old man grabs the boy, and they make a run for it. They escape outside but find themselves in a dark canyon. Along the way, they are pursued by many aggressive dogs. With a flying house strapped to their backs, they leap across a chasm to flee.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does it happens in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Is this a cartoon?",
+   "answer": "Yes."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 72,
+   "question": "Where is the scene?",
+   "answer": "In a museum."
+  },
+  {
+   "time": 720,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 1440,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 2160,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 3600,
+   "question": "Is the person a man or a woman?",
+   "answer": "A man."
+  },
+  {
+   "time": 3600,
+   "question": "What is the man holding?",
+   "answer": "A lamp."
+  },
+  {
+   "time": 4320,
+   "question": "What is the object?",
+   "answer": "Bird skeleton."
+  },
+  {
+   "time": 5040,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 5760,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 6480,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 7200,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 7920,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 8640,
+   "question": "What are the animals?",
+   "answer": "Dogs."
+  },
+  {
+   "time": 9360,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 10080,
+   "question": "Where is the scene?",
+   "answer": "At the cliffs."
+  }
+ ]
+}

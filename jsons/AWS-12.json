@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "AWS-12.mp4",
+        "url": "",
+        "class": "Family Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "The video opens with a family of three—a man, a woman, and an elderly person—sitting at a table, enjoying snacks together. The man and woman then go for a walk outside, where they express their love for each other amidst the blowing wind. The narrative quickly moves to the next day, when the woman wakes up to find the man lying unconscious in a room, apparently having triggered some illness. That evening, as the man is cutting his elderly father's hair and giving him a bath, a sudden and unexpected event occurs. The man seems to be confronted with something deeply frightening from his memories, which sends him into a frenzy. Paralyzed with fear, he lays on the floor motionless, while his father appears to be disoriented. When the man finally snaps out of his bewildered state, he discovers that his father has taken his own life",
+    "global":
+    [
+        {
+            "question":"When does the things in the video happens, acient, modern, or in the future?",
+            "answer":"It happens at modern time."
+        },
+        {
+            "question":"Are there more than six different places appear in the video(scene switch doesn't necessarily means a place change)?",
+            "answer":"No."
+        },
+        {
+            "question":"Is there more than six different characters appear?",
+            "answer":"No."
+        },
+        {
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Mainly at night time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly indoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":1520,
+            "question":"How many men appear in the scene?",
+            "answer":"One."
+        },
+        {
+            "time":2250,
+            "question":"How many people appear in the scene?",
+            "answer":"Two."
+        },
+        {
+            "time":3100, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":3750,
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":4500,
+            "question":"How many women appear in the scene?",
+            "answer":"One."
+        },
+        {
+            "time":5250,
+            "question":"Is there any vehicles?",
+            "answer":"No."
+        },
+        {
+            "time":6000,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":6750, 
+            "question":"How many women appear in the scene?",
+            "answer":"None."
+        },
+        {
+            "time":7600,
+            "question":"How many men appear in the scene?",
+            "answer":"One."
+        },
+        {
+            "time":8250,
+            "question":"what's the man doing?",
+            "answer":"He buries his head into his arms and starts crying."
+        },
+        {
+            "time":9000, 
+            "question":"what's the man doing?",
+            "answer":"He buries his head into his arms and starts crying."
+        },
+        {
+            "time":9750,
+            "question":"Is there more than five people?",
+            "answer":"No."
+        },
+        {
+            "time":10500, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":11100,
+            "question":"Is there more than three people?",
+            "answer":"Yes."
+        }
+    ]
+}

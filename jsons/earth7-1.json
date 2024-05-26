@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "earth7-1.mp4",
+  "url": "",
+  "class": "documentary film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "This video explores one of the Earth's most vital ecosystems, the grassland ecosystem. By introducing various creatures on the grasslands, including cockroaches and zebras, we can understand how grasslands support the Earth's largest wildlife activities. The video also emphasizes the importance of grass, which is the most robust survivor on Earth, capable of rapid repair and growth, covering more land than any other plant. Grasslands are one of the Earth's most critical ecosystems, supporting the largest wildlife activities on the planet. Grasslands cover a quarter of the Earth's land, more than any other vegetation. Grass can repair and grow rapidly, outperforming other plants. Creatures on the grasslands, like cockroaches and zebras, are among the most numerous animals on Earth. Cockroaches are one of the most abundant animals on Earth, with a massive annual event in Mongolia. Zebras are the most numerous animals on African farms, with a population of up to 135 billion. Grass is the most potent survivor on Earth, capable of rapid repair and growth. Grass roots protect it from fire damage and are almost indestructible. Grass can cover more extensive areas than any other plant. Ecosystem grassland cockroach zebra survivor.",
+ "global": [
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Are there any human?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen in the cities?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 750,
+   "question": "What is the scene?",
+   "answer": "Fields."
+  },
+  {
+   "time": 1500,
+   "question": "What is the scene?",
+   "answer": "Wetland."
+  },
+  {
+   "time": 2250,
+   "question": "What is the background color?",
+   "answer": "Green."
+  },
+  {
+   "time": 3000,
+   "question": "What kind of animal is it?",
+   "answer": "Eagle."
+  },
+  {
+   "time": 3750,
+   "question": "Where is it?",
+   "answer": "On a grassland."
+  },
+  {
+   "time": 4500,
+   "question": "What kind of animal is it?",
+   "answer": "Deer."
+  },
+  {
+   "time": 5250,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 6000,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 6750,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 7500,
+   "question": "What is the scene?",
+   "answer": "Fire."
+  },
+  {
+   "time": 8250,
+   "question": "What is the scene?",
+   "answer": "The bones of animals."
+  },
+  {
+   "time": 9000,
+   "question": "What is the scene?",
+   "answer": "Grass."
+  },
+  {
+   "time": 9750,
+   "question": "What kind of animal is it?",
+   "answer": "Bird."
+  },
+  {
+   "time": 10500,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  }
+ ]
+}

@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "STW-7.mp4",
+        "url": "",
+        "class": "Animation Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "A bearded man, a man in green, and a boy with a blue creature on his back are running hard. They reach a bridge made of strange red creatures. The bearded man takes out a flamethrower. A woman drives an airbike and takes them away. The airbike flies above the red creatures, avoiding various obstacles. They reach the door of an airship. The pilot activates the controls, and the airship successfully takes off. Inside the airship, they enter a warehouse. People gather on the airship's deck to play with the dog. The airship continues to fly forward, passing through a massive blue cloud. A man with a beard comes over but nearly falls. The man and the boy start using flamethrowers, and a man in green with a shovel approaches them. The three people and the blue creature sit at a table to play cards.",
+    "global":
+    [
+        {
+            "question":"Is it a video based on reality or not?(What is the style of the movie?Does it look like cartoon movie?)",
+            "answer":"No. It seems like a cartoon movie."
+        },
+        {
+            "question":"Are there more then three different places appear in the video(scene switch doesn't necessarily means a place change)?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than three different characters appear?",
+            "answer":"Yes."
+        },
+        {
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Mainly at day time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly outdoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":1500,
+            "question":"where is the scene?",
+            "answer":"In the sky on a flying vehicle."
+        },
+        {
+            "time":2350,
+            "question":"How many characters appear in the scene?",
+            "answer":"Five."
+        },
+        {
+            "time":3000, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":3750,
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":4550,
+            "question":"Is there any vehicles?",
+            "answer":"Yes."
+        },
+        {
+            "time":5300,
+            "question":"what color is the man's beard?",
+            "answer":"White."
+        },
+        {
+            "time":6000,
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":6800, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":7500,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":8225,
+            "question":"Is there any unhuman creatures?",
+            "answer":"Yes."
+        },
+        {
+            "time":9300, 
+            "question":"what happens?",
+            "answer":"Two men are using a flamethrower."
+        },
+        {
+            "time":9750,
+            "question":"what color is the man's beard?",
+            "answer":"White."
+        },
+        {
+            "time":10600, 
+            "question":"Is there more than five people?",
+            "answer":"No."
+        },
+        {
+            "time":11000,
+            "question":"Is there more than three people?",
+            "answer":"No."
+        }
+    ]
+}

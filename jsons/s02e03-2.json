@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "s02e03-2.mp4",
+  "url": "",
+  "class": "epic film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "A boy woke up in terror from a dream, finding an old man at the foot of his bed. He rushed out to confide in another elderly man, who appeared to be his elder. The elder patiently explained things to him, and the boy's emotions gradually stabilized.Meanwhile, on a beach, two warriors engaged in combat, wielding swords as they attacked each other. A crowd had gathered to watch, with one woman enthusiastically cheering them on. The scene was quite lively. Then, another woman approached, and the sleazy man said something to her.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does more than ten people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "Does more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 750,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 1500,
+   "question": "What is the scene?",
+   "answer": "A boy."
+  },
+  {
+   "time": 2250,
+   "question": "What is the scene?",
+   "answer": "An old man."
+  },
+  {
+   "time": 3000,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 3750,
+   "question": "What are the people doing?",
+   "answer": "Fighting."
+  },
+  {
+   "time": 4500,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 5250,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 6000,
+   "question": "Does the person look happy?",
+   "answer": "Yes."
+  },
+  {
+   "time": 6750,
+   "question": "How does the person feel?",
+   "answer": "Serious."
+  },
+  {
+   "time": 7500,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 8250,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 9000,
+   "question": "How does the person feel?",
+   "answer": "Unhappy."
+  },
+  {
+   "time": 9750,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 10500,
+   "question": "Where is it?",
+   "answer": "Beside a sea."
+  }
+ ]
+}

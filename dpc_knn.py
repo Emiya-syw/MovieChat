@@ -60,7 +60,8 @@ def cluster_dpc_knn(token_dict, cluster_num, k=5, token_mask=None):
             density = density * token_mask
         
         # 得到距离指数
-        mask = density[:, None, :] + density[:, :, None]    # 增加维度 (B, 1, N) (B, N, 1)  -> (B, N, N)
+        mask = density[:, None, :] > density[:, :, None]    # 增加维度 (B, 1, N) (B, N, 1)  -> (B, N, N)
+        print(mask)
         mask = mask.type(x.dtype)  
         dist_max = dist_matrix.flatten(1).max(dim=-1)[0][:, None, None] # 对每个点的距离最大值 -> (B, 1, 1)
         dist, index_parent = (dist_matrix * mask + dist_max * (1-mask)).min(dim=-1)
@@ -71,7 +72,7 @@ def cluster_dpc_knn(token_dict, cluster_num, k=5, token_mask=None):
         
         # 将token分配到最近的聚类中心
         dist_matrix = index_points(dist_matrix, index_down) # 返回每个样本中聚类中心的距离向量 (B, K, N)
-        # print(dist_matrix.shape)
+        # print(dist_matrix)
         idx_cluster = dist_matrix.argmin(dim=1) # 聚类情况 (B, N)
         # print(idx_cluster.shape)
         
@@ -186,4 +187,8 @@ if __name__ == "__main__":
                   "agg_weight": tokens.new_ones(tokens.size(0), tokens.size(1), 1), # token聚合的权重, 全是1
                   "mask": None}
     _, _ = block(token_dict)
-    
+    import cv2
+    cap = cv2.VideoCapture("/home/sunyw/MovieChat/MovieChat-1K-test/videos/2.mp4")
+    fps_video = cap.get(cv2.CAP_PROP_FPS)
+    num_frame = cap.get(cv2.CAP_PROP_FRAME_COUNT)
+    print(fps_video, num_frame)

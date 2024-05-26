@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "PAW-3.mp4",
+        "url": "",
+        "class": "Action Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "Returning to the cockpit, the co-pilot informed him that the electrical system was damaged. The power of the plane was relied on the backup battery. But the battery could only last for ten minutes. In the cabin, everyone was panicked. The police officer was leaving a message to his family on the phone. Suddenly, his phone fell to the ground. He unfastened his seat belt and wanted to get his phone. However, the plane jolted violently, he lost his balance, fell heavily to the ground and dead. Finally, they passed through the storm. But the plane would soon run out of the electricity. At the last moment, they saw a piece of land.",
+    "global":
+    [
+        {
+            "question":"When does the things in the video happens, ancient age, modern age or future?",
+            "answer":"It happens at modern age."
+        },
+        {
+            "question":"Are there more then five different scenes appear in the video?",
+            "answer":"No."
+        },
+        {
+            "question":"Is there more than five different characters appear?",
+            "answer":"Yes."
+        },
+        {
+            "question":"What's the time in the video? Day time or night time?",
+            "answer":"Mainly at night."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly indoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"what's the man holding in the hand?",
+            "answer":"A flashlight."
+        },
+        {
+            "time":1500,
+            "question":"Is it day time or night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":2250,
+            "question":"what is the man doing?",
+            "answer":"He is driving the plane."
+        },
+        {
+            "time":3000, 
+            "question":"where is the scene?",
+            "answer":"Inside an air plane."
+        },
+        {
+            "time":3750,
+            "question":"How many people appear in the scene?",
+            "answer":"Two."
+        },
+        {
+            "time":4500,
+            "question":"Is there more than three people in the scene?",
+            "answer":"No."
+        },
+        {
+            "time":5250,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":6000,
+            "question":"what are they doing?",
+            "answer":"They're standing u and trying to do something."
+        },
+        {
+            "time":6750, 
+            "question":"Is there more than two men appear?",
+            "answer":"No."
+        },
+        {
+            "time":7500,
+            "question":"Is the scene indodrs or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":8200,
+            "question":"Is it day time or night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":9000, 
+            "question":"what is the woman holding in her hand?",
+            "answer":"A flashlight."
+        },
+        {
+            "time":9750,
+            "question":"Is the person man or woman?",
+            "answer":"He is a man."
+        },
+        {
+            "time":10500, 
+            "question":"what is the emotion of the man?",
+            "answer":"He seems to be confident."
+        },
+        {
+            "time":10875,
+            "question":"what is outside the window?",
+            "answer":"The dark sky, and maybe there's a storm."
+        }
+    ]
+}

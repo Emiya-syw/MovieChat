@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "89.mp4",
+  "url": "",
+  "class": "Animation Film",
+  "w": 1280,
+  "h": 688,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "No."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day and night."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does it happens in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Where is the scene?",
+   "answer": "In a lab."
+  },
+  {
+   "time": 720,
+   "question": "Where is the scene?",
+   "answer": "In an office."
+  },
+  {
+   "time": 1440,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 1440,
+   "question": "Where is the scene?",
+   "answer": "In the kitchen."
+  },
+  {
+   "time": 2880,
+   "question": "What is the female fox doing?",
+   "answer": "Drawing a picture."
+  },
+  {
+   "time": 3600,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 4368,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 5040,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 5760,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 6480,
+   "question": "Where is the scene?",
+   "answer": "In the bedroom."
+  },
+  {
+   "time": 7200,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 7920,
+   "question": "Are there any people?",
+   "answer": "No."
+  },
+  {
+   "time": 8640,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 9360,
+   "question": "How is the weather?",
+   "answer": "Can not tell."
+  },
+  {
+   "time": 10080,
+   "question": "What is the object?",
+   "answer": "A red door."
+  }
+ ]
+}

@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "SMA-7.mp4",
+        "url": "",
+        "class": "Animation Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "In this video, we see the story of Spider-Man who finds himself trapped in another universe. There, he meets a college student who also becomes Spider-Man. They adventure together, and the college student learns a lot from Spider-Man. In the end, they find some clues and prepare to protect the world. Highlights: Spider-Man and the college student find themselves trapped in another universe. The college student also becomes Spider-Man, and they embark on an adventure together. Spider-Man teaches the college student a lot. They discover some clues and prepare to protect the world. Both Spider-Man and the college student possess a rare collectible. The college student is Spider-Man's only friend after his passing. Spider-Man and the college student share similarities in important aspects. In every universe, Gwen Stacy falls for Spider-Man.",
+    "global":
+    [
+        {
+            "question":"Is it a video based on reality or not?(Is it a cartoon movie?)",
+            "answer":"No. It seems like an animated movie."
+        },
+        {
+            "question":"Are there more than four different places appear in the video(scene switch doesn't necessarily means a place change)?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than five different characters appear?",
+            "answer":"Yes."
+        },
+        {
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Mainly at day time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly outdoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":1500,
+            "question":"Is it at day time or night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":2250,
+            "question":"Is there any vehicles?",
+            "answer":"No."
+        },
+        {
+            "time":3000, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":3750,
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":4600,
+            "question":"How many spidermen appear in the scene?",
+            "answer":"One."
+        },
+        {
+            "time":5450,
+            "question":"Are there any vehicles?",
+            "answer":"Yes."
+        },
+        {
+            "time":6000,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":6750, 
+            "question":"Is it at day time or night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":7580,
+            "question":"How many men appear in the scene?",
+            "answer":"One."
+        },
+        {
+            "time":8250,
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":9100, 
+            "question":"where is the scene?",
+            "answer":"Over a city."
+        },
+        {
+            "time":9750,
+            "question":"Is there more than five people?",
+            "answer":"No."
+        },
+        {
+            "time":10500, 
+            "question":"Is there more than ten people?",
+            "answer":"No."
+        },
+        {
+            "time":11000,
+            "question":"Is there more than three people?",
+            "answer":"No."
+        }
+    ]
+}

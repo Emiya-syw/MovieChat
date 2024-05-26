@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "s01e05-5.mp4",
+  "url": "",
+  "class": "epic film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "This is a wonderful epic series clip. The background of it is in middle age. In a room, a man and his daughter encounter two other men who are reporting something to him. The man looks quite surprised but continues to listen. Outside, a cavalry unit is marching, led by a woman who is holding a shorter man in custody.Then, in a council chamber, a king is sitting alongside his advisors. The king makes a request, but one of the senior ministers opposes it. The king becomes very angry, and they argue for a long time. Eventually, the king dismisses the minister from the room. In his own chamber, the minister prepares to leave, and another person comes to see him, revealing some information.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "Does more than ten people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "How does the person feel?",
+   "answer": "Serious."
+  },
+  {
+   "time": 750,
+   "question": "Where is it?",
+   "answer": "In a room."
+  },
+  {
+   "time": 1500,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 2250,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 3000,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 3750,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 4500,
+   "question": "How does the person feel?",
+   "answer": "Angry."
+  },
+  {
+   "time": 5250,
+   "question": "What is the background color?",
+   "answer": "Colorful."
+  },
+  {
+   "time": 6000,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 6750,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 7500,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 8250,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 9000,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 9750,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 10500,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  }
+ ]
+}

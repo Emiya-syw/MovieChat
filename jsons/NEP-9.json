@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "NEP-9.mp4",
+        "url": "",
+        "class": "Crime Film",
+        "w": 720,
+        "h": 480,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "The scene starts in an abandoned warehouse where an undercover police officer seems to be engaged in a gunfight with a group of criminals. Outnumbered, the officer calls for backup. After a series of chases, hand-to-hand combats, and close-quarter fights in the factory, the police manage to take down most of the criminals. However, the ringleader sneaks away with a bag. The officer chases the main suspect, following him onto a bus. After getting all the passengers to disembark, the two engage in a one-on-one standoff. The officer and the suspect share their life stories and experiences. After understanding the full story, they once again engage in hand-to-hand combat.",
+    "global":
+    [
+        {
+            "question":"When does the things in the video happens, ancient age, modern age or future?",
+            "answer":"It happens at modern age, maybe one decade ago."
+        },
+        {
+            "question":"Are there more then five different backgrounds appear in the video?",
+            "answer":"No."
+        },
+        {
+            "question":"Is there more women of more men appear in the video?",
+            "answer":"More men."
+        },
+        {
+            "question":"What's the time in the video? Day time or night time?",
+            "answer":"Mainly at day time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly indoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"what happens?",
+            "answer":"Two groups of men are shooting each other."
+        },
+        {
+            "time":1550,
+            "question":"where is the scene?",
+            "answer":"In an abandoned factory."
+        },
+        {
+            "time":2200,
+            "question":"what is the man doing?",
+            "answer":"He is hiting another guy. "
+        },
+        {
+            "time":3000, 
+            "question":"How many people appear in the scene?",
+            "answer":"Two people."
+        },
+        {
+            "time":3880,
+            "question":"what are they doing?",
+            "answer":"They are fighting with each other."
+        },
+        {
+            "time":4400,
+            "question":"Is there more than five men appear in the video?",
+            "answer":"Yes."
+        },
+        {
+            "time":5300,
+            "question":"what is the man doing?",
+            "answer":"He is driving a car."
+        },
+        {
+            "time":6000,
+            "question":"what happens?",
+            "answer":"A man is looking for something."
+        },
+        {
+            "time":6750, 
+            "question":"Is there more than five men appear in the video?",
+            "answer":"Yes."
+        },
+        {
+            "time":7500,
+            "question":"Is the scene outdoors or indoors?",
+            "answer":"The scene is outdoors, on a bus."
+        },
+        {
+            "time":8250,
+            "question":"How many people appear in the scene?",
+            "answer":"Two people."
+        },
+        {
+            "time":9000, 
+            "question":"How many people appear in the scene?",
+            "answer":"Three people."
+        },
+        {
+            "time":9750,
+            "question":"What is in the man's hand?",
+            "answer":"His glasses."
+        },
+        {
+            "time":10500, 
+            "question":"what are they doing?",
+            "answer":"They are fighting with each other."
+        },
+        {
+            "time":10975,
+            "question":"what happens?",
+            "answer":"A man is kicking another guy."
+        }
+    ]
+}

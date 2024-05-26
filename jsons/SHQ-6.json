@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "SHQ-6.mp4",
+        "url": "",
+        "class": "Adventure Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "The company team followed the signal and found Jack's house. At this moment, the children were still in the basement, they didn't know that the danger was approaching. The team searched the house and they didn’t see any unusual objects. The machine showed that the signal come from underground, but this house didn't have a basement, they felt very strange. However, one person in the team found the bookcase and the door. They immediately took the elevator to the underground. The children heard the sound of the elevator, so they hid and planned to escape from the garage. But the team also noticed there were someone in the room and sealed off this place.",
+    "global":
+    [
+        {
+            "question":"Is it a video based on reality or not?(Does it looks like real story? Or it looks like a science fiction movie?)",
+            "answer":"No. It seems like a science fiction movie"
+        },
+        {
+            "question":"Are there more then five different scenes appear in the video?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than five different characters appear?",
+            "answer":"Yes."
+        },
+        {
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Mainly at night time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly indoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":1600,
+            "question":"what is the color of the girl's hair?",
+            "answer":"Blue and black."
+        },
+        {
+            "time":2150,
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":3000, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":3750,
+            "question":"what's the girl doing?",
+            "answer":"She's playing billiard."
+        },
+        {
+            "time":4500,
+            "question":"what are they doing?",
+            "answer":"They're having a chat."
+        },
+        {
+            "time":5300,
+            "question":"How many characters appear in the scene?",
+            "answer":"Four."
+        },
+        {
+            "time":6000,
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":6750, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":7500,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":8250,
+            "question":"Is there more than five characters?",
+            "answer":"No."
+        },
+        {
+            "time":9000, 
+            "question":"where is the scene?",
+            "answer":"Inside a small workshop."
+        },
+        {
+            "time":9750,
+            "question":"what are they doing?",
+            "answer":"They're running in a hallway."
+        },
+        {
+            "time":10600, 
+            "question":"Is there more than five people?",
+            "answer":"No."
+        },
+        {
+            "time":10975,
+            "question":"How many characters appear in the scene?",
+            "answer":"One."
+        }
+    ]
+}

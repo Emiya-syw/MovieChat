@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "S02E1-6.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "The video tells the story of a man named John who was involved in a car accident and was murdered, but his killer remains undiscovered. Later, a man and a woman named Charlotte begin their investigation into the case. The man identifies another woman named Irene, who was John's lover and a spy. Throughout the inquiry, the man finds clues and decides to depart in pursuit of more significant matters. He was looking at the sky, not birds as assumed; there's an explosion, and a knight turns to see, marking his grave mistake; there's mention of someone capturing something on a phone; queries regarding someone's well-being and memory of events; a woman leaves without being seen; they're bound due to her having a particular photograph; a decision has been made regarding Bond Air, with a mention of Coventry; Irene Adler becomes a point of interest to Americans for some replicated photos; the man's potential departure is discussed; there are various exchanges, greetings, mentions of tests, and a note of it being Christmas with them having Christmas drinks, seeming unbothered, implying it's a once-a-year occasion.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "Eight."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Are there any vehicles?",
+   "answer": "Yes."
+  },
+  {
+   "time": 750,
+   "question": "Where is it?",
+   "answer": "In the field."
+  },
+  {
+   "time": 1500,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 2250,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 3000,
+   "question": "Where is it?",
+   "answer": "In a room."
+  },
+  {
+   "time": 3750,
+   "question": "How many people  appeared?",
+   "answer": "One."
+  },
+  {
+   "time": 4500,
+   "question": "What is the person doing?",
+   "answer": "Reading a newspaper."
+  },
+  {
+   "time": 5250,
+   "question": "How many people  appeared?",
+   "answer": "Four."
+  },
+  {
+   "time": 6000,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 6750,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 7500,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 8250,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 9000,
+   "question": "What is the person doing?",
+   "answer": "Playing a violin."
+  },
+  {
+   "time": 9750,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 10500,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  }
+ ]
+}

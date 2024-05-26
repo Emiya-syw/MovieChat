@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "s02e03-7.mp4",
+  "url": "",
+  "class": "epic film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "In a serene setting by the bamboo forest, a man and a woman were deeply engrossed in conversation. Abruptly, the woman's countenance transformed, and she slumped into a chair, appearing bewildered and distraught. The man, holding a letter in his hands, seemed to be contemplating its contents, adding to the mysterious atmosphere of their surroundings.Further down the narrative, in a different location, a man and an elderly figure were sharing a solemn moment. The man knelt reverently on the ground, and the elder poured water over his head in a ritualistic manner, symbolizing some form of initiation or baptism. Their actions suggested the performance of a significant ceremony.Returning to the room with the mysterious ambiance, the man continued his dialogue with the elderly figure, their voices laden with the weight of an important conversation. After some time, the taller man departed, leaving his companion to venture into another room. There, he discovered a woman huddled in a corner, her face contorted with fear. He extended a coin to her, offering comfort in some manner, before departing the room.Outside, a seemingly plump man sought him out and initiated a conversation, potentially carrying further intrigue or significance to the unfolding story.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does more than ten people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "Does more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Night."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 750,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 1500,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 2250,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 3000,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 3750,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 4500,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 5250,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 6000,
+   "question": "How does the person feel?",
+   "answer": "Angry."
+  },
+  {
+   "time": 6750,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 7500,
+   "question": "What is in the person's hand?",
+   "answer": "A helmet."
+  },
+  {
+   "time": 8250,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 9000,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 9750,
+   "question": "What is in the person's hand?",
+   "answer": "A sword."
+  },
+  {
+   "time": 10500,
+   "question": "What is the person doing?",
+   "answer": "Running."
+  }
+ ]
+}

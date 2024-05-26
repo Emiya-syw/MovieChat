@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "s01e04-5.mp4",
+  "url": "",
+  "class": "epic film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "This is a wonderful epic series clip. The background of it is in middle age. Two men are walking in a garden, with one being a tall, slender man dressed in black, and the other being an older and slightly overweight man. They are discussing something. In this garden, there are people working in the fields, some are weaving clothes, but it seems that these people have some issues. Then, one of the men later visits a place that appears to be a blacksmith's shop. He asks the blacksmith about something, and the blacksmith responds with some information but refuses something as well. The people accompanying the man appear quite angry, but the man stops his followers.Afterward, in another location, two men are in conversation. A woman rushes out of the house, holding some clothes, and one of the men requests forgiveness from the other. The other man doesn't appear to blame him.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does more than ten people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 750,
+   "question": "What is the scene?",
+   "answer": "A farmer."
+  },
+  {
+   "time": 1500,
+   "question": "What is the clothes color of the person?",
+   "answer": "Brown."
+  },
+  {
+   "time": 2250,
+   "question": "How many people appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 3000,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 3750,
+   "question": "How many people appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 4500,
+   "question": "How many people appeared?",
+   "answer": "Three."
+  },
+  {
+   "time": 5250,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 6000,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 6750,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 7500,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 8250,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 9000,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 9750,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 10500,
+   "question": "What are the people doing?",
+   "answer": "Eating and talking."
+  }
+ ]
+}

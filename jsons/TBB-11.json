@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "TBB-11.mp4",
+        "url": "",
+        "class": "Animation Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "The video opens with an intense chase sequence. A family of five, in a blue sedan, speeds through a litter-strewn parking lot. Hot on their tail is a man in pink clothing, driving a red car. After a thrilling chase, the man in pink eventually catches up to the family, using his car to push their vehicle into a large pit. Seemingly intent on burying them alive, he proceeds to shovel dirt onto their car, burying it. However, by the end of the video, the family is still alive inside the vehicle, and they begin to discuss possible escape plans.",
+    "global":
+    [
+        {
+            "question":"Is it a video based on reality or not?(Is it a cartoon movie?)",
+            "answer":"No. It seems like a cartoon movie."
+        },
+        {
+            "question":"Are there more then five different places appear in the video(scene switch doesn't necessarily means a place change)?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than three different characters appear?",
+            "answer":"Yes."
+        },
+        {
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Mainly at night time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly outdoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":1550,
+            "question":"How many characters appear in the scene?",
+            "answer":"Five."
+        },
+        {
+            "time":2250,
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":3000, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":3750,
+            "question":"How many characters appear in the scene?",
+            "answer":"Five."
+        },
+        {
+            "time":4500,
+            "question":"Is there more than three people?",
+            "answer":"No."
+        },
+        {
+            "time":5200,
+            "question":"How many characters appear in the scene(including background)?",
+            "answer":"One."
+        },
+        {
+            "time":6000,
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":6790, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":7600,
+            "question":"How many characters appear in the scene wear glasses?",
+            "answer":"One."
+        },
+        {
+            "time":8250,
+            "question":"How many people are wearing yellow clothes?",
+            "answer":"One."
+        },
+        {
+            "time":9000, 
+            "question":"Is there more than five people?",
+            "answer":"No."
+        },
+        {
+            "time":9800,
+            "question":"Is it at day time or at night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":10500, 
+            "question":"Is there any vehicles?",
+            "answer":"No."
+        },
+        {
+            "time":10925,
+            "question":"what happens?",
+            "answer":"They are talking in the dark."
+        }
+    ]
+}

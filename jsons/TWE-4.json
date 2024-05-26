@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "TWE-4.mp4",
+        "url": "",
+        "class": "Animation Film",
+        "w": 720,
+        "h": 480,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "The video tells the story of an astronaut father who has completed his mission with the project and is about to be reunited with his son. At this time, the son on Earth was caught by the police and sent to prison for stealing the keys and driving out. The son's grandfather went to prison to bribe his son out and ended up in prison. Grandparents and grandchildren because of this matter in the prison launched a fierce quarrel. At this time, a huge earthquake occurred, and several people escaped from prison.",
+    "global":
+    [
+        {
+            "question":"When does the things in the video happens, ancient age, modern age or future?",
+            "answer":"It happens at future."
+        },
+        {
+            "question":"Are there more then five different scenes appear in the video?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than five different characters appear?",
+            "answer":"Yes."
+        },
+        {
+            "question":"What's the time in the video? Day time or night time?",
+            "answer":"Mainly day time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly indoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"Is the man bald?",
+            "answer":"No."
+        },
+        {
+            "time":1500,
+            "question":"Is there any bald man?",
+            "answer":"Yes."
+        },
+        {
+            "time":2250,
+            "question":"what's outside the window?",
+            "answer":"Earth."
+        },
+        {
+            "time":3000, 
+            "question":"what's in the scene?",
+            "answer":"A big computer or calculation module."
+        },
+        {
+            "time":3750,
+            "question":"what's under the silver cloth?",
+            "answer":"A young woman."
+        },
+        {
+            "time":4500,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors"
+        },
+        {
+            "time":5250,
+            "question":"where is the scene?",
+            "answer":"In a prison."
+        },
+        {
+            "time":6100,
+            "question":"where is the scene?",
+            "answer":"Inside a big factory."
+        },
+        {
+            "time":6750, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors"
+        },
+        {
+            "time":7500,
+            "question":"what is in the scene?",
+            "answer":"An old man wearing a red coat standing outside the cage."
+        },
+        {
+            "time":8250,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors"
+        },
+        {
+            "time":9200, 
+            "question":"where is the scene?",
+            "answer":"In a prison."
+        },
+        {
+            "time":9880,
+            "question":"Is there just three people appear?",
+            "answer":"Yes."
+        },
+        {
+            "time":10500, 
+            "question":"what happens?",
+            "answer":"An earthquake is taking place."
+        },
+        {
+            "time":11000,
+            "question":"what's in the scene?",
+            "answer":"A big mountain."
+        }
+    ]
+}

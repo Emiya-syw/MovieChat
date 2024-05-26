@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "S04E1-2.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "In the darkness, which seems to be at night, two men dressed in black ascend a staircase, talking as they walk. The next morning, in a room, there are five people. A man and a woman sit on a couch, holding a child between them. They appear to be happily discussing something with the people next to them, laughing heartily, and it looks like a baptism ceremony. A man is baptizing a child, and later they are on a bus. After that, they are again in a room where a man and a woman are conversing. Then, the man receives a phone call. At night, a car is driving but doesn't stop and crashes into the car in front of it, leading to a massive fire.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "More than ten."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 750,
+   "question": "Where is it?",
+   "answer": "In a car."
+  },
+  {
+   "time": 1500,
+   "question": "How many people appeared?",
+   "answer": "Five."
+  },
+  {
+   "time": 2250,
+   "question": "How many people appeared?",
+   "answer": "Seven."
+  },
+  {
+   "time": 3000,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 3750,
+   "question": "What is the scene?",
+   "answer": "A man and a baby."
+  },
+  {
+   "time": 4500,
+   "question": "Where is it?",
+   "answer": "On a bus."
+  },
+  {
+   "time": 5250,
+   "question": "Where is it?",
+   "answer": "On a bus."
+  },
+  {
+   "time": 6000,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 6750,
+   "question": "Where is it?",
+   "answer": "In a room."
+  },
+  {
+   "time": 7500,
+   "question": "What is the person doing?",
+   "answer": "Making a phone call."
+  },
+  {
+   "time": 8250,
+   "question": "Are there any vehicles?",
+   "answer": "Yes."
+  },
+  {
+   "time": 9000,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 9750,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 10500,
+   "question": "Where is it?",
+   "answer": "In a room."
+  }
+ ]
+}

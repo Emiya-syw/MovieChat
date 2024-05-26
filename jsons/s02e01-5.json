@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "s02e01-5.mp4",
+  "url": "",
+  "class": "epic film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "A group of people gathered around a campfire, engaging in conversation. Then, the view shifted to a room where an old man was writing something on a parchment. Seated beside him was a woman dressed in red, appearing to be a witch. The witch was speaking to the old man, seemingly attempting to enchant him.In another location, a man had been apprehended and stood nearby while a young man interrogated him. The man tried to provoke the young one, but the interrogator remained remarkably composed, though he seemed deeply regretful.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does more than ten people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "Does more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Night."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 750,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 1500,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 2250,
+   "question": "What is the scene?",
+   "answer": "An old man."
+  },
+  {
+   "time": 3000,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 3750,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 4500,
+   "question": "What is in the person's hand?",
+   "answer": "A cup."
+  },
+  {
+   "time": 5250,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 6000,
+   "question": "What is the scene?",
+   "answer": "A soilder."
+  },
+  {
+   "time": 6750,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 7500,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 8250,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 9000,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 9750,
+   "question": "How does the person feel?",
+   "answer": "Confident."
+  },
+  {
+   "time": 10500,
+   "question": "What is the scene?",
+   "answer": "A man."
+  }
+ ]
+}

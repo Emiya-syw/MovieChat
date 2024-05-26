@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "SHQ-11.mp4",
+        "url": "",
+        "class": "Adventure Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "The password had four digits, which means there were ten thousand possibilities. They didn't have any clue, so they could only guess one by one. Fortunately, they had a magical glove that could greatly accelerate the speed of typing. Finally, before the explosion, they cracked the password and left the room. The child who was caught by the boss said that the ball was in the school locker. They immediately arrived at the school, but the ball was missing. At this moment, the teacher of the child appeared. The boss asked the teacher if she had seen the ball. The teacher told them that the ball was taken away by the school cleaner, and she can help them get it back.",
+    "global":
+    [
+        {
+            "question":"Is it a video based on reality or not?(Does it looks like real story? Or it looks like a science fiction movie?)",
+            "answer":"No. It seems like a science fiction movie"
+        },
+        {
+            "question":"Are there more then three different places appear in the video(scene switch doesn't necessarily means a place change)?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than three different characters appear?",
+            "answer":"Yes."
+        },
+        {
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Mainly at night time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly indoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":1450,
+            "question":"what happens?",
+            "answer":"The computer is in an error."
+        },
+        {
+            "time":2150,
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":3000, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":3750,
+            "question":"what happens?",
+            "answer":"A small plane flies out of the flame."
+        },
+        {
+            "time":4500,
+            "question":"Is there more than four people?",
+            "answer":"No."
+        },
+        {
+            "time":5250,
+            "question":"How many characters appear in the scene?",
+            "answer":"Two."
+        },
+        {
+            "time":6000,
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":6850, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's in a car."
+        },
+        {
+            "time":7500,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":8125,
+            "question":"Is there more than ten people in the scene?",
+            "answer":"Yes."
+        },
+        {
+            "time":9000, 
+            "question":"Is the man in the middle bald?",
+            "answer":"No."
+        },
+        {
+            "time":9750,
+            "question":"what're they doing?",
+            "answer":"They're discussing about something."
+        },
+        {
+            "time":10600, 
+            "question":"Is there more than five people?",
+            "answer":"No."
+        },
+        {
+            "time":10875,
+            "question":"Is there more than three people?",
+            "answer":"No."
+        }
+    ]
+}

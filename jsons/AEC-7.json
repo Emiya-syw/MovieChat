@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "AEC-7.mp4",
+        "url": "",
+        "class": "Science Fiction Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "The scene opens with a male and female explorer trekking through a jungle. Although they have human-like appearances, their blue skin suggests they're aliens. As they journey through the forest, they encounter a plethora of exotic creatures and traverse various terrains. However, their exploration soon takes a twist when they are captured by a group of indigenous aliens. It seems the female knows these captors, which spares them from immediate harm, but to the male's surprise, she allows them to take him away. The local aliens escort the male protagonist to their community's gathering spot, where he's presented to their chieftain for judgment. The chieftain's gaze upon the outsider is one of unmistakable disdain, suggesting that the captured explorer is in for a challenging ordeal. ",
+    "global":
+    [
+        {
+            "question":"Is it a video based on reality or not?(Does it looks like real story? Or it looks like a science fiction movie?)",
+            "answer":"No it isn't, it looks like a science fiction movie."
+        },
+        {
+            "question":"Are there more then five different scenes appear in the video?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than five different characters appear?",
+            "answer":"Yes."
+        },
+        {
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Mainly at night time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly outdoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"what is the blue human-like creature in the middle of the scene doing?",
+            "answer":"He is running on a thick branch of tree."
+        },
+        {
+            "time":1500,
+            "question":"where is the scene?",
+            "answer":"Inside a forest, on a thick branch of tree."
+        },
+        {
+            "time":2250,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":3000, 
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":3700,
+            "question":"How many characters appear in the scene(including the blue creature)?",
+            "answer":"Two."
+        },
+        {
+            "time":4500,
+            "question":"what is the man doing(refers to the blue human-like creatures)?",
+            "answer":"He is runing after another blue human-like creatures."
+        },
+        {
+            "time":5250,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":6000,
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":6750, 
+            "question":"How many characters appear in the scene(including the blue creature)?",
+            "answer":"Two."
+        },
+        {
+            "time":7500,
+            "question":"where is the scene?",
+            "answer":"Inside a cage, and seems like to be a shelter of blue human-like creatures."
+        },
+        {
+            "time":8250,
+            "question":"Is there more than ten blue human-like creatures?",
+            "answer":"Yes."
+        },
+        {
+            "time":8980, 
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":9750,
+            "question":"where is the scene?",
+            "answer":"Near a campfire, and maybe in a shelter of blue human-like creatures."
+        },
+        {
+            "time":10500, 
+            "question":"Is the scene indoors or outdoors?",
+            "answer":"Can't tell, maybe it's indoors."
+        },
+        {
+            "time":11100,
+            "question":"what are the blue human-like creatures in the middle of the scene doing?",
+            "answer":"They're having a chat and discussing about something."
+        }
+    ]
+}

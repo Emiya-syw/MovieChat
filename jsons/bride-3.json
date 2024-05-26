@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "bride-3.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "The video tells the story of a woman who is resurrected after being killed and then kills her husband. Key points include the deceased woman coming back to life and killing her husband, the husband discovering she was dead when he went to identify her body, the deceased woman being the husband's wife, her seeking revenge, the husband getting murdered, both the husband's and the wife's bodies being taken to the morgue, many strange events occurring in the morgue, the morgue's doctor asking a detective to leave, and the doctor ordering the detective to depart.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does more than ten people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Does more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Night."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 750,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 1500,
+   "question": "What is in the person's hand?",
+   "answer": "A hat."
+  },
+  {
+   "time": 2250,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 3000,
+   "question": "What is the background color?",
+   "answer": "White."
+  },
+  {
+   "time": 3750,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 4500,
+   "question": "What is the scene?",
+   "answer": "A woman."
+  },
+  {
+   "time": 5250,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 6000,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 6750,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 7500,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 8250,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 9000,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 9750,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 10500,
+   "question": "Where is it?",
+   "answer": "In a room."
+  }
+ ]
+}

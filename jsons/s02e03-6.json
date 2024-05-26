@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "s02e03-6.mp4",
+  "url": "",
+  "class": "epic film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "A man and a woman were engaged in conversation, but suddenly, the woman sat down in a chair, appearing overwhelmed and lost. The man was looking at a letter, and this scene was by the bamboo forest.Elsewhere, a man and an elderly man were together. The man knelt on the ground, and the elderly man poured water over his head, seemingly baptizing him. They were partaking in some sort of ceremony. Back in the room, the man continued to converse with the elderly man. They seemed to be discussing something of great importance. After a while, the taller man left, leaving the other man to enter another room. There, he found a woman curled up, looking extremely frightened. He gave the woman a coin, then exited the room, where a seemingly plump man approached him and engaged in conversation.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does more than ten people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "Does more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "How does the person feel?",
+   "answer": "Black."
+  },
+  {
+   "time": 750,
+   "question": "What is the person doing?",
+   "answer": "Burning a piece of paper."
+  },
+  {
+   "time": 1500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 2250,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 3000,
+   "question": "What is in the person's hand?",
+   "answer": "A book."
+  },
+  {
+   "time": 3750,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 4500,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 5250,
+   "question": "How does the person feel?",
+   "answer": "Afraid."
+  },
+  {
+   "time": 6000,
+   "question": "How many people appears?",
+   "answer": "Three."
+  },
+  {
+   "time": 6750,
+   "question": "How does the person feel?",
+   "answer": "Unhappy."
+  },
+  {
+   "time": 7500,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 8250,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 9000,
+   "question": "What is the clothes color of the person?",
+   "answer": "Yellow."
+  },
+  {
+   "time": 9750,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 10500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  }
+ ]
+}

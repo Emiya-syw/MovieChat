@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "bride-8.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "In this segment, the tale revolves around a woman, searching for her husband amidst the darkness of the 19th century. She joins forces with the detective to solve a murder case. Key highlights of the story include the woman's quest to find her husband set in the dark backdrop of the 19th century, the unraveling of a murder mystery, the effort to protect a man, and the numerous clues left by the culprit. The detective and his doctor friend take on the case together, demonstrating the detective's exceptional deductive skills. As one of the most renowned criminal investigators in Britain, the detective discovers some vital leads. Throughout their investigation, they recognize the need for a list.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does more than ten people appear in the video?",
+   "answer": "No."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Does more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 750,
+   "question": "How does the person feel?",
+   "answer": "Scared."
+  },
+  {
+   "time": 1500,
+   "question": "How does the person feel?",
+   "answer": "Scared."
+  },
+  {
+   "time": 2250,
+   "question": "How does the person feel?",
+   "answer": "Angry."
+  },
+  {
+   "time": 3000,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 3750,
+   "question": "What are the people doing?",
+   "answer": "Arguing."
+  },
+  {
+   "time": 4500,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 5250,
+   "question": "How many people appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 6000,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 6750,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 7500,
+   "question": "Where is it?",
+   "answer": "In a room."
+  },
+  {
+   "time": 8250,
+   "question": "How does the person feel?",
+   "answer": "Confident"
+  },
+  {
+   "time": 9000,
+   "question": "How many people appears?",
+   "answer": "One."
+  },
+  {
+   "time": 9750,
+   "question": "What is in the person's hand?",
+   "answer": "Papers."
+  },
+  {
+   "time": 10500,
+   "question": "What is the scene?",
+   "answer": "A man and a woman."
+  }
+ ]
+}

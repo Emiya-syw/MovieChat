@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "TWE-10.mp4",
+        "url": "",
+        "class": "Animation Film",
+        "w": 720,
+        "h": 480,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "The video follows a brother and sister driving a giant transporter who decide to leave the snow-covered surface of the Earth in search of underground shelter. During this time, members of the original team of the car realized that they were not regular rescue workers and had an argument with the brother and sister. On the other side, the original brother and sister team has lost their vehicles and other equipment, and can only drag a huge starting key on the ice, and in order to maintain the power of the key, a person's power to maintain vital signs has been sacrificed. The party imploded, and one member shot the key, ending the drain. The brother and sister's team then drove to the team and allied with them again to support other areas.",
+    "global":
+    [
+        {
+            "question":"When does the things in the video happens, ancient age, modern age or future?",
+            "answer":"It happens at future."
+        },
+        {
+            "question":"Is there any disasterous scene appears?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than five different characters appear?",
+            "answer":"Yes."
+        },
+        {
+            "question":"What's the time in the video? Day time or night time?",
+            "answer":"Mainly at day time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly outdoors, on a truck."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"where is the scene?",
+            "answer":"Near the remains of an airplane."
+        },
+        {
+            "time":1530,
+            "question":"How many people appear in the scene?",
+            "answer":"Four."
+        },
+        {
+            "time":2200,
+            "question":"where is the scene?",
+            "answer":"In a big truck."
+        },
+        {
+            "time":3100, 
+            "question":"How many people appear in the scene?",
+            "answer":"One."
+        },
+        {
+            "time":3750,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":4500,
+            "question":"what is the driver doing?",
+            "answer":"Talking to an interphone"
+        },
+        {
+            "time":5250,
+            "question":"what are they doing?",
+            "answer":"They are trying to help the man lying on the ground."
+        },
+        {
+            "time":6000,
+            "question":"How many people appear in the scene?",
+            "answer":"Five people."
+        },
+        {
+            "time":6620, 
+            "question":"what is the emotion of the woman?",
+            "answer":"She is sorrowful and is crying."
+        },
+        {
+            "time":7500,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":8250,
+            "question":"what are they doing?",
+            "answer":"They're talking to an interphone."
+        },
+        {
+            "time":8900, 
+            "question":"How many people appear in the scene?",
+            "answer":"Four people."
+        },
+        {
+            "time":9750,
+            "question":"Is it outdoors?",
+            "answer":"Yes."
+        },
+        {
+            "time":10500, 
+            "question":"what are they doing?",
+            "answer":"They are trying to drive a truck."
+        },
+        {
+            "time":10900,
+            "question":"what does the man try to give to the woman?",
+            "answer":"A bar of chocolate."
+        }
+    ]
+}

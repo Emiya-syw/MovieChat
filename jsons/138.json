@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "138.mp4",
+  "url": "",
+  "class": "Romance Film",
+  "w": 1024,
+  "h": 432,
+  "num_frame": 12000,
+  "fps": 25
+ },
+ "caption": "A submarine's searchlight shines on a sunken ship. The submarine continues its underwater operations, and people on board peer through small holes to observe. The submarine deploys a robotic arm, and an instrument enters the wreck. The probe arrives at a fireplace inside the sunken ship. Next, a piano appears. People in the submarine use controllers to control the robotic arm. On the surface of the sea, a large ship lifts the submarine from the water onto its deck. There is a box on the deck, and someone attempts to open it. A camera records the scene. Inside the box is a painting.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does it happen in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day and night."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "No."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 75,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 750,
+   "question": "Where is the scene?",
+   "answer": "Deep in the ocean."
+  },
+  {
+   "time": 1500,
+   "question": "Where is the scene?",
+   "answer": "In a submarine."
+  },
+  {
+   "time": 2250,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 3000,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 3750,
+   "question": "What is happening?",
+   "answer": "Some underwater machinery is exploring the ocean."
+  },
+  {
+   "time": 4500,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 5250,
+   "question": "Where is the scene?",
+   "answer": "In the deep ocean."
+  },
+  {
+   "time": 6000,
+   "question": "How many people  appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 6700,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 7500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 8250,
+   "question": "What is the object?",
+   "answer": "A submarine."
+  },
+  {
+   "time": 9000,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 9750,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 10500,
+   "question": "How is the weather?",
+   "answer": "It is sunny."
+  }
+ ]
+}

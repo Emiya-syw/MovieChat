@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "112.mp4",
+  "url": "",
+  "class": "History Film",
+  "w": 1024,
+  "h": 560,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "A boy and a man stood in a grassy field. The man walked to the center of the field, swinging a golf club. The boy approached and helped the man clean the club. The boy picked up the golf ball from the ground and left. At the dinner table, a family chatted while holding a golf ball. At night, the boy was still practicing golf at home. His mother, holding an oil lamp, discovered him. The next morning, they gathered around the breakfast table. The woman led the boy into the town. The boy entered a house where a man stood in front of a curtain, swinging a golf club with a crowd of spectators. The man handed the golf club to the boy and let him take a swing.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "No."
+  },
+  {
+   "question": "Does the clip happen in 21st century?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day and night."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 720,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 1440,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 2160,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 2880,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 3600,
+   "question": "What is the boy holding?",
+   "answer": "Golf ball."
+  },
+  {
+   "time": 4320,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 5040,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 5760,
+   "question": "Where is the scene?",
+   "answer": "On the dinning table."
+  },
+  {
+   "time": 6480,
+   "question": "Is the person a man or a woman?",
+   "answer": "A man."
+  },
+  {
+   "time": 7200,
+   "question": "Where is the scene?",
+   "answer": "On the street."
+  },
+  {
+   "time": 7920,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 8640,
+   "question": "Is the person a man or a woman?",
+   "answer": "Man."
+  },
+  {
+   "time": 9360,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 10080,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  }
+ ]
+}

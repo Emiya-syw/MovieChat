@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "earth3-2.mp4",
+  "url": "",
+  "class": "documentary film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "The video presents a giant aquatic creature known as Salaman Bee, residing in the icy waters of high-altitude mountain ranges. They have a unique method of fishing for sustenance and play a crucial role in the formation of deserts. Salaman Bee is considered the largest bacterium in the world, reaching almost two meters in size. Their toes and toenails are anchored on a thin safety line. With a notably slow heartbeat, they grow into massive creatures over an 80-year lifespan. Their fishing prowess is remarkable, with the ability to intricately gauge water pressure. The Salaman Bee is a primary predator of fish along the North Coast, bringing in vast amounts of food annually. They've mastered the art of fishing for their meals, although capturing locusts in deep water proves challenging. Despite their relatively harsh environment, their existence has a significant impact on the formation of deserts. The Salaman Bee represents the most potent merging force on Earth, capable of consuming desert sands and rocks to produce expansive deserts.",
+ "global": [
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Are there any human?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen in the cities?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Are there any human?",
+   "answer": "No."
+  },
+  {
+   "time": 750,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 1500,
+   "question": "What is the scene?",
+   "answer": "Eggs."
+  },
+  {
+   "time": 2250,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 3000,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 3750,
+   "question": "Where is it?",
+   "answer": "Underwater."
+  },
+  {
+   "time": 4500,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 5250,
+   "question": "What is the scene?",
+   "answer": "Fishes."
+  },
+  {
+   "time": 6000,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 6750,
+   "question": "What is the scene?",
+   "answer": "A bear."
+  },
+  {
+   "time": 7500,
+   "question": "What is the scene?",
+   "answer": "Baby bears."
+  },
+  {
+   "time": 8250,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 9000,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 9750,
+   "question": "Are there any mountains",
+   "answer": "Yes."
+  },
+  {
+   "time": 10500,
+   "question": "Are there any water?",
+   "answer": "Yes."
+  }
+ ]
+}

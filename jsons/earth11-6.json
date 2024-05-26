@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "earth11-6.mp4",
+  "url": "",
+  "class": "documentary film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "Pacific spotted dolphins navigate using sonar. Around the underwater mountain ranges formed by volcanic eruptions, there's an abundance of life. Flying seabirds and sea turtles come to Ascension Island to reproduce and thrive.",
+ "global": [
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Are there any human?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen in the cities?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What is the background color?",
+   "answer": "Blue."
+  },
+  {
+   "time": 750,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 1500,
+   "question": "What kind of animal is it?",
+   "answer": "Dolphines."
+  },
+  {
+   "time": 2250,
+   "question": "Are there any water?",
+   "answer": "Yes."
+  },
+  {
+   "time": 3000,
+   "question": "What is the scene?",
+   "answer": "Fishes."
+  },
+  {
+   "time": 3750,
+   "question": "What kind of animal is it?",
+   "answer": "Sunfish."
+  },
+  {
+   "time": 4500,
+   "question": "Where is it?",
+   "answer": "Underwater."
+  },
+  {
+   "time": 6000,
+   "question": "Is it day or night?",
+   "answer": "Birds."
+  },
+  {
+   "time": 6750,
+   "question": "What is the scene?",
+   "answer": "Birds in the sky."
+  },
+  {
+   "time": 7500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 8250,
+   "question": "What is the scene?",
+   "answer": "Waves."
+  },
+  {
+   "time": 9000,
+   "question": "What kind of animal is it?",
+   "answer": "Turtle."
+  },
+  {
+   "time": 5250,
+   "question": "Are there any water?",
+   "answer": "Yes."
+  },
+  {
+   "time": 9750,
+   "question": "What kind of animal is it?",
+   "answer": "Turtle."
+  },
+  {
+   "time": 10500,
+   "question": "Where is it?",
+   "answer": "On a beach."
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "s02e04-5.mp4",
+  "url": "",
+  "class": "epic film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "In one place, a man had a gunpowder barrel tied to his chest and was being threatened by people holding torches, seemingly trying to make him reveal something. However, the man appeared completely unaware, struggling desperately and expressing his innocence.In another location, two groups of horsemen confronted each other, with a woman in red among one of the groups. The leaders of both groups engaged in taunts and jibes, appearing to be brothers with a strained relationship, as they contested something. They engaged in a war of words and eventually dispersed separately.Meanwhile, at another location, a female leader led a group of horsemen to a city in the desert, only to be rejected at the city's entrance, causing their anger. It wasn't until another person came out to welcome them.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does more than ten people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "Does more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 750,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 1500,
+   "question": "What is the scene?",
+   "answer": "A flag."
+  },
+  {
+   "time": 2250,
+   "question": "What is the scene?",
+   "answer": "A woman."
+  },
+  {
+   "time": 3000,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 3750,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 4500,
+   "question": "Where is it?",
+   "answer": "Beside the sea."
+  },
+  {
+   "time": 5250,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 6000,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 6750,
+   "question": "What is in the person's hand?",
+   "answer": "Shield."
+  },
+  {
+   "time": 7500,
+   "question": "What is the scene?",
+   "answer": "A fat man."
+  },
+  {
+   "time": 8250,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 9000,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 9750,
+   "question": "How does the person feel?",
+   "answer": "Unhappy."
+  },
+  {
+   "time": 10500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  }
+ ]
+}

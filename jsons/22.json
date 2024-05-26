@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "22.mp4",
+  "url": "",
+  "class": "Romance Film",
+  "w": 720,
+  "h": 384,
+  "num_frame": 12000,
+  "fps": 25
+ },
+ "caption": "The girl sat on her bed, holding a flower. On that day at school, boys and girls exchanged flowers with each other. Four girls arrived at the school's swimming pool and playfully pushed one of their friends into the water. By the poolside, a handsome young man was taking photographs. The girl gave her flower to the boy, and they engaged in conversation. Later, the girl accidentally fell into the water, emerging from the pool drenched and disappointed. The boy also returned home to a family-run shop. After exchanging greetings with his family, he went to his study and picked up a photo album filled with many pictures accompanied by text.",
+ "global": [
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day and night."
+  },
+  {
+   "question": "Does car appear in the video?",
+   "answer": "Yes."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What is the girl holding?",
+   "answer": "Flower."
+  },
+  {
+   "time": 775,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 1550,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 2250,
+   "question": "Is the person a man or a woman?",
+   "answer": "Woman."
+  },
+  {
+   "time": 3000,
+   "question": "What is the person doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 3750,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 4500,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 5250,
+   "question": "Where is the scene?",
+   "answer": "At a swimming pool."
+  },
+  {
+   "time": 6000,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 6775,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 7525,
+   "question": "How many people  appeared?",
+   "answer": "Four."
+  },
+  {
+   "time": 8250,
+   "question": "What is this?",
+   "answer": "A shelf."
+  },
+  {
+   "time": 8975,
+   "question": "What is this?",
+   "answer": "An album."
+  },
+  {
+   "time": 9725,
+   "question": "What is the man holding?",
+   "answer": "A camera."
+  },
+  {
+   "time": 10475,
+   "question": "Are there any plants?",
+   "answer": "No."
+  }
+ ]
+}

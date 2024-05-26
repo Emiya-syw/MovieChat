@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "19.mp4",
+  "url": "",
+  "class": "Family Drama",
+  "w": 848,
+  "h": 464,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "The man and the woman sat at a table, engaged in conversation. They tore several pages of paper and set them on fire. Outside, a torrential rain poured down. The man and woman ran into the rain, sharing passionate kisses and embracing, memories flooding the man's heart. In the morning, the man visited an aquarium, where he interacted with a walrus. The scene transitioned to the seaside, where mischievous kids playfully jumped into the water, teasing an elderly person. Later, a man sailed away from the harbor, waving goodbye to those on the shore. Finally, a man was seen engrossed in painting.",
+ "global": [
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day and night."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Are there more than 5 characters?",
+   "answer": "Yes."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 720,
+   "question": "What is the girl's hair color?",
+   "answer": "Blonde."
+  },
+  {
+   "time": 1440,
+   "question": "How is the weather?",
+   "answer": "Rainy."
+  },
+  {
+   "time": 2160,
+   "question": "Are there any vehicles?",
+   "answer": "Yes."
+  },
+  {
+   "time": 3024,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 3744,
+   "question": "Where is the scene?",
+   "answer": "Aquarim."
+  },
+  {
+   "time": 4320,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 5040,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 5784,
+   "question": "Where is the scene?",
+   "answer": "Above the water."
+  },
+  {
+   "time": 6504,
+   "question": "How many people are there in the water?",
+   "answer": "Above the water."
+  },
+  {
+   "time": 7224,
+   "question": "How many people are there?",
+   "answer": "Three."
+  },
+  {
+   "time": 7944,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 8664,
+   "question": "Are there any vehicles?",
+   "answer": "Yes. A ship."
+  },
+  {
+   "time": 9384,
+   "question": "Where is the scene?",
+   "answer": "On a boat difring on the vast sea."
+  },
+  {
+   "time": 10104,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  }
+ ]
+}

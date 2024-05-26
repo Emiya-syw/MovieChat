@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "MI6-8.mp4",
+  "url": "",
+  "class": "action film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "It’s a part of a movie. The theme of the movie is spy and agent. A man gives a phone to a woman, he is trying to convince her. At the same time, another man is watching at a helicopter. The helicopter lands and a man who is caught is sent out into a car. The car is then driving on the road. At the same time, another group pf people are also driving on the road, A car is hit and sink into the river near the road. A few men drive a boat and save the man in the car.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "More than ten."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What is in the person's hand?",
+   "answer": "A cellphone."
+  },
+  {
+   "time": 750,
+   "question": "Where is it?",
+   "answer": "Paris."
+  },
+  {
+   "time": 1500,
+   "question": "Are there any vehicles?",
+   "answer": "Yes."
+  },
+  {
+   "time": 2250,
+   "question": "How the person feel?",
+   "answer": "Serious."
+  },
+  {
+   "time": 3000,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 3750,
+   "question": "Where is it?",
+   "answer": "In a car."
+  },
+  {
+   "time": 4500,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 5250,
+   "question": "Where is it?",
+   "answer": "On the street."
+  },
+  {
+   "time": 6000,
+   "question": "Are there any vehicles?",
+   "answer": "Yes."
+  },
+  {
+   "time": 6750,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 7500,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 8250,
+   "question": "What is the person doing?",
+   "answer": "Driving a truck."
+  },
+  {
+   "time": 9000,
+   "question": "Where is it?",
+   "answer": "On the street."
+  },
+  {
+   "time": 9750,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 10500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  }
+ ]
+}

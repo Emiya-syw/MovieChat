@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "BKL-12.mp4",
+        "url": "",
+        "class": "Action Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "At the beginning of the video, a man damages the water pipes in his home, flooding the floor with a thick layer of water. He then shuts off the electricity and appears to be waiting for something or someone. Soon after, a group armed with guns invades his house. The man also retrieves a gun, and a fierce gunfight ensues. Throughout the battle, the man finds himself in perilous situations several times but always manages to turn the tide in his favor. After the prolonged shootout, the man turns the electricity back on, connecting it to the water he had laid out earlier, electrocuting all the intruders who were standing in it. The following day, still shaken, the man is in a hotel. When a waiter delivers his breakfast, the man impulsively points his gun at the server, frightening him so much that he drops the breakfast.",
+    "global":
+    [
+        {
+            "question":"When does the things in the video happens, acient, modern, or in the future?",
+            "answer":"It happens at modern time."
+        },
+        {
+            "question":"Are there more than six different places appear in the video(scene switch doesn't necessarily means a place change)?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than six different characters appear?",
+            "answer":"No."
+        },
+        { 
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Mainly at night time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly indoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":1500,
+            "question":"what is emitting light?",
+            "answer":"Two flashlights."
+        },
+        {
+            "time":2250,
+            "question":"what is the man holding?",
+            "answer":"Gun."
+        },
+        {
+            "time":3000, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":3850,
+            "question":"what is the man doing?",
+            "answer":"He's slowly approaching something."
+        },
+        {
+            "time":4350,
+            "question":"what is the gender of the person in the scene?",
+            "answer":"He is a man."
+        },
+        {
+            "time":5250,
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":6000,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":6750, 
+            "question":"where is the scene?",
+            "answer":"In the dining room of a house."
+        },
+        {
+            "time":7550,
+            "question":"How many people appear in the scene?",
+            "answer":"One."
+        },
+        {
+            "time":8250,
+            "question":"Is there any vehicles?",
+            "answer":"No."
+        },
+        {
+            "time":9100, 
+            "question":"How many women appear in the scene?",
+            "answer":"Two."
+        },
+        {
+            "time":9750,
+            "question":"Is there more than ten people?",
+            "answer":"No."
+        },
+        {
+            "time":10600, 
+            "question":"Is there more than five people?",
+            "answer":"No."
+        },
+        {
+            "time":11000,
+            "question":"Is there more than three people?",
+            "answer":"No."
+        }
+    ]
+}

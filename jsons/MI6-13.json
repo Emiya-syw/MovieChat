@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "MI6-13.mp4",
+  "url": "",
+  "class": "action film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "It’s a part of a movie. The theme of the movie is spy and agent. A few men leave the tunnel which might be underground, with only one man left. That man pretends to be finding something, then. He goes to a room and have a talk with a man who is. Locked on a chair. They have a conversation, and then he finds that that man is fake. He is angry, but then is caught. The men have a phone call. Then they are attacked. The man who is locked escape, and one man is shot and killed by him. ",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "More than ten."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What is the background color?",
+   "answer": "Grey."
+  },
+  {
+   "time": 750,
+   "question": "What is the person doing?",
+   "answer": "Trying to find something."
+  },
+  {
+   "time": 1500,
+   "question": "How many people appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 2250,
+   "question": "How the person feel?",
+   "answer": "Angry."
+  },
+  {
+   "time": 3000,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 3750,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 4500,
+   "question": "How many people appeared?",
+   "answer": "Three."
+  },
+  {
+   "time": 5250,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 6000,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 6750,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 7500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "A cellphone."
+  },
+  {
+   "time": 8250,
+   "question": "Is it indoor or outdoor?",
+   "answer": "A gun."
+  },
+  {
+   "time": 9000,
+   "question": "What are the people doing?",
+   "answer": "Fighting."
+  },
+  {
+   "time": 9750,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 10500,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  }
+ ]
+}

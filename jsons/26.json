@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "26.mp4",
+  "url": "",
+  "class": "Animation Film",
+  "w": 1280,
+  "h": 544,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "Several carriages raced through a canyon. An elderly woman, armed with a long-barreled gun, rode in one of the carriages and fired fiercely at the carriage carrying the cat and the egg next to her. The cat's carriage plummeted from the cliff but miraculously transformed into a glider, safely landing and escaping danger. The two cats embarked on their journey again, sitting in a carriage and chatting. The egg and the two cats found themselves in the middle of the desert. They reached their destination and burryied a seed. Suddenly, a massive storm erupted, and the seeds rapidly grew into towering trees that pierced the sky. The two cats and the egg climbed the colossal tree to its summit, reaching the clouds above.",
+ "global": [
+  {
+   "question": "When does it happens in the video, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "No."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day and night."
+  },
+  {
+   "question": "Is this cartoon?",
+   "answer": "Yes."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 24,
+   "question": "Where is the scene?",
+   "answer": "In a valley."
+  },
+  {
+   "time": 720,
+   "question": "Where is the scene?",
+   "answer": "On a road in the mountains."
+  },
+  {
+   "time": 1440,
+   "question": "What happen to the wagon?",
+   "answer": "It is falling."
+  },
+  {
+   "time": 2160,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 2880,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 3600,
+   "question": "What is the animal?",
+   "answer": "Cat."
+  },
+  {
+   "time": 4320,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 5040,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 5760,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 6480,
+   "question": "What is happening?",
+   "answer": "Huge gust of wind blows."
+  },
+  {
+   "time": 7200,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 7920,
+   "question": "What is happening?",
+   "answer": "The plant is growing."
+  },
+  {
+   "time": 8640,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 9360,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 10080,
+   "question": "Where is the scene?",
+   "answer": "On the clouds."
+  }
+ ]
+}

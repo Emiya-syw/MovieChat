@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "FAF-4.mp4",
+        "url": "",
+        "class": "Action Film",
+        "w": 720,
+        "h": 480,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "The video starts with a woman fighting a male special forces soldier in an elevator, which eventually plummets to the ground. Miraculously, the woman survives and seeks refuge at a friend's house. She warns her friend of impending danger, but the next day, the woman's friends leave to carry out a mission. They arrive in an unfamiliar city, where they jovially begin their operation while maintaining contact with their coordinator by car. Unbeknownst to them, a man in white is watching from the shadows. Their final reactions suggest that the situation is spiraling out of control, and the man in white seems pleased with this development.",
+    "global":
+    [
+        {
+            "question":"When does the things in the video happens, ancient age, modern age or future?",
+            "answer":"It happens at modern age."
+        },
+        {
+            "question":"Are there more then five different scenes appear in the video?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than ten different characters appear?",
+            "answer":"Yes."
+        },
+        {
+            "question":"What's the time in the video? Day time or night time?",
+            "answer":"Mainly at day time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly outdoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"Is the man bald?",
+            "answer":"Yes."
+        },
+        {
+            "time":1500,
+            "question":"where is the scene?",
+            "answer":"In the living room of a house."
+        },
+        {
+            "time":2430,
+            "question":"Is there more than three people?",
+            "answer":"No."
+        },
+        {
+            "time":3000, 
+            "question":"what's in the scene?",
+            "answer":"A father and his son."
+        },
+        {
+            "time":3750,
+            "question":"where is the scene?",
+            "answer":"Outdoors, on the road."
+        },
+        {
+            "time":4600,
+            "question":"Is there more than three people?",
+            "answer":"No."
+        },
+        {
+            "time":5300,
+            "question":"Is it day time or night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":6000,
+            "question":"Is there more than three people?",
+            "answer":"No."
+        },
+        {
+            "time":6750, 
+            "question":"What's the emotion of the black man?",
+            "answer":"He is happy and excited."
+        },
+        {
+            "time":7500,
+            "question":"Is the scene indodrs or outdoors?",
+            "answer":"Outdoors."
+        },
+        {
+            "time":8200,
+            "question":"Is it day time or night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":9000, 
+            "question":"what happens?",
+            "answer":"A woman is riding a motorcycle, chasing after a car."
+        },
+        {
+            "time":9750,
+            "question":"where is the scene?",
+            "answer":"Inside the pilothouse of a track."
+        },
+        {
+            "time":10500, 
+            "question":"How many women appear in the scene?",
+            "answer":"None."
+        },
+        {
+            "time":10875,
+            "question":"what happens?",
+            "answer":"A truck is losing control and drive faster and faster."
+        }
+    ]
+}

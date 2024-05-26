@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "17.mp4",
+  "url": "",
+  "class": "Family Drama",
+  "w": 848,
+  "h": 464,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "A woman appeared to be urgently searching for something. Quickly, the scene shifted to a solitary wooden bridge by the seaside. The woman, overwhelmed with sorrow, took a document from a companion. Later, the group set off in a car, driving along a rural road, engaging in conversation during the journey. Soon, they arrived at a place a hospital. A man and a woman listened to a doctor's explanation. Inside the hospital, they encountered numerous patients with their heads bandaged, engaged in various artistic activities. As night fell, the group returned to the seaside wooden bridge, where they shared drinks.",
+ "global": [
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day and night."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Are there more than 5 characters?",
+   "answer": "Yes."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 24,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 720,
+   "question": "Are there any vehicles?",
+   "answer": "Yes. A car."
+  },
+  {
+   "time": 1440,
+   "question": "Where is the scene?",
+   "answer": "Beside the sea."
+  },
+  {
+   "time": 2184,
+   "question": "What is the clothes color of the person?",
+   "answer": "Pink."
+  },
+  {
+   "time": 2880,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 3600,
+   "question": "Waht is the color of the car?",
+   "answer": "White."
+  },
+  {
+   "time": 4320,
+   "question": "Where is the scene?",
+   "answer": "On a car in the filed."
+  },
+  {
+   "time": 5040,
+   "question": "How many people are on the car?",
+   "answer": "Four."
+  },
+  {
+   "time": 5832,
+   "question": "What is the clothes color of the person?",
+   "answer": "White."
+  },
+  {
+   "time": 6480,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 7200,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 8016,
+   "question": "What are the people doing?",
+   "answer": "Drawing."
+  },
+  {
+   "time": 8784,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 10080,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 10824,
+   "question": "What is the clothes color of the person?",
+   "answer": "Blue."
+  }
+ ]
+}

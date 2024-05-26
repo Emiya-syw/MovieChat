@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "S03E2-11.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "In this episode, the group encounters a new mystery: how to commit murder in public. However, when they find the suspect, they discover he has already been murdered. Eventually, it is revealed he was killed by someone wearing an invisibility cloak. Highlights include the puzzle of committing murder in public, the suspect being killed by a person in an invisibility cloak, finding the suspect already murdered, the key to the plot being solving how the murder was committed, the female protagonist hoping the group can solve the mystery, the male protagonist eventually unraveling the puzzle, and the storyline being tense, thrilling, and full of suspense.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "No."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "More than ten."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 750,
+   "question": "Where is it?",
+   "answer": "A wedding ceremony."
+  },
+  {
+   "time": 1500,
+   "question": "How the person feel?",
+   "answer": "Released."
+  },
+  {
+   "time": 2250,
+   "question": "How the person feel?",
+   "answer": "Shocked."
+  },
+  {
+   "time": 3000,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 3750,
+   "question": "What's the weather?",
+   "answer": "Sunny."
+  },
+  {
+   "time": 4500,
+   "question": "What's in the person's hands?",
+   "answer": "A gun."
+  },
+  {
+   "time": 5250,
+   "question": "Where is it?",
+   "answer": "In a room."
+  },
+  {
+   "time": 6000,
+   "question": "How many people appeared?",
+   "answer": "Four."
+  },
+  {
+   "time": 6750,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 7500,
+   "question": "What is the background color?",
+   "answer": "White."
+  },
+  {
+   "time": 8250,
+   "question": "Where is it?",
+   "answer": "In a room."
+  },
+  {
+   "time": 9000,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 9750,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 10500,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  }
+ ]
+}

@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "VAW-3.mp4",
+        "url": "",
+        "class": "Animation Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "Arriving at Jonas' residence, there were many children in front of the house. They were surrounded by an injured, strange-looking woman. At this moment, Jonas walked out of the room and handed a knife to one of the children, telling him to end the woman's life. The boy refused at first, but under the pressure of the people around him, he still killed her. Jonas brought Vesper into the house and Vesper explained her intention. Jonas told her if she wanted bacteria, she had to exchange them with blood. For the sake of her father's life, Vesper can only agree. But when Vesper finished drawing blood, Jonas didn't want to give her the bacteria and drove Vesper out of the house.",
+    "global":
+    [
+        {
+            "question":"Is it a video based on reality or not?(Does it looks like real story? Or it looks like a science fiction movie?)",
+            "answer":"Yes it is."
+        },
+        {
+            "question":"Are there more then five different scenes appear in the video?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than ten different characters appear(not including people in the background)?",
+            "answer":"No."
+        },
+        {
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Mainly at day time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Both outdoors and indoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":850, 
+            "question":"what's the old man doing?",
+            "answer":"He's somoothing a kid's emotion."
+        },
+        {
+            "time":1450,
+            "question":"what's the woman doing?",
+            "answer":"She's talking to an old man."
+        },
+        {
+            "time":2250,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":3000, 
+            "question":"where's the scene?",
+            "answer":"Inside a house."
+        },
+        {
+            "time":3750,
+            "question":"How many people appear in the scene?",
+            "answer":"One."
+        },
+        {
+            "time":4600,
+            "question":"Is there more than three people?",
+            "answer":"No."
+        },
+        {
+            "time":5300,
+            "question":"Is it day time or night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":6000,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":6750, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":7600,
+            "question":"How many people appear in the scene?",
+            "answer":"Two people."
+        },
+        {
+            "time":8350,
+            "question":"What's the weather like?",
+            "answer":"It's cloudy because there's no strong sunshine."
+        },
+        {
+            "time":9000, 
+            "question":"What's the weather like?",
+            "answer":"It's cloudy because there's no strong sunshine."
+        },
+        {
+            "time":9750,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":10300, 
+            "question":"How many people appear in the scene?",
+            "answer":"Two people."
+        },
+        {
+            "time":10875,
+            "question":"Is it day time or night time?",
+            "answer":"It's at day time."
+        }
+    ]
+}

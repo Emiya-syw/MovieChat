@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "PAW-13.mp4",
+        "url": "",
+        "class": "Action Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "The captain entered the cockpit, started the engine and lowered the ladder. The advance team boarded the plane immediately, but Gaspare did not. The plane was ready to take off, but two separatists drove after it. They held RPGs in their hands and aimed them at the plane. At this moment, Gaspare appeared and shot the two separatists. The plane finally took off. After that, Gaspare took that bag of money and ran into the jungle. The company told captain that the nearest airport is on Siasi Island and he decided to have a try. In the end, with everyone's efforts, the plane successfully landed and all members survived.",
+    "global":
+    [
+        {
+            "question":"When does the things in the video happens, ancient age, modern age or future?",
+            "answer":"It happens at modern age."
+        },
+        {
+            "question":"Are there more then five different scenes appear in the video?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than five different characters appear?",
+            "answer":"Yes."
+        },
+        {
+            "question":"What's the time in the video? Day time or night time?",
+            "answer":"Mainly at day time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly outdoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"How many people appear in the scene?",
+            "answer":"One person."
+        },
+        {
+            "time":1400,
+            "question":"what is the man doing?",
+            "answer":"He is talking to a bald man."
+        },
+        {
+            "time":2350,
+            "question":"Is it day time or night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":3000, 
+            "question":"How many bald men appear?",
+            "answer":"Two."
+        },
+        {
+            "time":3750,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":4490,
+            "question":"what is the man holding in the hand(the man on the truck)?",
+            "answer":"He is holding a rocket launcher."
+        },
+        {
+            "time":5250,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":6100,
+            "question":"where is the scene?",
+            "answer":"On an airplane."
+        },
+        {
+            "time":6750, 
+            "question":"what are they doing?",
+            "answer":"They are driving a vehicle."
+        },
+        {
+            "time":7500,
+            "question":"Is it day time or night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":8250,
+            "question":"Is the scene indodrs or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":9050, 
+            "question":"Is there more than four people?",
+            "answer":"Yes."
+        },
+        {
+            "time":9750,
+            "question":"where is the scene?",
+            "answer":"Inside an airplane."
+        },
+        {
+            "time":10500, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":10875,
+            "question":"what's in the scene?",
+            "answer":"A crashed airplane."
+        }
+    ]
+}

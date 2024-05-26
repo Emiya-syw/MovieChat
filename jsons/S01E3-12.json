@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "S01E3-12.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "The video is about a group of people playing a game on a boat. After the game, they heard some noises. The video also mentions the father of a boy and an individual named Jim Moriarty. Highlights include: after the game, noises were heard; there's the father of a boy; there's an individual named Jim Moriarty; Jim Moriarty might be from a hospital; someone holds a gun; Jim Moriarty assists in resolving an issue; a crime investigation concludes; Jim Moriarty mentions a sum of money; Jim Moriarty warns another character; a group of people are playing a game on a boat.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "No."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern ages"
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "Four."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Night."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What is the background color?",
+   "answer": "It's black."
+  },
+  {
+   "time": 750,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 1500,
+   "question": "How many people  appeared?",
+   "answer": "Three."
+  },
+  {
+   "time": 2250,
+   "question": "What is the person doing?",
+   "answer": "Watching TV."
+  },
+  {
+   "time": 3000,
+   "question": "Where is it?",
+   "answer": "In a room."
+  },
+  {
+   "time": 3750,
+   "question": "What is the person doing?",
+   "answer": "Using his computer."
+  },
+  {
+   "time": 4500,
+   "question": "Where is it?",
+   "answer": "Near a swimming pool."
+  },
+  {
+   "time": 5250,
+   "question": "What's in the man's hands?",
+   "answer": "A U-disk."
+  },
+  {
+   "time": 6000,
+   "question": "How many people  appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 6750,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 7500,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 8250,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 9000,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 9750,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 10500,
+   "question": "How the person feel?",
+   "answer": "Happy."
+  }
+ ]
+}

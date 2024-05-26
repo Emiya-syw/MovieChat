@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "earth9-2.mp4",
+  "url": "",
+  "class": "documentary film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "Various animals on the beach have formed a unique ecosystem, surviving and reproducing through alliances and cooperation. Birds engage in communal feeding through their tails, forming group feedings. These bird alliances bring benefits and turn into thriving gardens. Indonesia's beaches are the meeting point of different oceans, creating a unique ecosystem. Birds and their benefits, along with smaller creatures like seals, snakes, and abalones, cooperate in hunting. Fish attract the attention of snakes, which capture them. Cooperation leads to higher hunting efficiency. Beautiful butterflies protect themselves by hiding under the sand while helping to clean the sand. Butterflies have strong bites and warning displays to protect themselves and their alliances. The ecosystem of Indonesia's beaches is under threat and needs protection.",
+ "global": [
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Are there any human?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen in the cities?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 750,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 1500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 2250,
+   "question": "What is the background color?",
+   "answer": "Blue."
+  },
+  {
+   "time": 3000,
+   "question": "What kind of animal is it?",
+   "answer": "Hippocampus japonicus"
+  },
+  {
+   "time": 3750,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 4500,
+   "question": "What kind of animal is it?",
+   "answer": "Snake."
+  },
+  {
+   "time": 5250,
+   "question": "Where is it?",
+   "answer": "In the ocean."
+  },
+  {
+   "time": 6000,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 6750,
+   "question": "What is the scene?",
+   "answer": "Fishes and snakes."
+  },
+  {
+   "time": 7500,
+   "question": "What is the background color?",
+   "answer": "Dark blue."
+  },
+  {
+   "time": 8250,
+   "question": "Are there any human?",
+   "answer": "No."
+  },
+  {
+   "time": 9000,
+   "question": "Are there any water?",
+   "answer": "Yes."
+  },
+  {
+   "time": 9750,
+   "question": "What kind of animal is it?",
+   "answer": "lumpfish"
+  },
+  {
+   "time": 10500,
+   "question": "Are there any mountains",
+   "answer": "No."
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "199.mp4",
+  "url": "",
+  "class": "Romance Film",
+  "w": 1024,
+  "h": 432,
+  "num_frame": 12000,
+  "fps": 25
+ },
+ "caption": "",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Night."
+  },
+  {
+   "question": "When does it happen in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Does this video more probably happen in Europe or Asia?",
+   "answer": "Asia."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 750,
+   "question": "Where is the scene?",
+   "answer": "At a restaurant."
+  },
+  {
+   "time": 1500,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 2250,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 3000,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 3750,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 4600,
+   "question": "Does the girl look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 5350,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 6025,
+   "question": "What is the standing woman holding in her hand?",
+   "answer": "A glass of wine."
+  },
+  {
+   "time": 6825,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 7575,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 8750,
+   "question": "Does the girl look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 9000,
+   "question": "Is the person a man or a woman?",
+   "answer": "Man."
+  },
+  {
+   "time": 10150,
+   "question": "Where is the scene?",
+   "answer": "At the dinner table."
+  },
+  {
+   "time": 11525,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  }
+ ]
+}

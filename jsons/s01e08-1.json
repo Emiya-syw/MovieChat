@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "s01e08-1.mp4",
+  "url": "",
+  "class": "epic film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "It begins with a map showing castles and trees, all made of toys, expanding as the castles grow and the trees flourish. Then the perspective shifts to inside a city.Several individuals are besieging a place where an adult man and a girl are practicing swordplay. An elderly man below tries to stop the attackers but is fatally stabbed. The attackers then rush up. The adult man training in swordplay defeats all but one of them. He realizes he can't defeat the remaining attacker and urges the young girl with him to flee. She escapes into a dimly lit place.Meanwhile, in another location, a young girl is intercepted, and the people nearby are saying something to her. She appears to resist, and at this moment, she is picking up something.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does more than ten people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "Does more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What is the background color?",
+   "answer": "Grey."
+  },
+  {
+   "time": 750,
+   "question": "What is the scene?",
+   "answer": "Toy castles."
+  },
+  {
+   "time": 1500,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 2250,
+   "question": "What is the scene?",
+   "answer": "A map."
+  },
+  {
+   "time": 3000,
+   "question": "What are the people doing?",
+   "answer": "Exercising."
+  },
+  {
+   "time": 3750,
+   "question": "What are the people doing?",
+   "answer": "Fighting."
+  },
+  {
+   "time": 4500,
+   "question": "How many people appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 5250,
+   "question": "How many people appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 6000,
+   "question": "What is the scene?",
+   "answer": "A girl."
+  },
+  {
+   "time": 6750,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 7500,
+   "question": "What are the people doing?",
+   "answer": "Fighting."
+  },
+  {
+   "time": 8250,
+   "question": "How many people appears?",
+   "answer": "Three."
+  },
+  {
+   "time": 9000,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 9750,
+   "question": "How many people appears?",
+   "answer": "Two."
+  },
+  {
+   "time": 10500,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  }
+ ]
+}

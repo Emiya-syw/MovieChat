@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "SHQ-13.mp4",
+        "url": "",
+        "class": "Adventure Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "Charlie felt that Jack was in danger, so he drove the car into the hall. At the same time, Jack rushed toward the energy ball and get it. His battle suit was charged successfully and its energy was restored. With the help of the suit and the children, Jack defeated the boss and protected the energy ball. Charlie finally understood his father. Everyone was very happy and they danced in the hall. Later, Charlie also became a guard. They had a new headquarters and a new car. Whenever someone called for help, they would immediately set out and do their best to safeguard world peace.",
+    "global":
+    [
+        {
+            "question":"Is it a video based on reality or not?(Does it looks like real story? Or it looks like a science fiction movie?)",
+            "answer":"No. It seems like a science fiction movie"
+        },
+        {
+            "question":"Are there more then three different places appear in the video(scene switch doesn't necessarily means a place change)?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than three different characters appear?",
+            "answer":"Yes."
+        },
+        {
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Mainly at night time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly indoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":1450,
+            "question":"Is there more than five people?",
+            "answer":"No."
+        },
+        {
+            "time":2350,
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":3000, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":3750,
+            "question":"Is the man kying on ground injured?",
+            "answer":"Yes."
+        },
+        {
+            "time":4500,
+            "question":"what are they doing?",
+            "answer":"They're hugging each other."
+        },
+        {
+            "time":5250,
+            "question":"How many characters appear in the scene?",
+            "answer":"One."
+        },
+        {
+            "time":6000,
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":6750, 
+            "question":"Is the boy's hair curly or straight?",
+            "answer":"Curly."
+        },
+        {
+            "time":7500,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":8125,
+            "question":"Is there more than ten people in the scene?",
+            "answer":"No."
+        },
+        {
+            "time":9000, 
+            "question":"where is the scene?",
+            "answer":"Next to a forest."
+        },
+        {
+            "time":9750,
+            "question":"How many characters appear in the scene?",
+            "answer":"Two."
+        },
+        {
+            "time":10600, 
+            "question":"Is there more than five people?",
+            "answer":"No."
+        },
+        {
+            "time":10875,
+            "question":"Is there more than three people?",
+            "answer":"No."
+        }
+    ]
+}

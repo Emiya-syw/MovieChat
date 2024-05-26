@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "earth3-3.mp4",
+  "url": "",
+  "class": "documentary film",
+  "w": 1280,
+  "h": 720,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "The video showcases the world's longest tidal wave system, which is so vast that a vehicle spanning a thousand kilometers can be seen from space. Highlights include the world's most extended tidal wave system, which is visible from space. There's a mention of a vehicle that's a staggering one thousand kilometers long, evidently discernible from space. The length of this tidal wave system is about a thousand kilometers, making it so extensive that it can be observed from the cosmos. The vehicle itself measures a thousand kilometers in length.",
+ "global": [
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Are there any human?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen in the cities?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Are there any water?",
+   "answer": "Yes."
+  },
+  {
+   "time": 750,
+   "question": "Are there any water?",
+   "answer": "Yes."
+  },
+  {
+   "time": 1500,
+   "question": "What is the scene?",
+   "answer": "The nose of an elephant."
+  },
+  {
+   "time": 2250,
+   "question": "What is the scene?",
+   "answer": "otters."
+  },
+  {
+   "time": 3000,
+   "question": "Are there any animals?",
+   "answer": "Yes."
+  },
+  {
+   "time": 3750,
+   "question": "Are there any water?",
+   "answer": "Yes."
+  },
+  {
+   "time": 4500,
+   "question": "Where is it?",
+   "answer": "Underwater."
+  },
+  {
+   "time": 5250,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 6000,
+   "question": "What is the scene?",
+   "answer": "A crocodile"
+  },
+  {
+   "time": 6750,
+   "question": "Are there any human?",
+   "answer": "No."
+  },
+  {
+   "time": 7500,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 8250,
+   "question": "Are there any plants?",
+   "answer": "Yes."
+  },
+  {
+   "time": 9000,
+   "question": "Are there any water?",
+   "answer": "Yes."
+  },
+  {
+   "time": 9750,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  },
+  {
+   "time": 10500,
+   "question": "What is the scene?",
+   "answer": "Wildebeests."
+  }
+ ]
+}

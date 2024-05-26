@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "s01e03-7.mp4",
+  "url": "",
+  "class": "epic film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "This is a wonderful epic series clip. The background of it is in middle age. In a room with candles on the table, two men are sitting face to face, engaging in a relaxed and pleasant conversation. They are seated at a table, and one of them is leaning back in his chair. Both are dressed in black attire, and they are discussing something. Meanwhile, in another location, two women are in conversation. One of the women is seated, while the other woman is standing and braiding her hair. She discovers something and tells the seated woman, who appears very shocked. At night, by a bonfire, two men are engaged in conversation. It seems like one of them is teaching the other something. In another location, at a training ground, several people are sparring or engaging in combat. ",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does more than ten people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 750,
+   "question": "How many people appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 1500,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 2250,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 3000,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 3750,
+   "question": "How many people appeared?",
+   "answer": "Three."
+  },
+  {
+   "time": 4500,
+   "question": "What is in the person's hand?",
+   "answer": "A cup."
+  },
+  {
+   "time": 5250,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 6000,
+   "question": "What is the scene?",
+   "answer": "Two woman."
+  },
+  {
+   "time": 6750,
+   "question": "What is in the person's hand?",
+   "answer": "A knife."
+  },
+  {
+   "time": 7500,
+   "question": "What is in the person's hand?",
+   "answer": "A sword."
+  },
+  {
+   "time": 8250,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 9000,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 9750,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 10500,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Outdoor."
+  }
+ ]
+}

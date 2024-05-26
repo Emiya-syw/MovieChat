@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "S04E1-1.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "A man is in a room, next to a table where several older men and women are seated, and they seem to be discussing something. One of the men appears to be unrestrained and wild, and the person next to him looks like his brother. Who is he? He's trying hard to restrain him, and he doesn't seem happy about it, with a very serious expression, suggesting this is a very important matter. Finally, the unrestrained man calms down, and they continue their conversation. Then, the scene ends with a montage, followed by an aquarium, with a person standing beside it narrating a story. The camera then shifts to another room where two men are talking, and the shorter man next to him asks the other man a question. He looks very puzzled, and the man is sending these messages on his phone.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "More than ten."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What is the person doing?",
+   "answer": "Making a phone call."
+  },
+  {
+   "time": 750,
+   "question": "Where is it?",
+   "answer": "In a plane."
+  },
+  {
+   "time": 1500,
+   "question": "Where is it?",
+   "answer": "In a room."
+  },
+  {
+   "time": 2250,
+   "question": "What are the people doing?",
+   "answer": "Talking."
+  },
+  {
+   "time": 3000,
+   "question": "What is the person doing?",
+   "answer": "Eating something."
+  },
+  {
+   "time": 3750,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 4500,
+   "question": "How many people appeared?",
+   "answer": "Five."
+  },
+  {
+   "time": 5250,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 6000,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 6750,
+   "question": "What is the scene?",
+   "answer": "Blood."
+  },
+  {
+   "time": 7500,
+   "question": "What is the scene?",
+   "answer": "Under the water."
+  },
+  {
+   "time": 8250,
+   "question": "What is the scene?",
+   "answer": "Under the water."
+  },
+  {
+   "time": 9000,
+   "question": "What is the scene?",
+   "answer": "Day."
+  },
+  {
+   "time": 9750,
+   "question": "How many people appeared?",
+   "answer": "Three."
+  },
+  {
+   "time": 10500,
+   "question": "What is the background color?",
+   "answer": "Black."
+  }
+ ]
+}

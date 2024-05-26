@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "44.mp4",
+  "url": "",
+  "class": "Animation Film",
+  "w": 1024,
+  "h": 576,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "The king poured something into a teacup and found the princess in the tower. The princess took the cup and drank from it. A man, a cat, and a white horse were hanging on a wall. A Pinocchio and a gingerbread man fell from the sky and rescued them. They arrived in a town under the night sky. A beautiful woman walked hand in hand with a handsome man, waving to the crowd. They danced in the town square. A gigantic gingerbread man appeared outside the city wall, and soldiers armed with weapons and large launchers attacked it. In the city, the red-dressed fairy continued to sing in front of the band. Pouring milk from above, they melted the giant gingerbread man.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does it happens in the video, ancient age, modern age or future?",
+   "answer": "Ancient age."
+  },
+  {
+   "question": "Is this cartoon?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Night."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 0,
+   "question": "Who is the man?",
+   "answer": "King."
+  },
+  {
+   "time": 720,
+   "question": "Where is the scene?",
+   "answer": "On a red carpet."
+  },
+  {
+   "time": 1440,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 2160,
+   "question": "Is there a donkey?",
+   "answer": "Yes."
+  },
+  {
+   "time": 2832,
+   "question": "Who are holding the rope?",
+   "answer": "Three little pigs."
+  },
+  {
+   "time": 3600,
+   "question": "What is the object?",
+   "answer": "A puppet."
+  },
+  {
+   "time": 4320,
+   "question": "Is the person a man or a woman?",
+   "answer": "A man."
+  },
+  {
+   "time": 5040,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 6480,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 7176,
+   "question": "What is the hair color of the girl?",
+   "answer": "Brown."
+  },
+  {
+   "time": 7920,
+   "question": "What is the clothes color of the girl?",
+   "answer": "White."
+  },
+  {
+   "time": 8640,
+   "question": "Wha is the woman in red doing?",
+   "answer": "Singing."
+  },
+  {
+   "time": 9360,
+   "question": "What is happening?",
+   "answer": "Ginger man is under attack."
+  },
+  {
+   "time": 10080,
+   "question": "What is happening?",
+   "answer": "Soldiers are fighting against the ginger man."
+  },
+  {
+   "time": 10800,
+   "question": "What are the people doing?",
+   "answer": "Having a concert."
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "32.mp4",
+  "url": "",
+  "class": "Adventure Film",
+  "w": 1280,
+  "h": 528,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "The male protagonist walked alone through the night, crossing a square and entering a forest. He grabbed a golden sphere, and when he opened it, he found an object inside. Soon, he was surrounded by many phantoms, ethereal figures taking human forms, with whom he engaged in conversations. In the darkness, a bald-headed demon wielding a wand appeared. At that moment, the male protagonist revealed himself, and the bald figure cast a spell on him. After a bright flash, the boy found himself in a white world, where he encountered an elderly person in white robes and walked around with him.",
+ "global": [
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Night."
+  },
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Where does it happen in the video?",
+   "answer": "In a castle."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "What role are the people in the clip?",
+   "answer": "Wizards and witches."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 72,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 720,
+   "question": "Is the person a man or a woman?",
+   "answer": "Man."
+  },
+  {
+   "time": 1440,
+   "question": "What is in the boy's hand?",
+   "answer": "A golden ball."
+  },
+  {
+   "time": 2160,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 2880,
+   "question": "Is the person a man or a woman?",
+   "answer": "Woman."
+  },
+  {
+   "time": 3600,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  },
+  {
+   "time": 4320,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 5040,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 5760,
+   "question": "How does the man look?",
+   "answer": "Terrifying."
+  },
+  {
+   "time": 6480,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 7200,
+   "question": "Is the person a man or a woman?",
+   "answer": "A man."
+  },
+  {
+   "time": 7920,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 8712,
+   "question": "Where is the scene?",
+   "answer": "In boy's imagination."
+  },
+  {
+   "time": 9360,
+   "question": "What is the clothes color of the person?",
+   "answer": "Grey."
+  },
+  {
+   "time": 10080,
+   "question": "Are there any people?",
+   "answer": "Yes."
+  }
+ ]
+}

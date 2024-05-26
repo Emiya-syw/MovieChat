@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "174.mp4",
+  "url": "",
+  "class": "Family Drama",
+  "w": 1280,
+  "h": 544,
+  "num_frame": 11520,
+  "fps": 24
+ },
+ "caption": "In a classroom, a teacher was giving a lesson at the front of the class. He came down from the platform with a textbook and handed it to a boy. The boy took the book to the front and started reading. The whole class burst into laughter. Two boys chatted in a room, and a group of children passed notes in the classroom. A girl with two braids handed a note to the teacher. A man entered a house and discovered a band playing. A boy opened a locker and entered the classroom, causing a group of children to burst into laughter. A family sat around the dinner table, having dinner. Two boys visited a store, enjoying food and drinks.",
+ "global": [
+  {
+   "question": "Do more than 5 people appear in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Is this clip cartoon?",
+   "answer": "No."
+  },
+  {
+   "question": "Are there more then three different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does it happen in the video, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day and night."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 48,
+   "question": "Where is the scene?",
+   "answer": "In the classroom."
+  },
+  {
+   "time": 720,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 1440,
+   "question": "What is the person doing?",
+   "answer": "Reading from the script."
+  },
+  {
+   "time": 2160,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 2880,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 3600,
+   "question": "What is in the person's hand?",
+   "answer": "A piece of paper."
+  },
+  {
+   "time": 4320,
+   "question": "Where is the scene?",
+   "answer": "In the classroom."
+  },
+  {
+   "time": 5160,
+   "question": "What are the people doing?",
+   "answer": "They are palying the music."
+  },
+  {
+   "time": 5904,
+   "question": "Where is the scene?",
+   "answer": "In the bedroom."
+  },
+  {
+   "time": 6624,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 7200,
+   "question": "What is the girl doing?",
+   "answer": "Drawing the picture."
+  },
+  {
+   "time": 7920,
+   "question": "Is it indoor or outdoor?",
+   "answer": "Indoor."
+  },
+  {
+   "time": 8640,
+   "question": "Are there any plants?",
+   "answer": "No."
+  },
+  {
+   "time": 9360,
+   "question": "What are the people doing?",
+   "answer": "They are having dinner."
+  },
+  {
+   "time": 10080,
+   "question": "Where is the scene?",
+   "answer": "In the supermarket."
+  }
+ ]
+}

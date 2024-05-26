@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "WRP-9.mp4",
+        "url": "",
+        "class": "Crime Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "The video shows robbers holding a woman hostage in the woods and threatening her father. The old father took out a pistol to confront the robber through some schemes to gain the opportunity for himself. The old father and the man reached an agreement and let go of the woman, both of whom confronted each other with pistols. The man asked the old man to drop the gun, which he did. The man then shot the old man and fled through the woods. Seeing this, the woman began to chase the man in the forest. And dug up a stash of pepper spray in the woods. The next scene shows that the old man is not killed after being shot by the man, but is wounded and hides in a tree hole.",
+    "global":
+    [
+        {
+            "question":"When does the things in the video happens, acient, modern, or in the future?",
+            "answer":"It happens at modern time."
+        },
+        {
+            "question":"Are there more than four different places appear in the video(scene switch doesn't necessarily means a place change)?",
+            "answer":"No."
+        },
+        {
+            "question":"Is there more than five different characters appear?",
+            "answer":"No."
+        },
+        {
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Mainly at day time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly outdoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":650, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":1600,
+            "question":"where is the scene?",
+            "answer":"In the forest."
+        },
+        {
+            "time":2250,
+            "question":"where is the scene?",
+            "answer":"In the forest."
+        },
+        {
+            "time":3000, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":3850,
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":4500,
+            "question":"How many men appear in the scene?",
+            "answer":"Two."
+        },
+        {
+            "time":5250,
+            "question":"Is there any vehicles?",
+            "answer":"No."
+        },
+        {
+            "time":6000,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":6850, 
+            "question":"what's the woman doing?",
+            "answer":"She's digging soemthing."
+        },
+        {
+            "time":7600,
+            "question":"Does the man wear a hat?",
+            "answer":"YEs."
+        },
+        {
+            "time":8250,
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":9000, 
+            "question":"what is the man doing?",
+            "answer":"He's looking for something."
+        },
+        {
+            "time":9750,
+            "question":"Is there more than ten people?",
+            "answer":"No."
+        },
+        {
+            "time":10600, 
+            "question":"Is there more than five people?",
+            "answer":"No."
+        },
+        {
+            "time":11000,
+            "question":"Is there more than three people?",
+            "answer":"No."
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "SMA-6.mp4",
+        "url": "",
+        "class": "Animation Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "The movie tells the story of a mysterious African-American teenager from Spider-Man's perspective. He accidentally gains superpowers from an experiment and embarks on his superhero journey. Along the way, he learns about growth and responsibility, eventually becoming a true Spider-Man. Highlights: The teenager accidentally gains superpowers and starts his superhero journey. He faces challenges of growth and responsibility. During his growth, he receives guidance and help from Spider-Man. He eventually becomes a true Spider-Man. The film showcases his unique family and community background. At a celebration, his family and friends pay tribute to him. He also thanks his family and friends for their support and influence. The movie showcases his growth, responsibility, and close relationship with Spider-Man.",
+    "global":
+    [
+        {
+            "question":"Is it a video based on reality or not?(Is it a cartoon movie?)",
+            "answer":"No. It seems like an animated movie."
+        },
+        {
+            "question":"Are there more than four different places appear in the video(scene switch doesn't necessarily means a place change)?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than five different characters appear?",
+            "answer":"Yes."
+        },
+        {
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Mainly at day time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly outdoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":1500,
+            "question":"Is it at day time or night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":2250,
+            "question":"Is there any vehicles?",
+            "answer":"No."
+        },
+        {
+            "time":3000, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":3750,
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":4500,
+            "question":"How many women appear in the scene?",
+            "answer":"Three."
+        },
+        {
+            "time":5250,
+            "question":"Are there any vehicles?",
+            "answer":"No."
+        },
+        {
+            "time":6000,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's outdoors."
+        },
+        {
+            "time":6750, 
+            "question":"Is it at day time or night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":7580,
+            "question":"How many men appear in the scene?",
+            "answer":"Two."
+        },
+        {
+            "time":8250,
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":9100, 
+            "question":"where is the scene?",
+            "answer":"In a party."
+        },
+        {
+            "time":9750,
+            "question":"Is there more than five people?",
+            "answer":"Yes."
+        },
+        {
+            "time":10500, 
+            "question":"Is there more than ten people?",
+            "answer":"No."
+        },
+        {
+            "time":11000,
+            "question":"Is there more than three people?",
+            "answer":"Yes."
+        }
+    ]
+}

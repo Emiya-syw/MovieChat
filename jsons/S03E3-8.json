@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "S03E3-8.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "The video narrates the first anniversary of the protagonists, but before the celebration, one of them discovers a secret about Mary and decides to expose it, causing a conflict between them. Key points include the discovery of a secret about Mary, the decision to expose this secret, the reluctance of the other to listen to the revelation, the ensuing conflict between them, the display of unstable emotions, the appearance of the latter's father in the video, existing discord between the father and Mary, the eventual decision of the protagonists to continue working together, the admiration expressed by one towards the other, and the decision of the latter to forgive the former.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "Nine."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "Yes."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Both."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What is the person doing?",
+   "answer": "Walking into a house."
+  },
+  {
+   "time": 750,
+   "question": "Where is it?",
+   "answer": "In a dark passage."
+  },
+  {
+   "time": 1500,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 2250,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 3000,
+   "question": "How many people appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 3750,
+   "question": "Are there any vehicles?",
+   "answer": "No."
+  },
+  {
+   "time": 4500,
+   "question": "How many people appeared?",
+   "answer": "Three."
+  },
+  {
+   "time": 5250,
+   "question": "Where is it?",
+   "answer": "In a family party."
+  },
+  {
+   "time": 6000,
+   "question": "What is the clothes color of the person?",
+   "answer": "Purple."
+  },
+  {
+   "time": 6750,
+   "question": "Is it day or night?",
+   "answer": "Day."
+  },
+  {
+   "time": 7500,
+   "question": "How the person feel?",
+   "answer": "Glad."
+  },
+  {
+   "time": 8250,
+   "question": "How many people appeared?",
+   "answer": "Three."
+  },
+  {
+   "time": 9000,
+   "question": "Does the person look happy?",
+   "answer": "No."
+  },
+  {
+   "time": 9750,
+   "question": "Is it day or night?",
+   "answer": "Night."
+  },
+  {
+   "time": 10500,
+   "question": "How the person feel?",
+   "answer": "Angry."
+  }
+ ]
+}

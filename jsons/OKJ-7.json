@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "OKJ-7.mp4",
+        "url": "",
+        "class": "Adventure Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "A massive animal and a girl entered an underground tunnel, frightening the people within. They raced through the underground passage, knocking over many shelves. A group of people wearing black headgear followed, raising their guns and firing at the green-uniformed individuals coming from the opposite direction. The black headgear-clad group retrieved a projectile from the massive animal, then one person by a truck used a phone to search for information. Returning to the underground tunnel, the people in black headgear and the girl loaded the large animal onto a truck. A group of pursuers chased after them. The people with headgear removed their headgear within the truck compartment and interacted with the girl, showing her photos on an iPad.",
+    "global":
+    [
+        {
+            "question":"When does the things in the video happens, ancient age, modern age or future?(Does the technology exists on earth?)",
+            "answer":"It happens at modern time."
+        },
+        {
+            "question":"Are there more then five different places appear in the video(scene switch doesn't necessarily means a place change)?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than three different characters appear(not including people in the background)?",
+            "answer":"Yes."
+        },
+        {
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Mainly at day time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly indoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":1500,
+            "question":"where is in the scene?",
+            "answer":"In a big shopping mall."
+        },
+        {
+            "time":2480,
+            "question":"what is the man wearing on the head?",
+            "answer":"A headgear."
+        },
+        {
+            "time":3000, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":3750,
+            "question":"what is the behind the man?",
+            "answer":"A big creature which looks like a hippo."
+        },
+        {
+            "time":4600,
+            "question":"Is there more than three people?",
+            "answer":"YEs."
+        },
+        {
+            "time":5450,
+            "question":"Is it at day time or night time?",
+            "answer":"It's at day time."
+        },
+        {
+            "time":6000,
+            "question":"where is in the scene?",
+            "answer":"In a parking lot."
+        },
+        {
+            "time":6700, 
+            "question":"what's in the scene?",
+            "answer":"A truck is driving away."
+        },
+        {
+            "time":7480,
+            "question":"Is there more than five people?",
+            "answer":"No."
+        },
+        {
+            "time":8250,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":9100, 
+            "question":"where did the girl get hurt?",
+            "answer":"Her right eye."
+        },
+        {
+            "time":9750,
+            "question":"what is the man doing?",
+            "answer":"He is speaking something."
+        },
+        {
+            "time":10500, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":10950,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        }
+    ]
+}

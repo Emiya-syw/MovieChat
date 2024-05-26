@@ -1,0 +1,111 @@
+{
+ "info": {
+  "video_path": "S03E1-10.mp4",
+  "url": "",
+  "class": "detective film",
+  "w": 1920,
+  "h": 1080,
+  "num_frame": 10500,
+  "fps": 25
+ },
+ "caption": "This video is about a story of visiting a friend. The friend brought something for the latter and went to the cinema with him. The latter seemed a bit confused because he had never been to a cinema before. The friend brought something for the latter, and went to the cinema with him. The latter seemed a bit confused, because he had never been to the cinema before. The friend explained what a cinema is, and clarified that they were going to see a movie. The latter asked why it was his first time going to the cinema, the friend said he thought the latter would be interested in this movie. They started watching the movie, and the latter seemed uninterested in the film, the friend tried to explain the plot, but the latter didn't understand. In the movie, there was a scene where people were robbing a bank, which the latter found boring. When a car appeared in the movie, the friend reminded the latter to avoid touching the wheels, but the latter didn’t care. The latter found the plot of the movie similar to real-life situations, he became interested, but the friend didn't think so. The latter tried to explain the plot of the movie, but the friend didn't understand. In the end, the friend found the movie interesting, but the latter thought it was boring.",
+ "global": [
+  {
+   "question": "Are there more then three  different backgrounds appearing in the video?",
+   "answer": "No."
+  },
+  {
+   "question": "When does the things in the video happens, ancient age, modern age or future?",
+   "answer": "Modern age."
+  },
+  {
+   "question": "How many characters appears in this video?",
+   "answer": "Three."
+  },
+  {
+   "question": "Does more than 5 people appeared in the video?",
+   "answer": "No."
+  },
+  {
+   "question": "Does it happen during day or night?",
+   "answer": "Day."
+  }
+ ],
+ "breakpoint": [
+  {
+   "time": 25,
+   "question": "What is the scene?",
+   "answer": "Two men go through a door."
+  },
+  {
+   "time": 750,
+   "question": "Where is it?",
+   "answer": "Underground."
+  },
+  {
+   "time": 1500,
+   "question": "What are the people doing?",
+   "answer": "Walking with two spotlights."
+  },
+  {
+   "time": 2250,
+   "question": "What is happening?",
+   "answer": "There's a bomb."
+  },
+  {
+   "time": 3000,
+   "question": "How many people  appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 3750,
+   "question": "What is the scene?",
+   "answer": "A train."
+  },
+  {
+   "time": 4500,
+   "question": "Where is it?",
+   "answer": "In a train."
+  },
+  {
+   "time": 5250,
+   "question": "What is the background color?",
+   "answer": "Black."
+  },
+  {
+   "time": 6000,
+   "question": "How the person feel?",
+   "answer": "Seroius."
+  },
+  {
+   "time": 6750,
+   "question": "What is the clothes color of the person?",
+   "answer": "Black."
+  },
+  {
+   "time": 7500,
+   "question": "Are there any animals?",
+   "answer": "No."
+  },
+  {
+   "time": 8250,
+   "question": "How the person feel?",
+   "answer": "Cross."
+  },
+  {
+   "time": 9000,
+   "question": "How the person feel?",
+   "answer": "Angry."
+  },
+  {
+   "time": 9750,
+   "question": "How many people  appeared?",
+   "answer": "Two."
+  },
+  {
+   "time": 10500,
+   "question": "What is the person doing?",
+   "answer": "Thinking."
+  }
+ ]
+}

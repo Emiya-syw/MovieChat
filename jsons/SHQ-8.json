@@ -1,0 +1,114 @@
+{
+    "info":
+    {
+        "video_path": "SHQ-8.mp4",
+        "url": "",
+        "class": "Adventure Film",
+        "w": 1280,
+        "h": 720,
+        "num_frame": 11250,
+        "fps": 25.00
+    },
+    "caption": "One of the children wanted to give the ball to the boss after hearing it, but Charlie didn't want to give it out, and they had a disagreement. However, while the boss was checking downstairs, he was caught by the children using high-tech weapons. They tied the boss on a chair and asked him questions. The boss said he wanted to get the energy ball to help the world, but the children didn't believe him. Afterwards, they wanted to exchange the boss for their friends. During the hostage exchange, the boss suddenly snatched the energy ball from Charlie's hand and ordered his subordinates to catch all the children together.",
+    "global":
+    [
+        {
+            "question":"Is it a video based on reality or not?(Does it looks like real story? Or it looks like a science fiction movie?)",
+            "answer":"No. It seems like a science fiction movie"
+        },
+        {
+            "question":"Are there more then five different scenes appear in the video?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Is there more than three different characters appear?",
+            "answer":"Yes."
+        },
+        {
+            "question":"what time does the video take place?(at day time or night time?)",
+            "answer":"Mainly at night time."
+        },
+        {
+            "question":"Where does the video take place? Indoors or outdoors?",
+            "answer":"Mainly indoors."
+        }
+    ],
+    "breakpoint":
+    [
+        {
+            "time":750, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":1500,
+            "question":"Is the man wearing glasses?",
+            "answer":"Yes."
+        },
+        {
+            "time":2150,
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":3000, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":3750,
+            "question":"what's the girl doing?",
+            "answer":"She's talking to the boy beside her."
+        },
+        {
+            "time":4500,
+            "question":"what is the boy's hair color?",
+            "answer":"Golden."
+        },
+        {
+            "time":5300,
+            "question":"How many characters appear in the scene?",
+            "answer":"Two."
+        },
+        {
+            "time":6000,
+            "question":"Is it at daytime or at night time?",
+            "answer":"It's at night time."
+        },
+        {
+            "time":6850, 
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":7500,
+            "question":"Is it indoors or outdoors?",
+            "answer":"It's indoors."
+        },
+        {
+            "time":8250,
+            "question":"Is there any character appears?",
+            "answer":"No."
+        },
+        {
+            "time":9000, 
+            "question":"where is the scene?",
+            "answer":"Inside a control room or command room."
+        },
+        {
+            "time":9750,
+            "question":"How many people are released?",
+            "answer":"Two people."
+        },
+        {
+            "time":10600, 
+            "question":"Is there more than five people?",
+            "answer":"No."
+        },
+        {
+            "time":10875,
+            "question":"How many characters appear in the scene?",
+            "answer":"Two."
+        }
+    ]
+}
