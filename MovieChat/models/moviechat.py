@@ -274,10 +274,10 @@ class MovieChat(Blip2Base):
             logging.info("freeze vision encoder")
         print('Loading VIT Done')
 
-        # print('Loading Frame Filter')
-        # device = 'cuda:0'
-        # self.filter_model, self.filter_preprocess = clip.load("./ckpt/ViT-B-32.pt", device=device)
-        # print('Loading Frame Filter Done')
+        print('Loading Frame Filter')
+        device = 'cuda:0'
+        self.filter_model, self.filter_preprocess = clip.load("./ckpt/ViT-B-32.pt", device=device)
+        print('Loading Frame Filter Done')
 
         print('Loading Q-Former')
         # Qformer是BertLMHeadModel, query_tokens是1 N D的
@@ -482,17 +482,17 @@ class MovieChat(Blip2Base):
             )
             
             # 不用moviechat+就隐去这部分
-            # if not middle_video:
-            #     tokenize_text = clip.tokenize(question).to(device)
-            #     with torch.no_grad():
-            #         logits_per_image, logits_per_text = self.filter_model(videofragment, tokenize_text)
-            #         probs = logits_per_text.softmax(dim=-1).cpu().numpy()
-            #     max_sim = np.mean(probs)
+            if not middle_video:
+                tokenize_text = clip.tokenize(question).to(device)
+                with torch.no_grad():
+                    logits_per_image, logits_per_text = self.filter_model(videofragment, tokenize_text)
+                    probs = logits_per_text.softmax(dim=-1).cpu().numpy()
+                max_sim = np.mean(probs)
 
-            #     if max_sim < 0.25:
-            #         self.short_memory_merge = 1
-            #     else:
-            #         self.short_memory_merge = 3
+                if max_sim < 0.25:
+                    self.short_memory_merge = 1
+                else:
+                    self.short_memory_merge = 3
 
             # load short_memory_buffer
             cur_frame = 0
@@ -512,27 +512,27 @@ class MovieChat(Blip2Base):
                     self.temp_short_memory.append(i)
             
             else: 
-                # # merge short_memory_frames
-                # similar_list = []
-                # for frame_i in range(len(self.short_memory_buffer) -1):
-                #     scores = self.short_memory_buffer[frame_i] @ self.short_memory_buffer[frame_i+1].transpose(-1, -2)
-                #     frame_silimar = torch.mean(scores)
-                #     similar_list.append(frame_silimar)
+                # merge short_memory_frames
+                similar_list = []
+                for frame_i in range(len(self.short_memory_buffer) -1):
+                    scores = self.short_memory_buffer[frame_i] @ self.short_memory_buffer[frame_i+1].transpose(-1, -2)
+                    frame_silimar = torch.mean(scores)
+                    similar_list.append(frame_silimar)
                 
-                # # 只要短程记忆的长度大于2就进行合并, 合并到只剩2个
-                # while len(self.short_memory_buffer) > self.short_memory_merge:
-                #     max_value = max(similar_list)
-                #     max_index = similar_list.index(max_value)
-                #     # 取平均
-                #     new_frame_feature = (self.short_memory_buffer[max_index].cpu()+self.short_memory_buffer[max_index+1].cpu())/2
-                #     self.short_memory_buffer[max_index] = new_frame_feature.cuda()
-                #     del(self.short_memory_buffer[max_index+1])
-                #     similar_list = []
-                #     # 重新算一遍相似度
-                #     for frame_i in range(len(self.short_memory_buffer)-1):
-                #         scores = self.short_memory_buffer[frame_i] @ self.short_memory_buffer[frame_i+1].transpose(-1, -2)
-                #         frame_silimar = torch.mean(scores)
-                #         similar_list.append(frame_silimar)
+                # 只要短程记忆的长度大于2就进行合并, 合并到只剩2个
+                while len(self.short_memory_buffer) > self.short_memory_merge:
+                    max_value = max(similar_list)
+                    max_index = similar_list.index(max_value)
+                    # 取平均
+                    new_frame_feature = (self.short_memory_buffer[max_index].cpu()+self.short_memory_buffer[max_index+1].cpu())/2
+                    self.short_memory_buffer[max_index] = new_frame_feature.cuda()
+                    del(self.short_memory_buffer[max_index+1])
+                    similar_list = []
+                    # 重新算一遍相似度
+                    for frame_i in range(len(self.short_memory_buffer)-1):
+                        scores = self.short_memory_buffer[frame_i] @ self.short_memory_buffer[frame_i+1].transpose(-1, -2)
+                        frame_silimar = torch.mean(scores)
+                        similar_list.append(frame_silimar)
                 
                 # 转移短程记忆后重置
                 for frame in self.short_memory_buffer:
@@ -577,26 +577,27 @@ class MovieChat(Blip2Base):
             #     else:
             #         self.long_memory_buffer.pop(0)
             
-            if len(self.long_memory_buffer) == 0:
-                self.temp_short_memory = [i.unsqueeze(0) for i in self.temp_short_memory]
-                cur_short = torch.cat(self.temp_short_memory, dim = 0)
-                video_features = torch.cat([cur_short], dim = 0)
-            else:
-                cur_video = torch.cat(self.long_memory_buffer,dim = 0)
-                self.temp_short_memory = [i.unsqueeze(0) for i in self.temp_short_memory]
-                if len(self.temp_short_memory) != 0:
-                    cur_short = torch.cat(self.temp_short_memory, dim = 0)
-                    # 长程记忆和短程记忆连接
-                    video_features = torch.cat([cur_video,cur_short], dim = 0)
-                else:
-                    video_features = torch.cat([cur_video], dim = 0)
+            # if len(self.long_memory_buffer) == 0:
+            #     self.temp_short_memory = [i.unsqueeze(0) for i in self.temp_short_memory]
+            #     cur_short = torch.cat(self.temp_short_memory, dim = 0)
+            #     video_features = torch.cat([cur_short], dim = 0)
+            # else:
+            #     cur_video = torch.cat(self.long_memory_buffer,dim = 0)
+            #     self.temp_short_memory = [i.unsqueeze(0) for i in self.temp_short_memory]
+            #     if len(self.temp_short_memory) != 0:
+            #         cur_short = torch.cat(self.temp_short_memory, dim = 0)
+            #         # 长程记忆和短程记忆连接
+            #         video_features = torch.cat([cur_video,cur_short], dim = 0)
+            #     else:
+            #         video_features = torch.cat([cur_video], dim = 0)
                 # 记忆单元和当前帧连接
             # video_features = torch.cat([video_features, cur_image], dim = 0)    # T 32 768
             # video_features = torch.cat([cur_image], dim = 0)    # T 32 768
+            cur_short = torch.cat(self.temp_short_memory, dim = 0)
             video_features = torch.cat([cur_short], dim = 0)    # T 32 768
             # video_features = torch.cat([cur_short, cur_image], dim = 0)    # T 32 768
             
-            video_features = self.merge(video_features, self.merge_block_breakpoint_video)
+            # video_features = self.merge(video_features, self.merge_block_breakpoint_video)
             # video_features = torch.cat([video_features, cur_image], dim = 0)
             print(video_features.shape)
             
@@ -638,8 +639,8 @@ class MovieChat(Blip2Base):
             
             self.long_memory_buffer = torch.cat(self.long_memory_buffer, dim=0) # T L C
             # print(self.long_memory_buffer.shape)
-            long_memory_multilayer = []
-            long_memory_multilayer.append(self.merge(self.long_memory_buffer, self.merge_block_global_1))
+            long_memory_multilayer = [self.long_memory_buffer]
+            # long_memory_multilayer.append(self.merge(self.long_memory_buffer, self.merge_block_global_1))
             # long_memory_multilayer.append(self.merge(long_memory_multilayer[-1], self.merge_block_global_2))
             # long_memory_multilayer.append(self.merge(long_memory_multilayer[-1], self.merge_block_global_3))
             

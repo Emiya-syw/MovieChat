@@ -1,9 +1,9 @@
 import os
 import json
 
-bkpt_path = '/home/sunyw/MovieChat/Outputs/breakpoint/llama2+short+cur+new_cot+clipsample_inter1+currange+knn+icl'
-glb_path = '/home/sunyw/MovieChat/Outputs/global/llama2+new_cot+clipsample+dpc_knn_256+icl'
-output_path = "./Outputs/cur.json"
+bkpt_path = '/home/sunyw/MovieChat/Outputs/breakpoint/chatunivi_cot_icl'
+glb_path = '/home/sunyw/MovieChat/Outputs/global/llama2+new_cot+clipsample+dpc_knn_256+icl+slide'
+output_path = "./Outputs/sub0531.json"
 submit_dict = {}
 
 # breakpoint

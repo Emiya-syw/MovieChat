@@ -208,7 +208,7 @@ class Chat:
         mixed_embs = torch.cat(mixed_embs, dim=1)
         return mixed_embs
     
-    def load_video(self, video_path, n_frms=MAX_INT, height=-1, width=-1, sampling="uniform", return_msg = False, cur_fram_in_frag = None):
+    def load_video(self, video_path, question, n_frms=MAX_INT, height=-1, width=-1, sampling="uniform", return_msg = False, cur_fram_in_frag = None):
         decord.bridge.set_bridge("torch")
         vr = VideoReader(uri=video_path, height=height, width=width)
 
@@ -224,7 +224,7 @@ class Chat:
             indices_h = sorted(rnd.sample(range(vlen // 2), n_frms // 2))
             indices_t = sorted(rnd.sample(range(vlen // 2, vlen), n_frms // 2))
             indices = indices_h + indices_t
-        if sampling == "clip":
+        elif sampling == "clip":
             if cur_fram_in_frag is not None:
                 interval = 1
             else:
@@ -238,7 +238,11 @@ class Chat:
             # print(tensor_frms.shape)
             frms = tensor_frms.permute(3, 0, 1, 2).float()  # (C, T, H, W)
             video_fragment = self.vis_processor.transform(frms).to(self.device).permute(1,0,2,3)
+            ###
+            # print("question:",question)
             tokenize_text = clip.tokenize(question).to(self.device)
+            # import sys
+            # sys.exit(0)
             with torch.no_grad():
                 logits_per_image, logits_per_text = self.filter_model(video_fragment, tokenize_text)
                 probs = logits_per_text.softmax(dim=-1).cpu().numpy().reshape(-1)
@@ -363,56 +367,13 @@ class Chat:
                 end_id = N_SAMPLES
                 cur_fram_in_frag = None
                 cur_frame_ratio = 0
-
-            # # 片段划分
-            # last_frag = None
-            # sim_vecs = []
-            # sample_rate = 8
-            # for i in range(start_id, end_id):
-            #     print(i)
-            #     video_fragment = parse_video_fragment(video_path=video_path, video_length=video_length, n_stage=i, n_samples= N_SAMPLES)
-            #     vr = VideoReader(uri=fragment_video_path, height=224, width=224)
-            #     vlen = len(vr)
-            #     start, end = 0, vlen    
-
-            #     indices = np.arange(start, end, sample_rate).astype(int).tolist()
-            #     temp_frms = vr.get_batch(indices)
-            #     tensor_frms = torch.from_numpy(temp_frms) if type(temp_frms) is not torch.Tensor else temp_frms
-            #     frms = tensor_frms.permute(3, 0, 1, 2).float()  # (C, T, H, W)
-            #     video_fragment = self.vis_processor.transform(frms).to(self.device).permute(1,0,2,3)
-            #     with torch.no_grad():
-            #         image_feature = self.filter_model.encode_image(video_fragment)
-            #         if last_frag is None:
-            #             sim_vec = torch.diag(image_feature[:-1] @ image_feature[1:].T).reshape(-1)
-                        
-            #         else:
-            #             sim_vec = torch.diag(torch.cat([last_frag.unsqueeze(0), image_feature[:-1]], dim=0) @ image_feature.T).reshape(-1)
-            #         sim_vecs.append(sim_vec)
-            #         last_frag = image_feature[-1]
-            # sim_vec = torch.cat(sim_vecs, dim=0).cpu().numpy()
-            # from scipy.signal import savgol_filter
-            # # from scipy.interpolate import UnivariateSpline
-            # x = np.arange(sim_vec.shape[0])
-            # y = savgol_filter(sim_vec, 15, 2, mode='nearest')
-            # # y = np.abs(np.fft.fft(sim_vec))
-            # # x = np.fft.fftfreq(y.shape[0])
-            # # spline = UnivariateSpline(x, sim_vec, s=1)
-            # # y = spline(x)
-            # plt.plot(x, y)
-            # plt.savefig(f"sim_{sample_rate}_savgol.png")
-            # threshold = np.partition(y,20)[100]
-            # # print(y[1:-1] < y[:-2])
-            # boundary_bool = np.logical_and(np.logical_and(y[1:-1] < y[:-2], y[1:-1] > y[2:]), y[1:-1]<threshold)
-            # boundary = ((np.where(boundary_bool)[0] + 1)*sample_rate).tolist()
-            # print(len(boundary), boundary)
-            # import sys
-            # sys.exit(0)
             
             for i in range(start_id, end_id):
                 print(i)
                 video_fragment = parse_video_fragment(video_path=video_path, video_length=video_length, n_stage=i, n_samples= N_SAMPLES, middle_video=middle_video, cur_frame_ratio=cur_frame_ratio)
                 video_fragment, msg = self.load_video(
                     video_path=fragment_video_path,
+                    question=question,
                     n_frms=MAX_INT, 
                     height=224,
                     width=224,
@@ -671,40 +632,40 @@ if __name__ =='__main__':
                         raw_image = Image.open(temp_frame_path).convert('RGB') 
                         image = chat.image_vis_processor(raw_image).unsqueeze(0).unsqueeze(2).to(chat.device) # [1,3,1,224,224]
                         cur_image = chat.model.encode_image(image)
-                        question = ""
                         # 不用moviechat+就把他拿上来
-                        img_list = []
-                        chat.model.long_memory_buffer = []
-                        chat.model.temp_short_memory = []
-                        chat.model.short_memory_buffer = []
-                        msg = chat.upload_video_without_audio(
-                            video_path=video_path, 
-                            fragment_video_path=fragment_video_path,
-                            cur_min=1, 
-                            cur_sec=1, 
-                            cur_image = cur_image, 
-                            img_list=img_list, 
-                            middle_video = middle_video,
-                            question = question
-                            )
-                        # prompt = " <Video><ImageHere></Video> First, please count the number of fragments in the video. Second, please describe these fragments sequentially in less than 150 words."
-                        prompt = " <Video><ImageHere></Video> First, please count the number of fragments in the video. Second, please conclude the fragments in less than 150 words."
-                        # prompt = " <Video><ImageHere></Video> Please describe the video in less than 100 words: "
                         
-                        chain_1_msg = chat.answer(img_list=img_list,
-                            input_text=prompt,
-                            msg = msg,
-                            num_beams=num_beams,
-                            temperature=temperature,
-                            max_new_tokens=300,
-                            max_length=2000)[0]
-                        print("\n CHAIN_1: ",chain_1_msg)
                         
                         
                         global_value = []
                         print(video_path)
                         for qa_key in movie_data["global"]:
                             question = qa_key['question']
+                            img_list = []
+                            chat.model.long_memory_buffer = []
+                            chat.model.temp_short_memory = []
+                            chat.model.short_memory_buffer = []
+                            msg = chat.upload_video_without_audio(
+                                video_path=video_path, 
+                                fragment_video_path=fragment_video_path,
+                                cur_min=1, 
+                                cur_sec=1, 
+                                cur_image = cur_image, 
+                                img_list=img_list, 
+                                middle_video = middle_video,
+                                question = question
+                                )
+                            # prompt = " <Video><ImageHere></Video> First, please count the number of fragments in the video. Second, please describe these fragments sequentially in less than 150 words."
+                            prompt = " <Video><ImageHere></Video> First, please count the number of fragments in the video. Second, please conclude the fragments in less than 150 words."
+                            # prompt = " <Video><ImageHere></Video> Please describe the video in less than 100 words: "
+                            
+                            chain_1_msg = chat.answer(img_list=img_list,
+                                input_text=prompt,
+                                msg = msg,
+                                num_beams=num_beams,
+                                temperature=temperature,
+                                max_new_tokens=300,
+                                max_length=2000)[0]
+                            print("\n CHAIN_1: ",chain_1_msg)
                             example_question = chat.get_example(questions, questions_features, question)
                             example_answer = examples[example_question]
                             print(question)
@@ -740,9 +701,9 @@ if __name__ =='__main__':
                             output_json_file.write(json.dumps(result_data))
                             output_json_file.write("\n")
             
-            # if count == 5:
-            #     import sys
-            #     sys.exit(0)
+            if count == 5:
+                import sys
+                sys.exit(0)
 
 
 
