@@ -481,18 +481,18 @@ class MovieChat(Blip2Base):
                 return_dict=True,
             )
             
-            # 不用moviechat+就隐去这部分
-            if not middle_video:
-                tokenize_text = clip.tokenize(question).to(device)
-                with torch.no_grad():
-                    logits_per_image, logits_per_text = self.filter_model(videofragment, tokenize_text)
-                    probs = logits_per_text.softmax(dim=-1).cpu().numpy()
-                max_sim = np.mean(probs)
+            # # 不用moviechat+就隐去这部分
+            # if not middle_video:
+            #     tokenize_text = clip.tokenize(question).to(device)
+            #     with torch.no_grad():
+            #         logits_per_image, logits_per_text = self.filter_model(videofragment, tokenize_text)
+            #         probs = logits_per_text.softmax(dim=-1).cpu().numpy()
+            #     max_sim = np.mean(probs)
 
-                if max_sim < 0.25:
-                    self.short_memory_merge = 1
-                else:
-                    self.short_memory_merge = 3
+            #     if max_sim < 0.25:
+            #         self.short_memory_merge = 1
+            #     else:
+            #         self.short_memory_merge = 3
 
             # load short_memory_buffer
             cur_frame = 0

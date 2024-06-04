@@ -633,9 +633,7 @@ if __name__ =='__main__':
                         image = chat.image_vis_processor(raw_image).unsqueeze(0).unsqueeze(2).to(chat.device) # [1,3,1,224,224]
                         cur_image = chat.model.encode_image(image)
                         # 不用moviechat+就把他拿上来
-                        
-                        
-                        
+
                         global_value = []
                         print(video_path)
                         for qa_key in movie_data["global"]:
@@ -701,9 +699,9 @@ if __name__ =='__main__':
                             output_json_file.write(json.dumps(result_data))
                             output_json_file.write("\n")
             
-            if count == 5:
-                import sys
-                sys.exit(0)
+            # if count == 5:
+            #     import sys
+            #     sys.exit(0)
 
 
 

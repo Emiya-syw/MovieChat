@@ -8,7 +8,7 @@ import requests
 
 gt_path = "./Outputs/breakpoint/gpt-4o/gpt_answer.json"
 eval_path = "./Outputs/sub0527.json"
-output_path = "./Outputs/eval_0527_ernie.json"
+output_path = "sub0531.json"
 
 client = OpenAI(
     base_url = "https://api.gptsapi.net/v1",
