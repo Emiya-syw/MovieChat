@@ -4,7 +4,7 @@ import os
 import glob
 from PIL import Image
 image_ans_path = "/home/sunyw/MovieChat/Outputs/breakpoint/gpt-4o/gpt_answer.json"
-video_ans_path = "/home/sunyw/MovieChat/Outputs/breakpoint/chatunivi_video+cot+icl"
+video_ans_path = "/home/sunyw/MovieChat/Outputs/breakpoint/llama2+short+new_cot+clipsample_inter1+currange+knn+icl"
 output_path = "/home/sunyw/MovieChat/Outputs/merge.json"
 
 def get_ans_dict(path):

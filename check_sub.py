@@ -1,6 +1,6 @@
 import json
 
-with open("/home/sunyw/MovieChat/Outputs/sub_0601.json","r") as f:
+with open("/home/sunyw/MovieChat/Outputs/submission0607.json","r") as f:
     file = json.load(f)
 
 for key, value in file.items():

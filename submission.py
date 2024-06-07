@@ -1,9 +1,9 @@
 import os
 import json
 
-bkpt_path = '/home/sunyw/MovieChat/Outputs/breakpoint/gpt-4o'
-glb_path = '/home/sunyw/MovieChat/Outputs/global/chatunivi+cot+icl'
-output_path = "./Outputs/sub0602.json"
+bkpt_path = '/home/sunyw/MovieChat/Outputs/breakpoint/gpt_moviechat_merge/'
+glb_path = '/home/sunyw/MovieChat/Outputs/global/vote/'
+output_path = "./Outputs/submission0607.json"
 submit_dict = {}
 
 # breakpoint
